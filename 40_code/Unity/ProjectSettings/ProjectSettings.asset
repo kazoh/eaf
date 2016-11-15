@@ -11,7 +11,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: Meteora Games
-  productName: 10sec RPG
+  productName: "10\uCD08 RPG"
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenStyle: 0
@@ -95,7 +95,7 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleIdentifier: com.mtor.eaf
-  bundleVersion: 1.0.0.178
+  bundleVersion: 1.0.0
   preloadedAssets: []
   metroEnableIndependentInputSource: 0
   xboxOneDisableKinectGpuReservation: 0
@@ -165,7 +165,7 @@ PlayerSettings:
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: E:/Project/eaf/40_code/Unity/eaf.keystore
+  AndroidKeystoreName: E:/Project/git_eaf/40_code/Unity/eaf.keystore
   AndroidKeyaliasName: eaf
   AndroidTVCompatibility: 0
   AndroidIsGame: 1

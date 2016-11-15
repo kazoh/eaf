@@ -118,6 +118,7 @@ public class Component_UI_PopupEffect : GameComponent
         }
         yield return new WaitForSeconds(0.1f);
         EffectSprite.alpha = 0f;
+        GameProcess.PlaySound(SOUND_EFFECT.SUCCESS);
         chaSprite.width = 64;
         chaSprite.height = 64;
         chaSprite.alpha = 1f;
@@ -169,12 +170,7 @@ public class Component_UI_PopupEffect : GameComponent
             yield return new WaitForSeconds(GameProcess.GetEffectLength(SOUND_EFFECT.SPAWN));
         }
 
-        //anim.Play();
-        //while(anim.isPlaying)
-        //{
-        //    yield return null;
-        //}
-
+        GameProcess.PlaySound(SOUND_EFFECT.SUCCESS);
         ResultLabel.alpha = 1f;
         MsgLabel.alpha = 1f;
         ClostBtn.gameObject.SetActive(true);

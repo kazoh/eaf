@@ -1232,10 +1232,9 @@ public class GameDataManager
             int[] array = GameProcess.GetGameConfig().VipGradeArray;
             for (int i = 0; i < array.Length; ++i)
             {
-                if (amount < array[i])
+                if (amount >= array[i])
                 {
                     grade = i;
-                    break;
                 }
             }
         }

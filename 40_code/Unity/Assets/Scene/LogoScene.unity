@@ -413,11 +413,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11494774, guid: 3a6fd2cf1e284ee4f85adcec1393eedd, type: 2}
       propertyPath: Version
-      value: 1.0.0.178
+      value: 1.0.0.2
       objectReference: {fileID: 0}
     - target: {fileID: 11494774, guid: 3a6fd2cf1e284ee4f85adcec1393eedd, type: 2}
       propertyPath: TargetServer
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
