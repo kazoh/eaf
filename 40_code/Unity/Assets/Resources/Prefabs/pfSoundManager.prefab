@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &176582
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 476582}
+  - 114: {fileID: 11476582}
+  m_Layer: 0
+  m_Name: pfSoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &476582
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176582}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11476582
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86b7379ffd4f8c544b5315eef1c4103d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EffectSoundPoolCount: 10
+  Fire1AudioClip: {fileID: 0}
+  Fire2AudioClip: {fileID: 0}
+  Fire3AudioClip: {fileID: 0}
+  Hit1AudioClip: {fileID: 8300000, guid: 86abff555ca28f04abb1c3b40d481f7b, type: 3}
+  Hit2AudioClip: {fileID: 0}
+  Hit3AudioClip: {fileID: 0}
+  ClickAudioClip: {fileID: 8300000, guid: faa001118f6875b41a6eaf985b4dfc1e, type: 3}
+  ErrorAudioClip: {fileID: 8300000, guid: ecf089302fa95b140ace38f39012bf00, type: 3}
+  MissionAudioClip: {fileID: 8300000, guid: 23535fbb6a2b1294ba5aa0bf656b8c5c, type: 3}
+  ItemAudioClip: {fileID: 8300000, guid: 159c64463d7bb3641a7eb37b7f9db6d7, type: 3}
+  CoinAudioClip: {fileID: 8300000, guid: 159c64463d7bb3641a7eb37b7f9db6d7, type: 3}
+  WarningAudioClip: {fileID: 0}
+  SysAudioClip: {fileID: 8300000, guid: ecf089302fa95b140ace38f39012bf00, type: 3}
+  Move1AudioClip: {fileID: 8300000, guid: 6ee98d27ba9e38e42bf50445ae953495, type: 3}
+  Move2AudioClip: {fileID: 0}
+  Move3AudioClip: {fileID: 0}
+  WinAudioClip: {fileID: 8300000, guid: 30376306199d8c24bb529011096fba44, type: 3}
+  LoseAudioClip: {fileID: 8300000, guid: 29297af88d626d44fa65626565e29c67, type: 3}
+  SuccessAudioClip: {fileID: 8300000, guid: 738cad2b05d34ce4b8fddd8c9a12e7a8, type: 3}
+  FailAudioClip: {fileID: 8300000, guid: 27f2996bbbfcfb44c8ebd36436e46899, type: 3}
+  SummonAudioClip: {fileID: 8300000, guid: 3b1057408bbf24e4598d0b64da97f948, type: 3}
+  EnchantAudioClip: {fileID: 8300000, guid: 29297af88d626d44fa65626565e29c67, type: 3}
+  DownGradeAudioClip: {fileID: 8300000, guid: 3b1057408bbf24e4598d0b64da97f948, type: 3}
+  ChaEnchantAudioClip: {fileID: 8300000, guid: 3b1057408bbf24e4598d0b64da97f948, type: 3}
+  GameClearAudioClip: {fileID: 8300000, guid: 30376306199d8c24bb529011096fba44, type: 3}
+  GameOverAudioClip: {fileID: 8300000, guid: 4cee747374f5a5c48b655f3378255a47, type: 3}
+  NoticeAudioClip: {fileID: 8300000, guid: ecf089302fa95b140ace38f39012bf00, type: 3}
+  SpawnAudioClip: {fileID: 8300000, guid: 86abff555ca28f04abb1c3b40d481f7b, type: 3}
+  HealAudioClip: {fileID: 8300000, guid: 23535fbb6a2b1294ba5aa0bf656b8c5c, type: 3}
+  OpenAudioClip: {fileID: 8300000, guid: 86a0d5cf93245aa4fa2b0ed7cb8e2613, type: 3}
+  EquipAudioClip: {fileID: 8300000, guid: fc419b7fd45805546ba5b8a23d8ded78, type: 3}
+  MuteButton: 0
+  effectAudioSource: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 176582}
+  m_IsPrefabParent: 1

@@ -1,0 +1,5387 @@
+﻿{
+"Table_STR_String":[
+{
+"ID":1,
+"NAME":"STR_ITEM_POTION_HEAL_01",
+"STR_KR":"빨간 물약",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":2,
+"NAME":"STR_ITEM_POTION_HEAL_02",
+"STR_KR":"주황 물약",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":3,
+"NAME":"STR_ITEM_POTION_HEAL_03",
+"STR_KR":"보라 물약",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":4,
+"NAME":"STR_ITEM_POTION_HEAL_04",
+"STR_KR":"노랑 물약",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":5,
+"NAME":"STR_ITEM_POTION_HEAL_05",
+"STR_KR":"하얀 물약",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":6,
+"NAME":"STR_ITEM_EQUIP_N_AR_01",
+"STR_KR":"낡은 옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":7,
+"NAME":"STR_ITEM_EQUIP_N_AR_02",
+"STR_KR":"가죽 갑옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":8,
+"NAME":"STR_ITEM_EQUIP_N_AR_03",
+"STR_KR":"강화 가죽 갑옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":9,
+"NAME":"STR_ITEM_EQUIP_N_AR_04",
+"STR_KR":"레어 가죽 갑옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":10,
+"NAME":"STR_ITEM_EQUIP_N_AR_05",
+"STR_KR":"천 옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":11,
+"NAME":"STR_ITEM_EQUIP_N_AR_06",
+"STR_KR":"강화 천 옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":12,
+"NAME":"STR_ITEM_EQUIP_N_AR_07",
+"STR_KR":"레어 천 옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":13,
+"NAME":"STR_ITEM_EQUIP_N_AR_08",
+"STR_KR":"구리 갑옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":14,
+"NAME":"STR_ITEM_EQUIP_N_AR_09",
+"STR_KR":"강화 구리 갑옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":15,
+"NAME":"STR_ITEM_EQUIP_N_AR_10",
+"STR_KR":"레어 구리 갑옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":16,
+"NAME":"STR_ITEM_EQUIP_N_AR_11",
+"STR_KR":"가죽 옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":17,
+"NAME":"STR_ITEM_EQUIP_N_AR_12",
+"STR_KR":"강화 가죽 옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":18,
+"NAME":"STR_ITEM_EQUIP_N_AR_13",
+"STR_KR":"레어 가죽 옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":19,
+"NAME":"STR_ITEM_EQUIP_N_AR_14",
+"STR_KR":"황동 갑옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":20,
+"NAME":"STR_ITEM_EQUIP_N_AR_15",
+"STR_KR":"강화 황동 갑옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":21,
+"NAME":"STR_ITEM_EQUIP_N_AR_16",
+"STR_KR":"레어 황동 갑옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":22,
+"NAME":"STR_ITEM_EQUIP_N_AR_17",
+"STR_KR":"무복",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":23,
+"NAME":"STR_ITEM_EQUIP_N_AR_18",
+"STR_KR":"장식된 무복",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":24,
+"NAME":"STR_ITEM_EQUIP_N_AR_19",
+"STR_KR":"레어 무복",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":25,
+"NAME":"STR_ITEM_EQUIP_N_AR_20",
+"STR_KR":"철 갑옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":26,
+"NAME":"STR_ITEM_EQUIP_N_AR_21",
+"STR_KR":"강화 철 갑옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":27,
+"NAME":"STR_ITEM_EQUIP_N_AR_22",
+"STR_KR":"레어 철 갑옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":28,
+"NAME":"STR_ITEM_EQUIP_N_AR_23",
+"STR_KR":"법사 옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":29,
+"NAME":"STR_ITEM_EQUIP_N_AR_24",
+"STR_KR":"장식된 법사 옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":30,
+"NAME":"STR_ITEM_EQUIP_N_AR_25",
+"STR_KR":"레어 법사 옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":31,
+"NAME":"STR_ITEM_EQUIP_N_AC_01",
+"STR_KR":"구리 반지",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":32,
+"NAME":"STR_ITEM_EQUIP_N_AC_02",
+"STR_KR":"은 반지",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":33,
+"NAME":"STR_ITEM_EQUIP_N_AC_03",
+"STR_KR":"금 반지",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":34,
+"NAME":"STR_ITEM_EQUIP_N_AC_04",
+"STR_KR":"마법사의 반지",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":35,
+"NAME":"STR_ITEM_EQUIP_N_AC_05",
+"STR_KR":"백금 반지",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":36,
+"NAME":"STR_ITEM_EQUIP_N_AC_06",
+"STR_KR":"순금 반지",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":37,
+"NAME":"STR_ITEM_EQUIP_N_AC_07",
+"STR_KR":"붉은 마법 반지",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":38,
+"NAME":"STR_ITEM_EQUIP_N_AC_08",
+"STR_KR":"사파이어 반지",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":39,
+"NAME":"STR_ITEM_EQUIP_N_AC_09",
+"STR_KR":"루비 반지",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":40,
+"NAME":"STR_ITEM_EQUIP_N_AC_10",
+"STR_KR":"푸른 마법 반지",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":41,
+"NAME":"STR_ITEM_EQUIP_N_AC_11",
+"STR_KR":"에메랄드 반지",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":42,
+"NAME":"STR_ITEM_EQUIP_N_AC_12",
+"STR_KR":"혈석 반지",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":43,
+"NAME":"STR_ITEM_EQUIP_N_AC_13",
+"STR_KR":"달의 반지",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":44,
+"NAME":"STR_ITEM_EQUIP_N_BO_01",
+"STR_KR":"낡은 신발",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":45,
+"NAME":"STR_ITEM_EQUIP_N_BO_02",
+"STR_KR":"나무 신발",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":46,
+"NAME":"STR_ITEM_EQUIP_N_BO_03",
+"STR_KR":"나무 장화",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":47,
+"NAME":"STR_ITEM_EQUIP_N_BO_04",
+"STR_KR":"강화 나무 장화",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":48,
+"NAME":"STR_ITEM_EQUIP_N_BO_05",
+"STR_KR":"가죽 신발",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":49,
+"NAME":"STR_ITEM_EQUIP_N_BO_06",
+"STR_KR":"가죽 장화",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":50,
+"NAME":"STR_ITEM_EQUIP_N_BO_07",
+"STR_KR":"강화 가죽 장화",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":51,
+"NAME":"STR_ITEM_EQUIP_N_BO_08",
+"STR_KR":"황동 신발",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":52,
+"NAME":"STR_ITEM_EQUIP_N_BO_09",
+"STR_KR":"황동 장화",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":53,
+"NAME":"STR_ITEM_EQUIP_N_BO_10",
+"STR_KR":"강화 황동 장화",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":54,
+"NAME":"STR_ITEM_EQUIP_N_BO_11",
+"STR_KR":"철 신발",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":55,
+"NAME":"STR_ITEM_EQUIP_N_BO_12",
+"STR_KR":"철 장화",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":56,
+"NAME":"STR_ITEM_EQUIP_N_BO_13",
+"STR_KR":"강화 철 장화",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":57,
+"NAME":"STR_ITEM_EQUIP_N_WE_01",
+"STR_KR":"나무 막대기",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":58,
+"NAME":"STR_ITEM_EQUIP_N_WE_02",
+"STR_KR":"넓은 검",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":59,
+"NAME":"STR_ITEM_EQUIP_N_WE_03",
+"STR_KR":"장검",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":60,
+"NAME":"STR_ITEM_EQUIP_N_WE_04",
+"STR_KR":"담로",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":61,
+"NAME":"STR_ITEM_EQUIP_N_WE_05",
+"STR_KR":"나무 지팡이",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":62,
+"NAME":"STR_ITEM_EQUIP_N_WE_06",
+"STR_KR":"주목 지팡이",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":63,
+"NAME":"STR_ITEM_EQUIP_N_WE_07",
+"STR_KR":"악몽의 지팡이",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":64,
+"NAME":"STR_ITEM_EQUIP_N_WE_08",
+"STR_KR":"단도",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":65,
+"NAME":"STR_ITEM_EQUIP_N_WE_09",
+"STR_KR":"비수",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":66,
+"NAME":"STR_ITEM_EQUIP_N_WE_10",
+"STR_KR":"크리스",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":67,
+"NAME":"STR_ITEM_EQUIP_N_WE_11",
+"STR_KR":"전쟁 검",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":68,
+"NAME":"STR_ITEM_EQUIP_N_WE_12",
+"STR_KR":"용병 검",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":69,
+"NAME":"STR_ITEM_EQUIP_N_WE_13",
+"STR_KR":"그람",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":70,
+"NAME":"STR_ITEM_EQUIP_N_WE_14",
+"STR_KR":"뼈 지팡이",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":71,
+"NAME":"STR_ITEM_EQUIP_N_WE_15",
+"STR_KR":"전투 지팡이",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":72,
+"NAME":"STR_ITEM_EQUIP_N_WE_16",
+"STR_KR":"지옥의 지팡이",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":73,
+"NAME":"STR_ITEM_EQUIP_N_WE_17",
+"STR_KR":"뿔 단도",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":74,
+"NAME":"STR_ITEM_EQUIP_N_WE_18",
+"STR_KR":"톱날 단도",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":75,
+"NAME":"STR_ITEM_EQUIP_N_WE_19",
+"STR_KR":"아수라",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":76,
+"NAME":"STR_ITEM_EQUIP_N_WE_20",
+"STR_KR":"검투사 검",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":77,
+"NAME":"STR_ITEM_EQUIP_N_WE_21",
+"STR_KR":"기사 검",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":78,
+"NAME":"STR_ITEM_EQUIP_N_WE_22",
+"STR_KR":"듀랜달",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":79,
+"NAME":"STR_ITEM_EQUIP_N_WE_23",
+"STR_KR":"전쟁 지팡이",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":80,
+"NAME":"STR_ITEM_EQUIP_N_WE_24",
+"STR_KR":"흑요석 지팡이",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":81,
+"NAME":"STR_ITEM_EQUIP_N_WE_25",
+"STR_KR":"불지옥 지팡이",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":82,
+"NAME":"STR_ITEM_EQUIP_N_WE_26",
+"STR_KR":"강철 단도",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":83,
+"NAME":"STR_ITEM_EQUIP_N_WE_27",
+"STR_KR":"굴절 단도",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":84,
+"NAME":"STR_ITEM_EQUIP_N_WE_28",
+"STR_KR":"리딜",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":85,
+"NAME":"STR_ITEM_EQUIP_N_WE_29",
+"STR_KR":"해적 검",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":86,
+"NAME":"STR_ITEM_EQUIP_N_WE_30",
+"STR_KR":"제국 검",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":87,
+"NAME":"STR_ITEM_EQUIP_N_WE_31",
+"STR_KR":"막 아 루인",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":88,
+"NAME":"STR_ITEM_EQUIP_N_WE_32",
+"STR_KR":"주술 지팡이",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":89,
+"NAME":"STR_ITEM_EQUIP_N_WE_33",
+"STR_KR":"칠흑 지팡이",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":90,
+"NAME":"STR_ITEM_EQUIP_N_WE_34",
+"STR_KR":"대장로의 지팡이",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":91,
+"NAME":"STR_ITEM_EQUIP_N_WE_35",
+"STR_KR":"흑철 단검",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":92,
+"NAME":"STR_ITEM_EQUIP_N_WE_36",
+"STR_KR":"룬 단검",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":93,
+"NAME":"STR_ITEM_EQUIP_N_WE_37",
+"STR_KR":"소울 브링거",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":94,
+"NAME":"STR_ITEM_BOX_01",
+"STR_KR":"선물 상자",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":95,
+"NAME":"STR_ITEM_KEY_01",
+"STR_KR":"구리 열쇠",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":96,
+"NAME":"STR_ITEM_KEY_02",
+"STR_KR":"은 열쇠",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":97,
+"NAME":"STR_ITEM_QUEST_01",
+"STR_KR":"퀘스트 아이템 01",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":98,
+"NAME":"STR_ITEM_METERIAL_01",
+"STR_KR":"재료 01",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":99,
+"NAME":"STR_ITEM_POTION_ITEMSLOT_01",
+"STR_KR":"아이템 슬롯 확장권",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":100,
+"NAME":"STR_ITEM_POTION_SLOT_01",
+"STR_KR":"캐릭터 슬롯 확장권",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":101,
+"NAME":"STR_ITEM_POTION_HEAL_01_DESC",
+"STR_KR":"사용 시 Hp 20 회복",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":102,
+"NAME":"STR_ITEM_POTION_HEAL_02_DESC",
+"STR_KR":"사용 시 Hp 60 회복",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":103,
+"NAME":"STR_ITEM_POTION_HEAL_03_DESC",
+"STR_KR":"사용 시 Hp 100 회복",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":104,
+"NAME":"STR_ITEM_POTION_HEAL_04_DESC",
+"STR_KR":"사용 시 Hp 150 회복",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":105,
+"NAME":"STR_ITEM_POTION_HEAL_05_DESC",
+"STR_KR":"사용 시 Hp 200 회복",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":106,
+"NAME":"STR_ITEM_EQUIP_N_AR_01_DESC",
+"STR_KR":"낡은 옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":107,
+"NAME":"STR_ITEM_EQUIP_N_AR_02_DESC",
+"STR_KR":"가죽으로 만든 갑옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":108,
+"NAME":"STR_ITEM_EQUIP_N_AR_03_DESC",
+"STR_KR":"방어력을 높인 가죽 갑옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":109,
+"NAME":"STR_ITEM_EQUIP_N_AR_04_DESC",
+"STR_KR":"희귀한 가죽 갑옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":110,
+"NAME":"STR_ITEM_EQUIP_N_AR_05_DESC",
+"STR_KR":"천으로 만든 옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":111,
+"NAME":"STR_ITEM_EQUIP_N_AR_06_DESC",
+"STR_KR":"방어력을 높인 천 옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":112,
+"NAME":"STR_ITEM_EQUIP_N_AR_07_DESC",
+"STR_KR":"희귀한 실로 만든 천 옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":113,
+"NAME":"STR_ITEM_EQUIP_N_AR_08_DESC",
+"STR_KR":"구리로 만든 갑옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":114,
+"NAME":"STR_ITEM_EQUIP_N_AR_09_DESC",
+"STR_KR":"방어력을 높인 구리 갑옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":115,
+"NAME":"STR_ITEM_EQUIP_N_AR_10_DESC",
+"STR_KR":"희귀한 구리 갑옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":116,
+"NAME":"STR_ITEM_EQUIP_N_AR_11_DESC",
+"STR_KR":"가죽으로 만든 옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":117,
+"NAME":"STR_ITEM_EQUIP_N_AR_12_DESC",
+"STR_KR":"방어력을 높인 가죽 옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":118,
+"NAME":"STR_ITEM_EQUIP_N_AR_13_DESC",
+"STR_KR":"희귀한 가죽으로 만든 옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":119,
+"NAME":"STR_ITEM_EQUIP_N_AR_14_DESC",
+"STR_KR":"황동으로 만든 갑옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":120,
+"NAME":"STR_ITEM_EQUIP_N_AR_15_DESC",
+"STR_KR":"방어력을 높인 황동 갑옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":121,
+"NAME":"STR_ITEM_EQUIP_N_AR_16_DESC",
+"STR_KR":"희귀한 황동 갑옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":122,
+"NAME":"STR_ITEM_EQUIP_N_AR_17_DESC",
+"STR_KR":"주술사들이 입는 옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":123,
+"NAME":"STR_ITEM_EQUIP_N_AR_18_DESC",
+"STR_KR":"보석으로 장식된 무복",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":124,
+"NAME":"STR_ITEM_EQUIP_N_AR_19_DESC",
+"STR_KR":"희귀한 보석으로 장식된 무복",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":125,
+"NAME":"STR_ITEM_EQUIP_N_AR_20_DESC",
+"STR_KR":"철로 만든 갑옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":126,
+"NAME":"STR_ITEM_EQUIP_N_AR_21_DESC",
+"STR_KR":"방어력을 높인 철 갑옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":127,
+"NAME":"STR_ITEM_EQUIP_N_AR_22_DESC",
+"STR_KR":"희귀한 철 갑옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":128,
+"NAME":"STR_ITEM_EQUIP_N_AR_23_DESC",
+"STR_KR":"마법사들이 입는 옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":129,
+"NAME":"STR_ITEM_EQUIP_N_AR_24_DESC",
+"STR_KR":"보석으로 장식된 마법사 옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":130,
+"NAME":"STR_ITEM_EQUIP_N_AR_25_DESC",
+"STR_KR":"희귀한 보석으로 장식된 마법사 옷",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":131,
+"NAME":"STR_ITEM_EQUIP_N_AC_01_DESC",
+"STR_KR":"구리로 만든 반지",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":132,
+"NAME":"STR_ITEM_EQUIP_N_AC_02_DESC",
+"STR_KR":"은으로 만든 반지",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":133,
+"NAME":"STR_ITEM_EQUIP_N_AC_03_DESC",
+"STR_KR":"금으로 만든 반지",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":134,
+"NAME":"STR_ITEM_EQUIP_N_AC_04_DESC",
+"STR_KR":"마법사들이 착용하는 반지",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":135,
+"NAME":"STR_ITEM_EQUIP_N_AC_05_DESC",
+"STR_KR":"백금으로 만든 반지",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":136,
+"NAME":"STR_ITEM_EQUIP_N_AC_06_DESC",
+"STR_KR":"순금으로 만든 반지",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":137,
+"NAME":"STR_ITEM_EQUIP_N_AC_07_DESC",
+"STR_KR":"붉은 기운이 서려있는 반지",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":138,
+"NAME":"STR_ITEM_EQUIP_N_AC_08_DESC",
+"STR_KR":"사파이어로 만든 반지",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":139,
+"NAME":"STR_ITEM_EQUIP_N_AC_09_DESC",
+"STR_KR":"루비로 만든 반지",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":140,
+"NAME":"STR_ITEM_EQUIP_N_AC_10_DESC",
+"STR_KR":"푸른 기운이 서려있는 반지",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":141,
+"NAME":"STR_ITEM_EQUIP_N_AC_11_DESC",
+"STR_KR":"에메랄드로 만든 반지",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":142,
+"NAME":"STR_ITEM_EQUIP_N_AC_12_DESC",
+"STR_KR":"혈석으로 만든 반지",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":143,
+"NAME":"STR_ITEM_EQUIP_N_AC_13_DESC",
+"STR_KR":"달의 기운이 서려있는 반지",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":144,
+"NAME":"STR_ITEM_EQUIP_N_BO_01_DESC",
+"STR_KR":"낡은 나무 신발",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":145,
+"NAME":"STR_ITEM_EQUIP_N_BO_02_DESC",
+"STR_KR":"나무로 만든 신발",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":146,
+"NAME":"STR_ITEM_EQUIP_N_BO_03_DESC",
+"STR_KR":"나무로 만든 장화 ",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":147,
+"NAME":"STR_ITEM_EQUIP_N_BO_04_DESC",
+"STR_KR":"방어력을 높인 나무 장화",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":148,
+"NAME":"STR_ITEM_EQUIP_N_BO_05_DESC",
+"STR_KR":"가죽으로 만든 신발",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":149,
+"NAME":"STR_ITEM_EQUIP_N_BO_06_DESC",
+"STR_KR":"가죽으로 만든 장화 ",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":150,
+"NAME":"STR_ITEM_EQUIP_N_BO_07_DESC",
+"STR_KR":"방어력을 높인 가죽 장화",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":151,
+"NAME":"STR_ITEM_EQUIP_N_BO_08_DESC",
+"STR_KR":"황동으로 만든 신발",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":152,
+"NAME":"STR_ITEM_EQUIP_N_BO_09_DESC",
+"STR_KR":"황동으로 만든 장화",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":153,
+"NAME":"STR_ITEM_EQUIP_N_BO_10_DESC",
+"STR_KR":"방어력을 높인 황동 장화",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":154,
+"NAME":"STR_ITEM_EQUIP_N_BO_11_DESC",
+"STR_KR":"철로 만든 신발",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":155,
+"NAME":"STR_ITEM_EQUIP_N_BO_12_DESC",
+"STR_KR":"철로 만든 장화",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":156,
+"NAME":"STR_ITEM_EQUIP_N_BO_13_DESC",
+"STR_KR":"방어력을 높인 철 장화 ",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":157,
+"NAME":"STR_ITEM_EQUIP_N_WE_01_DESC",
+"STR_KR":"나무를 짤라 만든 무기",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":158,
+"NAME":"STR_ITEM_EQUIP_N_WE_02_DESC",
+"STR_KR":"날이 넓은 검",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":159,
+"NAME":"STR_ITEM_EQUIP_N_WE_03_DESC",
+"STR_KR":"일반적인 검",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":160,
+"NAME":"STR_ITEM_EQUIP_N_WE_04_DESC",
+"STR_KR":"월나라의 명인 구야자가 월왕 윤상의 명에 따라 만든 검",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":161,
+"NAME":"STR_ITEM_EQUIP_N_WE_05_DESC",
+"STR_KR":"나무로 만든 지팡이",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":162,
+"NAME":"STR_ITEM_EQUIP_N_WE_06_DESC",
+"STR_KR":"주목으로 만든 지팡이",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":163,
+"NAME":"STR_ITEM_EQUIP_N_WE_07_DESC",
+"STR_KR":"적에게 악몽을 꾸게 한다는 지팡이",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":164,
+"NAME":"STR_ITEM_EQUIP_N_WE_08_DESC",
+"STR_KR":"짧은 검",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":165,
+"NAME":"STR_ITEM_EQUIP_N_WE_09_DESC",
+"STR_KR":"뽀족하게 생긴 짧은 검",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":166,
+"NAME":"STR_ITEM_EQUIP_N_WE_10_DESC",
+"STR_KR":"날이 구불구불한 단검",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":167,
+"NAME":"STR_ITEM_EQUIP_N_WE_11_DESC",
+"STR_KR":"전투에서 흔히 사용하는 장검",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":168,
+"NAME":"STR_ITEM_EQUIP_N_WE_12_DESC",
+"STR_KR":"용병들이 주로 사용하는 장검",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":169,
+"NAME":"STR_ITEM_EQUIP_N_WE_13_DESC",
+"STR_KR":"지크프리트가 니벨룽족을 토벌하고 얻은 검",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":170,
+"NAME":"STR_ITEM_EQUIP_N_WE_14_DESC",
+"STR_KR":"뼈로 만든 지팡이",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":171,
+"NAME":"STR_ITEM_EQUIP_N_WE_15_DESC",
+"STR_KR":"전투에 사용되는 긴 지팡이",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":172,
+"NAME":"STR_ITEM_EQUIP_N_WE_16_DESC",
+"STR_KR":"적에게 지옥을 보여준다는 지팡이",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":173,
+"NAME":"STR_ITEM_EQUIP_N_WE_17_DESC",
+"STR_KR":"뿔로 만든 단도",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":174,
+"NAME":"STR_ITEM_EQUIP_N_WE_18_DESC",
+"STR_KR":"날이 톱날처럼 생긴 단도",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":175,
+"NAME":"STR_ITEM_EQUIP_N_WE_19_DESC",
+"STR_KR":"공격받은 자를 미치게 만든다는 단검",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":176,
+"NAME":"STR_ITEM_EQUIP_N_WE_20_DESC",
+"STR_KR":"검투사들이 사용하는 검",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":177,
+"NAME":"STR_ITEM_EQUIP_N_WE_21_DESC",
+"STR_KR":"기사들이 사용하는 검",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":178,
+"NAME":"STR_ITEM_EQUIP_N_WE_22_DESC",
+"STR_KR":"샤를마뉴의 12기사 중 수좌인 롤랑의 검",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":179,
+"NAME":"STR_ITEM_EQUIP_N_WE_23_DESC",
+"STR_KR":"전투 지팡이를 개량한 지팡이",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":180,
+"NAME":"STR_ITEM_EQUIP_N_WE_24_DESC",
+"STR_KR":"흑요석으로 장식된 지팡이",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":181,
+"NAME":"STR_ITEM_EQUIP_N_WE_25_DESC",
+"STR_KR":"전장을 불지옥으로 만든다는 지팡이",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":182,
+"NAME":"STR_ITEM_EQUIP_N_WE_26_DESC",
+"STR_KR":"강철로 만든 단도",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":183,
+"NAME":"STR_ITEM_EQUIP_N_WE_27_DESC",
+"STR_KR":"날이 굴절된 단도",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":184,
+"NAME":"STR_ITEM_EQUIP_N_WE_28_DESC",
+"STR_KR":"북유럽의 영웅 시구르드가 악룡 파프니르의 심장을 꺼낼 때 사용한 단검",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":185,
+"NAME":"STR_ITEM_EQUIP_N_WE_29_DESC",
+"STR_KR":"해적들이 주로 사용하는 장검",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":186,
+"NAME":"STR_ITEM_EQUIP_N_WE_30_DESC",
+"STR_KR":"제국의 기사들이 주로 사용하는 장검",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":187,
+"NAME":"STR_ITEM_EQUIP_N_WE_31_DESC",
+"STR_KR":"피아나 기사단장 핀 막 쿨의 애검",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":188,
+"NAME":"STR_ITEM_EQUIP_N_WE_32_DESC",
+"STR_KR":"주술사들이 주로 사용하는 지팡이",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":189,
+"NAME":"STR_ITEM_EQUIP_N_WE_33_DESC",
+"STR_KR":"흑단으로 만들어진 지팡이",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":190,
+"NAME":"STR_ITEM_EQUIP_N_WE_34_DESC",
+"STR_KR":"대장로 수르트의 지팡이",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":191,
+"NAME":"STR_ITEM_EQUIP_N_WE_35_DESC",
+"STR_KR":"검은 철로 만들어진 단검",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":192,
+"NAME":"STR_ITEM_EQUIP_N_WE_36_DESC",
+"STR_KR":"룬으로 장식된 장검",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":193,
+"NAME":"STR_ITEM_EQUIP_N_WE_37_DESC",
+"STR_KR":"영혼을 파괴하는 전설의 단검",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":194,
+"NAME":"STR_ITEM_BOX_01_DESC",
+"STR_KR":"사용 시 여러가지 아이템을 얻을 수 있다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":195,
+"NAME":"STR_ITEM_KEY_01_DESC",
+"STR_KR":"구리 상자를 열 수 있는 열쇠",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":196,
+"NAME":"STR_ITEM_KEY_02_DESC",
+"STR_KR":"은 상자를 열 수 있는 열쇠",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":197,
+"NAME":"STR_ITEM_QUEST_01_DESC",
+"STR_KR":"퀘스트 아이템 01",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":198,
+"NAME":"STR_ITEM_METERIAL_01_DESC",
+"STR_KR":"재료 01",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":199,
+"NAME":"STR_ITEM_POTION_ITEMSLOT_01_DESC",
+"STR_KR":"아이템 슬롯을 5칸 확장할 수 있다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":200,
+"NAME":"STR_ITEM_POTION_SLOT_01_DESC",
+"STR_KR":"캐릭터 슬롯을 1칸 확장할 수 있다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":201,
+"NAME":"STR_GOODS_CASH_01",
+"STR_KR":"수정 10개",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":202,
+"NAME":"STR_GOODS_CASH_02",
+"STR_KR":"수정 50 + 5개",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":203,
+"NAME":"STR_GOODS_CASH_03",
+"STR_KR":"수정 100 + 20개",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":204,
+"NAME":"STR_GOODS_CASH_04",
+"STR_KR":"수정 500 + 150개",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":205,
+"NAME":"STR_GOODS_CASH_05",
+"STR_KR":"수정 1000 + 500개",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":206,
+"NAME":"STR_GOODS_CASH_06",
+"STR_KR":"수정 10 + 10개 (첫 구매)",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":207,
+"NAME":"STR_GOODS_RECHARGE_01",
+"STR_KR":"충전 5개",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":208,
+"NAME":"STR_GOODS_RECHARGE_02",
+"STR_KR":"충전 10개",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":209,
+"NAME":"STR_GOODS_RECHARGE_03",
+"STR_KR":"무료 충전 10개",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":210,
+"NAME":"STR_GOODS_EXCHANGE_01",
+"STR_KR":"20만 골드",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":211,
+"NAME":"STR_GOODS_EXCHANGE_02",
+"STR_KR":"200만 골드",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":212,
+"NAME":"STR_GOODS_EXCHANGE_03",
+"STR_KR":"코인 5개",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":213,
+"NAME":"STR_GOODS_EXCHANGE_04",
+"STR_KR":"코인 50개",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":214,
+"NAME":"STR_GOODS_SUMMON_01",
+"STR_KR":"D등급 영웅 소환",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":215,
+"NAME":"STR_GOODS_SUMMON_02",
+"STR_KR":"C등급 영웅 소환",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":216,
+"NAME":"STR_GOODS_SUMMON_03",
+"STR_KR":"B등급 영웅 소환",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":217,
+"NAME":"STR_GOODS_SUMMON_04",
+"STR_KR":"A등급 영웅 소환",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":218,
+"NAME":"STR_GOODS_SUMMON_05",
+"STR_KR":"카인 소환",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":219,
+"NAME":"STR_GOODS_SUMMON_06",
+"STR_KR":"아돌 소환",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":220,
+"NAME":"STR_GOODS_SUMMON_07",
+"STR_KR":"샤나 소환",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":221,
+"NAME":"STR_GOODS_SUMMON_08",
+"STR_KR":"스메라기 소환",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":222,
+"NAME":"STR_GOODS_SUMMON_09",
+"STR_KR":"아스란 소환",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":223,
+"NAME":"STR_GOODS_SUMMON_10",
+"STR_KR":"유고 소환",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":224,
+"NAME":"STR_GOODS_SUMMON_11",
+"STR_KR":"미하엘 소환",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":225,
+"NAME":"STR_GOODS_SUMMON_12",
+"STR_KR":"다임 소환",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":226,
+"NAME":"STR_GOODS_SUMMON_13",
+"STR_KR":"후미코 소환",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":227,
+"NAME":"STR_GOODS_SUMMON_14",
+"STR_KR":"키라 소환",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":228,
+"NAME":"STR_GOODS_SUMMON_15",
+"STR_KR":"메이슨 소환",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":229,
+"NAME":"STR_GOODS_SUMMON_16",
+"STR_KR":"발자르 소환",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":230,
+"NAME":"STR_GOODS_SUMMON_17",
+"STR_KR":"세실 소환",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":231,
+"NAME":"STR_GOODS_SUMMON_18",
+"STR_KR":"에밀리오 소환",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":232,
+"NAME":"STR_GOODS_SUMMON_19",
+"STR_KR":"조슈아 소환",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":233,
+"NAME":"STR_GOODS_SUMMON_01_DESC",
+"STR_KR":"카인, 아돌, 샤나, 스메라기, 아스란 중 한 명이 소환됩니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":234,
+"NAME":"STR_GOODS_SUMMON_02_DESC",
+"STR_KR":"유고, 미하엘, 다임, 후미코, 키라 중 한 명이 소환됩니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":235,
+"NAME":"STR_GOODS_SUMMON_03_DESC",
+"STR_KR":"메이슨, 발자르, 세실, 에밀리오, 조슈아 중 한 명이 소환됩니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":236,
+"NAME":"STR_GOODS_SUMMON_04_DESC",
+"STR_KR":"패트릭, 앤드류, 바르반, 헤르미나, 카네키 중 한 명이 소환됩니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":237,
+"NAME":"STR_GOODS_SUMMON_05_DESC",
+"STR_KR":"카인을 소환합니다\n힘:13, 민첩:13, 지력:13,\n체력:13, 행운:3",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":238,
+"NAME":"STR_GOODS_SUMMON_06_DESC",
+"STR_KR":"아돌을 소환합니다\n힘:18, 민첩:8, 지력:10,\n체력:16, 행운:3",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":239,
+"NAME":"STR_GOODS_SUMMON_07_DESC",
+"STR_KR":"샤나를 소환합니다\n힘:8, 민첩:18, 지력:16,\n체력:10, 행운:3",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":240,
+"NAME":"STR_GOODS_SUMMON_08_DESC",
+"STR_KR":"스메라기를 소환합니다\n힘:10, 민첩:16, 지력:18,\n체력:8, 행운:3",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":241,
+"NAME":"STR_GOODS_SUMMON_09_DESC",
+"STR_KR":"아스란을 소환합니다\n힘:16, 민첩:10, 지력:8,\n체력:18, 행운:3",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":242,
+"NAME":"STR_GOODS_SUMMON_10_DESC",
+"STR_KR":"유고를 소환합니다\n힘:16, 민첩:16, 지력:16,\n체력:16, 행운:6",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":243,
+"NAME":"STR_GOODS_SUMMON_11_DESC",
+"STR_KR":"미하엘을 소환합니다\n힘:20, 민첩:12, 지력:14,\n체력:18, 행운:6",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":244,
+"NAME":"STR_GOODS_SUMMON_12_DESC",
+"STR_KR":"다임을 소환합니다\n힘:12, 민첩:20, 지력:18,\n체력:14, 행운:6",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":245,
+"NAME":"STR_GOODS_SUMMON_13_DESC",
+"STR_KR":"후미코를 소환합니다\n힘:14, 민첩:18, 지력:20,\n체력:12, 행운:6",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":246,
+"NAME":"STR_GOODS_SUMMON_14_DESC",
+"STR_KR":"키라를 소환합니다\n힘:18, 민첩:14, 지력:12,\n체력:20, 행운:6",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":247,
+"NAME":"STR_GOODS_SUMMON_15_DESC",
+"STR_KR":"메이슨을 소환합니다\n힘:19, 민첩:19, 지력:19,\n체력:19, 행운:9",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":248,
+"NAME":"STR_GOODS_SUMMON_16_DESC",
+"STR_KR":"발자르를 소환합니다\n힘:22, 민첩:16, 지력:18,\n체력:20, 행운:9",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":249,
+"NAME":"STR_GOODS_SUMMON_17_DESC",
+"STR_KR":"세실을 소환합니다\n힘:16, 민첩:22, 지력:20,\n체력:18, 행운:9",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":250,
+"NAME":"STR_GOODS_SUMMON_18_DESC",
+"STR_KR":"에밀리오를 소환합니다\n힘:18, 민첩:20, 지력:22,\n체력:16, 행운:9",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":251,
+"NAME":"STR_GOODS_SUMMON_19_DESC",
+"STR_KR":"조슈아를 소환합니다\n힘:20, 민첩:18, 지력:16,\n체력:22, 행운:9",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":252,
+"NAME":"STR_MAP_S1_001",
+"STR_KR":"이동 연습 I",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":253,
+"NAME":"STR_MAP_S1_002",
+"STR_KR":"이동 연습 II",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":254,
+"NAME":"STR_MAP_S1_003",
+"STR_KR":"이동 연습 III",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":255,
+"NAME":"STR_MAP_S1_004",
+"STR_KR":"이동 연습 IV",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":256,
+"NAME":"STR_MAP_S2_001",
+"STR_KR":"숲 속 마을 입구",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":257,
+"NAME":"STR_MAP_S2_002",
+"STR_KR":"숲 속 마을 여관",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":258,
+"NAME":"STR_MAP_S2_003",
+"STR_KR":"이사벨과 대화",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":259,
+"NAME":"STR_MAP_S2_004",
+"STR_KR":"촌장님 집으로",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":260,
+"NAME":"STR_MAP_S2_005",
+"STR_KR":"촌장님과 대화",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":261,
+"NAME":"STR_MAP_S2_006",
+"STR_KR":"숲 속 마을 북쪽으로",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":262,
+"NAME":"STR_MAP_S2_007",
+"STR_KR":"슬라임 처치",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":263,
+"NAME":"STR_MAP_S1_001_DESC",
+"STR_KR":"화면의 왼쪽을 눌러서 녹색 영역으로 이동해 보세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":264,
+"NAME":"STR_MAP_S1_002_DESC",
+"STR_KR":"화면의 오른쪽을 눌러서 녹색 영역으로 이동해 보세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":265,
+"NAME":"STR_MAP_S1_003_DESC",
+"STR_KR":"화면의 아래쪽을 눌러서 녹색 영역으로 이동해 보세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":266,
+"NAME":"STR_MAP_S1_004_DESC",
+"STR_KR":"화면의 위쪽을 눌러서 녹색 영역으로 이동해 보세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":267,
+"NAME":"STR_MAP_S2_001_DESC",
+"STR_KR":"숲 속 마을로 가세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":268,
+"NAME":"STR_MAP_S2_002_DESC",
+"STR_KR":"숲 속 마을 여관으로 가세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":269,
+"NAME":"STR_MAP_S2_003_DESC",
+"STR_KR":"여관 주인 이사벨과 대화 하세요. 이사벨을 클릭하면 대화할 수 있습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":270,
+"NAME":"STR_MAP_S2_004_DESC",
+"STR_KR":"숲 속 마을 촌장님 집으로 가세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":271,
+"NAME":"STR_MAP_S2_005_DESC",
+"STR_KR":"촌장님과 대화 하세요. 촌장님은 말이 느려서 열심히 대화해야 합니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":272,
+"NAME":"STR_MAP_S2_006_DESC",
+"STR_KR":"숲 속 마을 북쪽으로 가세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":273,
+"NAME":"STR_MAP_S2_007_DESC",
+"STR_KR":"슬라임을 처치하세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":274,
+"NAME":"STR_CHA_N_0001",
+"STR_KR":"어니",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":275,
+"NAME":"STR_CHA_N_0002",
+"STR_KR":"보경",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":276,
+"NAME":"STR_CHA_D_0001",
+"STR_KR":"카인",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":277,
+"NAME":"STR_CHA_D_0002",
+"STR_KR":"아돌",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":278,
+"NAME":"STR_CHA_D_0003",
+"STR_KR":"샤나",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":279,
+"NAME":"STR_CHA_D_0004",
+"STR_KR":"스메라기",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":280,
+"NAME":"STR_CHA_D_0005",
+"STR_KR":"아스란",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":281,
+"NAME":"STR_CHA_C_0001",
+"STR_KR":"유고",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":282,
+"NAME":"STR_CHA_C_0002",
+"STR_KR":"미하엘",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":283,
+"NAME":"STR_CHA_C_0003",
+"STR_KR":"다임",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":284,
+"NAME":"STR_CHA_C_0004",
+"STR_KR":"후미코",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":285,
+"NAME":"STR_CHA_C_0005",
+"STR_KR":"키라",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":286,
+"NAME":"STR_CHA_B_0001",
+"STR_KR":"메이슨",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":287,
+"NAME":"STR_CHA_B_0002",
+"STR_KR":"발자르",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":288,
+"NAME":"STR_CHA_B_0003",
+"STR_KR":"세실",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":289,
+"NAME":"STR_CHA_B_0004",
+"STR_KR":"에밀리오",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":290,
+"NAME":"STR_CHA_B_0005",
+"STR_KR":"조슈아",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":291,
+"NAME":"STR_CHA_A_0001",
+"STR_KR":"패트릭",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":292,
+"NAME":"STR_CHA_A_0002",
+"STR_KR":"앤드류",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":293,
+"NAME":"STR_CHA_A_0003",
+"STR_KR":"바르반",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":294,
+"NAME":"STR_CHA_A_0004",
+"STR_KR":"헤르미나",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":295,
+"NAME":"STR_CHA_A_0005",
+"STR_KR":"카네키",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":296,
+"NAME":"STR_CHA_N_0001_DESC",
+"STR_KR":"초보 모험가\n기본 영웅으로 삭제할 수 없다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":297,
+"NAME":"STR_CHA_N_0002_DESC",
+"STR_KR":"초보 모험가\n기본 영웅으로 삭제할 수 없다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":298,
+"NAME":"STR_CHA_D_0001_DESC",
+"STR_KR":"적의단 단원, 능력면에서 모자람이 없다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":299,
+"NAME":"STR_CHA_D_0002_DESC",
+"STR_KR":"적의단 단원, 근접 전투에 능하다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":300,
+"NAME":"STR_CHA_D_0003_DESC",
+"STR_KR":"숲 속 마을 주민, 손놀림이 빠르다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":301,
+"NAME":"STR_CHA_D_0004_DESC",
+"STR_KR":"적의단 단원, 마법에 능하다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":302,
+"NAME":"STR_CHA_D_0005_DESC",
+"STR_KR":"적의단 단원, 방어에 능하다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":303,
+"NAME":"STR_CHA_C_0001_DESC",
+"STR_KR":"흑첩단 단원, 능력면에서 모자람이 없다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":304,
+"NAME":"STR_CHA_C_0002_DESC",
+"STR_KR":"광산마을 민병대원, 근접 전투에 능하다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":305,
+"NAME":"STR_CHA_C_0003_DESC",
+"STR_KR":"광산마을 민병대원, 손놀림이 빠르다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":306,
+"NAME":"STR_CHA_C_0004_DESC",
+"STR_KR":"흑첩단 단원, 마법에 능하다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":307,
+"NAME":"STR_CHA_C_0005_DESC",
+"STR_KR":"흑첩단 단원, 방어에 능하다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":308,
+"NAME":"STR_CHA_B_0001_DESC",
+"STR_KR":"숲의 유랑자, 능력면에서 모자람이 없다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":309,
+"NAME":"STR_CHA_B_0002_DESC",
+"STR_KR":"제7 기사단 소속, 근접 전투에 능하다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":310,
+"NAME":"STR_CHA_B_0003_DESC",
+"STR_KR":"해변 마을 출신 무희, 손놀림이 빠르다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":311,
+"NAME":"STR_CHA_B_0004_DESC",
+"STR_KR":"남국의 혜안, 마법에 능하다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":312,
+"NAME":"STR_CHA_B_0005_DESC",
+"STR_KR":"제2 기사단 소속 기사, 방어에 능하다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":313,
+"NAME":"STR_CHA_A_0001_DESC",
+"STR_KR":"왕실 정보대 소속, 능력면에서 모자람이 없다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":314,
+"NAME":"STR_CHA_A_0002_DESC",
+"STR_KR":"제7 기사단 소속, 근접 전투에 능하다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":315,
+"NAME":"STR_CHA_A_0003_DESC",
+"STR_KR":"바다의 신사, 손놀림이 빠르다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":316,
+"NAME":"STR_CHA_A_0004_DESC",
+"STR_KR":"의문의 메이드, 마법에 능하다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":317,
+"NAME":"STR_CHA_A_0005_DESC",
+"STR_KR":"제2 기사단 소속 기사, 방어에 능하다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":318,
+"NAME":"STR_TITLE_CHA_SELECT",
+"STR_KR":"캐릭터 선택",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":319,
+"NAME":"STR_UI_GRADE",
+"STR_KR":"등급",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":320,
+"NAME":"STR_UI_POW",
+"STR_KR":"힘",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":321,
+"NAME":"STR_UI_DEX",
+"STR_KR":"민첩",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":322,
+"NAME":"STR_UI_INT",
+"STR_KR":"지력",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":323,
+"NAME":"STR_UI_CON",
+"STR_KR":"체력",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":324,
+"NAME":"STR_UI_LUC",
+"STR_KR":"행운",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":325,
+"NAME":"STR_UI_CATEGORY_None",
+"STR_KR":"모두",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":326,
+"NAME":"STR_UI_CATEGORY_Equip",
+"STR_KR":"장비",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":327,
+"NAME":"STR_UI_CATEGORY_Potion",
+"STR_KR":"물약",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":328,
+"NAME":"STR_UI_CATEGORY_Box",
+"STR_KR":"상자",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":329,
+"NAME":"STR_UI_CATEGORY_Ect",
+"STR_KR":"기타",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":330,
+"NAME":"STR_UI_ATK",
+"STR_KR":"공격",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":331,
+"NAME":"STR_UI_ASPD",
+"STR_KR":"공속",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":332,
+"NAME":"STR_UI_DEF",
+"STR_KR":"방어",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":333,
+"NAME":"STR_UI_SPD",
+"STR_KR":"이속",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":334,
+"NAME":"STR_TITLE_GAMESTART",
+"STR_KR":"게임 시작",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":335,
+"NAME":"STR_TITLE_GAMEOVER",
+"STR_KR":"게임 오버",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":336,
+"NAME":"STR_TITLE_GAMECLEAR",
+"STR_KR":"게임 클리어",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":337,
+"NAME":"STR_UI_RETRY",
+"STR_KR":"다시 하기",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":338,
+"NAME":"STR_UI_USE",
+"STR_KR":"사용",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":339,
+"NAME":"STR_UI_ENCHANT",
+"STR_KR":"강화",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":340,
+"NAME":"STR_UI_SELL",
+"STR_KR":"판매",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":341,
+"NAME":"STR_UI_EMPTY_SLOT",
+"STR_KR":"빈 슬롯",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":342,
+"NAME":"STR_UI_SELECT",
+"STR_KR":"선택",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":343,
+"NAME":"STR_UI_DOWN",
+"STR_KR":"환생",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":344,
+"NAME":"STR_UI_CHA_ENCHANT",
+"STR_KR":"각성",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":345,
+"NAME":"STR_UI_DELETE",
+"STR_KR":"삭제",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":346,
+"NAME":"STR_UI_CLOSE",
+"STR_KR":"닫기",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":347,
+"NAME":"STR_UI_YES",
+"STR_KR":"예",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":348,
+"NAME":"STR_UI_NO",
+"STR_KR":"아니오",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":349,
+"NAME":"STR_UI_SKILL",
+"STR_KR":"옵션",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":350,
+"NAME":"STR_UI_NOSKILL",
+"STR_KR":"없음",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":351,
+"NAME":"STR_CROWN_1",
+"STR_KR":"동관",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":352,
+"NAME":"STR_CROWN_2",
+"STR_KR":"은관",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":353,
+"NAME":"STR_CROWN_3",
+"STR_KR":"금관",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":354,
+"NAME":"STR_UI_OPEN_COND",
+"STR_KR":"{0} {1}이상 클리어",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":355,
+"NAME":"STR_UI_START",
+"STR_KR":"시작",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":356,
+"NAME":"STR_UI_MOUNT",
+"STR_KR":"장착",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":357,
+"NAME":"STR_UI_DISMOUNT",
+"STR_KR":"해제",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":358,
+"NAME":"STR_MSG_TOUCH",
+"STR_KR":"화면을 터치하세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":359,
+"NAME":"STR_UI_SELETE_MAP",
+"STR_KR":"맵 선택",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":360,
+"NAME":"STR_UI_INVENTORY",
+"STR_KR":"소지품",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":361,
+"NAME":"STR_TITLE_BUY",
+"STR_KR":"구매",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":362,
+"NAME":"STR_MSG_BYCASH",
+"STR_KR":"보석 {0}개가 소모됩니다.\n계속 하시겠습니까?",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":363,
+"NAME":"STR_MSG_BYCOIN",
+"STR_KR":"코인 {0}개가 소모됩니다.\n계속 하시겠습니까?",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":364,
+"NAME":"STR_MSG_BYGOLD",
+"STR_KR":"{0}골드가 소모됩니다.\n계속 하시겠습니까?",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":365,
+"NAME":"STR_MSG_BUY",
+"STR_KR":"{0}을 구매 하겠습니까?",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":366,
+"NAME":"STR_MSG_CHA_CHANGE",
+"STR_KR":" +{0} {1}(이)가 선택 되었습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":367,
+"NAME":"STR_UI_OK",
+"STR_KR":"확인",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":368,
+"NAME":"STR_MSG_CHA_DOWN_1",
+"STR_KR":"코인 {0}개가 소모됩니다.\n+{1} {2}(을)를 환생하겠습니까?",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":369,
+"NAME":"STR_MSG_CHA_DOWN_2",
+"STR_KR":"{0}가 환생했습니다.\n\n{1}",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":370,
+"NAME":"STR_MSG_CHA_ENCHANT_1",
+"STR_KR":"{0}골드가 소모됩니다.\n+{1} {2}(을)를 각성하겠습니까?",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":371,
+"NAME":"STR_MSG_CHA_ENCHANT_2",
+"STR_KR":"{0}(이)가 각성했습니다.\n\n{1}",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":372,
+"NAME":"STR_MSG_DELETE_1",
+"STR_KR":" +{0} {1}(을)를 삭제하겠습니까?",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":373,
+"NAME":"STR_MSG_DELETE_2",
+"STR_KR":"캐릭터를 삭제했습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":374,
+"NAME":"STR_UI_CANCEL",
+"STR_KR":"취소",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":375,
+"NAME":"STR_MSG_INPUT_NUM",
+"STR_KR":"판매할 아이템 개수를 입력해 주세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":376,
+"NAME":"STR_MSG_SELL_1",
+"STR_KR":"정말로 +{0} {1}(을)를 판매하겠습니까?",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":377,
+"NAME":"STR_MSG_SELL_2",
+"STR_KR":"아이템을 판매했습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":378,
+"NAME":"STR_MSG_SELL_3",
+"STR_KR":"아이템을 판매하였습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":379,
+"NAME":"STR_MSG_USE_1",
+"STR_KR":"{0}(을)를 사용하겠습니까?",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":380,
+"NAME":"STR_MSG_USE_2",
+"STR_KR":"Hp가 회복되었습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":381,
+"NAME":"STR_MSG_USE_3",
+"STR_KR":"캐릭터 슬롯이 추가 되었습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":382,
+"NAME":"STR_MSG_USE_4",
+"STR_KR":"소지품 슬롯이 추가 되었습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":383,
+"NAME":"STR_MSG_DISMOUNT_1",
+"STR_KR":"{0}(을)를 해제하겠습니까?",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":384,
+"NAME":"STR_MSG_DISMOUNT_2",
+"STR_KR":"아이템을 해제했습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":385,
+"NAME":"STR_MSG_MOUNT_1",
+"STR_KR":"{0}(을)를 장착하겠습니까?",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":386,
+"NAME":"STR_MSG_MOUNT_2",
+"STR_KR":"아이템을 장착했습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":387,
+"NAME":"STR_MSG_ENCHANT_1",
+"STR_KR":"{0}골드가 소모됩니다.\n+{1} {2}(을)를 강화하겠습니까?",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":388,
+"NAME":"STR_MSG_ENCHANT_2",
+"STR_KR":"[ff0000]실패 시 장비가 사라집니다.[-]",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":389,
+"NAME":"STR_TITLE_ENCHANT_FAIL",
+"STR_KR":"강화 실패",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":390,
+"NAME":"STR_MSG_ENCHANT_FAIL",
+"STR_KR":"강화에 실패하여 장비가 사라졌습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":391,
+"NAME":"STR_TITLE_ENCHANT_SUCCESS",
+"STR_KR":"강화 성공",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":392,
+"NAME":"STR_MSG_ENCHANT_SUCCESS",
+"STR_KR":"강화에 성공하였습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":393,
+"NAME":"STR_UI_ADD_SLOT",
+"STR_KR":" +가방확장",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":394,
+"NAME":"STR_ERROR_0",
+"STR_KR":"알 수 없는 에러가 발생했습니다.\n게임을 종료합니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":395,
+"NAME":"STR_ERROR_1",
+"STR_KR":"서버에 에러가 발생했습니다.\n잠시 후 다시 시도해 주세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":396,
+"NAME":"STR_ERROR_100",
+"STR_KR":"서버 점검 중입니다.\n잠시 후 다시 시도해 주세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":397,
+"NAME":"STR_ERROR_101",
+"STR_KR":"테스트가 종료되었습니다.\n참여해 주셔서 감사합니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":398,
+"NAME":"STR_ERROR_1000",
+"STR_KR":"테이블을 초기화 할 수 없습니다.\n게임을 종료합니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":399,
+"NAME":"STR_ERROR_1001",
+"STR_KR":"테이블 데이터를 읽을 수 없습니다.\n게임을 종료합니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":400,
+"NAME":"STR_ERROR_1100",
+"STR_KR":"서버와 연결에 실패하였습니다.\n잠시 후 다시 시도해 주세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":401,
+"NAME":"STR_ERROR_1101",
+"STR_KR":"서버와 연결에 실패하였습니다.\n잠시 후 다시 시도해 주세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":402,
+"NAME":"STR_ERROR_1102",
+"STR_KR":"서버와 연결에 실패하였습니다.\n잠시 후 다시 시도해 주세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":403,
+"NAME":"STR_ERROR_1103",
+"STR_KR":"앱 버전이 다릅니다. \n앱을 업데이트 하세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":404,
+"NAME":"STR_ERROR_2000",
+"STR_KR":"비어있는 캐릭터 슬롯이 없습니다.\n캐릭터 슬롯을 추가해 보세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":405,
+"NAME":"STR_ERROR_2001",
+"STR_KR":"잘못된 인자가 전달되었습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":406,
+"NAME":"STR_ERROR_2002",
+"STR_KR":"보석이 부족합니다.\n보석 아이콘을 클릭하면 보석을 구입할 수 있습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":407,
+"NAME":"STR_ERROR_2003",
+"STR_KR":"코인이 부족합니다.\n코인 아이콘을 클릭하면 코인을 구입할 수 있습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":408,
+"NAME":"STR_ERROR_2004",
+"STR_KR":"하트가 부족합니다.\n하트 아이콘을 클릭하면 하트를 충전할 수 있습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":409,
+"NAME":"STR_ERROR_2005",
+"STR_KR":"골드가 부족합니다.\n골드 아이콘을 클릭하면 골드를 구입할 수 있습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":410,
+"NAME":"STR_ERROR_2006",
+"STR_KR":"더 이상 골드를 가질 수 없습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":411,
+"NAME":"STR_ERROR_2007",
+"STR_KR":"더 이상 코인을 가질 수 없습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":412,
+"NAME":"STR_ERROR_2008",
+"STR_KR":"더 이상 하트를 가질 수 없습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":413,
+"NAME":"STR_ERROR_2009",
+"STR_KR":"더 이상 보석을 가질 수 없습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":414,
+"NAME":"STR_ERROR_2010",
+"STR_KR":"더 이상 가방을 확장할 수 없습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":415,
+"NAME":"STR_ERROR_2011",
+"STR_KR":"더 이상 캐릭터 슬롯을 확장할 수 없습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":416,
+"NAME":"STR_ERROR_2100",
+"STR_KR":"캐릭터 슬롯이 비어 있습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":417,
+"NAME":"STR_ERROR_2101",
+"STR_KR":"캐릭터를 선택할 수 없습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":418,
+"NAME":"STR_ERROR_2102",
+"STR_KR":"캐릭터를 삭제할 수 없습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":419,
+"NAME":"STR_ERROR_2103",
+"STR_KR":"더 이상 캐릭터를 각성 시킬 수 없습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":420,
+"NAME":"STR_ERROR_2104",
+"STR_KR":"D등급의 캐릭터는 환생할 수 없습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":421,
+"NAME":"STR_ERROR_2105",
+"STR_KR":"캐릭터의 Hp가 최대입니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":422,
+"NAME":"STR_ERROR_2200",
+"STR_KR":"아이템 슬롯이 비어 있습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":423,
+"NAME":"STR_ERROR_2201",
+"STR_KR":"판매할 수 없는 아이템 입니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":424,
+"NAME":"STR_ERROR_2202",
+"STR_KR":"아이템의 개수가 모자랍니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":425,
+"NAME":"STR_ERROR_2203",
+"STR_KR":"사용할 수 없는 아이템 입니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":426,
+"NAME":"STR_ERROR_2204",
+"STR_KR":"장착할 수 없는 아이템 입니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":427,
+"NAME":"STR_ERROR_2205",
+"STR_KR":"강화할 수 없는 아이템 입니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":428,
+"NAME":"STR_ERROR_2206",
+"STR_KR":"장착된 아이템은 강화할 수 없습니다.\n아이템을 해제한 후 시도해 주세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":429,
+"NAME":"STR_ERROR_2207",
+"STR_KR":"합칠 수 없는 아이템입니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":430,
+"NAME":"STR_ERROR_2208",
+"STR_KR":"장착된 아이템은 판매할 수 없습니다.\n아이템을 해제한 후 시도해 주세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":431,
+"NAME":"STR_ERROR_2209",
+"STR_KR":"사용할 수 없는 멤버십 서비스 입니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":432,
+"NAME":"STR_ERROR_2210",
+"STR_KR":"실버 등급 이상만 구입할 수 있습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":433,
+"NAME":"STR_ERROR_2211",
+"STR_KR":"골드 등급 이상만 구입할 수 있습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":434,
+"NAME":"STR_ERROR_2212",
+"STR_KR":"다이아몬드 등급 이상만 구입할 수 있습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":435,
+"NAME":"STR_ERROR_2213",
+"STR_KR":"플래티넘 등급 이상만 구입할 수 있습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":436,
+"NAME":"STR_ERROR_2214",
+"STR_KR":"구매 제한 횟수를 초과하였습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":437,
+"NAME":"STR_ERROR_5000",
+"STR_KR":"맵 데이터가 없습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":438,
+"NAME":"STR_ERROR_5001",
+"STR_KR":"캐릭터의 Hp가 0입니다.\n물약을 사용하여 Hp를 회복하거나, 다른 캐릭터를 선택해 주세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":439,
+"NAME":"STR_ERROR_5002",
+"STR_KR":"입장할 수 없는 캐릭터 입니다.\n캐릭터의 등급을 낮추거나, 다른 캐릭터를 선택해 주세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":440,
+"NAME":"STR_ERROR_5003",
+"STR_KR":"가방에 빈 공간이 부족합니다.\n필요없는 아이템을 판매하거나, 슬롯을 추가한 후 다시 시도해 주세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":441,
+"NAME":"STR_ERROR_5100",
+"STR_KR":"시작 위치가 지정되지 않았습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":442,
+"NAME":"STR_ERROR_5101",
+"STR_KR":"플레이어 프리팹이 설정되지 않았습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":443,
+"NAME":"STR_ERROR_5102",
+"STR_KR":"타이머 프리팹이 설정되지 않았습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":444,
+"NAME":"STR_ERROR_7000",
+"STR_KR":"결제 모듈 초기화에 실패했습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":445,
+"NAME":"STR_ERROR_7001",
+"STR_KR":"결제 모듈이 초기화 되지 않았습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":446,
+"NAME":"STR_ERROR_7002",
+"STR_KR":"구매할 수 없는 상품입니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":447,
+"NAME":"STR_ERROR_7003",
+"STR_KR":"재구매에 실패 했습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":448,
+"NAME":"STR_ERROR_8000",
+"STR_KR":"이메일 또는 비밀번호가 잘못되었습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":449,
+"NAME":"STR_ERROR_8001",
+"STR_KR":"이미 존재하는 이메일 주소입니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":450,
+"NAME":"STR_ERROR_8002",
+"STR_KR":"서버와 연결에 실패하였습니다.\n잠시 후 다시 시도해 주세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":451,
+"NAME":"STR_ERROR_8003",
+"STR_KR":"존재하지 않는 이메일입니다.\n이메일을 정확히 입력해 주세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":452,
+"NAME":"STR_ERROR_8004",
+"STR_KR":"이미 존재하는 이메일 주소입니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":453,
+"NAME":"STR_ERROR_9000",
+"STR_KR":"게임 데이터가 없습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":454,
+"NAME":"STR_ERROR_9001",
+"STR_KR":"이메일이 입력되지 않았습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":455,
+"NAME":"STR_ERROR_9002",
+"STR_KR":"비밀번호가 입력되지 않았습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":456,
+"NAME":"STR_ERROR_9003",
+"STR_KR":"이메일 주소가 잘못 되었습니다.\n이메일 주소를 정확히 입력해 주세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":457,
+"NAME":"STR_ERROR_9004",
+"STR_KR":"비밀번호는 6자리 이상의 숫자 또는 문자이어야 합니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":458,
+"NAME":"STR_ERROR_9005",
+"STR_KR":"해당 서비스는 아직 지원되지 않습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":459,
+"NAME":"STR_ERROR_9006",
+"STR_KR":"유저 데이터가 없습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":460,
+"NAME":"STR_ERROR_9007",
+"STR_KR":"현재 비밀번호가 입력되지 않았습니다.\n현재 비밀번호를 입력해 주세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":461,
+"NAME":"STR_ERROR_9008",
+"STR_KR":"새 비밀번호가 입력되지 않았습니다.\n새 비밀번호를 입력해 주세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":462,
+"NAME":"STR_ERROR_9009",
+"STR_KR":"비밀번호 확인란이 비어 있습니다.\n비밀번호를 확인해 주세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":463,
+"NAME":"STR_ERROR_9010",
+"STR_KR":"새 비밀번호가 현재 비밀번호와 같습니다.\n다른 비밀번호를 입력해 주세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":464,
+"NAME":"STR_ERROR_9011",
+"STR_KR":"비밀번호 확인에 입력된 비밀번호가 새 비밀번호와 다릅니다.\n정확히 입력해 주세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":465,
+"NAME":"STR_ERROR_9012",
+"STR_KR":"비밀번호가 잘못되었습니다.\n비밀번호를 정확히 입력해 주세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":466,
+"NAME":"STR_TITLE_SETTING",
+"STR_KR":"게임 설정",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":467,
+"NAME":"STR_UI_BGM",
+"STR_KR":"배경음",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":468,
+"NAME":"STR_UI_EFFECT",
+"STR_KR":"효과음",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":469,
+"NAME":"STR_UI_SAVE",
+"STR_KR":"저장",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":470,
+"NAME":"STR_STORY_NPC_20000_01",
+"STR_KR":"안녕하세요. 숲 속 마을 여관입니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":471,
+"NAME":"STR_STORY_NPC_20000_02",
+"STR_KR":"촌장님이 찾으시던데, 촌장님을 만나 보세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":472,
+"NAME":"STR_STORY_NPC_20001_01",
+"STR_KR":"안녕하신가 요즘 자꾸 숲에서 괴물들이 출몰하니 조심하게나",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":473,
+"NAME":"STR_NPC_N_0001",
+"STR_KR":"여관주인 이사벨",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":474,
+"NAME":"STR_NPC_N_0002",
+"STR_KR":"마을 촌장",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":475,
+"NAME":"STR_TITLE_ERROR",
+"STR_KR":"오류",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":476,
+"NAME":"STR_UI_HP",
+"STR_KR":"HP",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":477,
+"NAME":"STR_OPTION_POW",
+"STR_KR":"힘",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":478,
+"NAME":"STR_OPTION_DEX",
+"STR_KR":"민첩",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":479,
+"NAME":"STR_OPTION_INT",
+"STR_KR":"지력",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":480,
+"NAME":"STR_OPTION_CON",
+"STR_KR":"체력",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":481,
+"NAME":"STR_OPTION_LUC",
+"STR_KR":"행운",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":482,
+"NAME":"STR_OPTION_SATK",
+"STR_KR":"근접 공격력",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":483,
+"NAME":"STR_OPTION_LATK",
+"STR_KR":"원거리 공격력",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":484,
+"NAME":"STR_OPTION_DEF",
+"STR_KR":"방어력",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":485,
+"NAME":"STR_OPTION_ASPD",
+"STR_KR":"공격 속도",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":486,
+"NAME":"STR_OPTION_SPD",
+"STR_KR":"이동 속도",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":487,
+"NAME":"STR_OPTION_HP",
+"STR_KR":"최대 Hp",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":488,
+"NAME":"STR_MSG_BUY_GOLD",
+"STR_KR":"{0:###,###,##0}골드가 소모됩니다.\n{1} {2}개를 구입하겠습니까?",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":489,
+"NAME":"STR_MSG_BUY_COIN",
+"STR_KR":"코인 {0:#,##0}개가 소모됩니다.\n{1} {2}개를 구입하겠습니까?",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":490,
+"NAME":"STR_UI_NO_LIMITE",
+"STR_KR":"제한없음",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":491,
+"NAME":"STR_UI_GRADE_LIMITE",
+"STR_KR":"등급제한",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":492,
+"NAME":"STR_TITLE_EXIT",
+"STR_KR":"종료",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":493,
+"NAME":"STR_MSG_EXIT",
+"STR_KR":"게임을 종료하겠습니까?",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":494,
+"NAME":"STR_UI_LOGIN",
+"STR_KR":"로그인",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":495,
+"NAME":"STR_UI_NEW_ACCOUNT",
+"STR_KR":"등록",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":496,
+"NAME":"STR_TITLE_LOGIN",
+"STR_KR":"로그인",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":497,
+"NAME":"STR_MSG_LOGIN",
+"STR_KR":"이메일 주소와 패스워드를 입력해 주세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":498,
+"NAME":"STR_TITLE_DAILY",
+"STR_KR":"출석확인",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":499,
+"NAME":"STR_UI_DAILY",
+"STR_KR":"{0}일차",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":500,
+"NAME":"STR_TITLE_MISSION",
+"STR_KR":"미션완료",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":501,
+"NAME":"STR_UI_NEXT",
+"STR_KR":"다음",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":502,
+"NAME":"STR_UI_BUY",
+"STR_KR":"구입",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":503,
+"NAME":"STR_MSG_REWARD_GOLD",
+"STR_KR":"{0} 골드가 지급되었습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":504,
+"NAME":"STR_MSG_REWARD_COIN",
+"STR_KR":"코인 {0}개가 지급되었습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":505,
+"NAME":"STR_MSG_REWARD_ITEM",
+"STR_KR":"{0} {1}개가 지급되었습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":506,
+"NAME":"STR_UI_ADD_CHA_SLOT",
+"STR_KR":"캐릭터 슬롯 추가",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":507,
+"NAME":"STR_UI_ADD_ITEM_SLOT",
+"STR_KR":"가방 확장",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":508,
+"NAME":"STR_UI_MISSING_PW",
+"STR_KR":"비밀번호를 잊어버렸습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":509,
+"NAME":"STR_MSG_ADD_CHA_SLOT",
+"STR_KR":"코인 {0}개가 소모됩니다.\n캐릭터 슬롯을 추가하겠습니까?",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":510,
+"NAME":"STR_MSG_ADDED_CHA_SLOT",
+"STR_KR":"캐릭터 슬롯이 추가되었습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":511,
+"NAME":"STR_MSG_ADD_ITEM_SLOT",
+"STR_KR":"코인 {0}개가 소모됩니다.\n가방을 확장 하겠습니까?",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":512,
+"NAME":"STR_MSG_ADDED_ITEM_SLOT",
+"STR_KR":"가방이 확장 되었습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":513,
+"NAME":"STR_NPC_N_0003",
+"STR_KR":"경비대장 레이든",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":514,
+"NAME":"STR_NPC_N_0004",
+"STR_KR":"물약상인 엘레나",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":515,
+"NAME":"STR_NPC_N_0005",
+"STR_KR":"장비상인 스워드",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":516,
+"NAME":"STR_NPC_N_0006",
+"STR_KR":"대장장이 스미스",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":517,
+"NAME":"STR_NPC_N_0007",
+"STR_KR":"경비병 하워드",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":518,
+"NAME":"STR_NPC_N_0008",
+"STR_KR":"은둔기사 조셉",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":519,
+"NAME":"STR_STORY_NPC_20002_01",
+"STR_KR":"안녕하신가??",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":520,
+"NAME":"STR_STORY_NPC_20002_02",
+"STR_KR":"자신을 지키기 위해 무기 사용법은 필수지.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":521,
+"NAME":"STR_STORY_NPC_20002_03",
+"STR_KR":"한 번만 말 할 테니 잘 듣게나.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":522,
+"NAME":"STR_STORY_NPC_20002_04",
+"STR_KR":"멀리 있는 적을 선택하면 원거리 공격이 가능하다네.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":523,
+"NAME":"STR_STORY_NPC_20002_05",
+"STR_KR":"바로 앞의 적을 공격하면 근거리 공격이 되지.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":524,
+"NAME":"STR_STORY_NPC_20002_06",
+"STR_KR":"이 정도면 무기를 사용할 수 있겠지?",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":525,
+"NAME":"STR_STORY_NPC_20003_01",
+"STR_KR":"효과 좋은 물약이 많아요. 구경해 보세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":526,
+"NAME":"STR_STORY_NPC_20004_01",
+"STR_KR":"괴물들을 처치하기 위해선 좋은 무기가 필요하지.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":527,
+"NAME":"STR_STORY_NPC_20005_01",
+"STR_KR":"더 강한 장비를 원하나? 그럼 강화를 해 보게나.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":528,
+"NAME":"STR_STORY_NPC_20006_01",
+"STR_KR":"요즘 괴물들이 많아진 것 같군요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":529,
+"NAME":"STR_STORY_NPC_20007_01",
+"STR_KR":"다 지난 과거라네.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":530,
+"NAME":"STR_MAP_S2_008",
+"STR_KR":"마을 중심가로 이동",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":531,
+"NAME":"STR_MAP_S2_009",
+"STR_KR":"검술 훈련장으로 이동",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":532,
+"NAME":"STR_MAP_S2_010",
+"STR_KR":"무기의 사용법",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":533,
+"NAME":"STR_MAP_S2_011",
+"STR_KR":"허수아비 처치",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":534,
+"NAME":"STR_MAP_S2_012",
+"STR_KR":"상정가로 이동",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":535,
+"NAME":"STR_MAP_S2_013",
+"STR_KR":"아이템 사용법",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":536,
+"NAME":"STR_MAP_S2_014",
+"STR_KR":"장비 사용법",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":537,
+"NAME":"STR_MAP_S2_015",
+"STR_KR":"장비 강화",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":538,
+"NAME":"STR_MAP_S2_016",
+"STR_KR":"가방 확장 방법",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":539,
+"NAME":"STR_MAP_S2_017",
+"STR_KR":"영웅 소환 방법",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":540,
+"NAME":"STR_MAP_S2_018",
+"STR_KR":"영웅 각성 방법",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":541,
+"NAME":"STR_MAP_S2_019",
+"STR_KR":"영웅 환생 방법",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":542,
+"NAME":"STR_MAP_S2_020",
+"STR_KR":"캐릭터 슬롯 확장 방법",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":543,
+"NAME":"STR_MAP_S2_021",
+"STR_KR":"마을 촌장의 부름",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":544,
+"NAME":"STR_MAP_S2_022",
+"STR_KR":"마을 동쪽으로",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":545,
+"NAME":"STR_MAP_S2_023",
+"STR_KR":"경비병 엘런의 조언",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":546,
+"NAME":"STR_MAP_S2_024",
+"STR_KR":"숨겨진 방으로",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":547,
+"NAME":"STR_MAP_S2_025",
+"STR_KR":"보물방",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":548,
+"NAME":"STR_MAP_S2_026",
+"STR_KR":"동쪽 숲으로",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":549,
+"NAME":"STR_MAP_S2_008_DESC",
+"STR_KR":"마을 중심가로 가세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":550,
+"NAME":"STR_MAP_S2_009_DESC",
+"STR_KR":"검술 훈련장으로 가세요",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":551,
+"NAME":"STR_MAP_S2_010_DESC",
+"STR_KR":"경비대장 레이든에게 무기 사용법을 배워 보세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":552,
+"NAME":"STR_MAP_S2_011_DESC",
+"STR_KR":"허수아비를 공격해 처치하세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":553,
+"NAME":"STR_MAP_S2_012_DESC",
+"STR_KR":"상점가로 가세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":554,
+"NAME":"STR_MAP_S2_013_DESC",
+"STR_KR":"물약 상인 엘레나로부터 아이템 사용법을 배워 보세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":555,
+"NAME":"STR_MAP_S2_014_DESC",
+"STR_KR":"장비 상인 스워드로부터 장비 장착 방법을 배워 보세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":556,
+"NAME":"STR_MAP_S2_015_DESC",
+"STR_KR":"대장장이 스미스로부터 장비 강화 방법을 배워 보세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":557,
+"NAME":"STR_MAP_S2_016_DESC",
+"STR_KR":"장비 상인 스워드로부터 가방 확장 방법을 배워 보세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":558,
+"NAME":"STR_MAP_S2_017_DESC",
+"STR_KR":"은둔 기사 조셉으로부터 영웅 소환 방법을 배워 보세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":559,
+"NAME":"STR_MAP_S2_018_DESC",
+"STR_KR":"경비병 하워드로부터 영웅 각성 방법을 배워 보세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":560,
+"NAME":"STR_MAP_S2_019_DESC",
+"STR_KR":"경비병 하워드로부터 영웅 환생 방법을 배워 보세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":561,
+"NAME":"STR_MAP_S2_020_DESC",
+"STR_KR":"은둔 기사 조셉으로부터 캐릭터 슬롯을 확장하는 방법을 배워 보세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":562,
+"NAME":"STR_MAP_S2_021_DESC",
+"STR_KR":"촌장님과 대화해 보세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":563,
+"NAME":"STR_MAP_S2_022_DESC",
+"STR_KR":"마을 동쪽으로 이동해 경비병 엘런을 만나세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":564,
+"NAME":"STR_MAP_S2_023_DESC",
+"STR_KR":"경비병 엘런과 대화하세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":565,
+"NAME":"STR_MAP_S2_024_DESC",
+"STR_KR":"숨겨진 방으로 가세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":566,
+"NAME":"STR_MAP_S2_025_DESC",
+"STR_KR":"보물 위에 가만히 서 있으면 보상을 받을 수 있습니다. ",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":567,
+"NAME":"STR_MAP_S2_026_DESC",
+"STR_KR":"광산 마을로 가기 위해 동쪽 숲으로 가세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":568,
+"NAME":"STR_STORY_NPC_20009_01",
+"STR_KR":"아이템 사용법이요??",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":569,
+"NAME":"STR_STORY_NPC_20009_02",
+"STR_KR":"생각보다 간단하죠.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":570,
+"NAME":"STR_STORY_NPC_20009_03",
+"STR_KR":"소지품을 선택해서 아이템을 선택하세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":571,
+"NAME":"STR_STORY_NPC_20009_04",
+"STR_KR":"그러면 사용할 수 있는 아이템은 사용버튼이 나옵니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":572,
+"NAME":"STR_STORY_NPC_20009_05",
+"STR_KR":"사용버튼만 누르면 된답니다. 간단하죠?",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":573,
+"NAME":"STR_STORY_NPC_20010_01",
+"STR_KR":"좋은 장비라도 장착해야 진가를 발휘하지.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":574,
+"NAME":"STR_STORY_NPC_20010_02",
+"STR_KR":"아직 장착 방법을 모르나? 이런!!",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":575,
+"NAME":"STR_STORY_NPC_20010_03",
+"STR_KR":"소지품을 선택해서 아이템을 선택해 보게.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":576,
+"NAME":"STR_STORY_NPC_20010_04",
+"STR_KR":"무기나 방어구를 선택하면 장착 버튼이 나올걸세.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":577,
+"NAME":"STR_STORY_NPC_20010_05",
+"STR_KR":"장착버튼을 누르기만 하면 된다네.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":578,
+"NAME":"STR_STORY_NPC_20011_01",
+"STR_KR":"장비를 강화하고 싶은가?",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":579,
+"NAME":"STR_STORY_NPC_20011_02",
+"STR_KR":"그렇다면 장비 강화를 이용해 보게.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":580,
+"NAME":"STR_STORY_NPC_20011_03",
+"STR_KR":"비용이 들긴 하지만 더 강한 장비를 얻을 수 있다네.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":581,
+"NAME":"STR_STORY_NPC_20011_04",
+"STR_KR":"4 이상부터는 주의하게나.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":582,
+"NAME":"STR_STORY_NPC_20011_05",
+"STR_KR":"재수없으면 장비가 부서져 버리니까…",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":583,
+"NAME":"STR_STORY_NPC_20012_01",
+"STR_KR":"또 보는군.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":584,
+"NAME":"STR_STORY_NPC_20012_02",
+"STR_KR":"가방이 부족한가?",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":585,
+"NAME":"STR_STORY_NPC_20012_03",
+"STR_KR":"그럼 가방을 확장해 보게.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":586,
+"NAME":"STR_STORY_NPC_20012_04",
+"STR_KR":"이것 역시 비용이 들지만 가방은 항상 넉넉해야지.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":587,
+"NAME":"STR_STORY_NPC_20012_05",
+"STR_KR":"소지품을 선택해서 가방확장을 누르면 가방을 확장할 수 있다네.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":588,
+"NAME":"STR_STORY_NPC_20012_06",
+"STR_KR":"그럼 수고하게나.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":589,
+"NAME":"STR_STORY_NPC_20013_01",
+"STR_KR":"어이, 안녕하신가? 난 잠시 쉬는 중이야.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":590,
+"NAME":"STR_STORY_NPC_20013_02",
+"STR_KR":"더 강해지고 싶어?",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":591,
+"NAME":"STR_STORY_NPC_20013_03",
+"STR_KR":"그럼 각성을 시도해 봐.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":592,
+"NAME":"STR_STORY_NPC_20013_04",
+"STR_KR":"각성은 5번까지만 가능해.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":593,
+"NAME":"STR_STORY_NPC_20013_05",
+"STR_KR":"각성할 때마다 능력치가 높아지지.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":594,
+"NAME":"STR_STORY_NPC_20013_06",
+"STR_KR":"뭐 운이 나쁘면 능력치가 그대로일 수도 있지만, 낮아지지는 않으니 시도해 볼만하지.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":595,
+"NAME":"STR_STORY_NPC_20013_07",
+"STR_KR":"물론 공짜는 아니야. 하하",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":596,
+"NAME":"STR_STORY_NPC_20014_01",
+"STR_KR":"동료를 얻고 싶은가?",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":597,
+"NAME":"STR_STORY_NPC_20014_02",
+"STR_KR":"그럼 소환을 시도해 보게나.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":598,
+"NAME":"STR_STORY_NPC_20014_03",
+"STR_KR":"영웅 메뉴를 누르면 영웅 관리창이 나오는데,",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":599,
+"NAME":"STR_STORY_NPC_20014_04",
+"STR_KR":"빈 슬롯을 선택하면 영웅을 소환할 수 있다네.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":600,
+"NAME":"STR_STORY_NPC_20015_01",
+"STR_KR":"영웅 등급이 높아서 모험을 못해?",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":601,
+"NAME":"STR_STORY_NPC_20015_02",
+"STR_KR":"그럼 환생을 시도해 봐.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":602,
+"NAME":"STR_STORY_NPC_20015_03",
+"STR_KR":"한 가지 능력치가 낮아지면서 등급을 한 단계 낮추게 되지.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":603,
+"NAME":"STR_STORY_NPC_20015_04",
+"STR_KR":"환생을 할 땐 신중해야 해. ",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":604,
+"NAME":"STR_STORY_NPC_20015_05",
+"STR_KR":"한 번 낮아진 등급은 다시 올릴 수 없으니까…",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":605,
+"NAME":"STR_STORY_NPC_20016_01",
+"STR_KR":"더 많은 동료들과 함께하고 싶은가?",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":606,
+"NAME":"STR_STORY_NPC_20016_02",
+"STR_KR":"그럼 슬롯을 확장해 보게.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":607,
+"NAME":"STR_STORY_NPC_20016_03",
+"STR_KR":"이것 역시 비용이 들지만 더 많은 영웅을 보유할 수 있지.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":608,
+"NAME":"STR_STORY_NPC_20016_04",
+"STR_KR":"영웅 관리창에서 마지막 슬롯으로 가면 오른쪽에 +버튼이 있다네.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":609,
+"NAME":"STR_STORY_NPC_20016_05",
+"STR_KR":"그 버튼을 누르면 슬롯을 추가할 수 있지.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":610,
+"NAME":"STR_STORY_NPC_20016_06",
+"STR_KR":"그럼 수고하게나.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":611,
+"NAME":"STR_STORY_NPC_20017_01",
+"STR_KR":"고마우이. 경비병 엘런을 만나 보게.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":612,
+"NAME":"STR_MAP_S3_001",
+"STR_KR":"동쪽 숲 1",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":613,
+"NAME":"STR_MAP_S3_002",
+"STR_KR":"동쪽 숲 2",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":614,
+"NAME":"STR_MAP_S3_003",
+"STR_KR":"동쪽 숲 3",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":615,
+"NAME":"STR_MAP_S3_004",
+"STR_KR":"동쪽 숲 4",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":616,
+"NAME":"STR_MAP_S3_005",
+"STR_KR":"동쪽 숲 5",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":617,
+"NAME":"STR_MAP_S3_006",
+"STR_KR":"동쪽 숲 6",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":618,
+"NAME":"STR_MAP_S3_007",
+"STR_KR":"동쪽 숲 7",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":619,
+"NAME":"STR_MAP_S3_008",
+"STR_KR":"광산 마을 입구",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":620,
+"NAME":"STR_MAP_S3_009",
+"STR_KR":"죽은 자의 동굴 입구",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":621,
+"NAME":"STR_MAP_S3_010",
+"STR_KR":"비밀의 동굴로",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":622,
+"NAME":"STR_MAP_S3_011",
+"STR_KR":"동쪽 숲 보물방",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":623,
+"NAME":"STR_MAP_S3_012",
+"STR_KR":"경비병 로빈과 대화",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":624,
+"NAME":"STR_MAP_S3_001_DESC",
+"STR_KR":"녹색 영역으로 이동해 보세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":625,
+"NAME":"STR_MAP_S3_002_DESC",
+"STR_KR":"녹색 영역으로 이동해 보세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":626,
+"NAME":"STR_MAP_S3_003_DESC",
+"STR_KR":"녹색 영역으로 이동해 보세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":627,
+"NAME":"STR_MAP_S3_004_DESC",
+"STR_KR":"녹색 영역으로 이동해 보세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":628,
+"NAME":"STR_MAP_S3_005_DESC",
+"STR_KR":"녹색 영역으로 이동해 보세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":629,
+"NAME":"STR_MAP_S3_006_DESC",
+"STR_KR":"녹색 영역으로 이동해 보세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":630,
+"NAME":"STR_MAP_S3_007_DESC",
+"STR_KR":"녹색 영역으로 이동해 보세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":631,
+"NAME":"STR_MAP_S3_008_DESC",
+"STR_KR":"광산 마을로 가세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":632,
+"NAME":"STR_MAP_S3_009_DESC",
+"STR_KR":"죽은 자의 동굴로 가세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":633,
+"NAME":"STR_MAP_S3_010_DESC",
+"STR_KR":"숨겨진 방으로 가세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":634,
+"NAME":"STR_MAP_S3_011_DESC",
+"STR_KR":"보물 위에 가만히 서 있으면 보상을 받을 수 있습니다. ",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":635,
+"NAME":"STR_MAP_S3_012_DESC",
+"STR_KR":"경비병 로빈과 대화 하세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":636,
+"NAME":"STR_MOB_N_0001",
+"STR_KR":"슬라임",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":637,
+"NAME":"STR_MOB_N_0002",
+"STR_KR":"허수아비",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":638,
+"NAME":"STR_NPC_N_0018",
+"STR_KR":"경비병 로빈",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":639,
+"NAME":"STR_STORY_NPC_20018_01",
+"STR_KR":"샹그리라를 찾는다고??",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":640,
+"NAME":"STR_STORY_NPC_20018_02",
+"STR_KR":"저 위에 죽은 자들이 돌아다니는 동굴이 있는데,",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":641,
+"NAME":"STR_STORY_NPC_20018_03",
+"STR_KR":"그 곳 깊숙한 곳에 무언가가 숨겨져 있다고 하더군.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":642,
+"NAME":"STR_STORY_NPC_20018_04",
+"STR_KR":"그 곳에 뭔가 단서가 있을지도 모르지.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":643,
+"NAME":"STR_STORY_NPC_20018_05",
+"STR_KR":"위험한 곳이니 목숨이 소중하다면 가지 않는게 좋아.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":644,
+"NAME":"STR_BOX_N_0001",
+"STR_KR":"보물상자",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":645,
+"NAME":"STR_MOB_N_0003",
+"STR_KR":"킹 슬라임",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":646,
+"NAME":"STR_NPC_N_0019",
+"STR_KR":"경비병 엘런",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":647,
+"NAME":"STR_STORY_NPC_20019_01",
+"STR_KR":"동쪽 숲으로 가실껀가요?",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":648,
+"NAME":"STR_STORY_NPC_20019_02",
+"STR_KR":"동쪽 숲은 몬스터들이 자주 출몰하고 있습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":649,
+"NAME":"STR_STORY_NPC_20019_03",
+"STR_KR":"출발 전에 장비를 꼼꼼히 챙기세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":650,
+"NAME":"STR_STORY_NPC_20019_04",
+"STR_KR":"그럼, 조심히 가세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":651,
+"NAME":"STR_ITEM_BOX_02",
+"STR_KR":"무기 상자",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":652,
+"NAME":"STR_ITEM_BOX_03",
+"STR_KR":"방어구 상자",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":653,
+"NAME":"STR_ITEM_BOX_04",
+"STR_KR":"방어구 상자",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":654,
+"NAME":"STR_ITEM_BOX_02_DESC",
+"STR_KR":"넓은 검, 나무 지팡이, 단도 중 하나가 들어있는 상자",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":655,
+"NAME":"STR_ITEM_BOX_03_DESC",
+"STR_KR":"가죽 갑옷 또는 천 옷이 들어있는 상자",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":656,
+"NAME":"STR_ITEM_BOX_04_DESC",
+"STR_KR":"구리 갑옷 또는 가죽 옷이 들어있는 상자",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":657,
+"NAME":"STR_REGION_01",
+"STR_KR":"수행의 방",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":658,
+"NAME":"STR_REGION_02",
+"STR_KR":"숲 속 마을",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":659,
+"NAME":"STR_REGION_03",
+"STR_KR":"동쪽 숲",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":660,
+"NAME":"STR_REGION_04",
+"STR_KR":"죽은 자의 동굴",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":661,
+"NAME":"STR_REGION_05",
+"STR_KR":"광산 마을",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":662,
+"NAME":"STR_UI_SORT",
+"STR_KR":"정렬",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":663,
+"NAME":"STR_TITLE_REGION",
+"STR_KR":"지역 선택",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":664,
+"NAME":"STR_UI_CHANGE_REGION",
+"STR_KR":"지역 변경",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":665,
+"NAME":"STR_ITEM_BOX_05",
+"STR_KR":"잠겨있는 구리 상자",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":666,
+"NAME":"STR_ITEM_BOX_06",
+"STR_KR":"잠겨있는 은 상자",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":667,
+"NAME":"STR_ITEM_BOX_07",
+"STR_KR":"잠겨있는 금 상자",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":668,
+"NAME":"STR_ITEM_BOX_05_DESC",
+"STR_KR":"무언가가 들어있는 상자. 열기 위해선 구리 열쇠가 필요하다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":669,
+"NAME":"STR_ITEM_BOX_06_DESC",
+"STR_KR":"무언가가 들어있는 상자. 열기 위해선 은 열쇠가 필요하다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":670,
+"NAME":"STR_ITEM_BOX_07_DESC",
+"STR_KR":"무언가가 들어있는 상자. 열기 위해선 금 열쇠가 필요하다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":671,
+"NAME":"STR_ITEM_KEY_03",
+"STR_KR":"금 열쇠",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":672,
+"NAME":"STR_ITEM_KEY_03_DESC",
+"STR_KR":"금 상자를 열 수 있는 열쇠",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":673,
+"NAME":"STR_UI_MEMBERSHIP_COND_1",
+"STR_KR":"실버 등급 이상",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":674,
+"NAME":"STR_UI_MEMBERSHIP_COND_2",
+"STR_KR":"골드 등급 이상",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":675,
+"NAME":"STR_UI_MEMBERSHIP_COND_3",
+"STR_KR":"다이아몬드 등급 이상",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":676,
+"NAME":"STR_UI_MEMBERSHIP_COND_4",
+"STR_KR":"플래티넘 등급 이상",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":677,
+"NAME":"STR_TITLE_SUMMON",
+"STR_KR":"영웅 소환",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":678,
+"NAME":"STR_TITLE_USER_INFO",
+"STR_KR":"회원 정보",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":679,
+"NAME":"STR_UI_INITIAL",
+"STR_KR":"이니셜",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":680,
+"NAME":"STR_UI_CHANGE",
+"STR_KR":"변경",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":681,
+"NAME":"STR_UI_MEMBERSHIP",
+"STR_KR":"회원 등급",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":682,
+"NAME":"STR_UI_MEM_GRADE_0",
+"STR_KR":"브론즈",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":683,
+"NAME":"STR_UI_MEM_GRADE_1",
+"STR_KR":"실버",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":684,
+"NAME":"STR_UI_MEM_GRADE_2",
+"STR_KR":"골드",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":685,
+"NAME":"STR_UI_MEM_GRADE_3",
+"STR_KR":"다이아몬드",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":686,
+"NAME":"STR_UI_MEM_GRADE_4",
+"STR_KR":"플래티넘",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":687,
+"NAME":"STR_UI_CHANGE_PW",
+"STR_KR":"비밀번호 변경",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":688,
+"NAME":"STR_TITLE_NOTICE",
+"STR_KR":"알림",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":689,
+"NAME":"STR_MSG_EDIT_INITIAL",
+"STR_KR":"이니셜이 변경되었습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":690,
+"NAME":"STR_MOB_N_0004",
+"STR_KR":"좀비",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":691,
+"NAME":"STR_MOB_N_0005",
+"STR_KR":"토끼",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":692,
+"NAME":"STR_MOB_N_0006",
+"STR_KR":"갈색 늑대",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":693,
+"NAME":"STR_MOB_N_0007",
+"STR_KR":"회색 늑대",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":694,
+"NAME":"STR_MOB_N_0008",
+"STR_KR":"백색 늑대",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":695,
+"NAME":"STR_MOB_N_0009",
+"STR_KR":"보라색 나비",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":696,
+"NAME":"STR_MOB_N_0010",
+"STR_KR":"붉은 식인 식물",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":697,
+"NAME":"STR_MOB_N_0011",
+"STR_KR":"화룡",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":698,
+"NAME":"STR_MOB_N_0012",
+"STR_KR":"서큐버스",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":699,
+"NAME":"STR_MAP_S3_013",
+"STR_KR":"로빈의 고민",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":700,
+"NAME":"STR_MAP_S3_014",
+"STR_KR":"회색 늑대 처치",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":701,
+"NAME":"STR_MAP_S3_015",
+"STR_KR":"로빈의 선물",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":702,
+"NAME":"STR_MAP_S3_013_DESC",
+"STR_KR":"경비병 로빈의 고민을 들어 보세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":703,
+"NAME":"STR_MAP_S3_014_DESC",
+"STR_KR":"회색 늑대를 처치 하세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":704,
+"NAME":"STR_MAP_S3_015_DESC",
+"STR_KR":"경비병 로빈과 대화하세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":705,
+"NAME":"STR_STORY_NPC_20020_01",
+"STR_KR":"회색 늑대라고 들어 봤어?",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":706,
+"NAME":"STR_STORY_NPC_20020_02",
+"STR_KR":"매우 빠르고 무서운 놈이지.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":707,
+"NAME":"STR_STORY_NPC_20020_03",
+"STR_KR":"요즘 그 녀석이 자꾸 이 곳에 나타나서 걱정이야.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":708,
+"NAME":"STR_STORY_NPC_20020_04",
+"STR_KR":"혹시 그 녀석을 처치해 줄 수 있겠어?",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":709,
+"NAME":"STR_STORY_NPC_20021_01",
+"STR_KR":"회색 늑대를 처치했다고?",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":710,
+"NAME":"STR_STORY_NPC_20021_02",
+"STR_KR":"정말 대단한 걸.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":711,
+"NAME":"STR_STORY_NPC_20021_03",
+"STR_KR":"감사의 인사로 좋은 정보를 알려 줄께.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":712,
+"NAME":"STR_STORY_NPC_20021_04",
+"STR_KR":"광산 마을 가는 길에 동굴이 하나 있는데,",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":713,
+"NAME":"STR_STORY_NPC_20021_05",
+"STR_KR":"그 곳에 가면 보물이 숨겨져 있다는군.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":714,
+"NAME":"STR_STORY_NPC_20021_06",
+"STR_KR":"시간 되면 한 번 가봐.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":715,
+"NAME":"STR_MSG_SUMMON",
+"STR_KR":"{0}등급 영웅 {1}(을)를 소환했습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":716,
+"NAME":"STR_TITLE_BUY_SUCCESS",
+"STR_KR":"구매 완료",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":717,
+"NAME":"STR_MSG_BUY_SUCCESS",
+"STR_KR":"{0}(을)를 구매하였습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":718,
+"NAME":"STR_UI_CUR_PW",
+"STR_KR":"현재 비밀번호",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":719,
+"NAME":"STR_UI_NEW_PW",
+"STR_KR":"새 비밀번호",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":720,
+"NAME":"STR_UI_CONFORM_PW",
+"STR_KR":"비밀번호 확인",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":721,
+"NAME":"STR_TITLE_CHANGE_PW",
+"STR_KR":"비밀번호 변경",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":722,
+"NAME":"STR_MSG_CHANGE_PW",
+"STR_KR":"비밀번호를 변경하겠습니까?",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":723,
+"NAME":"STR_MSG_CHANGED_PW",
+"STR_KR":"비밀번호가 변경되었습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":724,
+"NAME":"STR_UI_FIND_PW",
+"STR_KR":"[u]비밀번호를 잊어버렸습니다.[/u]",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":725,
+"NAME":"STR_TITLE_FIND_PW",
+"STR_KR":"비밀번호 찾기",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":726,
+"NAME":"STR_MSG_FIND_PW",
+"STR_KR":"임시 비밀번호를 입력된 이메일로 발송합니다.\n계속 하겠습니까?",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":727,
+"NAME":"STR_TITLE_MAIL_PW",
+"STR_KR":"발송 완료",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":728,
+"NAME":"STR_MSG_MAIL_PW",
+"STR_KR":"메일이 발송되었습니다. 접속 후 비밀번호를 변경해 주세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":729,
+"NAME":"STR_MAIL_SUB",
+"STR_KR":"10초 RPG 임시 비밀 번호",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":730,
+"NAME":"STR_MAIL_MSG",
+"STR_KR":"10초 RPG 임시 비밀 번호는 {0}입니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":731,
+"NAME":"STR_TITLE_REVIEW",
+"STR_KR":"게임 리뷰",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":732,
+"NAME":"STR_MSG_REVIEW",
+"STR_KR":"게임 리뷰 페이지로 이동하겠습니까?",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":733,
+"NAME":"STR_TITLE_BUG",
+"STR_KR":"버그 제보",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":734,
+"NAME":"STR_MSG_BUG",
+"STR_KR":"버그 제보 페이지로 이동하겠습니까?",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":735,
+"NAME":"STR_MSG_SUMMON_02",
+"STR_KR":"{0}등급 {1} 외 {2}명을 소환했습니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":736,
+"NAME":"STR_ITEM_BOX_08",
+"STR_KR":"소환권 상자",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":737,
+"NAME":"STR_ITEM_BOX_08_DESC",
+"STR_KR":"A등급 영웅 소환권이 들어있는 상자",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":738,
+"NAME":"STR_ITEM_SUMMON_01",
+"STR_KR":"패트릭 소환권",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":739,
+"NAME":"STR_ITEM_SUMMON_01_DESC",
+"STR_KR":"사용 시 A등급 영웅 패트릭을 소환합니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":740,
+"NAME":"STR_ITEM_SUMMON_02",
+"STR_KR":"앤드류 소환권",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":741,
+"NAME":"STR_ITEM_SUMMON_03",
+"STR_KR":"바르반 바르반",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":742,
+"NAME":"STR_ITEM_SUMMON_04",
+"STR_KR":"헤르미나 소환권",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":743,
+"NAME":"STR_ITEM_SUMMON_05",
+"STR_KR":"카네키 소환권",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":744,
+"NAME":"STR_ITEM_SUMMON_02_DESC",
+"STR_KR":"사용 시 A등급 영웅 앤드류를 소환합니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":745,
+"NAME":"STR_ITEM_SUMMON_03_DESC",
+"STR_KR":"사용 시 A등급 영웅 바르반을 소환합니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":746,
+"NAME":"STR_ITEM_SUMMON_04_DESC",
+"STR_KR":"사용 시 A등급 영웅 헤르미나를 소환합니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":747,
+"NAME":"STR_ITEM_SUMMON_05_DESC",
+"STR_KR":"사용 시 A등급 영웅 카네키를 소환합니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":748,
+"NAME":"STR_ITEM_EQUIP_R_AC_01",
+"STR_KR":"조르의 반지",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":749,
+"NAME":"STR_ITEM_EQUIP_R_AC_02",
+"STR_KR":"조르의 반지",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":750,
+"NAME":"STR_ITEM_EQUIP_R_AC_03",
+"STR_KR":"조르의 반지",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":751,
+"NAME":"STR_ITEM_EQUIP_R_AC_04",
+"STR_KR":"조르의 반지",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":752,
+"NAME":"STR_ITEM_EQUIP_R_AC_05",
+"STR_KR":"조르의 반지",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":753,
+"NAME":"STR_ITEM_EQUIP_R_AC_01_DESC",
+"STR_KR":"마왕 조르의 힘이 봉인된 반지",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":754,
+"NAME":"STR_ITEM_EQUIP_R_AC_02_DESC",
+"STR_KR":"마왕 조르의 힘이 봉인된 반지",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":755,
+"NAME":"STR_ITEM_EQUIP_R_AC_03_DESC",
+"STR_KR":"마왕 조르의 힘이 봉인된 반지",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":756,
+"NAME":"STR_ITEM_EQUIP_R_AC_04_DESC",
+"STR_KR":"마왕 조르의 힘이 봉인된 반지",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":757,
+"NAME":"STR_ITEM_EQUIP_R_AC_05_DESC",
+"STR_KR":"마왕 조르의 힘이 봉인된 반지",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":758,
+"NAME":"STR_ITEM_BOX_09",
+"STR_KR":"조르의 보석함",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":759,
+"NAME":"STR_ITEM_BOX_09_DESC",
+"STR_KR":"조르의  반지가 들어있는 상자",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":760,
+"NAME":"STR_GOODS_SUMMON_20",
+"STR_KR":"A등급 영웅 5회 소환",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":761,
+"NAME":"STR_GOODS_SUMMON_20_DESC",
+"STR_KR":"패트릭, 앤드류, 바르반, 헤르미나, 카네키 또는 히든 영웅 중 한 명이 소환됩니다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":762,
+"NAME":"STR_GOODS_EXCHANGE_06",
+"STR_KR":"2,000만 골드",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":763,
+"NAME":"STR_GOODS_EXCHANGE_05",
+"STR_KR":"코인 500개",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":764,
+"NAME":"STR_CHA_A_0006",
+"STR_KR":"마르쿠스",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":765,
+"NAME":"STR_CHA_A_0007",
+"STR_KR":"제임스",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":766,
+"NAME":"STR_CHA_S_0001",
+"STR_KR":"니콜",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":767,
+"NAME":"STR_CHA_A_0006_DESC",
+"STR_KR":"제5 군단 십부장, 방어에 뛰어나다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":768,
+"NAME":"STR_CHA_A_0007_DESC",
+"STR_KR":"황무지의 늑대, 목표를 놓치지 않는다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":769,
+"NAME":"STR_CHA_S_0001_DESC",
+"STR_KR":"코드네임 블리츠, 밸런스가 뛰어나다.",
+"STR_EN":"",
+"STR_JP":""
+}
+]
+}

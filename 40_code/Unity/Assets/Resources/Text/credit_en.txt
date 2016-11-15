@@ -1,0 +1,82 @@
+﻿[i][b][31bbf5]Production[-][/b][/i]
+Meteora Game Studio
+
+
+
+[i][b][31bbf5]Director[-][/b][/i]
+Divid Byun
+
+
+
+[i][b][31bbf5]Game Design[-][/b][/i]
+
+[b][31f33e]System Design[-][/b]
+Divid Byun
+
+[b][31f33e]Contents Design[-][/b]
+Divid Byun
+
+[b][31f33e]Level Design[-][/b]
+Divid Byun
+
+[b][31f33e]Game Balance[-][/b]
+Divid Byun
+
+[b][31f33e]UI Design[-][/b]
+Divid Byun
+
+[b][31f33e]Game Story[-][/b]
+Keonghun Kim
+
+
+
+[i][b][31bbf5]Programming[-][/b][/i]
+
+[b][31f33e]Game System[-][/b]
+Divid Byun
+
+[b][31f33e]AI Programming[-][/b]
+Divid Byun
+
+[b][31f33e]UI Programming[-][/b]
+Divid Byun
+
+
+
+[i][b][31bbf5]Game Graphics[-][/b][/i]
+
+[b][31f33e]Character[-][/b]
+Divid Byun
+
+[b][31f33e]Animation[-][/b]
+Divid Byun
+
+[b][31f33e]Effect[-][/b]
+Divid Byun
+
+[b][31f33e]UI[-][/b]
+Divid Byun
+
+[b][31f33e]Background[-][/b]
+Divid Byun
+
+
+
+[i][b][31bbf5]Sound[-][/b][/i]
+
+[b][31f33e]BGM[-][/b]
+Divid Byun
+
+[b][31f33e]Sound Effect[-][/b]
+Divid Byun
+
+
+
+[i][b][31bbf5]Tester[-][/b][/i]
+Divid Byun
+
+
+
+[i][b][31bbf5]Thanks for[-][/b][/i]
+Bokeong Kim
+Sukwon Nam

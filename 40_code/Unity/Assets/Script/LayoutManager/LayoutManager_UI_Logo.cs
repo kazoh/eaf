@@ -1,0 +1,169 @@
+﻿using UnityEngine;
+using UnityEngine.SceneManagement;
+using System.Collections;
+using System;
+
+public class LayoutManager_UI_Logo : LayoutManager {
+
+	public Animation AnimLogo;
+    public UILabel LabelStart;
+    public UILabel LabelVersion;
+    public UISprite SpriteTitle;
+    public UISprite SpriteLogo;
+
+    public GameObject WarningRoot;
+
+	private string startText;
+	private bool isReady = false;
+    private bool isInit;
+
+    private Component_UI_Loading loader;
+
+    public override void Init()
+    {
+        WarningRoot.SetActive(true);
+        StartCoroutine(Loading());
+    }
+
+    IEnumerator StartLogo()
+    {
+        yield return new WaitForSeconds(3);
+
+        WarningRoot.SetActive(false);
+        AnimLogo.Play();
+        isInit = true;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (!isInit || AnimLogo.isPlaying || isReady) return;
+        GameProcess.PlaySound(SOUND_EFFECT.BGM, "bgm_01");
+        LabelVersion.text = "Ver " + GameProcess.Instance.ShortVersion;
+        StartCoroutine(AnimStartText());
+        isReady = true;
+    }
+
+    protected override IEnumerator Loading()
+    {
+        yield return base.Loading();
+
+        LabelStart.text = string.Empty;
+
+#if UNITY_EDITOR
+        SystemLanguage lang = GameProcess.Instance.Language;
+#else
+        SystemLanguage lang = Application.systemLanguage;
+#endif
+        switch (lang)
+        {
+            case SystemLanguage.Korean:
+                SpriteTitle.spriteName = "title_ko";
+                SpriteLogo.spriteName = "logo_ko";
+                startText = "화 면 을  터 치 해  주 세 요 .";
+                break;
+
+            case SystemLanguage.Japanese:
+                SpriteTitle.spriteName = "title_ja";
+                SpriteLogo.spriteName = "logo_ja";
+                startText = "画 面 を タ ッ チ し て く だ さ い 。";
+                break;
+
+            default:
+                SpriteTitle.spriteName = "title_en";
+                SpriteLogo.spriteName = "logo_en";
+                startText = "T o u c h  t o  s t a r t .";
+                break;
+        }
+        LabelVersion.text = "";
+
+        StartCoroutine(StartLogo());
+    }
+
+    bool isLock = false;
+	public void OnClick_Start()
+	{
+		if(!isReady || isLock) return;
+		isLock = true;
+
+        GameProcess.PlaySound(SOUND_EFFECT.CLICK);
+        StartCoroutine(GameStarting());
+	}
+
+    IEnumerator GameStarting()
+    {
+        GameProcess.ShowLoading();
+
+        yield return null;
+
+        /* 테이블 데이터 로딩 */
+        try
+        {
+            GameProcess.LoadTable();
+            DBManager.GetServerState(delegate (int _state)
+            {
+                try
+                {
+                    switch(_state)
+                    {
+                        case -1: throw new GameException(GameException.ErrorCode.UnknownServerError);
+                        case 0: throw new GameException(GameException.ErrorCode.ServerShutDown);
+                        case 2: throw new GameException(GameException.ErrorCode.CloseTest);
+                        default:
+                            DBManager.GetConfig(delegate (bool _isFail, string _data)
+                            {
+                                try
+                                {
+                                    if (_isFail) throw new GameException(GameException.ErrorCode.FailToGetGameConfig);
+                                    GameProcess.SetGameConfig(_data);
+                                    LoadScene("LogInScene");
+                                }
+                                catch (GameException e)
+                                {
+                                    Debug.LogError(e.Msg);
+                                    GameProcess.ShowError(e);
+                                }
+                                catch (Exception e)
+                                {
+                                    Debug.LogError(e.Message);
+                                    GameProcess.ShowError(new GameException(GameException.ErrorCode.Unknown, e.Message));
+                                }
+                            });
+                            break;
+                    }
+                }
+                catch (GameException e)
+                {
+                    Debug.LogError(e.Msg);
+                    GameProcess.ShowError(e);
+                }
+                catch (Exception e)
+                {
+                    Debug.LogError(e.Message);
+                    GameProcess.ShowError(new GameException(GameException.ErrorCode.Unknown, e.Message));
+                }
+            });
+        }
+        catch (GameException e)
+        {
+            Debug.LogError(e.Msg);
+            GameProcess.ShowError(e);
+        }
+        catch (Exception e)
+        {
+            Debug.LogError(e.Message);
+            Quit();
+        }
+    }
+
+    IEnumerator AnimStartText()
+    {
+        while(true)
+        {
+            LabelStart.text = startText;
+            yield return new WaitForSeconds(1f);
+            LabelStart.text = string.Empty;
+            yield return new WaitForSeconds(0.5f);
+        }
+    }
+}
