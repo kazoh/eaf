@@ -17,9 +17,7 @@ public class GameSettingManager {
         if (PlayerPrefs.HasKey("EFFECT_VOLUME")) EffectVolume = PlayerPrefs.GetFloat("EFFECT_VOLUME");
         else EffectVolume = 1;
 
-#if UNITY_EDITOR
         Debug.Log("[GameSettingManager] GameSettingManager 생성 완료!!!");
-#endif
 
     }
 

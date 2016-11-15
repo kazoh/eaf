@@ -210,13 +210,13 @@ public class LayoutManager_UI_Game : LayoutManager {
         }
         catch (GameException e)
         {
-            ShowErrorPopup(e);
+            GameProcess.ShowError(e);
             OnFinishLoading();
             OnClickGameEnd();
         }
         catch (Exception e)
         {
-            ShowErrorPopup(new GameException(GameException.ErrorCode.Unknown, e.Message));
+            GameProcess.ShowError(new GameException(GameException.ErrorCode.Unknown, e.Message));
             OnFinishLoading();
             OnClickGameEnd();
         }
@@ -250,13 +250,13 @@ public class LayoutManager_UI_Game : LayoutManager {
         }
         catch (GameException e)
         {
-            ShowErrorPopup(e);
+            GameProcess.ShowError(e);
             OnFinishLoading();
             OnClickGameEnd();
         }
         catch (Exception e)
         {
-            ShowErrorPopup(new GameException(GameException.ErrorCode.Unknown, e.Message));
+            GameProcess.ShowError(new GameException(GameException.ErrorCode.Unknown, e.Message));
             OnFinishLoading();
             OnClickGameEnd();
         }
@@ -292,12 +292,12 @@ public class LayoutManager_UI_Game : LayoutManager {
         }
         catch (GameException e)
         {
-            ShowErrorPopup(e);
+            GameProcess.ShowError(e);
         }
         catch (Exception e)
         {
             Debug.LogError(e);
-            ShowErrorPopup(new GameException(GameException.ErrorCode.Unknown, e.Message));
+            GameProcess.ShowError(new GameException(GameException.ErrorCode.Unknown, e.Message));
         }
     }
 
@@ -467,26 +467,7 @@ public class LayoutManager_UI_Game : LayoutManager {
                 break;
 
             case GameEnum.Menu.EXIT:
-                title = TableManager.GetString("STR_TITLE_EXIT");
-                msg = TableManager.GetString("STR_MSG_EXIT");
-                text1 = TableManager.GetString("STR_UI_YES");
-                text2 = TableManager.GetString("STR_UI_NO");
-                GameProcess.ShowPopup(NoticeType.YES_NO, title, msg, text1, text2, delegate ()
-                {
-                    try
-                    {
-                        GameProcess.Instance.Quit();
-                    }
-                    catch (GameException e)
-                    {
-                        ShowErrorPopup(e);
-                    }
-                    catch (Exception e)
-                    {
-                        ShowErrorPopup(new GameException(GameException.ErrorCode.Unknown, e.Message));
-                    }
-
-                }, null);
+                Quit();
                 break;
 
         }
@@ -580,11 +561,11 @@ public class LayoutManager_UI_Game : LayoutManager {
                 }
                 catch (GameException e)
                 {
-                    ShowErrorPopup(e);
+                    GameProcess.ShowError(e);
                 }
                 catch (Exception e)
                 {
-                    ShowErrorPopup(new GameException(GameException.ErrorCode.Unknown, e.Message));
+                    GameProcess.ShowError(new GameException(GameException.ErrorCode.Unknown, e.Message));
                 }
             }, null);
         }
@@ -635,9 +616,9 @@ public class LayoutManager_UI_Game : LayoutManager {
                         switch(_data.Membership)
                         {
                             case 1: throw new GameException(GameException.ErrorCode.OnlySilverMembership);
-                            case 2: throw new GameException(GameException.ErrorCode.OnlySilverMembership);
-                            case 3: throw new GameException(GameException.ErrorCode.OnlySilverMembership);
-                            case 4: throw new GameException(GameException.ErrorCode.OnlySilverMembership);
+                            case 2: throw new GameException(GameException.ErrorCode.OnlyGoldMembership);
+                            case 3: throw new GameException(GameException.ErrorCode.OnlyDiaMembership);
+                            case 4: throw new GameException(GameException.ErrorCode.OnlyPlatinumMembership);
                             default: throw new GameException(GameException.ErrorCode.CanNotUseMembershipService);
                         }
                     }
@@ -703,11 +684,11 @@ public class LayoutManager_UI_Game : LayoutManager {
                 }
                 catch (GameException e)
                 {
-                    ShowErrorPopup(e);
+                    GameProcess.ShowError(e);
                 }
                 catch (Exception e)
                 {
-                    ShowErrorPopup(new GameException(GameException.ErrorCode.Unknown, e.Message));
+                    GameProcess.ShowError(new GameException(GameException.ErrorCode.Unknown, e.Message));
                 }
 
             },null);
@@ -732,11 +713,11 @@ public class LayoutManager_UI_Game : LayoutManager {
         }
         catch (GameException e)
         {
-            ShowErrorPopup(e);
+            GameProcess.ShowError(e);
         }
         catch (Exception e)
         {
-            ShowErrorPopup(new GameException(GameException.ErrorCode.Unknown, e.Message));
+            GameProcess.ShowError(new GameException(GameException.ErrorCode.Unknown, e.Message));
         }
     }
 
@@ -770,11 +751,11 @@ public class LayoutManager_UI_Game : LayoutManager {
             }
             catch (GameException e)
             {
-                ShowErrorPopup(e);
+                GameProcess.ShowError(e);
             }
             catch (Exception e)
             {
-                ShowErrorPopup(new GameException(GameException.ErrorCode.Unknown, e.Message));
+                GameProcess.ShowError(new GameException(GameException.ErrorCode.Unknown, e.Message));
             }
 
         }, null);
@@ -810,11 +791,11 @@ public class LayoutManager_UI_Game : LayoutManager {
             }
             catch (GameException e)
             {
-                ShowErrorPopup(e);
+                GameProcess.ShowError(e);
             }
             catch (Exception e)
             {
-                ShowErrorPopup(new GameException(GameException.ErrorCode.Unknown, e.Message));
+                GameProcess.ShowError(new GameException(GameException.ErrorCode.Unknown, e.Message));
             }
 
         }, null);
@@ -859,11 +840,11 @@ public class LayoutManager_UI_Game : LayoutManager {
             }
             catch (GameException e)
             {
-                ShowErrorPopup(e);
+                GameProcess.ShowError(e);
             }
             catch (Exception e)
             {
-                ShowErrorPopup(new GameException(GameException.ErrorCode.Unknown, e.Message));
+                GameProcess.ShowError(new GameException(GameException.ErrorCode.Unknown, e.Message));
             }
 
         }, null);
@@ -887,11 +868,11 @@ public class LayoutManager_UI_Game : LayoutManager {
             }
             catch (GameException e)
             {
-                ShowErrorPopup(e);
+                GameProcess.ShowError(e);
             }
             catch (Exception e)
             {
-                ShowErrorPopup(new GameException(GameException.ErrorCode.Unknown, e.Message));
+                GameProcess.ShowError(new GameException(GameException.ErrorCode.Unknown, e.Message));
             }
 
         }, null);
@@ -935,11 +916,11 @@ public class LayoutManager_UI_Game : LayoutManager {
                 }
                 catch (GameException e)
                 {
-                    ShowErrorPopup(e);
+                    GameProcess.ShowError(e);
                 }
                 catch (Exception e)
                 {
-                    ShowErrorPopup(new GameException(GameException.ErrorCode.Unknown, e.Message));
+                    GameProcess.ShowError(new GameException(GameException.ErrorCode.Unknown, e.Message));
                 }
             }, null);
 
@@ -961,11 +942,11 @@ public class LayoutManager_UI_Game : LayoutManager {
                 }
                 catch (GameException e)
                 {
-                    ShowErrorPopup(e);
+                    GameProcess.ShowError(e);
                 }
                 catch (Exception e)
                 {
-                    ShowErrorPopup(new GameException(GameException.ErrorCode.Unknown, e.Message));
+                    GameProcess.ShowError(new GameException(GameException.ErrorCode.Unknown, e.Message));
                 }
 
             }, null);
@@ -1013,11 +994,11 @@ public class LayoutManager_UI_Game : LayoutManager {
             }
             catch (GameException e)
             {
-                ShowErrorPopup(e);
+                GameProcess.ShowError(e);
             }
             catch (Exception e)
             {
-                ShowErrorPopup(new GameException(GameException.ErrorCode.Unknown, e.Message));
+                GameProcess.ShowError(new GameException(GameException.ErrorCode.Unknown, e.Message));
             }
 
         }, null);
@@ -1053,11 +1034,11 @@ public class LayoutManager_UI_Game : LayoutManager {
                 }
                 catch (GameException e)
                 {
-                    ShowErrorPopup(e);
+                    GameProcess.ShowError(e);
                 }
                 catch (Exception e)
                 {
-                    ShowErrorPopup(new GameException(GameException.ErrorCode.Unknown, e.Message));
+                    GameProcess.ShowError(new GameException(GameException.ErrorCode.Unknown, e.Message));
                 }
 
             }, null);
@@ -1082,11 +1063,11 @@ public class LayoutManager_UI_Game : LayoutManager {
                 }
                 catch (GameException e)
                 {
-                    ShowErrorPopup(e);
+                    GameProcess.ShowError(e);
                 }
                 catch (Exception e)
                 {
-                    ShowErrorPopup(new GameException(GameException.ErrorCode.Unknown, e.Message));
+                    GameProcess.ShowError(new GameException(GameException.ErrorCode.Unknown, e.Message));
                 }
 
             }, null);
@@ -1142,11 +1123,11 @@ public class LayoutManager_UI_Game : LayoutManager {
             }
             catch (GameException e)
             {
-                ShowErrorPopup(e);
+                GameProcess.ShowError(e);
             }
             catch (Exception e)
             {
-                ShowErrorPopup(new GameException(GameException.ErrorCode.Unknown, e.Message));
+                GameProcess.ShowError(new GameException(GameException.ErrorCode.Unknown, e.Message));
             }
 
         }, null);
@@ -1171,23 +1152,18 @@ public class LayoutManager_UI_Game : LayoutManager {
             }
             catch (GameException e)
             {
-                ShowErrorPopup(e);
+                GameProcess.ShowError(e);
             }
             catch (Exception e)
             {
-                ShowErrorPopup(new GameException(GameException.ErrorCode.Unknown, e.Message));
+                GameProcess.ShowError(new GameException(GameException.ErrorCode.Unknown, e.Message));
             }
 
         }, null);
     }
 
-    void ShowErrorPopup(GameException e)
+    protected override void Quit()
     {
-        GameProcess.ShowError(e);
-    }
-
-    void Quit()
-    {
-        GameProcess.Instance.Quit();
+        base.Quit();
     }
 }

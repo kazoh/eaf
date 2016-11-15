@@ -7,6 +7,6 @@ public class BackAndHomeKeyManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {               
-        if (Input.GetKeyDown(KeyCode.Escape)) SendMessage(FuncName);    	
+        if (Input.GetKeyDown(KeyCode.Escape)) SendMessage(FuncName,SendMessageOptions.DontRequireReceiver);    	
 	}
 }

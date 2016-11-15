@@ -25,7 +25,7 @@ public class LayoutManager : MonoBehaviour
         catch (GameException e)
         {
             Debug.LogError(e.Msg);
-            GameProcess.ShowError(e);
+            GameProcess.ShowError(e, "오류", "확인");
         }
         catch(Exception e)
         {
@@ -44,9 +44,28 @@ public class LayoutManager : MonoBehaviour
         GameProcess.HideLoading();
     }
 
-    protected void Quit()
+    protected virtual void Quit()
     {
-        Application.Quit();
+        string title = TableManager.GetString("STR_TITLE_EXIT");
+        string msg = TableManager.GetString("STR_MSG_EXIT");
+        string text1 = TableManager.GetString("STR_UI_YES");
+        string text2 = TableManager.GetString("STR_UI_NO");
+        GameProcess.ShowPopup(NoticeType.YES_NO, title, msg, text1, text2, delegate ()
+        {
+            try
+            {
+                GameProcess.Instance.Quit();
+            }
+            catch (GameException e)
+            {
+                GameProcess.ShowError(e);
+            }
+            catch (Exception e)
+            {
+                GameProcess.ShowError(new GameException(GameException.ErrorCode.Unknown, e.Message));
+            }
+
+        }, null);
     }
 
     protected void LoadScene(string scene)

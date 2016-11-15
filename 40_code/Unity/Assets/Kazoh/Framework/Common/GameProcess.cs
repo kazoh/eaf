@@ -74,11 +74,15 @@ public class GameProcess : MonoBehaviour
     void Awake()
     {
         DontDestroyOnLoad(this);
-        //Init();
     }
 
     void Init()
     {
+
+#if UNITY_EDITOR
+        if (ClearCache) PlayerPrefs.DeleteAll();
+#endif
+
         /* 절전 모드 해제 */
         Screen.sleepTimeout = SleepTimeout.NeverSleep;
 
@@ -140,7 +144,7 @@ public class GameProcess : MonoBehaviour
         //gdm.TestMapClear(50000, 3);
         //gdm.TestMapClear(50001, 2);
         //gdm.TestMapClear(50002, 1);
-#endif        
+#endif
 
         /* 미션 매니저 생성 */
         mm = new Manager_Mission();
@@ -150,12 +154,12 @@ public class GameProcess : MonoBehaviour
         hm = gameObject.AddComponent<HttpManager>();
         hm.Init();
 
+        /* 게임 설정 정보 생성 */
+        config = new GameConfig();
+
         /* 결제 매니저 생성 */
         iap = gameObject.AddComponent<IAPManager>();
         iap.Init();
-
-        /* 게임 설정 정보 생성 */
-        config = new GameConfig();
 
         ///* 페이스북 메니저 설정 */
         //if (fbManager == null)
@@ -170,10 +174,6 @@ public class GameProcess : MonoBehaviour
         //    gpgsManager = gameObject.AddComponent<GPGSManager>();
         //    gpgsManager.Init();
         //}
-
-#if UNITY_EDITOR
-        if (ClearCache) PlayerPrefs.DeleteAll();
-#endif
     }
 
     void OnDestroy()
@@ -185,7 +185,6 @@ public class GameProcess : MonoBehaviour
 
     void OnApplicationQuit()
     {
-        //gdm.Save();
 #if UNITY_EDITOR || DEBUG_MODE
         Debug.Log("Application Quit.");
 #endif
@@ -322,6 +321,21 @@ public class GameProcess : MonoBehaviour
         }
         else if (e.IsCritical) callback = Instance.Quit;
         Instance.Popup.Show(NoticeType.OK, title, msg, buttonText, callback);
+    }
+
+    public static void ShowError(GameException e, string title, string text)
+    {
+        string msg = e.Msg;
+        Action callback = null;
+        if (e.Code == GameException.ErrorCode.InvalidConfigVer) callback = Instance.OpenUrlAndQuit;
+        else if (e.Code == GameException.ErrorCode.Unknown)
+        {
+            callback = Instance.Quit;
+            string log = e.StackTrace;
+            DBManager.SaveErrorLog(log);
+        }
+        else if (e.IsCritical) callback = Instance.Quit;
+        Instance.Popup.Show(NoticeType.OK, title, msg, text, callback);
     }
 
     public static void ShowLoading()

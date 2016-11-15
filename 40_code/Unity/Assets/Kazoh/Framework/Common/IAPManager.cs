@@ -22,7 +22,7 @@ public class IAPManager : MonoBehaviour, IStoreListener
     // kProductIDSubscription - it has custom Apple and Google identifiers. We declare their store-
     // specific mapping to Unity Purchasing's AddProduct, below.
 
-    public static string[] kProductIDConsumable = {"eaf_item_01", "eaf_item_02", "eaf_item_03", "eaf_item_04", "eaf_item_05", "eaf_item_06" };
+    public static string[] kProductIDConsumable = {"eaf_item_01", "eaf_item_02", "eaf_item_03", "eaf_item_04", "eaf_item_05", "eaf_item_06"};
     public static string[] kProductIDNonConsumable = {"nonconsumable_item_01"};
     public static string[] kProductIDSubscription = {"subscription_item_01"};
 
@@ -65,22 +65,22 @@ public class IAPManager : MonoBehaviour, IStoreListener
         }
 
         // Continue adding the non-consumable product.
-        foreach (string _id in kProductIDNonConsumable)
-        {
-            builder.AddProduct(_id, ProductType.NonConsumable);
-        }
+        //foreach (string _id in kProductIDNonConsumable)
+        //{
+        //    builder.AddProduct(_id, ProductType.NonConsumable);
+        //}
 
         // And finish adding the subscription product. Notice this uses store-specific IDs, illustrating
         // if the Product ID was configured differently between Apple and Google stores. Also note that
         // one uses the general kProductIDSubscription handle inside the game - the store-specific IDs 
         // must only be referenced here. 
-        foreach (string _id in kProductIDSubscription)
-        {
-            builder.AddProduct(_id, ProductType.Subscription, new IDs(){
-                    { kProductNameAppleSubscription, AppleAppStore.Name },
-                    { kProductNameGooglePlaySubscription, GooglePlay.Name },
-                });
-        }
+        //foreach (string _id in kProductIDSubscription)
+        //{
+        //    builder.AddProduct(_id, ProductType.Subscription, new IDs(){
+        //            { kProductNameAppleSubscription, AppleAppStore.Name },
+        //            { kProductNameGooglePlaySubscription, GooglePlay.Name },
+        //        });
+        //}
 
         // Kick off the remainder of the set-up with an asynchrounous call, passing the configuration 
         // and this class' instance. Expect a response either in OnInitialized or OnInitializeFailed.
@@ -172,7 +172,7 @@ public class IAPManager : MonoBehaviour, IStoreListener
             {
                 // ... report the product look-up failure situation  
                 Debug.LogError("BuyProductID: FAIL. Not purchasing product, either is not found or is not available for purchase");
-                throw new GameException(GameException.ErrorCode.NotPurchasingProduct, "BuyProductID: FAIL. Not purchasing product, either is not found or is not available for purchase");
+                throw new GameException(GameException.ErrorCode.NotPurchasingProduct);
             }
         }
         // Otherwise ...
@@ -181,7 +181,7 @@ public class IAPManager : MonoBehaviour, IStoreListener
             // ... report the fact Purchasing has not succeeded initializing yet. Consider waiting longer or 
             // retrying initiailization.
             Debug.LogError("BuyProductID FAIL. Not initialized.");
-            throw new GameException(GameException.ErrorCode.NotInitializedPurchaser, "BuyProductID FAIL. Not initialized.");
+            throw new GameException(GameException.ErrorCode.NotInitializedPurchaser);
         }
     }
 
@@ -195,7 +195,7 @@ public class IAPManager : MonoBehaviour, IStoreListener
         {
             // ... report the situation and stop restoring. Consider either waiting longer, or retrying initialization.
             Debug.LogError("RestorePurchases FAIL. Not initialized.");
-            throw new GameException(GameException.ErrorCode.FailRestorePurchases, "RestorePurchases FAIL. Not initialized.");
+            throw new GameException(GameException.ErrorCode.FailRestorePurchases);
         }
 
         // If we are running on an Apple device ... 
@@ -224,7 +224,7 @@ public class IAPManager : MonoBehaviour, IStoreListener
         {
             // We are not running on an Apple device. No work is necessary to restore purchases.
             Debug.LogError("RestorePurchases FAIL. Not supported on this platform. Current = " + Application.platform);
-            throw new GameException(GameException.ErrorCode.FailRestorePurchases, "RestorePurchases FAIL. Not supported on this platform.");
+            throw new GameException(GameException.ErrorCode.FailRestorePurchases);
         }
     }
 
@@ -251,7 +251,6 @@ public class IAPManager : MonoBehaviour, IStoreListener
     {
         // Purchasing set-up has not succeeded. Check error for reason. Consider sharing this reason with the user.
         Debug.LogError("OnInitializeFailed InitializationFailureReason:" + error);
-        throw new GameException(GameException.ErrorCode.FailInitialization);
     }
 
 

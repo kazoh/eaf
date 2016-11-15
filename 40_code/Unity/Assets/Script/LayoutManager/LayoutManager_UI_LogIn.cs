@@ -156,4 +156,9 @@ public class LayoutManager_UI_LogIn : LayoutManager {
             GameProcess.ShowError(new GameException(GameException.ErrorCode.Unknown, e.Message));
         }
     }
+
+    protected override void Quit()
+    {
+        base.Quit();
+    }
 }

@@ -12,9 +12,7 @@ public class Manager_Mission
     {
         missionStack = new Stack<TableData_Mission>();
 
-#if UNITY_EDITOR
-        Debug.Log("미션 매니저 초기화!!!");
-#endif
+        Debug.Log("[Manager_Mission] 미션 매니저 초기화!!!");
     }
 
     public void Load()

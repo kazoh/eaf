@@ -40,4 +40,9 @@ public class LayoutManager_UI_Character : LayoutManager {
             Debug.LogError(e.Message);
         }
     }
+
+    protected override void Quit()
+    {
+        base.Quit();
+    }
 }

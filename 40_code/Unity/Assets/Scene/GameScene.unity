@@ -267,6 +267,26 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 452322, guid: 6f411e36ee14d5d408cdc685a17b25fd, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 600
+      objectReference: {fileID: 0}
+    - target: {fileID: 469800, guid: 6f411e36ee14d5d408cdc685a17b25fd, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 540
+      objectReference: {fileID: 0}
+    - target: {fileID: 487838, guid: 6f411e36ee14d5d408cdc685a17b25fd, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 480
+      objectReference: {fileID: 0}
+    - target: {fileID: 405604, guid: 6f411e36ee14d5d408cdc685a17b25fd, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 420
+      objectReference: {fileID: 0}
+    - target: {fileID: 430296, guid: 6f411e36ee14d5d408cdc685a17b25fd, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 360
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6f411e36ee14d5d408cdc685a17b25fd, type: 2}
   m_IsPrefabParent: 0
@@ -663,7 +683,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3037
+  startingRenderQueue: 3035
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -1206,6 +1226,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1013499225}
   - 114: {fileID: 1013499226}
+  - 114: {fileID: 1013499227}
   m_Layer: 5
   m_Name: LayoutManager
   m_TagString: Untagged
@@ -1264,6 +1285,18 @@ MonoBehaviour:
   SettingPopupUI: {fileID: 1383617379}
   DailyPopupUI: {fileID: 287898478}
   BgSprite: {fileID: 1788033704}
+--- !u!114 &1013499227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1013499224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ce76064aa77ba040a1c6a9518296697, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FuncName: Quit
 --- !u!1001 &1015192477
 Prefab:
   m_ObjectHideFlags: 0
@@ -1583,7 +1616,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3027
+  startingRenderQueue: 3025
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 3
@@ -1800,7 +1833,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3032
+  startingRenderQueue: 3030
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -2238,7 +2271,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3046
+  startingRenderQueue: 3045
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -2744,7 +2777,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3035
+  startingRenderQueue: 3033
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0

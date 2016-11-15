@@ -18,30 +18,13 @@ public class LayoutManager_UI_Logo : LayoutManager {
     private bool isInit;
 
     private Component_UI_Loading loader;
+    private string verText;
 
     public override void Init()
     {
         WarningRoot.SetActive(true);
+        verText = "Ver " + GameProcess.Instance.ShortVersion;
         StartCoroutine(Loading());
-    }
-
-    IEnumerator StartLogo()
-    {
-        yield return new WaitForSeconds(3);
-
-        WarningRoot.SetActive(false);
-        AnimLogo.Play();
-        isInit = true;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (!isInit || AnimLogo.isPlaying || isReady) return;
-        GameProcess.PlaySound(SOUND_EFFECT.BGM, "bgm_01");
-        LabelVersion.text = "Ver " + GameProcess.Instance.ShortVersion;
-        StartCoroutine(AnimStartText());
-        isReady = true;
     }
 
     protected override IEnumerator Loading()
@@ -77,7 +60,18 @@ public class LayoutManager_UI_Logo : LayoutManager {
         }
         LabelVersion.text = "";
 
-        StartCoroutine(StartLogo());
+        yield return new WaitForSeconds(3);
+
+        WarningRoot.SetActive(false);
+        AnimLogo.Play();
+        while (AnimLogo.isPlaying)
+        {
+            yield return null;
+        }
+        GameProcess.PlaySound(SOUND_EFFECT.BGM, "bgm_01");
+        LabelVersion.text = verText;
+        StartCoroutine(AnimStartText());
+        isReady = true;
     }
 
     bool isLock = false;
@@ -147,7 +141,7 @@ public class LayoutManager_UI_Logo : LayoutManager {
         catch (GameException e)
         {
             Debug.LogError(e.Msg);
-            GameProcess.ShowError(e);
+            GameProcess.ShowError(e,"오류","확인");
         }
         catch (Exception e)
         {
@@ -165,5 +159,10 @@ public class LayoutManager_UI_Logo : LayoutManager {
             LabelStart.text = string.Empty;
             yield return new WaitForSeconds(0.5f);
         }
+    }
+
+    protected override void Quit()
+    {
+        Application.Quit();
     }
 }

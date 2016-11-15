@@ -32,8 +32,9 @@ namespace Kazoh.Table{
 
             if (!instance.Init(ver))
             {
-                Debug.LogError("[TableManager] 테이블 매니저 초기화 실패!!!");
-                throw new GameException(GameException.ErrorCode.CanNotInitTableManager);
+                string log = "테이블 매니저 초기화에 실패했습니다.";
+                Debug.LogError(log);
+                throw new GameException(GameException.ErrorCode.CanNotInitTableManager, log);
             }
 
             /* 테이블 데이터 로딩 */
@@ -46,8 +47,9 @@ namespace Kazoh.Table{
 			    }
                 else
                 {
-                    Debug.LogError("[TableManager] 테이블 데이터 로딩 실패. 오류 테이블: " + name.ToString());
-                    throw new GameException(GameException.ErrorCode.CanNotLoadTable);
+                    string log = "테이블 데이터 로딩에 실패했습니다.오류 테이블: " + name.ToString();
+                    Debug.LogError(log);
+                    throw new GameException(GameException.ErrorCode.CanNotLoadTable, log);
                 }
             }
 
@@ -62,8 +64,9 @@ namespace Kazoh.Table{
                 }
                 else
                 {
-                    Debug.LogError("[TableManager] 테이블 데이터 로딩 실패. 오류 테이블: " + name.ToString());
-                    throw new GameException(GameException.ErrorCode.CanNotLoadTable);
+                    string log = "테이블 데이터 로딩에 실패했습니다.오류 테이블: " + name.ToString();
+                    Debug.LogError(log);
+                    throw new GameException(GameException.ErrorCode.CanNotLoadTable, log);
                 }
             }
 
@@ -77,9 +80,10 @@ namespace Kazoh.Table{
     #endif
                 }
                 else
-                {  
-                    Debug.LogError("[TableManager] 테이블 데이터 로딩 실패. 오류 테이블: " + name.ToString());
-                    throw new GameException(GameException.ErrorCode.CanNotLoadTable);
+                {
+                    string log = "테이블 데이터 로딩에 실패했습니다.오류 테이블: " + name.ToString();
+                    Debug.LogError(log);
+                    throw new GameException(GameException.ErrorCode.CanNotLoadTable, log);
                 }
             }
 
@@ -447,7 +451,8 @@ namespace Kazoh.Table{
             if (instance == null)
             {
                 Debug.LogError("[TableManager] 테이블 매니저가 초기화되지 않았습니다.");
-                throw new GameException(GameException.ErrorCode.CanNotInitTableManager);
+                //throw new GameException(GameException.ErrorCode.CanNotInitTableManager);
+                return name;
             }
 
             if(string.IsNullOrEmpty(name))

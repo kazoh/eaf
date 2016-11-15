@@ -61,9 +61,7 @@ public class GameDataManager
     public void Init()
     {
         keyData = EncryptedPlayerPrefs.keys[2];
-#if UNITY_EDITOR
-        Debug.Log("게임 데이터 매니저 초기화!!!");
-#endif
+        Debug.Log("[GameDataManager] 게임 데이터 매니저 초기화!!!");
     }
 
     public void Load(int _guid = 0,string _timeStr = "", Action _callback = null)
@@ -883,6 +881,7 @@ public class GameDataManager
                     }
                     Data_Reward reward = Data_Reward.DoDrop(list);
                     GameProcess.GetGameDataManager().ExcuteReward(reward);
+                    GameProcess.PlaySound(SOUND_EFFECT.COIN);
                     break;
 
                 case TableEnum.EffectType.SUMMON:
