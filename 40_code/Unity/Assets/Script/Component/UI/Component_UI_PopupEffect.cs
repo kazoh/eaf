@@ -87,8 +87,13 @@ public class Component_UI_PopupEffect : GameComponent
 
         for (int i = 0; i < ChaSpriteArray.Length; ++i)
         {
-            if(i < _spriteNames.Length) ChaSpriteArray[i].spriteName = _spriteNames[i] + "_02";
+            if (i < _spriteNames.Length) ChaSpriteArray[i].spriteName = _spriteNames[i] + "_02";
             ChaSpriteArray[i].alpha = 0f;
+        }
+
+        if (_spriteNames.Length == 1)
+        {
+            chaSprite.spriteName = _spriteNames[0] + "_02";
         }
 
         EffectSprite.alpha = 0f;

@@ -128,7 +128,7 @@ public class Component_Map_Player : GameComponent, IAttackable
         {
             pathQueue.Enqueue(paths[i]);
         }
-
+        
         State = PlayerState.Move;
     }
 
@@ -177,6 +177,9 @@ public class Component_Map_Player : GameComponent, IAttackable
         CharacterData = _data;
         actorName = CharacterData.Data.SpriteName;
         Speed = 32f / CharacterData.Spd;
+        animSpeed = 0.33f * Speed;
+        float audioLength = GameProcess.GetEffectLength(SOUND_EFFECT.MOVE1);
+        if (audioLength > animSpeed) animSpeed = audioLength;
         spriteFormat = actorName + "_{0:00}";
         ChaSprite.spriteName = string.Format(spriteFormat, 2);
     }
@@ -339,9 +342,6 @@ public class Component_Map_Player : GameComponent, IAttackable
         {
             curDir = dir;
             spriteNum = 0;
-            animSpeed = 0.33f * Speed;
-            float audioLength = GameProcess.GetEffectLength(SOUND_EFFECT.MOVE1);
-            if (audioLength > animSpeed) animSpeed = audioLength;
         }
     }
 
