@@ -14,12 +14,12 @@ public class Component_Map : GameComponent
     public UIPanel ObjectPanel;
     public UIPanel BottomPanel;
     public UIPanel TopPanel;
-    public int ColNum;
     public int PlayTime = 10;
     public List<Component_Map_Cell> CellList;
     public List<Component_Map_Object> ObjList;
     //public List<Component_Map_Bullet> PlayerBulletList;
 
+    public int ColNum { get; private set; }
     public Component_Map_Player Player { get; protected set; }
     public Component_Map_Timer Timer { get; protected set; }
 
@@ -199,6 +199,7 @@ public class Component_Map : GameComponent
 
     void SetCellList()
     {
+        ColNum = CellGrid.maxPerLine;
         CellList = new List<Component_Map_Cell>();
         int idx = 0;
         foreach(Transform c in CellGrid.GetChildList())

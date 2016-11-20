@@ -13,7 +13,7 @@ public class GameProcess : MonoBehaviour
         LIVE,
     }
 
-    const string PAGE_URL = "http://www.google.com";
+    const string PAGE_URL = "https://play.google.com/apps/testing/com.mtor.eaf";
 
     public Server TargetServer;
     public string Version;          // 플레이어 세팅의 앱 버전과 동일하게 입력할 것.

@@ -242,6 +242,15 @@
 "COIN":0,
 "ADD_COIN":0,
 "DROP_ARRAY":[{"ITEM":"item_equip_r_ac_01","PROB":2000},{"ITEM":"item_equip_r_ac_02","PROB":2000},{"ITEM":"item_equip_r_ac_03","PROB":2000},{"ITEM":"item_equip_r_ac_04","PROB":2000},{"ITEM":"item_equip_r_ac_05","PROB":2000},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0}]
+},
+{
+"ID":60027,
+"NAME":"drop_0028",
+"GOLD":100,
+"ADD_GOLD":0,
+"COIN":0,
+"ADD_COIN":0,
+"DROP_ARRAY":[{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0}]
 }
 ]
 }

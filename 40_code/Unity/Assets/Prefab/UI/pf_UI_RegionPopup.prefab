@@ -388,7 +388,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3060
+  startingRenderQueue: 3061
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 3
@@ -433,7 +433,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3061
+  startingRenderQueue: 3062
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -687,7 +687,7 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
-  mTexture: {fileID: 2800000, guid: 3d39529072bfc0640b9721835567b4e0, type: 3}
+  mTexture: {fileID: 2800000, guid: 1adcc5280351d5f4bad4aa033aced832, type: 3}
   mMat: {fileID: 0}
   mShader: {fileID: 4800000, guid: e75727d9555d9d14ca51d91908c681bc, type: 3}
   mBorder: {x: 0, y: 0, z: 0, w: 0}

@@ -38,9 +38,9 @@ public class Component_UI_PopupRegion : GameComponent
         foreach(Component_Item_Region component in listRegionObject)
         {
             TableData_Region data = list.Find(x => x.Name == component.RegionName);
+            component.Init(data);
             if (data != null)
             {
-                component.Init(data);
                 component.ClickedEvent += OnSelect;
             }
         }
@@ -50,11 +50,9 @@ public class Component_UI_PopupRegion : GameComponent
     {
         for(int i=0; i < listRegionObject.Count; ++i)
         {
-            listRegionObject[i].HideMarker();
+            if (listRegionObject[i].Data != null && listRegionObject[i].Data.Id == _curRegionId) listRegionObject[i].ShowMarker();
+            else listRegionObject[i].HideMarker();
         }
-
-        Component_Item_Region curRegion = listRegionObject.Find(x => x.Data.Id == _curRegionId);
-        if (curRegion != null) curRegion.ShowMarker();
         
         base.Show();
     }

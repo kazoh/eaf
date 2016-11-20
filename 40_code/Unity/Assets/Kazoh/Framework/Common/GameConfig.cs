@@ -36,8 +36,7 @@ public class GameConfig
     public int DefaultCriPercent { get; private set; }  // 최대 크리티컬.
     public int HpPerCon { get; private set; }           // 콘 당 최대Hp.
 
-    public int[] VipGradeArray;
-
+    public int[] VipGradeArray;                         // Vip 등급 달성을 위한 구매액 배열.
 
     public GameConfig()
     {

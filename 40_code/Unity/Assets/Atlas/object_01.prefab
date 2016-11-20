@@ -53,9 +53,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: f3f777ebeb3acf54f8659edf116600f7, type: 2}
   mSprites:
-  - name: object_12
-    x: 132
-    y: 285
+  - name: map_obj_01
+    x: 0
+    y: 26
     width: 32
     height: 32
     borderLeft: 0
@@ -66,9 +66,9 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: object_14
+  - name: map_obj_02
     x: 66
-    y: 285
+    y: 125
     width: 32
     height: 32
     borderLeft: 0
@@ -79,9 +79,9 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: object_20
+  - name: map_obj_03
     x: 198
-    y: 285
+    y: 158
     width: 32
     height: 32
     borderLeft: 0
@@ -92,9 +92,9 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: object_22
+  - name: map_obj_04
     x: 33
-    y: 252
+    y: 125
     width: 32
     height: 32
     borderLeft: 0
@@ -105,9 +105,35 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: object_25
+  - name: map_obj_05
+    x: 0
+    y: 158
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: map_obj_06
+    x: 0
+    y: 125
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: map_obj_07
     x: 33
-    y: 285
+    y: 26
     width: 32
     height: 32
     borderLeft: 0
@@ -118,9 +144,9 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: object_26
+  - name: map_obj_08
     x: 165
-    y: 285
+    y: 191
     width: 32
     height: 32
     borderLeft: 0
@@ -131,22 +157,9 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: object_27
-    x: 99
-    y: 285
-    width: 32
-    height: 32
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: object_32
+  - name: map_obj_09
     x: 0
-    y: 285
+    y: 191
     width: 32
     height: 32
     borderLeft: 0
@@ -157,35 +170,9 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: object_34
-    x: 0
-    y: 252
-    width: 32
-    height: 32
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: object_37
-    x: 130
-    y: 350
-    width: 64
-    height: 32
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: object_45
+  - name: map_obj_10
     x: 66
-    y: 252
+    y: 158
     width: 32
     height: 32
     borderLeft: 0
@@ -196,10 +183,10 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: object_48
-    x: 65
-    y: 350
-    width: 64
+  - name: map_obj_11
+    x: 99
+    y: 224
+    width: 32
     height: 32
     borderLeft: 0
     borderRight: 0
@@ -209,102 +196,11 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: object_66
-    x: 0
-    y: 448
-    width: 64
-    height: 64
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: object_71
-    x: 0
-    y: 383
-    width: 64
-    height: 64
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: object_74
-    x: 65
-    y: 383
-    width: 64
-    height: 64
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: object_75
-    x: 0
-    y: 318
-    width: 64
-    height: 64
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: object_85
-    x: 65
-    y: 448
-    width: 64
-    height: 64
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: object_92
-    x: 130
-    y: 383
-    width: 64
-    height: 64
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: object_93
-    x: 130
-    y: 448
-    width: 64
-    height: 64
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: object_96
-    x: 195
-    y: 383
+  - name: map_obj_12
+    x: 132
+    y: 158
     width: 32
-    height: 64
+    height: 32
     borderLeft: 0
     borderRight: 0
     borderTop: 0
@@ -313,11 +209,11 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: object_98
-    x: 195
-    y: 318
+  - name: map_obj_13
+    x: 33
+    y: 191
     width: 32
-    height: 64
+    height: 32
     borderLeft: 0
     borderRight: 0
     borderTop: 0
@@ -326,11 +222,245 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: object_99
-    x: 195
-    y: 448
+  - name: map_obj_14
+    x: 132
+    y: 224
     width: 32
-    height: 64
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: map_obj_15
+    x: 0
+    y: 59
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: map_obj_16
+    x: 33
+    y: 92
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: map_obj_17
+    x: 99
+    y: 191
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: map_obj_18
+    x: 33
+    y: 224
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: map_obj_19
+    x: 198
+    y: 191
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: map_obj_20
+    x: 66
+    y: 191
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: map_obj_21
+    x: 33
+    y: 158
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: map_obj_22
+    x: 66
+    y: 224
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: map_obj_23
+    x: 165
+    y: 224
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: map_obj_24
+    x: 66
+    y: 92
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: map_obj_25
+    x: 132
+    y: 191
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: map_obj_26
+    x: 165
+    y: 158
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: map_obj_27
+    x: 66
+    y: 59
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: map_obj_28
+    x: 198
+    y: 224
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: map_obj_29
+    x: 99
+    y: 158
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: map_obj_30
+    x: 0
+    y: 92
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: map_obj_31
+    x: 33
+    y: 59
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: map_obj_99
+    x: 0
+    y: 224
+    width: 32
+    height: 32
     borderLeft: 0
     borderRight: 0
     borderTop: 0

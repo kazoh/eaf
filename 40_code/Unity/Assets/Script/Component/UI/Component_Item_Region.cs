@@ -11,7 +11,6 @@ public class Component_Item_Region : GameComponent
 
     public string RegionName;
     public UILabel NameLabel;
-    public UISprite GuidSprite;
     public UISprite MarkerSprite;
 
     public TableData_Region Data { get; private set; }
@@ -20,13 +19,17 @@ public class Component_Item_Region : GameComponent
     {
         if(_data == null)
         {
-            Hide();
+            UISprite obj = GetComponent<UISprite>();
+            if (obj != null) obj.color = Color.gray;
+            BoxCollider collider = GetComponent<BoxCollider>();
+            if (collider != null) collider.enabled = false;
+            NameLabel.text = "";
+            //Hide();
             return;
         }
 
         Data = _data;
         
-        GuidSprite.alpha = 0f;
         NameLabel.text = TableManager.GetString(_data.Str);
         Show();
     }

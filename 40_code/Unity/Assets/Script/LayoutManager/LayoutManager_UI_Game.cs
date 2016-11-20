@@ -183,7 +183,44 @@ public class LayoutManager_UI_Game : LayoutManager {
         Debug.Log("게임 시작!! 맵 : " + mapId);
 #endif
         GameProcess.ShowLoading();
-        StartCoroutine(LoadingMap(mapId));
+        try
+        {
+            DBManager.GetServerState(delegate (int _state)
+            {
+                try
+                {
+                    switch (_state)
+                    {
+                        case -1: throw new GameException(GameException.ErrorCode.UnknownServerError);
+                        case 0: throw new GameException(GameException.ErrorCode.ServerShutDown);
+                        case 2: throw new GameException(GameException.ErrorCode.CloseTest);
+                        default:
+                            StartCoroutine(LoadingMap(mapId));
+                            break;
+                    }
+                }
+                catch (GameException e)
+                {
+                    Debug.LogError(e.Msg);
+                    GameProcess.ShowError(e);
+                }
+                catch (Exception e)
+                {
+                    Debug.LogError(e.Message);
+                    GameProcess.ShowError(new GameException(GameException.ErrorCode.Unknown, e.Message));
+                }
+            });
+        }
+        catch (GameException e)
+        {
+            Debug.LogError(e.Msg);
+            GameProcess.ShowError(e);
+        }
+        catch (Exception e)
+        {
+            Debug.LogError(e.Message);
+            GameProcess.ShowError(new GameException(GameException.ErrorCode.Unknown, e.Message));
+        }
     }
 
     IEnumerator LoadingMap(int _id)
