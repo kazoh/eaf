@@ -217,6 +217,11 @@ public class DBManager {
 
         _data = WWW.EscapeURL(_data);
         string _url = string.Format("{0}?CODE={1}&ID={2}&DATA={3}", Instance.URL_USER_DATA, (int)FuncCode.UPDATE_USER_DATA, _guid, _data);
+        //string _url = Instance.URL_USER_DATA;
+        //WWWForm _form = new WWWForm();
+        //_form.AddField("CODE", (int)FuncCode.UPDATE_USER_DATA);
+        //_form.AddField("ID", _guid);
+        //_form.AddField("DATA", _data);
         Instance.httpManager.CallRequest(_url, false, delegate (WWW www)
         {
             IDictionary dict = MiniJSON.Json.Deserialize(www.text) as IDictionary;

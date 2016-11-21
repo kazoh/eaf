@@ -180,11 +180,6 @@ public class GameDataManager
             }
             hash.Add("MAP_LIST", listMap);
 
-            //ArrayList iapHistory = listIapHistory.ToArray( new ArrayList();
-            //foreach (int productId in listIapHistory)
-            //{
-            //    listMap.Add(productId);
-            //}
             hash.Add("IAP_HISTORY", listIapHistory.ToArray());
 
             string data = Json.Serialize(hash);

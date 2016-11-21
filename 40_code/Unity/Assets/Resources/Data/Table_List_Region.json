@@ -19,6 +19,12 @@
 "ICON":"icon_map_0012"
 },
 {
+"ID":4,
+"NAME":"region_04",
+"STR":"STR_REGION_04",
+"ICON":"icon_map_0022"
+},
+{
 "ID":99,
 "NAME":"region_99",
 "STR":"STR_REGION_99",
