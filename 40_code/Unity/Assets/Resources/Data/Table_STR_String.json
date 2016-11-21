@@ -5662,6 +5662,412 @@
 "STR_KR":"그럼 행운이 있길 바랍니다.",
 "STR_EN":"",
 "STR_JP":""
+},
+{
+"ID":810,
+"NAME":"STR_MAP_S4_001",
+"STR_KR":"욕심",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":811,
+"NAME":"STR_MAP_S4_002",
+"STR_KR":"죽은 자의 동굴  1층",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":812,
+"NAME":"STR_MAP_S4_003",
+"STR_KR":"좀비 조심",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":813,
+"NAME":"STR_MAP_S4_004",
+"STR_KR":"박쥐 사냥",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":814,
+"NAME":"STR_MAP_S4_005",
+"STR_KR":"좀비방",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":815,
+"NAME":"STR_MAP_S4_006",
+"STR_KR":"숨겨진 방으로",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":816,
+"NAME":"STR_MAP_S4_007",
+"STR_KR":"보물방",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":817,
+"NAME":"STR_MAP_S4_008",
+"STR_KR":"동굴 1층",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":818,
+"NAME":"STR_MAP_S4_009",
+"STR_KR":"믿음",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":819,
+"NAME":"STR_MAP_S4_010",
+"STR_KR":"만족",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":820,
+"NAME":"STR_MAP_S4_011",
+"STR_KR":"지하 2층으로",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":821,
+"NAME":"STR_MAP_S4_012",
+"STR_KR":"죽은 자의 동굴 2층",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":822,
+"NAME":"STR_MAP_S4_013",
+"STR_KR":"구울 조심",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":823,
+"NAME":"STR_MAP_S4_014",
+"STR_KR":"함정 1",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":824,
+"NAME":"STR_MAP_S4_015",
+"STR_KR":"구울방",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":825,
+"NAME":"STR_MAP_S4_016",
+"STR_KR":"함정 2",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":826,
+"NAME":"STR_MAP_S4_017",
+"STR_KR":"라미를 찾아서",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":827,
+"NAME":"STR_MAP_S4_018",
+"STR_KR":"라미의 부탁",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":828,
+"NAME":"STR_MAP_S4_019",
+"STR_KR":"좀비의 영혼",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":829,
+"NAME":"STR_MAP_S4_020",
+"STR_KR":"라미에게 줄 선물",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":830,
+"NAME":"STR_MAP_S4_021",
+"STR_KR":"라미의 조언",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":831,
+"NAME":"STR_MAP_S4_022",
+"STR_KR":"서큐버스를 찾아서 1",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":832,
+"NAME":"STR_MAP_S4_023",
+"STR_KR":"서큐버스를 찾아서 2",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":833,
+"NAME":"STR_MAP_S4_024",
+"STR_KR":"서큐버스 처치",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":834,
+"NAME":"STR_MAP_S4_025",
+"STR_KR":"서고로 이동",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":835,
+"NAME":"STR_MAP_S4_026",
+"STR_KR":"단서",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":836,
+"NAME":"STR_MAP_S4_001_DESC",
+"STR_KR":"보물에 현혹되지 말고 이동하세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":837,
+"NAME":"STR_MAP_S4_002_DESC",
+"STR_KR":"덫을 피해 목표 지점까지 이동하세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":838,
+"NAME":"STR_MAP_S4_003_DESC",
+"STR_KR":"좀비를 피해 목표 지점까지 이동하세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":839,
+"NAME":"STR_MAP_S4_004_DESC",
+"STR_KR":"박쥐를 모두 처치 하세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":840,
+"NAME":"STR_MAP_S4_005_DESC",
+"STR_KR":"좀비를 모두 처치 하세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":841,
+"NAME":"STR_MAP_S4_006_DESC",
+"STR_KR":"문을 열고 숨겨진 방으로 이동하세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":842,
+"NAME":"STR_MAP_S4_007_DESC",
+"STR_KR":"숨겨진 방에서 골드를 획득한다.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":843,
+"NAME":"STR_MAP_S4_008_DESC",
+"STR_KR":"화살표로 이동하세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":844,
+"NAME":"STR_MAP_S4_009_DESC",
+"STR_KR":"목표 지점으로 이동하세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":845,
+"NAME":"STR_MAP_S4_010_DESC",
+"STR_KR":"제한 시간 안에 목표 지점으로 이동하세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":846,
+"NAME":"STR_MAP_S4_011_DESC",
+"STR_KR":"지하 2층으로 이동하세요",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":847,
+"NAME":"STR_MAP_S4_012_DESC",
+"STR_KR":"화염을 피해 다음 지역으로 이동하세요",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":848,
+"NAME":"STR_MAP_S4_013_DESC",
+"STR_KR":"구울을 피해 다음 지역으로 이동하세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":849,
+"NAME":"STR_MAP_S4_014_DESC",
+"STR_KR":"발 밑을 조심하며 다음 지역으로 이동하세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":850,
+"NAME":"STR_MAP_S4_015_DESC",
+"STR_KR":"구울을 모두 처치하세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":851,
+"NAME":"STR_MAP_S4_016_DESC",
+"STR_KR":"발 밑을 조심하며 다음 지역으로 이동하세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":852,
+"NAME":"STR_MAP_S4_017_DESC",
+"STR_KR":"영혼 수집가 라미를 찾아 보세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":853,
+"NAME":"STR_MAP_S4_018_DESC",
+"STR_KR":"라미와 대화해 보세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":854,
+"NAME":"STR_MAP_S4_019_DESC",
+"STR_KR":"좀비를 잡아 좀비의 영혼을 얻으세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":855,
+"NAME":"STR_MAP_S4_020_DESC",
+"STR_KR":"라미에게 좀비의 영혼 1개를 주세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":856,
+"NAME":"STR_MAP_S4_021_DESC",
+"STR_KR":"라미와 대화해 보세요",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":857,
+"NAME":"STR_MAP_S4_022_DESC",
+"STR_KR":"서큐버스를 찾으러 이동하세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":858,
+"NAME":"STR_MAP_S4_023_DESC",
+"STR_KR":"서큐버스 방으로 이동하세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":859,
+"NAME":"STR_MAP_S4_024_DESC",
+"STR_KR":"서큐버스를 처치하세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":860,
+"NAME":"STR_MAP_S4_025_DESC",
+"STR_KR":"서고로 이동하세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":861,
+"NAME":"STR_MAP_S4_026_DESC",
+"STR_KR":"책을 클릭해 샹그리라에 대한 정보를 얻어 보세요.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":862,
+"NAME":"STR_MOB_N_0013",
+"STR_KR":"박쥐",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":863,
+"NAME":"STR_MOB_N_0014",
+"STR_KR":"구울",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":864,
+"NAME":"STR_BOX_N_0002",
+"STR_KR":"보물상자",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":865,
+"NAME":"STR_BOX_N_0003",
+"STR_KR":"보물상자",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":866,
+"NAME":"STR_TRAP_N_0001",
+"STR_KR":"함정",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":867,
+"NAME":"STR_TRAP_N_0002",
+"STR_KR":"송곳",
+"STR_EN":"",
+"STR_JP":""
 }
 ]
 }

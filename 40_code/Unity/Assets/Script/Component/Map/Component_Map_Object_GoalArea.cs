@@ -8,13 +8,14 @@ public class Component_Map_Object_GoalArea : Component_Map_Object
 
     public int Width;
     public int Height;
+    public bool UseSprite;
 
     private UISprite areaSprite;
 
     public override void Init()
     {
         areaSprite = gameObject.GetComponentInChildren<UISprite>();
-        if (areaSprite != null)
+        if (areaSprite != null && !UseSprite)
         {
             areaSprite.width = Width;
             areaSprite.height = Height;

@@ -66,6 +66,13 @@ public class Component_Object_Box : Component_Map_Object
         GameProcess.PlaySound(SOUND_EFFECT.OPEN);
         NpcSprite.spriteName = string.Format(spriteFormat, 2);
         yield return new WaitForSeconds(delay);
+
+        if(Data.SAtk > 0)
+        {
+            IAttackable target = map.Player;
+            if (target != null) target.Attacked(transform.localPosition, Data.SAtk, false, false);
+        }
+
         Data_Reward reward = Data_Reward.DoDrop(Data.DropList);
         if (OpenEvent != null)
         {
@@ -92,6 +99,8 @@ public class Component_Object_Box : Component_Map_Object
 
     public override void Hide()
     {
+        BoxCollider coll = GetComponent<BoxCollider>();
+        if (coll != null) coll.enabled = false;
         StartCoroutine(Despawn());
     }
 
@@ -103,6 +112,7 @@ public class Component_Object_Box : Component_Map_Object
             NpcSprite.alpha -= 0.1f;
             yield return null;
         }
+        LinkedCell.IsBlock = false;
     }
 
     void ShowEffect(string _sprite, GameObject _pf)

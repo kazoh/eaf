@@ -23,7 +23,7 @@ public class Component_Effect_Coin : Component_Map_Object
         if (anim == null || anim.isPlaying) return;
         anim.Play();
         GameProcess.PlaySound(SOUND_EFFECT.COIN);
-        //StartCoroutine(Despawn());
+        StartCoroutine(Despawn());
     }
 
     IEnumerator Despawn()

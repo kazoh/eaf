@@ -398,6 +398,8 @@ public class Component_Map_Player : GameComponent, IAttackable
 
     public virtual void Attacked(Vector3 _pos, int _atk, bool _critical, bool _knockback)
     {
+        if (State == PlayerState.Die || State == PlayerState.End) return;
+
         LookAt(_pos);
 
         _atk = _critical ? Mathf.CeilToInt(_atk * 1.2f) : _atk;

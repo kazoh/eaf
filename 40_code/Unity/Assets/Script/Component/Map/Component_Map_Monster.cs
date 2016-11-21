@@ -25,6 +25,7 @@ public class Component_Map_Monster : Component_Map_Object, IAttackable
     public int NpcId;
     public int Range = 32;
     public bool HasShadow;
+    public bool NoWalkSound;
     public Component_Map_Cell SpawnCell;
     public UISprite NpcSprite;
     public UISprite HpBar;
@@ -36,9 +37,9 @@ public class Component_Map_Monster : Component_Map_Object, IAttackable
     public TableData_Npc Data { get; protected set; }
     public float Speed { get; private set; }
 
-    private Component_Map_Cell curCell;
-    private Component_Map_Cell preCell;
-    private GameEnum.Direction curDir;
+    protected Component_Map_Cell curCell;
+    protected Component_Map_Cell preCell;
+    protected GameEnum.Direction curDir;
 
     private float delay = float.MinValue;
     private float attackDelay = float.MinValue;
@@ -190,14 +191,17 @@ public class Component_Map_Monster : Component_Map_Object, IAttackable
         preCell = SpawnCell;
     }
 
-    void Wait()
+    protected virtual void Wait()
     {
         curDir = GetDirection(map.Player.Pos);
         if (curDir != GameEnum.Direction.none)
         {
             curCell = GetNextCell(curDir);
         }
+
+#if DEBUG_MODE
         Debug.Log("Path " + curCell.Idx + "/ Dir "+curDir.ToString());
+#endif
     }
 
     void Move()
@@ -227,7 +231,7 @@ public class Component_Map_Monster : Component_Map_Object, IAttackable
             float audioLength = GameProcess.GetEffectLength(SOUND_EFFECT.MOVE1);
             if (audioLength > delay) delay = audioLength;
             delay = Time.time + delay;
-            GameProcess.PlaySound(SOUND_EFFECT.MOVE1);
+            if(!NoWalkSound) GameProcess.PlaySound(SOUND_EFFECT.MOVE1);
             NpcSprite.spriteName = string.Format(spriteFormat, (spriteNum % 3 + (int)curDir));
             spriteNum++;
         }
@@ -382,7 +386,7 @@ public class Component_Map_Monster : Component_Map_Object, IAttackable
         }
     }
 
-    GameEnum.Direction GetDirection(Vector3 _pos)
+    protected GameEnum.Direction GetDirection(Vector3 _pos)
     {
         GameEnum.Direction dir = GameEnum.Direction.none;
         if (_pos.x > Pos.x) dir = GameEnum.Direction.right;
@@ -408,7 +412,7 @@ public class Component_Map_Monster : Component_Map_Object, IAttackable
         NpcSprite.spriteName = string.Format(spriteFormat, (2 + (int)dir));
     }
 
-    Component_Map_Cell GetNextCell(GameEnum.Direction dir)
+    protected virtual Component_Map_Cell GetNextCell(GameEnum.Direction dir)
     {
         int idx = curCell.Idx;
         switch(dir)

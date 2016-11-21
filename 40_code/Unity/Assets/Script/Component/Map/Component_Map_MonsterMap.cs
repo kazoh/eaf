@@ -31,6 +31,7 @@ public class Component_Map_MonsterMap : Component_Map
             {
                 Component_Map_Monster mob = c as Component_Map_Monster;
                 mob.DieEvent += OnDieMonster;
+                mobList.Add(mob);
             }
         }
     }

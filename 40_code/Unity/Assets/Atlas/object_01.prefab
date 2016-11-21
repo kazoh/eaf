@@ -53,9 +53,672 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: f3f777ebeb3acf54f8659edf116600f7, type: 2}
   mSprites:
-  - name: map_obj_01
+  - name: chest_01_01
+    x: 396
+    y: 415
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: chest_01_02
+    x: 429
+    y: 415
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: chest_01_03
+    x: 462
+    y: 464
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: chest_01_04
     x: 0
-    y: 26
+    y: 128
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: chest_01_05
+    x: 0
+    y: 79
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: chest_01_06
+    x: 0
+    y: 30
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: chest_01_07
+    x: 33
+    y: 464
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: chest_01_08
+    x: 66
+    y: 464
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: chest_01_09
+    x: 99
+    y: 464
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: chest_01_10
+    x: 132
+    y: 415
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: chest_01_11
+    x: 165
+    y: 464
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: chest_01_12
+    x: 198
+    y: 464
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: chest_02_01
+    x: 231
+    y: 464
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: chest_02_02
+    x: 264
+    y: 464
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: chest_02_03
+    x: 297
+    y: 464
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: chest_02_04
+    x: 330
+    y: 464
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: chest_02_05
+    x: 363
+    y: 464
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: chest_02_06
+    x: 396
+    y: 464
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: chest_02_07
+    x: 429
+    y: 464
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: chest_02_08
+    x: 297
+    y: 415
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: chest_02_09
+    x: 33
+    y: 415
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: chest_02_10
+    x: 132
+    y: 464
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: chest_02_11
+    x: 33
+    y: 317
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: chest_02_12
+    x: 33
+    y: 268
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: chest_03_01
+    x: 33
+    y: 219
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: chest_03_02
+    x: 33
+    y: 170
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: chest_03_03
+    x: 33
+    y: 121
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: chest_03_04
+    x: 33
+    y: 72
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: chest_03_05
+    x: 33
+    y: 23
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: chest_03_06
+    x: 66
+    y: 415
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: chest_03_07
+    x: 99
+    y: 415
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: chest_03_08
+    x: 462
+    y: 415
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: chest_03_09
+    x: 165
+    y: 415
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: chest_03_10
+    x: 198
+    y: 415
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: chest_03_11
+    x: 231
+    y: 415
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: chest_03_12
+    x: 264
+    y: 415
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: door_01_01
+    x: 330
+    y: 415
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: door_01_02
+    x: 363
+    y: 415
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: door_01_03
+    x: 33
+    y: 366
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: hand_01_01
+    x: 132
+    y: 250
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: hand_01_02
+    x: 132
+    y: 217
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: hand_01_03
+    x: 132
+    y: 184
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: hand_01_04
+    x: 66
+    y: 382
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: hand_01_05
+    x: 66
+    y: 349
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: hand_01_06
+    x: 66
+    y: 316
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: hand_01_07
+    x: 66
+    y: 283
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: hand_01_08
+    x: 66
+    y: 250
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: hand_01_09
+    x: 66
+    y: 217
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: hand_01_10
+    x: 66
+    y: 184
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: hand_01_11
+    x: 66
+    y: 151
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: hand_01_12
+    x: 66
+    y: 118
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: map_obj_01
+    x: 66
+    y: 85
     width: 32
     height: 32
     borderLeft: 0
@@ -68,7 +731,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: map_obj_02
     x: 66
-    y: 125
+    y: 52
     width: 32
     height: 32
     borderLeft: 0
@@ -80,8 +743,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_03
-    x: 198
-    y: 158
+    x: 66
+    y: 19
     width: 32
     height: 32
     borderLeft: 0
@@ -93,8 +756,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_04
-    x: 33
-    y: 125
+    x: 99
+    y: 382
     width: 32
     height: 32
     borderLeft: 0
@@ -106,8 +769,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_05
-    x: 0
-    y: 158
+    x: 132
+    y: 382
     width: 32
     height: 32
     borderLeft: 0
@@ -119,8 +782,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_06
-    x: 0
-    y: 125
+    x: 165
+    y: 382
     width: 32
     height: 32
     borderLeft: 0
@@ -132,8 +795,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_07
-    x: 33
-    y: 26
+    x: 198
+    y: 382
     width: 32
     height: 32
     borderLeft: 0
@@ -145,8 +808,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_08
-    x: 165
-    y: 191
+    x: 231
+    y: 382
     width: 32
     height: 32
     borderLeft: 0
@@ -158,8 +821,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_09
-    x: 0
-    y: 191
+    x: 264
+    y: 382
     width: 32
     height: 32
     borderLeft: 0
@@ -171,8 +834,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_10
-    x: 66
-    y: 158
+    x: 297
+    y: 382
     width: 32
     height: 32
     borderLeft: 0
@@ -184,8 +847,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_11
-    x: 99
-    y: 224
+    x: 330
+    y: 382
     width: 32
     height: 32
     borderLeft: 0
@@ -197,8 +860,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_12
-    x: 132
-    y: 158
+    x: 363
+    y: 382
     width: 32
     height: 32
     borderLeft: 0
@@ -210,8 +873,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_13
-    x: 33
-    y: 191
+    x: 396
+    y: 382
     width: 32
     height: 32
     borderLeft: 0
@@ -223,8 +886,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_14
-    x: 132
-    y: 224
+    x: 429
+    y: 382
     width: 32
     height: 32
     borderLeft: 0
@@ -236,8 +899,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_15
-    x: 0
-    y: 59
+    x: 462
+    y: 382
     width: 32
     height: 32
     borderLeft: 0
@@ -249,8 +912,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_16
-    x: 33
-    y: 92
+    x: 99
+    y: 349
     width: 32
     height: 32
     borderLeft: 0
@@ -263,7 +926,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: map_obj_17
     x: 99
-    y: 191
+    y: 316
     width: 32
     height: 32
     borderLeft: 0
@@ -275,8 +938,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_18
-    x: 33
-    y: 224
+    x: 99
+    y: 283
     width: 32
     height: 32
     borderLeft: 0
@@ -288,8 +951,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_19
-    x: 198
-    y: 191
+    x: 99
+    y: 250
     width: 32
     height: 32
     borderLeft: 0
@@ -301,8 +964,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_20
-    x: 66
-    y: 191
+    x: 99
+    y: 217
     width: 32
     height: 32
     borderLeft: 0
@@ -314,8 +977,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_21
-    x: 33
-    y: 158
+    x: 99
+    y: 184
     width: 32
     height: 32
     borderLeft: 0
@@ -327,8 +990,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_22
-    x: 66
-    y: 224
+    x: 99
+    y: 151
     width: 32
     height: 32
     borderLeft: 0
@@ -340,8 +1003,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_23
-    x: 165
-    y: 224
+    x: 99
+    y: 118
     width: 32
     height: 32
     borderLeft: 0
@@ -353,8 +1016,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_24
-    x: 66
-    y: 92
+    x: 99
+    y: 85
     width: 32
     height: 32
     borderLeft: 0
@@ -366,8 +1029,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_25
-    x: 132
-    y: 191
+    x: 99
+    y: 52
     width: 32
     height: 32
     borderLeft: 0
@@ -379,8 +1042,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_26
-    x: 165
-    y: 158
+    x: 99
+    y: 19
     width: 32
     height: 32
     borderLeft: 0
@@ -392,8 +1055,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_27
-    x: 66
-    y: 59
+    x: 132
+    y: 349
     width: 32
     height: 32
     borderLeft: 0
@@ -405,8 +1068,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_28
-    x: 198
-    y: 224
+    x: 165
+    y: 349
     width: 32
     height: 32
     borderLeft: 0
@@ -418,8 +1081,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_29
-    x: 99
-    y: 158
+    x: 198
+    y: 349
     width: 32
     height: 32
     borderLeft: 0
@@ -431,8 +1094,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_30
-    x: 0
-    y: 92
+    x: 231
+    y: 349
     width: 32
     height: 32
     borderLeft: 0
@@ -444,8 +1107,60 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_31
-    x: 33
-    y: 59
+    x: 264
+    y: 349
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: map_obj_32
+    x: 297
+    y: 349
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: map_obj_33
+    x: 330
+    y: 349
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: map_obj_34
+    x: 363
+    y: 349
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: map_obj_35
+    x: 396
+    y: 349
     width: 32
     height: 32
     borderLeft: 0
@@ -457,8 +1172,203 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_99
+    x: 429
+    y: 349
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: torch_01_01
     x: 0
-    y: 224
+    y: 401
+    width: 32
+    height: 55
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: torch_01_02
+    x: 0
+    y: 345
+    width: 32
+    height: 55
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: torch_01_03
+    x: 0
+    y: 289
+    width: 32
+    height: 55
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: torch_01_04
+    x: 0
+    y: 233
+    width: 32
+    height: 55
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: torch_01_05
+    x: 0
+    y: 177
+    width: 32
+    height: 55
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: torch_01_06
+    x: 0
+    y: 457
+    width: 32
+    height: 55
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: trap_01_01
+    x: 132
+    y: 151
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: trap_01_02
+    x: 132
+    y: 118
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: trap_01_03
+    x: 132
+    y: 85
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: trap_02_01
+    x: 132
+    y: 52
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: trap_02_02
+    x: 132
+    y: 19
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: trap_02_03
+    x: 165
+    y: 316
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: trap_03_01
+    x: 462
+    y: 349
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: trap_03_02
+    x: 132
+    y: 316
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: trap_03_03
+    x: 132
+    y: 283
     width: 32
     height: 32
     borderLeft: 0
