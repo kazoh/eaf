@@ -237,7 +237,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 199708}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 25, z: 0}
+  m_LocalPosition: {x: 0, y: 40, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -254,7 +254,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 32, y: 32, z: 0}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 16, z: 0}
 --- !u!111 &11110272
 Animation:
   m_ObjectHideFlags: 1
@@ -442,6 +442,7 @@ MonoBehaviour:
   NpcId: 22000
   Range: 32
   HasShadow: 0
+  NoWalkSound: 0
   SpawnCell: {fileID: 0}
   NpcSprite: {fileID: 11466882}
   HpBar: {fileID: 11476264}
@@ -567,7 +568,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11459326, guid: 98a5be391e7cc1749802a3bb64b40892, type: 2}
-  mSpriteName: mob_0003_02
+  mSpriteName: mob_0013_02
   mFillCenter: 1
 --- !u!114 &11476264
 MonoBehaviour:

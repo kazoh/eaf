@@ -24,7 +24,7 @@ public class Component_Object_Hole : Component_Map_Object
         if (Data != null)
         {
             spriteFormat = Data.SpriteName + "_{0:00}";
-            npcSprite.spriteName = string.Format(spriteFormat, StartNum);
+            //npcSprite.spriteName = string.Format(spriteFormat, StartNum);
         }
 
         StartCoroutine(Trace());
@@ -36,7 +36,7 @@ public class Component_Object_Hole : Component_Map_Object
         for (int i = 0; i < SpriteNum; ++i)
         {
             npcSprite.spriteName = string.Format(spriteFormat, StartNum + i);
-            yield return new WaitForSeconds(0.1f);
+            yield return null;
         }
 
         OnEvent(map.Player.gameObject);
@@ -49,6 +49,7 @@ public class Component_Object_Hole : Component_Map_Object
             if (EnterArea())
             {
                 StartCoroutine(PlayAnimation());
+                yield break;
             }
             yield return null;
         }

@@ -62,6 +62,8 @@ public class TableEnum
         SlowTalk,
         Monster,
         Reward,
+        QuestTalk,
+        QuestMob,
     }
 
     public enum GoodsType

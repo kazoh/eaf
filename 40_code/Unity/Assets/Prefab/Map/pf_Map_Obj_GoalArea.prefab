@@ -42,6 +42,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 456994}
   m_RootOrder: 0
@@ -52,8 +53,9 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 164554}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16, y: -80, z: 0}
+  m_LocalPosition: {x: 128, y: 64, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 400240}
   m_Father: {fileID: 0}
@@ -71,6 +73,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Width: 32
   Height: 32
+  UseSprite: 0
 --- !u!114 &11449798
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -157,8 +160,8 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
-  mAtlas: {fileID: 11490092, guid: 3b58ee327d0648848b2a4f0f29b64041, type: 2}
-  mSpriteName: highlight_thin
+  mAtlas: {fileID: 114000012017348992, guid: a4d226e620c6e5d428c28fad6ff717fd, type: 2}
+  mSpriteName: hand_01_07
   mFillCenter: 1
 --- !u!1001 &100100000
 Prefab:

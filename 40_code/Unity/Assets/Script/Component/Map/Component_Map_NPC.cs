@@ -67,7 +67,7 @@ public class Component_Map_NPC : Component_Map_Object, ITalkable
 
     void LookAt(GameEnum.Direction dir)
     {
-        NpcSprite.spriteName = string.Format(spriteFormat, (2 + (int)dir));
+        NpcSprite.spriteName = string.Format(spriteFormat, (1 + (int)dir));
     }
 
     void OnTalk()
