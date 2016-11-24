@@ -119,11 +119,14 @@ public class DBManager {
 
                  if (guid > 0)
                  {
-                     string _url2 = string.Format("{0}?CODE={1}&ID={2}&DATA={3}", Instance.URL_USER_DATA, (int)FuncCode.NEW_USER_DATA, guid,"");
-                     Instance.httpManager.CallRequest(_url2, true, delegate (WWW www2)
+                     string _userId = EncryptedPlayerPrefs.Md5(guid + _email);
+
+                     // 유저 데이터 테이블에 등록.
+                     _url = string.Format("{0}?CODE={1}&ID={2}&DATA={3}", Instance.URL_USER_DATA, (int)FuncCode.NEW_USER_DATA, _userId,"");
+                     Instance.httpManager.CallRequest(_url, true, delegate (WWW www2)
                      {
-                         IDictionary dict2 = MiniJSON.Json.Deserialize(www2.text) as IDictionary;
-                         if (CheckResponse(dict2))
+                         dict = MiniJSON.Json.Deserialize(www2.text) as IDictionary;
+                         if (CheckResponse(dict))
                          {
                              if (_callback != null) _callback(guid, timeStr);
                          }
@@ -184,7 +187,7 @@ public class DBManager {
         });
     }
 
-    public static void SelectData(int _guid, Action<bool, string, string> _callback)
+    public static void SelectData(string _guid, Action<bool, string, string> _callback)
     {
         if (!CheckNetwork()) throw new GameException(GameException.ErrorCode.NoNetwork);
 
@@ -211,17 +214,12 @@ public class DBManager {
         });
     }
 
-    public static void UpdateData(int _guid, string _data, Action<bool,string> _callback)
+    public static void UpdateData(string _guid, string _data, Action<bool,string> _callback)
     {
         if (!CheckNetwork()) throw new GameException(GameException.ErrorCode.NoNetwork);
 
         _data = WWW.EscapeURL(_data);
         string _url = string.Format("{0}?CODE={1}&ID={2}&DATA={3}", Instance.URL_USER_DATA, (int)FuncCode.UPDATE_USER_DATA, _guid, _data);
-        //string _url = Instance.URL_USER_DATA;
-        //WWWForm _form = new WWWForm();
-        //_form.AddField("CODE", (int)FuncCode.UPDATE_USER_DATA);
-        //_form.AddField("ID", _guid);
-        //_form.AddField("DATA", _data);
         Instance.httpManager.CallRequest(_url, false, delegate (WWW www)
         {
             IDictionary dict = MiniJSON.Json.Deserialize(www.text) as IDictionary;
@@ -233,7 +231,6 @@ public class DBManager {
                 if (dict["result"].Equals("fail") || dict["result"].Equals("error"))
                 {
                     fail = true;
-                    //throw new GameException(GameException.ErrorCode.FailToUpdateData);
                 }
                 
                 if (dict.Contains("tick")) timeStr = Convert.ToString(dict["tick"]);

@@ -29,11 +29,13 @@ public class GameConfig
 
     public int DefaultASpd { get; private set; }        // 기본 근거리 공격 속도.
     public int DefaultSpd { get; private set; }         // 기본 이동 속도.
+    public int MaxASpd { get; private set; }            // 기본 근거리 공격 속도.
+    public int MaxSpd { get; private set; }             // 기본 이동 속도.
     public int SpdPerDex { get; private set; }          // 덱스당 이동 속도.
     public int DefaultCri { get; private set; }         // 기본 크리티컬.
     public int CriPerLuc { get; private set; }          // 운 당 크리티컬.
     public int MaxCritical { get; private set; }        // 최대 크리티컬.
-    public int DefaultCriPercent { get; private set; }  // 최대 크리티컬.
+    public int DefaultCriPercent { get; private set; }  // 기본 크리티컬 확률.
     public int HpPerCon { get; private set; }           // 콘 당 최대Hp.
 
     public int[] VipGradeArray;                         // Vip 등급 달성을 위한 구매액 배열.
@@ -64,6 +66,8 @@ public class GameConfig
 
         DefaultASpd = 700;
         DefaultSpd = 10;
+        MaxASpd = 500;
+        MaxSpd = 130;
         SpdPerDex = 10;
         DefaultCri = 5;
         CriPerLuc = 1;

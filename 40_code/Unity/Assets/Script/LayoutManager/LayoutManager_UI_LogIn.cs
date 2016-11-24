@@ -17,8 +17,8 @@ public class LayoutManager_UI_LogIn : LayoutManager {
         yield return base.Loading();
 
         /* 키 설정 */
-        keyId = EncryptedPlayerPrefs.keys[0];
-        keyPw = EncryptedPlayerPrefs.keys[1];
+        keyId = EncryptedPlayerPrefs.userKeys[0];
+        keyPw = EncryptedPlayerPrefs.userKeys[1];
 
         /* 배경음 적용 */
         GameProcess.PlaySound(SOUND_EFFECT.BGM, "bgm_01");
@@ -28,7 +28,6 @@ public class LayoutManager_UI_LogIn : LayoutManager {
         LogInUI.SignInEvent += SignIn;
         LogInUI.CreateEvent += CreateAccount;
         LogInUI.FindEvent += FindPw;
-
         OnFinishLoading();
     }
 
@@ -43,7 +42,7 @@ public class LayoutManager_UI_LogIn : LayoutManager {
                     EncryptedPlayerPrefs.SetString(keyId, _email);
                     EncryptedPlayerPrefs.SetString(keyPw, _pw);
                     GameProcess.ShowLoading();
-                    StartCoroutine(LoadingDate(_guid, _timeStr));
+                    StartCoroutine(LoadingDate(_guid, _email, _timeStr));
                 }
                 else GameProcess.ShowError(new GameException(GameException.ErrorCode.InvalidEmailOrPassward));
             });
@@ -69,7 +68,7 @@ public class LayoutManager_UI_LogIn : LayoutManager {
                     GameProcess.ShowLoading();
                     EncryptedPlayerPrefs.SetString(keyId, _email);
                     EncryptedPlayerPrefs.SetString(keyPw, _pw);
-                    StartCoroutine(LoadingDate(_guid, _timeStr));
+                    StartCoroutine(LoadingDate(_guid, _email, _timeStr));
                 }
                 else GameProcess.ShowError(new GameException(GameException.ErrorCode.ExistEmail));
             });
@@ -132,14 +131,14 @@ public class LayoutManager_UI_LogIn : LayoutManager {
         }
     }
 
-    IEnumerator LoadingDate(int _guid,string _timeStr)
+    IEnumerator LoadingDate(int _guid, string _email, string _timeStr)
     {
         yield return null;
 
         /* 테이블 데이터 로딩 */
         try
         {
-            GameProcess.GetGameDataManager().Load(_guid,_timeStr,delegate()
+            GameProcess.GetGameDataManager().Load(_guid, _email, _timeStr,delegate()
             {
                 GameProcess.GetMissionManager().Load();
 

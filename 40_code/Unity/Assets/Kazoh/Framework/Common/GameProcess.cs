@@ -89,6 +89,9 @@ public class GameProcess : MonoBehaviour
         /* 프레임 고정 */
         Application.targetFrameRate = 60;
 
+        /* 암호화 키 초기화 */
+        EncryptedPlayerPrefs.InitKey();
+
         /* 레이어 루트 생성 */
         //GameObject go = new GameObject("LayerRoot");
         //layerRoot = go.transform;

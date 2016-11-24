@@ -80,7 +80,15 @@ public class Component_UI_LogIn : GameComponent
         }
         else if (CreateEvent != null)
         {
-            CreateEvent(InputEmail.value, InputPw.value);
+            string title = TableManager.GetString("STR_TITLE_NOTICE");
+            string msg = TableManager.GetString("STR_MSG_WARNING");
+            string text1 = TableManager.GetString("STR_UI_YES");
+            string text2 = TableManager.GetString("STR_UI_NO");
+
+            GameProcess.ShowPopup(NoticeType.YES_NO, title, msg, text1, text2, delegate ()
+            {
+                CreateEvent(InputEmail.value, InputPw.value);
+            }, null, NGUIText.Alignment.Left);
         }
 
         isLock = false;

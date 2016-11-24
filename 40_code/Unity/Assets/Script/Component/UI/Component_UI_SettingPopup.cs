@@ -138,7 +138,7 @@ public class Component_UI_SettingPopup : GameComponent
                     }
                     else
                     {
-                        EncryptedPlayerPrefs.SetString(EncryptedPlayerPrefs.keys[1], newPw);
+                        EncryptedPlayerPrefs.SetString(EncryptedPlayerPrefs.userKeys[1], newPw);
                         title = TableManager.GetString("STR_TITLE_CHANGE_PW");
                         msg = TableManager.GetString("STR_MSG_CHANGED_PW");
                         text1 = TableManager.GetString("STR_UI_OK");

@@ -12,22 +12,34 @@ public class EncryptedPlayerPrefs  {
 	
 	// Modify this key in this file :
 	private static string privateKey="9ETrEsWaFRach3gexaDr";
-	
-	// Add some values to this array before using EncryptedPlayerPrefs
-	public static string[] keys = {"23Wrudre","SP9DupHa","frA5rAS3","tHat2epr","jaw3eDAs","jaz5Mete"};
 
-//	public static void SetKey()
-//	{
-//		EncryptedPlayerPrefs.keys=new string[6];		
-//		EncryptedPlayerPrefs.keys[0]="23Wrudre";		
-//		EncryptedPlayerPrefs.keys[1]="SP9DupHa";		
-//		EncryptedPlayerPrefs.keys[2]="frA5rAS3";		
-//		EncryptedPlayerPrefs.keys[3]="tHat2epr";		
-//		EncryptedPlayerPrefs.keys[4]="jaw3eDAs"; 		
-//		EncryptedPlayerPrefs.keys[5]="jaz5Mete"; 
-//	}
-	
-	public static string Md5(string strToEncrypt) {
+    // Add some values to this array before using EncryptedPlayerPrefs
+    public static string[] keys;
+
+    // 게임 내에서 사용할 키.
+    public static string[] userKeys;
+
+    public static void InitKey()
+    {
+        EncryptedPlayerPrefs.keys = new string[7];
+        EncryptedPlayerPrefs.keys[0] = "23Wrudre";
+        EncryptedPlayerPrefs.keys[1] = "SP9DupHa";
+        EncryptedPlayerPrefs.keys[2] = "frA5rAS3";
+        EncryptedPlayerPrefs.keys[3] = "tHat2epr";
+        EncryptedPlayerPrefs.keys[4] = "jaw3eDAs";
+        EncryptedPlayerPrefs.keys[5] = "jaz5Mete";
+        EncryptedPlayerPrefs.keys[6] = "kkHa3eDAs";
+
+        EncryptedPlayerPrefs.userKeys = new string[6];
+        EncryptedPlayerPrefs.userKeys[0] = "eml";
+        EncryptedPlayerPrefs.userKeys[1] = "pw";
+        EncryptedPlayerPrefs.userKeys[2] = "ud";
+        EncryptedPlayerPrefs.userKeys[3] = "it";
+        EncryptedPlayerPrefs.userKeys[4] = "uc";
+        EncryptedPlayerPrefs.userKeys[5] = "ml";
+    }
+
+    public static string Md5(string strToEncrypt) {
 		UTF8Encoding ue = new UTF8Encoding();
 		byte[] bytes = ue.GetBytes(strToEncrypt);
 		

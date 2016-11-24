@@ -357,7 +357,7 @@ public class Data_UserCharacter
 
             value = Mathf.FloorToInt(equip * Mathf.Max((100 - Dex) * 0.01f, 0.1f)) - added;
         }
-        return value;
+        return Mathf.Max(value, GameProcess.GetGameConfig().MaxASpd);
     }
 
     int GetSpd()
@@ -380,7 +380,7 @@ public class Data_UserCharacter
 
             value = GameProcess.GetGameConfig().DefaultSpd + (Dex / 4) * GameProcess.GetGameConfig().SpdPerDex + equip + added;
         }
-        return value;
+        return Mathf.Min(value, GameProcess.GetGameConfig().MaxSpd);
     }
 
     int GetDef()

@@ -55,62 +55,99 @@ public class GameDataManager
     private List<int> listClearMission;
     private List<int> listIapHistory;
     private DateTime logInTime;
+    private string userId;
     private int guid;
-    private string keyData;
+
+    private string keyUserInfo;
+    private string keyUserCha;
+    private string keyUserInven;
+    private string keyUserMap;
 
     public void Init()
     {
-        keyData = EncryptedPlayerPrefs.keys[2];
         Debug.Log("[GameDataManager] 게임 데이터 매니저 초기화!!!");
     }
 
-    public void Load(int _guid = 0,string _timeStr = "", Action _callback = null)
+    Action loadingCompleteEvent;
+    public void Load(int _guid = 0, string _email = "", string _timeStr = "", Action _callback = null)
     {
         try
         {
-            guid = _guid;
-            if (!_timeStr.Equals(string.Empty)) SetLogInTime(_timeStr);
+            loadingCompleteEvent = _callback;
 
-            if(EncryptedPlayerPrefs.HasKey(keyData))
-            {
-                DBManager.UpdateData(guid, EncryptedPlayerPrefs.GetString(keyData), delegate (bool _isFail, string _time)
-                {
-                    if (_isFail) GameProcess.ShowError(new GameException(GameException.ErrorCode.FailToUpdateData));
-                    else
-                    {
-                        EncryptedPlayerPrefs.DeleteKey(keyData);
-                        DBManager.SelectData(guid, delegate (bool _isFail2, string _data, string _time2)
-                        {
-                            if (_isFail2) GameProcess.ShowError(new GameException(GameException.ErrorCode.FailToGetGameData));
-                            else
-                            {
-                                SetGameData(_data, _time2);
-                                if (_callback != null) _callback();
-                            }
-                        });
-                    }
-                });
-            }
-            else
-            {
-                DBManager.SelectData(guid, delegate (bool _isFail, string _data, string _time)
-                {
-                    if (_isFail) GameProcess.ShowError(new GameException(GameException.ErrorCode.FailToGetGameData));
-                    else
-                    {
-                        SetGameData(_data, _time);
+            SetGuid(_guid, _email);
+            SetLogInTime(_timeStr);
 
-                        /* 최초 등록이면 저장한다. */
-                        if (string.IsNullOrEmpty(_data)) Save();
-                        if (_callback != null) _callback();
-                    }
-                });
-            }
+            UpdateUserInfo();
         }
         catch (Exception e)
         {
             throw e;
         }
+    }
+
+    void SetGuid(int _guid, string _email)
+    {
+        guid = _guid;
+        userId = EncryptedPlayerPrefs.Md5(_guid + _email);
+        
+        keyUserInfo = userId +  EncryptedPlayerPrefs.userKeys[2];
+        keyUserCha = userId + EncryptedPlayerPrefs.userKeys[3];
+        keyUserInven = userId + EncryptedPlayerPrefs.userKeys[4];
+        keyUserMap = userId + EncryptedPlayerPrefs.userKeys[5];
+    }
+
+    void UpdateUserInfo()
+    {
+        if (EncryptedPlayerPrefs.HasKey(keyUserInfo))
+        {
+            DBManager.UpdateData(userId, EncryptedPlayerPrefs.GetString(keyUserInfo), delegate (bool _isFail, string _time)
+            {
+                if (_isFail) GameProcess.ShowError(new GameException(GameException.ErrorCode.FailToUpdateData));
+                else
+                {
+                    EncryptedPlayerPrefs.DeleteKey(keyUserInfo);
+                    SelectUserInfo();
+                }
+            });
+        }
+        else
+        {
+            SelectUserInfo();
+        }
+    }
+
+    Dictionary<string, IDictionary> dicData = new Dictionary<string, IDictionary>();
+    IList listMap = null;
+    void SelectUserInfo()
+    {
+        DBManager.SelectData(userId, delegate (bool _isFail, string _data, string _time)
+        {
+            if (_isFail) GameProcess.ShowError(new GameException(GameException.ErrorCode.FailToGetGameData));
+            else
+            {
+                if (!string.IsNullOrEmpty(_data)) dicData.Add("USER_INFO", Json.Deserialize(_data) as IDictionary);
+                if (EncryptedPlayerPrefs.HasKey(keyUserInven))
+                {
+                    string _json = EncryptedPlayerPrefs.GetString(keyUserInven);
+                    if(!string.IsNullOrEmpty(_json)) dicData.Add("INVENTORY", Json.Deserialize(_json) as IDictionary);
+                }
+
+                if (EncryptedPlayerPrefs.HasKey(keyUserCha))
+                {
+                    string _json = EncryptedPlayerPrefs.GetString(keyUserCha);
+                    if (!string.IsNullOrEmpty(_json)) dicData.Add("CHARACTER", Json.Deserialize(_json) as IDictionary);
+                }
+
+                if (EncryptedPlayerPrefs.HasKey(keyUserMap))
+                {
+                    string _json = EncryptedPlayerPrefs.GetString(keyUserMap);
+                    if (!string.IsNullOrEmpty(_json)) listMap = Json.Deserialize(_json) as IList;
+                }
+
+                SetGameData();
+            }
+        });
     }
 
     void SetGameData(string _data, string _timeStr)
@@ -141,6 +178,38 @@ public class GameDataManager
 #endif
     }
 
+    void SetGameData()
+    {
+        /* 유저 데이터 세팅 */
+        if (dicData.ContainsKey("USER_INFO")) SetUserData(dicData["USER_INFO"]);
+        else SetUserData(null);
+
+        /* 유저 아이템 데이터 세팅 */
+        if (dicData.ContainsKey("INVENTORY")) SetUserItemData(UserData.InventorySlotNum, dicData["INVENTORY"]);
+        else SetUserItemData(UserData.InventorySlotNum, null);
+
+        /* 유저 캐릭터 데이터 세팅 */
+        if (dicData.ContainsKey("CHARACTER")) SetUserChaData(UserData.ChaSlotNum, dicData["CHARACTER"]);
+        else SetUserChaData(UserData.ChaSlotNum, null);
+
+        /* 유저 맵 데이터 세팅 */
+        SetUserMapData(listMap);
+
+        /* 유저 미션 데이터 세팅 */
+        SetMissionData();
+
+        /* 구매제한 상품 구매 내역 세팅 */
+        if (dicData.ContainsKey("USER_INFO")) SetIapHistory(dicData["USER_INFO"]);
+        else SetIapHistory(null);
+        
+
+#if UNITY_EDITOR
+        Debug.Log("게임 데이터 로딩 완료!!!");
+#endif
+
+        if (loadingCompleteEvent != null) loadingCompleteEvent();
+    }
+
     public void Save()
     {
         try
@@ -153,42 +222,42 @@ public class GameDataManager
                 return;
             }
 
-            Dictionary<string, object> hash = new Dictionary<string, object>();
-            hash.Add("USER_DATA", UserData.GetHash());
-
             Dictionary<string, object> dicCha = new Dictionary<string, object>();
             dicCha.Add("CUR_CHA", curChaIdx);
             for (int i = 0; i < chaSlotList.Count; ++i)
             {
                 if (chaSlotList[i].IsEmpty) continue;
-                dicCha.Add("SLOT_" + i, chaSlotList[i].Data.GetHash());
+                dicCha.Add("" + i, chaSlotList[i].Data.GetHash());
             }
-            hash.Add("CHARACTER", dicCha);
+            EncryptedPlayerPrefs.SetString(keyUserCha, Json.Serialize(dicCha));
 
             Dictionary<string, object> dicItem = new Dictionary<string, object>();
             for (int i = 0; i < itemSlotList.Count; ++i)
             {
                 if (itemSlotList[i].IsEmpty) continue;
-                dicItem.Add("SLOT_" + i, itemSlotList[i].Data.GetHash());
+                dicItem.Add("" + i, itemSlotList[i].Data.GetHash());
             }
-            hash.Add("INVENTORY", dicItem);
+            EncryptedPlayerPrefs.SetString(keyUserInven, Json.Serialize(dicItem));
 
             ArrayList listMap = new ArrayList();
             foreach (Data_UserMap map in listUserMap)
             {
                 listMap.Add(map.GetHash());
             }
-            hash.Add("MAP_LIST", listMap);
+            EncryptedPlayerPrefs.SetString(keyUserMap, Json.Serialize(listMap));
 
+
+            Dictionary<string, object> hash = new Dictionary<string, object>();
+            hash.Add("USER_DATA", UserData.GetHash());
             hash.Add("IAP_HISTORY", listIapHistory.ToArray());
 
             string data = Json.Serialize(hash);
-            EncryptedPlayerPrefs.SetString(keyData, data);
+            EncryptedPlayerPrefs.SetString(keyUserInfo, data);
 
-            DBManager.UpdateData(guid, data, delegate (bool _isFail, string _timeStr)
+            DBManager.UpdateData(userId, data, delegate (bool _isFail, string _timeStr)
             {
                 if (_isFail) Debug.LogError("Error: Fail to update game data.");
-                else EncryptedPlayerPrefs.DeleteKey(keyData);
+                else EncryptedPlayerPrefs.DeleteKey(keyUserInfo);
 #if UNITY_EDITOR
                 Debug.Log("SAVE: " + data);
 #endif
@@ -196,7 +265,7 @@ public class GameDataManager
         }
         catch (GameException e)
         {
-            if(e.Code != GameException.ErrorCode.FailToUpdateData) GameProcess.ShowError(e);
+            if (e.Code != GameException.ErrorCode.FailToUpdateData) GameProcess.ShowError(e);
         }
         catch (Exception e)
         {
@@ -247,24 +316,20 @@ public class GameDataManager
         }
 
         curChaIdx = 0;
-        
-        if (dict != null && dict.Contains("CHARACTER"))
-        {
-            IDictionary dict2 = dict["CHARACTER"] as IDictionary;
-            if (dict2 != null)
-            {
-                for(int i=0; i < chaSlotList.Count; ++i)
-                {
-                    if (dict2.Contains("SLOT_"+i))
-                    {
-                        IDictionary dict3 = dict2["SLOT_" + i] as IDictionary;
-                        if(dict3 != null) chaSlotList[i].Put(dict3);
-                    }
-                }
 
-                if (dict2.Contains("CUR_CHA")) curChaIdx = Convert.ToInt32(dict2["CUR_CHA"]);
-                if (CurCharacterSlot.IsEmpty) curChaIdx = 0;
+        if (dict != null)
+        {
+            for (int i = 0; i < chaSlotList.Count; ++i)
+            {
+                if (dict.Contains("" + i))
+                {
+                    IDictionary dict2 = dict["" + i] as IDictionary;
+                    if (dict2 != null) chaSlotList[i].Put(dict2);
+                }
             }
+
+            if (dict.Contains("CUR_CHA")) curChaIdx = Convert.ToInt32(dict["CUR_CHA"]);
+            if (CurCharacterSlot.IsEmpty) curChaIdx = 0;
         }
 
 #if UNITY_EDITOR
@@ -280,19 +345,15 @@ public class GameDataManager
         {
             itemSlotList.Add(new Slot_Item(i));
         }
-                
-        if (dict != null && dict.Contains("INVENTORY"))
+
+        if (dict != null)
         {
-            IDictionary dict2 = dict["INVENTORY"] as IDictionary;
-            if (dict2 != null)
+            for (int i = 0; i < itemSlotList.Count; ++i)
             {
-                for (int i = 0; i < itemSlotList.Count; ++i)
+                if (dict.Contains("" + i))
                 {
-                    if (dict2.Contains("SLOT_" + i))
-                    {
-                        IDictionary dict3 = dict2["SLOT_" + i] as IDictionary;
-                        if (dict3 != null) itemSlotList[i].Put(dict3);
-                    }
+                    IDictionary dict3 = dict["" + i] as IDictionary;
+                    if (dict3 != null) itemSlotList[i].Put(dict3);
                 }
             }
         }
@@ -311,6 +372,23 @@ public class GameDataManager
             foreach (IDictionary dict2 in list)
             {
                 Data_UserMap map = new Data_UserMap(dict2);
+                listUserMap.Add(map);
+            }
+        }
+
+#if UNITY_EDITOR
+        Debug.Log("[GDM] 유저 맵 데이터 세팅 완료!!");
+#endif
+    }
+
+    void SetUserMapData(IList list)
+    {
+        listUserMap = new List<Data_UserMap>();
+        if (list != null)
+        {
+            foreach (IDictionary dict in list)
+            {
+                Data_UserMap map = new Data_UserMap(dict);
                 listUserMap.Add(map);
             }
         }
@@ -1082,7 +1160,7 @@ public class GameDataManager
                     /* 로그 처리 */
                     Dictionary<string, object> hash = new Dictionary<string, object>();
                     hash.Add("TYPE", "use");
-                    hash.Add("GUID", guid);
+                    hash.Add("GUID", userId);
                     hash.Add("ID", _data.Id);
                     hash.Add("NAME", _data.Name);
                     hash.Add("PRICE", _data.Price);
@@ -1127,7 +1205,7 @@ public class GameDataManager
                     /* 로그 처리 */
                     Dictionary<string, object> hash = new Dictionary<string, object>();
                     hash.Add("TYPE", "use");
-                    hash.Add("GUID", guid);
+                    hash.Add("GUID", userId);
                     hash.Add("ID", _data.Id);
                     hash.Add("NAME", _data.Name);
                     hash.Add("PRICE", _data.Price);
@@ -1165,8 +1243,7 @@ public class GameDataManager
         if (_data == null) throw new GameException(GameException.ErrorCode.InvalidParam);
         int max = GameProcess.GetGameConfig().MaxCash;
         if (UserData.Cash + _data.Num > max) throw new GameException(GameException.ErrorCode.OverMaxCash);
-
-        /* 구매 로직이 들어가야 한다. */
+        
         try
         {
             DBManager.CheckLogServer(delegate (bool _isFail, string _tick)
@@ -1185,7 +1262,7 @@ public class GameDataManager
                         /* 로그 처리 */
                         Dictionary<string, object> hash = new Dictionary<string, object>();
                         hash.Add("TYPE", "buy");
-                        hash.Add("GUID", guid);
+                        hash.Add("GUID", userId);
                         hash.Add("ID", _data.Id);
                         hash.Add("NAME", _data.Name);
                         hash.Add("PRICE", _data.Price_WON);
@@ -1224,11 +1301,13 @@ public class GameDataManager
         {
             int amount = UserData.PurchaseAmount;
             int[] array = GameProcess.GetGameConfig().VipGradeArray;
+            grade = array.Length - 1;
             for (int i = 0; i < array.Length; ++i)
             {
-                if (amount >= array[i])
+                if (amount < array[i])
                 {
                     grade = i;
+                    break;
                 }
             }
         }
@@ -1288,6 +1367,8 @@ public class GameDataManager
 
     public void SetLogInTime(string _timeStr)
     {
+        if (_timeStr.Equals(string.Empty)) return;
+
         string[] t = _timeStr.Split('/');
         if(t.Length == 6)
         {
