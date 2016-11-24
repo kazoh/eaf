@@ -9266,6 +9266,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Width: 32
   Height: 32
+  UseSprite: 0
 --- !u!114 &11424258
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10662,7 +10663,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3008
+  startingRenderQueue: 3010
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -15564,7 +15565,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 114000012017348992, guid: a4d226e620c6e5d428c28fad6ff717fd, type: 2}
-  mSpriteName: chest_02_04
+  mSpriteName: chest_02_01
   mFillCenter: 1
 --- !u!114 &114000012104615708
 MonoBehaviour:
@@ -15683,7 +15684,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 114000012017348992, guid: a4d226e620c6e5d428c28fad6ff717fd, type: 2}
-  mSpriteName: chest_02_07
+  mSpriteName: chest_02_01
   mFillCenter: 1
 --- !u!114 &114000012379154570
 MonoBehaviour:
@@ -15842,7 +15843,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 114000012017348992, guid: a4d226e620c6e5d428c28fad6ff717fd, type: 2}
-  mSpriteName: chest_02_04
+  mSpriteName: chest_02_01
   mFillCenter: 1
 --- !u!114 &114000013888124528
 MonoBehaviour:
@@ -15892,7 +15893,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 114000012017348992, guid: a4d226e620c6e5d428c28fad6ff717fd, type: 2}
-  mSpriteName: chest_02_07
+  mSpriteName: chest_02_01
   mFillCenter: 1
 --- !u!114 &114000013962268750
 MonoBehaviour:

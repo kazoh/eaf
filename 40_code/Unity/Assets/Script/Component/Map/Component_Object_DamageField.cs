@@ -60,22 +60,27 @@ public class Component_Object_DamageField : Component_Map_Object
     {
         while (true)
         {
-            if (isTrace && EnterArea())
+            if (isTrace)
             {
-                isTrace = false;
-                OnEvent(map.Player as IAttackable);
-                
+                if(EnterArea(map.Player.Pos)) OnEvent(map.Player as IAttackable);
+
+                for(int i=0; i < map.ObjList.Count; ++i)
+                {
+                    if (map.ObjList[i] is IAttackable && EnterArea(map.ObjList[i].Pos)) OnEvent(map.ObjList[i] as IAttackable);
+                }
+
+                isTrace = false;                
             }
             yield return null;
         }
     }
 
-    bool EnterArea()
+    bool EnterArea(Vector3 _pos)
     {
-        if (map.Player.Pos.y > transform.localPosition.y + Height * 0.5f) return false;
-        if (map.Player.Pos.y < transform.localPosition.y - Height * 0.5f) return false;
-        if (map.Player.Pos.x > transform.localPosition.x + Width * 0.5f) return false;
-        if (map.Player.Pos.x < transform.localPosition.x - Width * 0.5f) return false;
+        if (_pos.y > transform.localPosition.y + Height * 0.5f) return false;
+        if (_pos.y < transform.localPosition.y - Height * 0.5f) return false;
+        if (_pos.x > transform.localPosition.x + Width * 0.5f) return false;
+        if (_pos.x < transform.localPosition.x - Width * 0.5f) return false;
 
         return true;
     }

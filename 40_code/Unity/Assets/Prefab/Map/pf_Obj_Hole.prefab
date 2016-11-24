@@ -24,9 +24,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 456994}
-  - 114: {fileID: 114000011072652006}
+  - 114: {fileID: 114000010137582492}
   m_Layer: 5
-  m_Name: pf_Obj_DamageField
+  m_Name: pf_Obj_Hole
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52,7 +52,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 164554}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 96, y: 32, z: 0}
+  m_LocalPosition: {x: -128, y: -64, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -107,7 +107,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 114000012017348992, guid: a4d226e620c6e5d428c28fad6ff717fd, type: 2}
-  mSpriteName: trap_03_01
+  mSpriteName: trap_02_01
   mFillCenter: 1
 --- !u!1001 &100100000
 Prefab:
@@ -120,7 +120,7 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 164554}
   m_IsPrefabParent: 1
---- !u!114 &114000011072652006
+--- !u!114 &114000010137582492
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -128,12 +128,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 164554}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c826c675d93640148bba270271ff0e3f, type: 3}
+  m_Script: {fileID: 11500000, guid: 010eaa8fba49bdb4f9548d50a24efd9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NpcId: 26001
+  NpcId: 26002
   Width: 32
   Height: 32
   StartNum: 1
   SpriteNum: 3
-  WaitTime: 0

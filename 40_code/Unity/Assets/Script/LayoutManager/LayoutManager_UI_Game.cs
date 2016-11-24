@@ -372,7 +372,11 @@ public class LayoutManager_UI_Game : LayoutManager {
         }
         GameProcess.GetGameDataManager().SetClearMission(_mission.Id);
         GameProcess.GetGameDataManager().Save();
-        GameProcess.ShowPopup(NoticeType.OK, TableManager.GetString("STR_TITLE_MISSION"), msg, TableManager.GetString("STR_UI_OK"), null);
+        GameProcess.ShowPopup(NoticeType.OK, TableManager.GetString("STR_TITLE_MISSION"), msg, TableManager.GetString("STR_UI_OK"), delegate() 
+        {
+            // 숲 속 마을을 클리어 하면 리뷰를 요청한다.
+            if (_mission.MapId == 50029) OnClickMenu(GameEnum.Menu.REVIEW);
+        });
     }
 
     bool CheckDailyReward()

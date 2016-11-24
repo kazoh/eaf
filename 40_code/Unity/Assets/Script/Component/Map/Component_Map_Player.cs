@@ -271,6 +271,23 @@ public class Component_Map_Player : GameComponent, IAttackable
         if (DieEvent != null) DieEvent();
     }
 
+    public void Falling()
+    {
+        State = PlayerState.End;
+        StartCoroutine(OnFalling());
+    }
+
+    IEnumerator OnFalling()
+    {
+        ChaSprite.spriteName = "falling_01";
+        yield return new WaitForSeconds(0.1f);
+        ChaSprite.spriteName = "falling_02";
+        yield return new WaitForSeconds(0.1f);
+        ChaSprite.spriteName = "falling_03";
+        yield return new WaitForSeconds(0.4f);
+        if (DieEvent != null) DieEvent();
+    }
+
     void End()
     {
     }
