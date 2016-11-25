@@ -4274,7 +4274,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 181198}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -96, y: -64, z: 0}
+  m_LocalPosition: {x: 0, y: -32, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -13031,7 +13031,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SelectSprite: {fileID: 11430442}
-  Type: 1
+  Type: 0
   IsBlock: 0
   IsWall: 0
 --- !u!114 &11477310
@@ -13706,7 +13706,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SelectSprite: {fileID: 11480078}
-  Type: 0
+  Type: 1
   IsBlock: 0
   IsWall: 0
 --- !u!114 &11484906

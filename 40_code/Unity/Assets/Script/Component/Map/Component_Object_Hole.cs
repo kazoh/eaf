@@ -17,9 +17,14 @@ public class Component_Object_Hole : Component_Map_Object
     private UISprite npcSprite;
     private string spriteFormat;
 
-    public override void Init()
+    void Start()
     {
         npcSprite = gameObject.GetComponentInChildren<UISprite>();
+        if(npcSprite != null) npcSprite.alpha = 0f;
+    }
+
+    public override void Init()
+    {
         Data = TableManager.GetGameData(NpcId) as TableData_Npc;
         if (Data != null)
         {
@@ -33,10 +38,14 @@ public class Component_Object_Hole : Component_Map_Object
 
     IEnumerator PlayAnimation()
     {
-        for (int i = 0; i < SpriteNum; ++i)
+        if (npcSprite != null)
         {
-            npcSprite.spriteName = string.Format(spriteFormat, StartNum + i);
-            yield return null;
+            npcSprite.alpha = 1f;
+            for (int i = 0; i < SpriteNum; ++i)
+            {
+                npcSprite.spriteName = string.Format(spriteFormat, StartNum + i);
+                yield return null;
+            }
         }
 
         OnEvent(map.Player.gameObject);

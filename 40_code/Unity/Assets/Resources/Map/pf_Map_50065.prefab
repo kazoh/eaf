@@ -5284,7 +5284,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Width: 64
   Height: 64
-  UseSprite: 1
 --- !u!114 &11424676
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5863,7 +5862,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SelectSprite: {fileID: 114000011410079986}
   Type: 0
-  IsBlock: 1
+  IsBlock: 0
   IsWall: 0
 --- !u!114 &11452188
 MonoBehaviour:
@@ -6937,7 +6936,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SelectSprite: {fileID: 114000013301921674}
   Type: 0
-  IsBlock: 1
+  IsBlock: 0
   IsWall: 0
 --- !u!114 &11499984
 MonoBehaviour:

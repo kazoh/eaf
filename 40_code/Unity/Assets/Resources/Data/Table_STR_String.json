@@ -59,7 +59,7 @@
 {
 "ID":9,
 "NAME":"STR_ITEM_EQUIP_N_AR_04",
-"STR_KR":"레어 가죽 갑옷",
+"STR_KR":"빛나는 가죽 갑옷",
 "STR_EN":"",
 "STR_JP":""
 },
@@ -80,7 +80,7 @@
 {
 "ID":12,
 "NAME":"STR_ITEM_EQUIP_N_AR_07",
-"STR_KR":"레어 천 옷",
+"STR_KR":"빛나는 천 옷",
 "STR_EN":"",
 "STR_JP":""
 },
@@ -101,7 +101,7 @@
 {
 "ID":15,
 "NAME":"STR_ITEM_EQUIP_N_AR_10",
-"STR_KR":"레어 구리 갑옷",
+"STR_KR":"빛나는 구리 갑옷",
 "STR_EN":"",
 "STR_JP":""
 },
@@ -122,7 +122,7 @@
 {
 "ID":18,
 "NAME":"STR_ITEM_EQUIP_N_AR_13",
-"STR_KR":"레어 가죽 옷",
+"STR_KR":"빛나는 가죽 옷",
 "STR_EN":"",
 "STR_JP":""
 },
@@ -143,7 +143,7 @@
 {
 "ID":21,
 "NAME":"STR_ITEM_EQUIP_N_AR_16",
-"STR_KR":"레어 황동 갑옷",
+"STR_KR":"빛나는 황동 갑옷",
 "STR_EN":"",
 "STR_JP":""
 },
@@ -164,7 +164,7 @@
 {
 "ID":24,
 "NAME":"STR_ITEM_EQUIP_N_AR_19",
-"STR_KR":"레어 무복",
+"STR_KR":"빛나는 무복",
 "STR_EN":"",
 "STR_JP":""
 },
@@ -185,7 +185,7 @@
 {
 "ID":27,
 "NAME":"STR_ITEM_EQUIP_N_AR_22",
-"STR_KR":"레어 철 갑옷",
+"STR_KR":"빛나는 철 갑옷",
 "STR_EN":"",
 "STR_JP":""
 },
@@ -206,7 +206,7 @@
 {
 "ID":30,
 "NAME":"STR_ITEM_EQUIP_N_AR_25",
-"STR_KR":"레어 법사 옷",
+"STR_KR":"빛나는 법사 옷",
 "STR_EN":"",
 "STR_JP":""
 },
@@ -325,7 +325,7 @@
 {
 "ID":47,
 "NAME":"STR_ITEM_EQUIP_N_BO_04",
-"STR_KR":"강화 나무 장화",
+"STR_KR":"빛나는 나무 장화",
 "STR_EN":"",
 "STR_JP":""
 },
@@ -346,7 +346,7 @@
 {
 "ID":50,
 "NAME":"STR_ITEM_EQUIP_N_BO_07",
-"STR_KR":"강화 가죽 장화",
+"STR_KR":"빛나는 가죽 장화",
 "STR_EN":"",
 "STR_JP":""
 },
@@ -367,7 +367,7 @@
 {
 "ID":53,
 "NAME":"STR_ITEM_EQUIP_N_BO_10",
-"STR_KR":"강화 황동 장화",
+"STR_KR":"빛나는 황동 장화",
 "STR_EN":"",
 "STR_JP":""
 },
@@ -388,7 +388,7 @@
 {
 "ID":56,
 "NAME":"STR_ITEM_EQUIP_N_BO_13",
-"STR_KR":"강화 철 장화",
+"STR_KR":"빛나는 철 장화",
 "STR_EN":"",
 "STR_JP":""
 },
@@ -4378,49 +4378,49 @@
 {
 "ID":626,
 "NAME":"STR_MAP_S3_001_DESC",
-"STR_KR":"녹색 영역으로 이동해 보세요.",
+"STR_KR":"다음 지역으로 이동하세요.",
 "STR_EN":"",
 "STR_JP":""
 },
 {
 "ID":627,
 "NAME":"STR_MAP_S3_002_DESC",
-"STR_KR":"녹색 영역으로 이동해 보세요.",
+"STR_KR":"슬라임을 피해 다음 지역으로 이동하세요.",
 "STR_EN":"",
 "STR_JP":""
 },
 {
 "ID":628,
 "NAME":"STR_MAP_S3_003_DESC",
-"STR_KR":"녹색 영역으로 이동해 보세요.",
+"STR_KR":"슬라임을 피해 다음 지역으로 이동하세요.",
 "STR_EN":"",
 "STR_JP":""
 },
 {
 "ID":629,
 "NAME":"STR_MAP_S3_004_DESC",
-"STR_KR":"녹색 영역으로 이동해 보세요.",
+"STR_KR":"다음 지역으로 이동하세요.",
 "STR_EN":"",
 "STR_JP":""
 },
 {
 "ID":630,
 "NAME":"STR_MAP_S3_005_DESC",
-"STR_KR":"녹색 영역으로 이동해 보세요.",
+"STR_KR":"갈색 늑대를 피해 다음 지역으로 이동하세요.",
 "STR_EN":"",
 "STR_JP":""
 },
 {
 "ID":631,
 "NAME":"STR_MAP_S3_006_DESC",
-"STR_KR":"녹색 영역으로 이동해 보세요.",
+"STR_KR":"몬스터를 피해 다음 지역으로 이동하세요.",
 "STR_EN":"",
 "STR_JP":""
 },
 {
 "ID":632,
 "NAME":"STR_MAP_S3_007_DESC",
-"STR_KR":"녹색 영역으로 이동해 보세요.",
+"STR_KR":"슬라임을 피해 다음 지역으로 이동하세요.",
 "STR_EN":"",
 "STR_JP":""
 },
@@ -5841,35 +5841,35 @@
 {
 "ID":835,
 "NAME":"STR_MAP_S4_026",
-"STR_KR":"비밀 서고",
+"STR_KR":"단서",
 "STR_EN":"",
 "STR_JP":""
 },
 {
 "ID":836,
 "NAME":"STR_MAP_S4_027",
-"STR_KR":"단서",
+"STR_KR":"리바이의 서",
 "STR_EN":"",
 "STR_JP":""
 },
 {
 "ID":837,
 "NAME":"STR_MAP_S4_001_DESC",
-"STR_KR":"보물에 현혹되지 말고 이동하세요.",
+"STR_KR":"보물에 현혹되지 말고 다음 지역으로 이동하세요.",
 "STR_EN":"",
 "STR_JP":""
 },
 {
 "ID":838,
 "NAME":"STR_MAP_S4_002_DESC",
-"STR_KR":"덫을 피해 목표 지점까지 이동하세요.",
+"STR_KR":"덫을 피해 다음 지역으로 이동하세요.",
 "STR_EN":"",
 "STR_JP":""
 },
 {
 "ID":839,
 "NAME":"STR_MAP_S4_003_DESC",
-"STR_KR":"좀비를 피해 목표 지점까지 이동하세요.",
+"STR_KR":"좀비를 피해 다음 지역으로 이동하세요.",
 "STR_EN":"",
 "STR_JP":""
 },
@@ -5904,21 +5904,21 @@
 {
 "ID":844,
 "NAME":"STR_MAP_S4_008_DESC",
-"STR_KR":"화살표로 이동하세요.",
+"STR_KR":"다음 지역으로 이동하세요.",
 "STR_EN":"",
 "STR_JP":""
 },
 {
 "ID":845,
 "NAME":"STR_MAP_S4_009_DESC",
-"STR_KR":"목표 지점으로 이동하세요.",
+"STR_KR":"믿음의 힘으로 낭떨어지를 건너 보세요. 여신의 가호가 있기를..",
 "STR_EN":"",
 "STR_JP":""
 },
 {
 "ID":846,
 "NAME":"STR_MAP_S4_010_DESC",
-"STR_KR":"제한 시간 안에 목표 지점으로 이동하세요.",
+"STR_KR":"욕심은 화를 부릅니다. 다음 지역으로 이동하세요.",
 "STR_EN":"",
 "STR_JP":""
 },
@@ -5932,7 +5932,7 @@
 {
 "ID":848,
 "NAME":"STR_MAP_S4_012_DESC",
-"STR_KR":"발 밑을 조심하며 다음 지역으로 이동하세요.",
+"STR_KR":"좀비를 피해 다음 지역으로 이동하세요.",
 "STR_EN":"",
 "STR_JP":""
 },
@@ -6254,7 +6254,7 @@
 {
 "ID":894,
 "NAME":"STR_NPC_N_0030",
-"STR_KR":"오래된 책",
+"STR_KR":"리바이의 서…",
 "STR_EN":"",
 "STR_JP":""
 },
@@ -6275,14 +6275,28 @@
 {
 "ID":897,
 "NAME":"STR_STORY_NPC_20030_03",
-"STR_KR":"리바이???",
+"STR_KR":"아직은 뭔지 알 수가 없다.",
 "STR_EN":"",
 "STR_JP":""
 },
 {
 "ID":898,
 "NAME":"STR_STORY_NPC_20030_04",
-"STR_KR":"일단 이 사람에 대해 조사해 보자.",
+"STR_KR":"일단 가져가 보자.",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":899,
+"NAME":"STR_ITEM_QUEST_03",
+"STR_KR":"리바이의 서",
+"STR_EN":"",
+"STR_JP":""
+},
+{
+"ID":900,
+"NAME":"STR_ITEM_QUEST_03_DESC",
+"STR_KR":"마법진과 도형이 그려진 오래된 책",
 "STR_EN":"",
 "STR_JP":""
 }

@@ -9268,9 +9268,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae808f6d53c6b8847bc99590bc6e3e6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Width: 32
+  Width: 320
   Height: 32
-  UseSprite: 1
 --- !u!114 &11424258
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9609,7 +9608,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 114000012017348992, guid: a4d226e620c6e5d428c28fad6ff717fd, type: 2}
-  mSpriteName: hand_01_10
+  mSpriteName: map_obj_99
   mFillCenter: 1
 --- !u!114 &11429888
 MonoBehaviour:

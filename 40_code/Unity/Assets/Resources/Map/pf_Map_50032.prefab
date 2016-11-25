@@ -10772,13 +10772,13 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 0.07969292, g: 0.9852941, b: 0.12341168, a: 1}
   mPivot: 4
-  mWidth: 96
-  mHeight: 64
+  mWidth: 32
+  mHeight: 32
   mDepth: 0
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 1.5
+  aspectRatio: 1
   mType: 1
   mFillDirection: 4
   mFillAmount: 1
@@ -10789,8 +10789,8 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
-  mAtlas: {fileID: 11490092, guid: 3b58ee327d0648848b2a4f0f29b64041, type: 2}
-  mSpriteName: highlight_thin
+  mAtlas: {fileID: 114000012017348992, guid: a4d226e620c6e5d428c28fad6ff717fd, type: 2}
+  mSpriteName: hand_01_10
   mFillCenter: 1
 --- !u!114 &11429888
 MonoBehaviour:
@@ -12806,6 +12806,7 @@ MonoBehaviour:
   NpcId: 22000
   Range: 32
   HasShadow: 0
+  NoWalkSound: 0
   SpawnCell: {fileID: 11480714}
   NpcSprite: {fileID: 11483338}
   HpBar: {fileID: 11465756}
@@ -13777,6 +13778,7 @@ MonoBehaviour:
   NpcId: 22000
   Range: 32
   HasShadow: 0
+  NoWalkSound: 0
   SpawnCell: {fileID: 11443608}
   NpcSprite: {fileID: 11404430}
   HpBar: {fileID: 11461708}
@@ -15808,7 +15810,6 @@ MonoBehaviour:
   ObjectPanel: {fileID: 11489854}
   BottomPanel: {fileID: 11428690}
   TopPanel: {fileID: 11446900}
-  ColNum: 10
   PlayTime: 10
   CellList: []
   ObjList: []

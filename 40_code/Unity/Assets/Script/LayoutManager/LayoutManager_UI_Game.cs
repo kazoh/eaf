@@ -318,6 +318,7 @@ public class LayoutManager_UI_Game : LayoutManager {
     {
         try
         {
+            GameProcess.Instance.MuteBGM(true);
             if (map.IsClear)
             {
                 GameProcess.GetGameDataManager().SaveMapRecord(map.Data.Id, map.Crown);
@@ -343,6 +344,7 @@ public class LayoutManager_UI_Game : LayoutManager {
         LayoutManager.UnLock();
         CheckMission();
         OnClickMenu(GameEnum.Menu.MAP);
+        GameProcess.Instance.MuteBGM(false);
         DestroyMap();
     }
 

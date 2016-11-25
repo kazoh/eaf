@@ -7105,6 +7105,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11465562}
   Type: 0
   IsBlock: 1
+  IsWall: 0
 --- !u!114 &11402210
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7119,6 +7120,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11426620}
   Type: 0
   IsBlock: 1
+  IsWall: 0
 --- !u!114 &11402432
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7133,6 +7135,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11438388}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11402788
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7597,6 +7600,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11435062}
   Type: 0
   IsBlock: 1
+  IsWall: 0
 --- !u!114 &11408214
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7613,12 +7617,10 @@ MonoBehaviour:
   ObjectPanel: {fileID: 11453268}
   BottomPanel: {fileID: 11457338}
   TopPanel: {fileID: 11411084}
-  ColNum: 10
   PlayTime: 10
   CellList: []
   ObjList:
   - {fileID: 11442668}
-  PlayerBulletList: []
   TestMode: 0
   MapId: 50015
   CharacterId: 10001
@@ -7642,6 +7644,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11476136}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11409956
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7656,6 +7659,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11496814}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11410768
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7670,6 +7674,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11419102}
   Type: 0
   IsBlock: 1
+  IsWall: 0
 --- !u!114 &11411084
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7729,6 +7734,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11413632}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11412662
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7793,6 +7799,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11417970}
   Type: 0
   IsBlock: 1
+  IsWall: 0
 --- !u!114 &11413352
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7857,6 +7864,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11473660}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11413632
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8021,6 +8029,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11498438}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11414642
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8135,6 +8144,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11495898}
   Type: 0
   IsBlock: 1
+  IsWall: 0
 --- !u!114 &11415910
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8149,6 +8159,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11431372}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11416516
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8163,6 +8174,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11455480}
   Type: 0
   IsBlock: 1
+  IsWall: 0
 --- !u!114 &11416584
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8177,6 +8189,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11428262}
   Type: 0
   IsBlock: 1
+  IsWall: 0
 --- !u!114 &11416628
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8330,6 +8343,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11412662}
   Type: 0
   IsBlock: 1
+  IsWall: 0
 --- !u!114 &11417970
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8444,6 +8458,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11499938}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11419102
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8616,6 +8631,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11459974}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11421482
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8630,6 +8646,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11443184}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11423364
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8644,6 +8661,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11435382}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11423376
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8658,6 +8676,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11413884}
   Type: 0
   IsBlock: 1
+  IsWall: 0
 --- !u!114 &11423730
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8672,6 +8691,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11494026}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11423898
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8786,6 +8806,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11461796}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11424854
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8800,6 +8821,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11417356}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11425056
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8814,6 +8836,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11434384}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11425148
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8828,6 +8851,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11476416}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11425190
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8842,6 +8866,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11406628}
   Type: 1
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11426620
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8906,6 +8931,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11460078}
   Type: 0
   IsBlock: 1
+  IsWall: 0
 --- !u!114 &11426752
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8920,6 +8946,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11429802}
   Type: 0
   IsBlock: 1
+  IsWall: 0
 --- !u!114 &11428168
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9048,6 +9075,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11435332}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11429802
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9112,6 +9140,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11479172}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11430388
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9176,6 +9205,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11402788}
   Type: 0
   IsBlock: 1
+  IsWall: 0
 --- !u!114 &11431372
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9240,6 +9270,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11469452}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11431418
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9354,6 +9385,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11484362}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11432266
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9418,6 +9450,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11405782}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11432434
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9732,6 +9765,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11462712}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11436486
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9896,6 +9930,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11420646}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11438556
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9960,6 +9995,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11458032}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11439920
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9974,6 +10010,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11486122}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11440248
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9988,6 +10025,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11497226}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11442208
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10002,6 +10040,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11470024}
   Type: 0
   IsBlock: 1
+  IsWall: 0
 --- !u!114 &11442668
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10015,6 +10054,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Width: 160
   Height: 102
+  UseSprite: 1
 --- !u!114 &11443162
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10029,6 +10069,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11444710}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11443184
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10093,6 +10134,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11407550}
   Type: 0
   IsBlock: 1
+  IsWall: 0
 --- !u!114 &11443844
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10107,6 +10149,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11418970}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11444710
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10221,6 +10264,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11400376}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11446752
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10235,6 +10279,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11406946}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11447928
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10249,6 +10294,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11413352}
   Type: 0
   IsBlock: 1
+  IsWall: 0
 --- !u!114 &11448214
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10313,6 +10359,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11428766}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11450234
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10377,6 +10424,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11467182}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11452058
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10391,6 +10439,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11434610}
   Type: 0
   IsBlock: 1
+  IsWall: 0
 --- !u!114 &11452534
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10455,6 +10504,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11499926}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11453268
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10514,6 +10564,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11460042}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11455396
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10528,6 +10579,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11497970}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11455480
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10692,6 +10744,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11461726}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11457338
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10801,6 +10854,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11431736}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11458532
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11260,6 +11314,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11400632}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11464782
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11274,6 +11329,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11424496}
   Type: 0
   IsBlock: 1
+  IsWall: 0
 --- !u!114 &11465330
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11288,6 +11344,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11495286}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11465562
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11402,6 +11459,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11416628}
   Type: 0
   IsBlock: 1
+  IsWall: 0
 --- !u!114 &11468016
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11416,6 +11474,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11415044}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11468874
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11480,6 +11539,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11460308}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11469452
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11544,6 +11604,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11414642}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11470024
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11608,6 +11669,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11450234}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11471946
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11622,6 +11684,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11496922}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11473084
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11736,6 +11799,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11413782}
   Type: 0
   IsBlock: 1
+  IsWall: 0
 --- !u!114 &11473702
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11750,6 +11814,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11452534}
   Type: 0
   IsBlock: 1
+  IsWall: 0
 --- !u!114 &11475734
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11764,6 +11829,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11430388}
   Type: 0
   IsBlock: 1
+  IsWall: 0
 --- !u!114 &11476136
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11878,6 +11944,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11432266}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11478288
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11942,6 +12009,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11437356}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11478722
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -11956,6 +12024,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11478288}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11478868
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12085,6 +12154,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11423898}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11479786
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12099,6 +12169,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11455552}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11480566
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12113,6 +12184,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11485622}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11480614
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12127,6 +12199,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11403740}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11481228
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12191,6 +12264,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11462776}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11482258
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12205,6 +12279,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11431418}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11482576
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12269,6 +12344,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11405572}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11484232
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12383,6 +12459,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11403250}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11485622
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12497,6 +12574,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11445520}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11490050
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12511,6 +12589,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11436486}
   Type: 0
   IsBlock: 1
+  IsWall: 0
 --- !u!114 &11490440
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12546,6 +12625,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11438556}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11491746
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12560,6 +12640,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11455998}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11494026
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12789,6 +12870,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11468874}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11496442
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12803,6 +12885,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11496446}
   Type: 0
   IsBlock: 1
+  IsWall: 0
 --- !u!114 &11496446
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12867,6 +12950,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11482576}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11496814
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12931,6 +13015,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11405102}
   Type: 0
   IsBlock: 1
+  IsWall: 0
 --- !u!114 &11496922
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13126,13 +13211,13 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 0.07969292, g: 0.9852941, b: 0.12341168, a: 1}
   mPivot: 4
-  mWidth: 160
-  mHeight: 102
+  mWidth: 32
+  mHeight: 32
   mDepth: 0
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 1.5686275
+  aspectRatio: 1
   mType: 1
   mFillDirection: 4
   mFillAmount: 1
@@ -13143,8 +13228,8 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
-  mAtlas: {fileID: 11490092, guid: 3b58ee327d0648848b2a4f0f29b64041, type: 2}
-  mSpriteName: highlight_thin
+  mAtlas: {fileID: 114000012017348992, guid: a4d226e620c6e5d428c28fad6ff717fd, type: 2}
+  mSpriteName: hand_01_10
   mFillCenter: 1
 --- !u!114 &11497970
 MonoBehaviour:
@@ -13210,6 +13295,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11473084}
   Type: 0
   IsBlock: 1
+  IsWall: 0
 --- !u!114 &11498438
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13274,6 +13360,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11484232}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!114 &11499852
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13288,6 +13375,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11481228}
   Type: 0
   IsBlock: 1
+  IsWall: 0
 --- !u!114 &11499926
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13402,6 +13490,7 @@ MonoBehaviour:
   SelectSprite: {fileID: 11432434}
   Type: 0
   IsBlock: 0
+  IsWall: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -13777,6 +13866,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Range: 32
+  HasShadow: 0
   ChaSprite: {fileID: 114000012270294796}
   HpBar: {fileID: 114000013958436056}
   DmgLabelList:

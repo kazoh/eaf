@@ -234,6 +234,11 @@ public class GameProcess : MonoBehaviour
         return Instance.soundManager.EffectLength(type);
     }
 
+    public void MuteBGM(bool _mute)
+    {
+        soundManager.MuteBGM(_mute);
+    }
+
     public void SetVolumnBGM(float value)
     {
         soundManager.SetVolumeBGM(value);

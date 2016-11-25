@@ -63,7 +63,7 @@ public class HttpManager : MonoBehaviour {
         else www = new WWW(_request.Url, _request.Form);
         yield return www;
 
-#if UNITY_EDITOR
+#if DEBUG_MODE
         Debug.Log(_request.Url);
         Debug.Log(www.text);
 #endif

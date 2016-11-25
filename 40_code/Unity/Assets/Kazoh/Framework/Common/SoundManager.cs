@@ -203,6 +203,11 @@ public class SoundManager : MonoBehaviour {
         effectVolume = value;
     }
 
+    public void MuteBGM(bool _mute)
+    {
+        bgmAudioSource.mute = _mute;
+    }
+
     public void StopBGM()
     {
         if (bgmAudioSource != null && bgmAudioSource.isPlaying)

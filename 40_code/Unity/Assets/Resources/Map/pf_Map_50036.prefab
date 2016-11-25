@@ -8581,6 +8581,7 @@ MonoBehaviour:
   NpcId: 22000
   Range: 32
   HasShadow: 0
+  NoWalkSound: 0
   SpawnCell: {fileID: 11481210}
   NpcSprite: {fileID: 11408758}
   HpBar: {fileID: 11473978}
@@ -10343,7 +10344,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3005
+  startingRenderQueue: 3002
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -10447,8 +10448,8 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 0.07969292, g: 0.9852941, b: 0.12341168, a: 1}
   mPivot: 4
-  mWidth: 64
-  mHeight: 64
+  mWidth: 32
+  mHeight: 32
   mDepth: 0
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
@@ -10464,8 +10465,8 @@ MonoBehaviour:
   rightType: 1
   bottomType: 1
   topType: 1
-  mAtlas: {fileID: 11490092, guid: 3b58ee327d0648848b2a4f0f29b64041, type: 2}
-  mSpriteName: highlight_thin
+  mAtlas: {fileID: 114000012017348992, guid: a4d226e620c6e5d428c28fad6ff717fd, type: 2}
+  mSpriteName: hand_01_01
   mFillCenter: 1
 --- !u!114 &11429888
 MonoBehaviour:
@@ -11536,7 +11537,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3033
+  startingRenderQueue: 3008
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -13121,7 +13122,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3009
+  startingRenderQueue: 3003
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -15071,7 +15072,6 @@ MonoBehaviour:
   ObjectPanel: {fileID: 11489854}
   BottomPanel: {fileID: 11428690}
   TopPanel: {fileID: 11446900}
-  ColNum: 10
   PlayTime: 10
   CellList: []
   ObjList: []
@@ -15330,7 +15330,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3013
+  startingRenderQueue: 3004
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0

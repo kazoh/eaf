@@ -9266,7 +9266,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Width: 96
   Height: 64
-  UseSprite: 0
 --- !u!114 &11424258
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10663,7 +10662,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3013
+  startingRenderQueue: 3010
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -15952,7 +15951,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 781a976eec9e39b43b914a1771543bda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NpcId: 20000
+  NpcId: 20025
   Range: 32
   HasShadow: 0
   LinkedCell: {fileID: 11491766}
@@ -16259,7 +16258,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11463102, guid: bb557a8d45d5de1498b202db919e7983, type: 2}
-  mSpriteName: npc_0001_02
+  mSpriteName: npc_0011_02
   mFillCenter: 1
 --- !u!114 &114000014155644486
 MonoBehaviour:
