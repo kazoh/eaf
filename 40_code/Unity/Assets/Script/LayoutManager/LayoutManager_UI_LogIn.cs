@@ -102,7 +102,7 @@ public class LayoutManager_UI_LogIn : LayoutManager {
                 }
 
                 title = TableManager.GetString("STR_MAIL_SUB");
-                msg = TableManager.GetString("STR_MAIL_MSG");
+                msg = string.Format(TableManager.GetString("STR_MAIL_MSG"),tempPw);
 
                 DBManager.FindPw(_email, tempPw, title, msg, delegate (bool _isFail)
                 {

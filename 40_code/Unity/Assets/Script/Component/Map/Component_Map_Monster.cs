@@ -340,6 +340,7 @@ public class Component_Map_Monster : Component_Map_Object, IAttackable
         }
         else
         {
+            yield return new WaitForSeconds(0.3f);
             SendEventAndHide();
         }
     }
