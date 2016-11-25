@@ -1833,7 +1833,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 429506}
-  - 114: {fileID: 114000013325329046}
+  - 114: {fileID: 114000012480765774}
   m_Layer: 5
   m_Name: pf_Map_50071
   m_TagString: Untagged
@@ -10496,7 +10496,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3007
+  startingRenderQueue: 3008
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -15549,6 +15549,34 @@ MonoBehaviour:
   mAtlas: {fileID: 11402762, guid: 4c8d6142f3c0d0e4794cdef3efe06831, type: 2}
   mSpriteName: white_32_32
   mFillCenter: 1
+--- !u!114 &114000012480765774
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 147500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd726653dafdb364caf387bceb7f7cab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BgTexture: {fileID: 11412576}
+  CellGrid: {fileID: 11475286}
+  ObjectPanel: {fileID: 11489854}
+  BottomPanel: {fileID: 11428690}
+  TopPanel: {fileID: 11446900}
+  PlayTime: 10
+  CellList: []
+  ObjList: []
+  TestMode: 0
+  MapId: 50071
+  CharacterId: 10000
+  SAtk: 0
+  LAtk: 0
+  ASpd: 0
+  Spd: 0
+  Def: 0
+  Hp: 0
 --- !u!114 &114000013037926272
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -15666,34 +15694,6 @@ MonoBehaviour:
   from: {x: 0, y: 0, z: 0}
   to: {x: 0, y: 0, z: 0}
   worldSpace: 0
---- !u!114 &114000013325329046
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 147500}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd726653dafdb364caf387bceb7f7cab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  BgTexture: {fileID: 11412576}
-  CellGrid: {fileID: 11475286}
-  ObjectPanel: {fileID: 11489854}
-  BottomPanel: {fileID: 11428690}
-  TopPanel: {fileID: 11446900}
-  PlayTime: 10
-  CellList: []
-  ObjList: []
-  TestMode: 0
-  MapId: 50071
-  CharacterId: 10000
-  SAtk: 0
-  LAtk: 10
-  ASpd: 0
-  Spd: 0
-  Def: 0
-  Hp: 0
 --- !u!114 &114000013342053202
 MonoBehaviour:
   m_ObjectHideFlags: 1

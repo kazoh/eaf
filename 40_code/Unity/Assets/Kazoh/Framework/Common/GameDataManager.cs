@@ -971,6 +971,24 @@ public class GameDataManager
         }
     }
 
+    public void UseQuestItem(int _itemId, int _num)
+    {
+        try
+        {
+            for (int i = 0; i < itemSlotList.Count; ++i)
+            {
+                if (itemSlotList[i].IsEmpty) continue;
+                if (itemSlotList[i].ItemId != _itemId || itemSlotList[i].Data.Num < _num) continue;
+                itemSlotList[i].UseItem(_num);
+                MoveItemFromTempList();
+            }
+        }
+        catch (Exception e)
+        {
+            throw e;
+        }
+    }
+
     public void ExcuteReward(Data_Reward _data)
     {
         int maxGold = GameProcess.GetGameConfig().MaxGold;

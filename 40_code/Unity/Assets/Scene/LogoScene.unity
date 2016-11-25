@@ -409,19 +409,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11494774, guid: 3a6fd2cf1e284ee4f85adcec1393eedd, type: 2}
       propertyPath: Version
-      value: 1.0.1.6
+      value: 1.0.2.10
       objectReference: {fileID: 0}
     - target: {fileID: 11494774, guid: 3a6fd2cf1e284ee4f85adcec1393eedd, type: 2}
       propertyPath: ShortVersion
-      value: 1.0.1
+      value: 1.0.2
       objectReference: {fileID: 0}
     - target: {fileID: 11494774, guid: 3a6fd2cf1e284ee4f85adcec1393eedd, type: 2}
       propertyPath: VersionCode
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 11494774, guid: 3a6fd2cf1e284ee4f85adcec1393eedd, type: 2}
       propertyPath: ConfigVersion
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 11494774, guid: 3a6fd2cf1e284ee4f85adcec1393eedd, type: 2}
       propertyPath: ClearCache

@@ -19,13 +19,21 @@ public class Component_Map_Bullet : Component_Map_Object
         End,
     }
 
+    public enum TargetType
+    {
+        Enemy,
+        Player,
+        All,
+    }
+
     public UISprite BulletSprite;
     public string SpriteFormat;
     public int Range;
     public int Speed;
     public bool IsSpawnEffect;
     public bool IsDespawnEffect;
-    
+
+    private TargetType targetType;
     private IAttackable target;
     private GameEnum.Direction curDir;
 
@@ -81,6 +89,13 @@ public class Component_Map_Bullet : Component_Map_Object
         num = 0;
         delay = float.MinValue;
         State = MonsterState.Wait;
+    }
+
+    public void Init(Component_Map _map, TargetType _target)
+    {
+        map = _map;
+        targetType = _target;
+        Init();
     }
 
     void LateUpdate()
@@ -175,12 +190,23 @@ public class Component_Map_Bullet : Component_Map_Object
 
     bool HasArrived()
     {
-        List<Component_Map_Object> list = map.ObjList;
-        for(int i=0; i<list.Count; ++i)
+        if(targetType == TargetType.Enemy || targetType == TargetType.All)
         {
-            if (list[i] is IAttackable && CheckDistant(list[i].Pos))
+            List<Component_Map_Object> list = map.ObjList;
+            for (int i = 0; i < list.Count; ++i)
             {
-                target = list[i] as IAttackable;
+                if (list[i] is IAttackable && CheckDistant(list[i].Pos))
+                {
+                    target = list[i] as IAttackable;
+                    return true;
+                }
+            }
+        }
+        if (targetType == TargetType.Player || targetType == TargetType.All)
+        {
+            if (map.Player is IAttackable && CheckDistant(map.Player.Pos))
+            {
+                target = map.Player as IAttackable;
                 return true;
             }
         }

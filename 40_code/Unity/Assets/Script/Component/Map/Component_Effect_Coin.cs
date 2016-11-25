@@ -4,6 +4,7 @@ using System;
 
 public class Component_Effect_Coin : Component_Map_Object
 {
+    public Action FinishEvent;
     public UISprite Sprite;
     private Animation anim;
 
@@ -33,6 +34,7 @@ public class Component_Effect_Coin : Component_Map_Object
             yield return null;
         }
 
+        if (FinishEvent != null) FinishEvent();
         Destroy(gameObject);
     }
 }

@@ -240,7 +240,7 @@ public class Component_Map_Player : GameComponent, IAttackable
                 if (bullet != null)
                 {
                     int atk = isCritical ? Mathf.CeilToInt(CharacterData.LAtk * CharacterData.CriticalPercent) : CharacterData.LAtk;
-                    bullet.Init(map);
+                    bullet.Init(map, Component_Map_Bullet.TargetType.Enemy);
                     bullet.Shoot(curDir, Pos, atk, isCritical);
                 }
                 else

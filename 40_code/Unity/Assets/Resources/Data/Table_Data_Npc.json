@@ -766,7 +766,7 @@
 "STR":"STR_MOB_N_0011",
 "DESC":"STR_MOB_N_0011_DESC",
 "TYPE":"MONSTER",
-"SATK":100,
+"SATK":90,
 "LATK":150,
 "RANGE":5,
 "DEF":0,
@@ -776,7 +776,7 @@
 "DROP_ARRAY":[{"DROP":"drop_0021"},{"DROP":""},{"DROP":""}],
 "MODEL":"mob_0011",
 "ICON":"",
-"BULLET":"pf_Bullet_01",
+"BULLET":"pf_fire_01",
 "DIALOG_ARRAY":[{"DIALOG":""},{"DIALOG":""},{"DIALOG":""},{"DIALOG":""},{"DIALOG":""},{"DIALOG":""},{"DIALOG":""},{"DIALOG":""},{"DIALOG":""},{"DIALOG":""}]
 },
 {
@@ -787,7 +787,7 @@
 "TYPE":"MONSTER",
 "SATK":120,
 "LATK":80,
-"RANGE":4,
+"RANGE":1,
 "DEF":0,
 "ASPD":1000,
 "SPD":53,

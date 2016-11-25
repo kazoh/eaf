@@ -306,17 +306,8 @@ public class Component_Map : GameComponent
     /// <param name="_gold">골드</param>
     /// <param name="_coin">코인</param>
     /// <param name="_list">드롭리스트</param>
-    protected void OnReward(int _gold, int _coin, Data_Reward _reward)
+    protected virtual void OnReward(int _gold, int _coin, Data_Reward _reward)
     {
-        //List<TableData_Drop> _dropList = new List<TableData_Drop>();
-        //if(_list != null)
-        //{
-        //    for(int i=0; i<_list.Count; ++i)
-        //    {
-        //        TableData_Drop _drop = TableManager.GetGameData(_list[i]) as TableData_Drop;
-        //        if (_drop != null) _dropList.Add(_drop);
-        //    }
-        //}
         AddReward(_gold, _coin, _reward);
     }
     #endregion // Callback

@@ -12,8 +12,10 @@ public class TableData_Npc : TableData
     readonly public int ASpd;
     readonly public int Spd;
     readonly public int Hp;
+    readonly public int Range;
     readonly public string SpriteName;
     readonly public string IconName;
+    readonly public string BulletName;
 
     public List<string> DropList;
     public List<string> DialogList;
@@ -34,8 +36,10 @@ public class TableData_Npc : TableData
         if (dict.Contains("ASPD")) ASpd = Convert.ToInt32(dict["ASPD"]);
         if (dict.Contains("SPD")) Spd = Convert.ToInt32(dict["SPD"]);
         if (dict.Contains("HP")) Hp = Convert.ToInt32(dict["HP"]);
+        if (dict.Contains("RANGE")) Range = Convert.ToInt32(dict["RANGE"]);
         if (dict.Contains("MODEL")) SpriteName = Convert.ToString(dict["MODEL"]);
         if (dict.Contains("ICON")) IconName = Convert.ToString(dict["ICON"]);
+        if (dict.Contains("BULLET")) BulletName = Convert.ToString(dict["BULLET"]);
 
         DropList = new List<string>();
         IList list = dict["DROP_ARRAY"] as IList;

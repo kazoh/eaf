@@ -44,7 +44,9 @@ public class Component_Map_Monster : Component_Map_Object, IAttackable
     private float delay = float.MinValue;
     private float attackDelay = float.MinValue;
     private int hp;
+    private int fireRange;
     private int spriteNum;
+    private GameObject pfBullet;
 
     private MonsterState state;
     public MonsterState State
@@ -99,6 +101,7 @@ public class Component_Map_Monster : Component_Map_Object, IAttackable
         if (Data == null) throw new GameException(GameException.ErrorCode.NoGameData);
         Name = TableManager.GetString(Data.Str);
         hp = Data.Hp;
+        fireRange = Data.Range * 32;
         Speed = 32f / Data.Spd;
         DialogList = new List<string>();
         foreach(string dialog in Data.DialogList)
@@ -114,6 +117,7 @@ public class Component_Map_Monster : Component_Map_Object, IAttackable
             else shadowTransform.GetComponent<UISprite>().alpha = 0f;
         }
 
+        pfBullet = Resources.Load("Prefabs/" + Data.BulletName) as GameObject;
         State = MonsterState.Spawn;
     }
 
@@ -146,6 +150,10 @@ public class Component_Map_Monster : Component_Map_Object, IAttackable
                     curCell = preCell;
                     State = MonsterState.Attack;
                 }
+                else if (CheckFireRange())
+                {
+                    State = MonsterState.Attack;
+                }
                 else State = MonsterState.Move;                
                 break;
 
@@ -162,11 +170,16 @@ public class Component_Map_Monster : Component_Map_Object, IAttackable
                     transform.localPosition = curCell.Pos;
                     State = MonsterState.Attack;
                 }
+                else if (CheckFireRange())
+                {
+                    State = MonsterState.Attack;
+                }
                 else Move();
                 break;
 
             case MonsterState.Attack:
                 if (CheckDistant()) Attack();
+                else if (CheckFireRange()) Fire();
                 else State = MonsterState.Wait;
                 break;
 
@@ -259,6 +272,41 @@ public class Component_Map_Monster : Component_Map_Object, IAttackable
         }
     }
 
+    void Fire()
+    {
+        if ((map.Player as IAttackable).IsDie()) return;
+        if (attackDelay > Time.time) return; 
+        
+        GameEnum.Direction dir = GetDirection(map.Player.Pos);
+        LookAt(dir);
+        attackDelay = Data.ASpd * 0.001f + Time.time;
+        GameProcess.PlaySound(SOUND_EFFECT.LOSE);
+
+        GameObject go = NGUITools.AddChild(transform.parent.gameObject, pfBullet);
+        if (go != null)
+        {
+            Component_Map_Bullet bullet = go.GetComponent<Component_Map_Bullet>();
+            if (bullet != null)
+            {
+                int atk = Data.LAtk;
+                bullet.Init(map, Component_Map_Bullet.TargetType.Player);
+                bullet.Shoot(dir, Pos, atk, false);
+            }
+            else
+            {
+#if UNITY_EDITOR
+                Debug.Log("탄환 없음");
+#endif
+            }
+        }
+        else
+        {
+#if UNITY_EDITOR
+            Debug.Log("탄환 프리펩 없음");
+#endif
+        }
+    }
+
     void Die()
     {
         NpcSprite.spriteName = "die_02";
@@ -267,7 +315,8 @@ public class Component_Map_Monster : Component_Map_Object, IAttackable
 
     IEnumerator OnDie()
     {
-        yield return new WaitForSeconds(0.5f);
+        //yield return new WaitForSeconds(0.5f);
+        yield return null;
         Data_Reward reward = Data_Reward.DoDrop(Data.DropList);
         if (DropEvent != null)
         {
@@ -289,9 +338,10 @@ public class Component_Map_Monster : Component_Map_Object, IAttackable
         {
             ShowEffect("coin_02", PfCoinEffect);
         }
-        if (DieEvent != null) DieEvent(this);
-        yield return new WaitForSeconds(0.5f);
-        Hide();
+        else
+        {
+            SendEventAndHide();
+        }
     }
 
     void End()
@@ -305,6 +355,26 @@ public class Component_Map_Monster : Component_Map_Object, IAttackable
         if (dist > Mathf.Pow(Range, 2)) return false;
 
         return true;
+    }
+
+    bool CheckFireRange()
+    {
+        float dist = Mathf.Pow(map.Player.Pos.y - Pos.y, 2) + Mathf.Pow(map.Player.Pos.x - Pos.x, 2);
+        if (dist < Mathf.Pow(64, 2)) return false;
+        if (dist > Mathf.Pow(fireRange, 2)) return false;
+        if (!IsSameLine()) return false;
+
+        return true;
+    }
+
+    bool IsSameLine()
+    {
+        Vector3 pPos = map.Player.Pos;
+        Vector3 cPos = pPos - Pos;
+        if (cPos.x < 0.5f && cPos.x > -0.5f) return true;
+        if (cPos.y < 0.5f && cPos.y > -0.5f) return true;
+        
+        return false;
     }
 
     bool HasArrived()
@@ -388,11 +458,25 @@ public class Component_Map_Monster : Component_Map_Object, IAttackable
 
     protected GameEnum.Direction GetDirection(Vector3 _pos)
     {
+        Vector3 v = Pos - _pos;
+        float x = Mathf.Abs(v.x);
+        float y = Mathf.Abs(v.y);
+
         GameEnum.Direction dir = GameEnum.Direction.none;
-        if (_pos.x > Pos.x) dir = GameEnum.Direction.right;
-        else if (_pos.x < Pos.x) dir = GameEnum.Direction.left;
-        else if (_pos.y > Pos.y) dir = GameEnum.Direction.up;
-        else if (_pos.y < Pos.y) dir = GameEnum.Direction.down;
+        if(x > y)
+        {
+            if (v.x < 0) dir = GameEnum.Direction.right;
+            else dir = GameEnum.Direction.left;
+        }
+        else
+        {
+            if (v.y < 0) dir = GameEnum.Direction.up;
+            else dir = GameEnum.Direction.down;
+        }
+        //if (_pos.x > Pos.x) dir = GameEnum.Direction.right;
+        //else if (_pos.x < Pos.x) dir = GameEnum.Direction.left;
+        //else if (_pos.y > Pos.y) dir = GameEnum.Direction.up;
+        //else if (_pos.y < Pos.y) dir = GameEnum.Direction.down;
 
         return dir;
     }
@@ -472,11 +556,22 @@ public class Component_Map_Monster : Component_Map_Object, IAttackable
         Component_Effect_Coin effect = go.GetComponent<Component_Effect_Coin>();
         if (effect != null)
         {
+            effect.FinishEvent += SendEventAndHide;
             go.transform.position = map.Player.transform.position;
             effect.Init(_sprite);
             effect.Play();
         }
-        else Destroy(go);
+        else
+        {
+            SendEventAndHide();
+            Destroy(go);
+        }
+    }
+
+    void SendEventAndHide()
+    {
+        if (DieEvent != null) DieEvent(this);
+        Hide();
     }
 
     //void Reward()

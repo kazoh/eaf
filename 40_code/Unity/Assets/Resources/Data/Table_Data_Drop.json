@@ -79,7 +79,7 @@
 "ADD_GOLD":288,
 "COIN":0,
 "ADD_COIN":0,
-"DROP_ARRAY":[{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0}]
+"DROP_ARRAY":[{"ITEM":"item_potion_heal_01","PROB":3000},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0}]
 },
 {
 "ID":60009,
@@ -106,7 +106,7 @@
 "ADD_GOLD":336,
 "COIN":0,
 "ADD_COIN":0,
-"DROP_ARRAY":[{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0}]
+"DROP_ARRAY":[{"ITEM":"item_potion_heal_02","PROB":3000},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0}]
 },
 {
 "ID":60012,
@@ -115,7 +115,7 @@
 "ADD_GOLD":0,
 "COIN":0,
 "ADD_COIN":0,
-"DROP_ARRAY":[{"ITEM":"item_potion_heal_02","PROB":3000},{"ITEM":"item_equip_n_ac_05","PROB":100},{"ITEM":"item_equip_n_bo_05","PROB":100},{"ITEM":"item_equip_n_ar_08","PROB":100},{"ITEM":"item_equip_n_ar_11","PROB":100},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0}]
+"DROP_ARRAY":[{"ITEM":"item_potion_heal_02","PROB":6000},{"ITEM":"item_equip_n_ac_05","PROB":100},{"ITEM":"item_equip_n_bo_05","PROB":100},{"ITEM":"item_equip_n_ar_08","PROB":100},{"ITEM":"item_equip_n_ar_11","PROB":100},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0}]
 },
 {
 "ID":60013,
@@ -133,7 +133,7 @@
 "ADD_GOLD":384,
 "COIN":0,
 "ADD_COIN":0,
-"DROP_ARRAY":[{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0}]
+"DROP_ARRAY":[{"ITEM":"item_potion_heal_03","PROB":3000},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0}]
 },
 {
 "ID":60015,
@@ -142,7 +142,7 @@
 "ADD_GOLD":0,
 "COIN":0,
 "ADD_COIN":0,
-"DROP_ARRAY":[{"ITEM":"item_potion_heal_03","PROB":3000},{"ITEM":"item_equip_n_ar_14","PROB":50},{"ITEM":"item_equip_n_ar_17","PROB":50},{"ITEM":"item_equip_n_ac_08","PROB":50},{"ITEM":"item_equip_n_bo_08","PROB":50},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0}]
+"DROP_ARRAY":[{"ITEM":"item_potion_heal_03","PROB":6000},{"ITEM":"item_equip_n_ar_14","PROB":50},{"ITEM":"item_equip_n_ar_17","PROB":50},{"ITEM":"item_equip_n_ac_08","PROB":50},{"ITEM":"item_equip_n_bo_08","PROB":50},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0}]
 },
 {
 "ID":60016,
@@ -160,7 +160,7 @@
 "ADD_GOLD":432,
 "COIN":0,
 "ADD_COIN":0,
-"DROP_ARRAY":[{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0}]
+"DROP_ARRAY":[{"ITEM":"item_potion_heal_04","PROB":3000},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0}]
 },
 {
 "ID":60018,
@@ -169,7 +169,7 @@
 "ADD_GOLD":0,
 "COIN":0,
 "ADD_COIN":0,
-"DROP_ARRAY":[{"ITEM":"item_potion_heal_04","PROB":2500},{"ITEM":"item_equip_n_ar_20","PROB":50},{"ITEM":"item_equip_n_ar_23","PROB":50},{"ITEM":"item_equip_n_ac_11","PROB":50},{"ITEM":"item_equip_n_bo_11","PROB":50},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0}]
+"DROP_ARRAY":[{"ITEM":"item_potion_heal_04","PROB":6000},{"ITEM":"item_equip_n_ar_20","PROB":50},{"ITEM":"item_equip_n_ar_23","PROB":50},{"ITEM":"item_equip_n_ac_11","PROB":50},{"ITEM":"item_equip_n_bo_11","PROB":50},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0}]
 },
 {
 "ID":60019,
@@ -277,7 +277,7 @@
 "ADD_GOLD":0,
 "COIN":0,
 "ADD_COIN":0,
-"DROP_ARRAY":[{"ITEM":"item_quest_02","PROB":2000},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0}]
+"DROP_ARRAY":[{"ITEM":"item_quest_02","PROB":3300},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0},{"ITEM":"","PROB":0}]
 },
 {
 "ID":60031,
