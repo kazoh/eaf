@@ -43,7 +43,7 @@ MonoBehaviour:
   material: {fileID: 2100000, guid: ea10f8989489d2848ac27fa5daf0e5bf, type: 2}
   mSprites:
   - name: frame_01
-    x: 0
+    x: 130
     y: 192
     width: 64
     height: 64
@@ -56,8 +56,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: frame_02
-    x: 195
-    y: 224
+    x: 0
+    y: 28
     width: 32
     height: 32
     borderLeft: 0
@@ -70,7 +70,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: frame_03
     x: 0
-    y: 94
+    y: 61
     width: 32
     height: 32
     borderLeft: 0
@@ -82,8 +82,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: frame_04
-    x: 65
-    y: 192
+    x: 0
+    y: 127
     width: 64
     height: 64
     borderLeft: 10
@@ -95,8 +95,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: frame_05
-    x: 0
-    y: 61
+    x: 195
+    y: 224
     width: 32
     height: 32
     borderLeft: 13
@@ -108,7 +108,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: frame_06
-    x: 130
+    x: 0
     y: 192
     width: 64
     height: 64
@@ -121,8 +121,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: frame_07
-    x: 0
-    y: 127
+    x: 65
+    y: 192
     width: 64
     height: 64
     borderLeft: 25
@@ -134,8 +134,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: frame_08
-    x: 0
-    y: 28
+    x: 65
+    y: 159
     width: 32
     height: 32
     borderLeft: 5
@@ -147,8 +147,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: white_32_32
-    x: 65
-    y: 159
+    x: 0
+    y: 94
     width: 32
     height: 32
     borderLeft: 1
