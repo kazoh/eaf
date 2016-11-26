@@ -9264,7 +9264,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Width: 64
   Height: 64
-  UseSprite: 1
 --- !u!114 &11424258
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -15511,7 +15510,7 @@ MonoBehaviour:
   Height: 32
   StartNum: 1
   SpriteNum: 3
-  WaitTime: 0.7
+  WaitTime: 0.8
 --- !u!114 &114000013164103220
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -15668,7 +15667,7 @@ MonoBehaviour:
   Height: 32
   StartNum: 1
   SpriteNum: 3
-  WaitTime: 0.7
+  WaitTime: 0.8
 --- !u!114 &114000014155644486
 MonoBehaviour:
   m_ObjectHideFlags: 1

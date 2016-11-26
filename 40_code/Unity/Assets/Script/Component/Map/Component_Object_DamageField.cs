@@ -20,6 +20,8 @@ public class Component_Object_DamageField : Component_Map_Object
     private float delay;
     private bool isTrace;
 
+    ArrayList listAttackedObj = new ArrayList();
+
     public override void Init()
     {
         npcSprite = gameObject.GetComponentInChildren<UISprite>();
@@ -42,17 +44,24 @@ public class Component_Object_DamageField : Component_Map_Object
         {
             yield return new WaitForSeconds(delay);
 
+            listAttackedObj.Clear();
             isTrace = true;
 
             for (int i=0; i < SpriteNum; ++i)
             {
                 npcSprite.spriteName = string.Format(spriteFormat, StartNum + i);
-                yield return new WaitForSeconds(0.1f);
+                yield return null;
             }
 
             yield return new WaitForSeconds(WaitTime);
+
+            for (int i=0; i < SpriteNum; ++i)
+            {
+                npcSprite.spriteName = string.Format(spriteFormat, StartNum + SpriteNum - 1 - i);
+                yield return null;
+            }
+
             isTrace = false;
-            npcSprite.spriteName = string.Format(spriteFormat, StartNum);
         }
     }
 
@@ -62,15 +71,24 @@ public class Component_Object_DamageField : Component_Map_Object
         {
             if (isTrace)
             {
-                if(EnterArea(map.Player.Pos)) OnEvent(map.Player as IAttackable);
-
-                for(int i=0; i < map.ObjList.Count; ++i)
+                if (!listAttackedObj.Contains(map.Player) && EnterArea(map.Player.Pos))
                 {
-                    if (map.ObjList[i] is IAttackable && EnterArea(map.ObjList[i].Pos)) OnEvent(map.ObjList[i] as IAttackable);
+                    OnEvent(map.Player as IAttackable);
+                    listAttackedObj.Add(map.Player);
                 }
-
-                isTrace = false;                
+                else
+                {
+                    for (int i = 0; i < map.ObjList.Count; ++i)
+                    {
+                        if (map.ObjList[i] is IAttackable && !listAttackedObj.Contains(map.ObjList[i]) && EnterArea(map.ObjList[i].Pos))
+                        {
+                            OnEvent(map.ObjList[i] as IAttackable);
+                            listAttackedObj.Add(map.ObjList[i]);
+                        }
+                    }
+                }               
             }
+
             yield return null;
         }
     }
