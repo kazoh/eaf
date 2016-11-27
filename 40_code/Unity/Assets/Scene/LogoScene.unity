@@ -460,7 +460,6 @@ Transform:
   - {fileID: 1902771877}
   - {fileID: 2129561760}
   - {fileID: 1527476906}
-  - {fileID: 889157306}
   m_Father: {fileID: 1503940105}
   m_RootOrder: 0
 --- !u!111 &682616828
@@ -479,115 +478,6 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
---- !u!1 &889157305
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 155792, guid: 8ed080bbe8fc7244b9d1541d400d2736, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 889157306}
-  m_Layer: 5
-  m_Name: warning
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &889157306
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 455792, guid: 8ed080bbe8fc7244b9d1541d400d2736, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 889157305}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children:
-  - {fileID: 945363687}
-  m_Father: {fileID: 682616827}
-  m_RootOrder: 3
---- !u!1 &945363686
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 155790, guid: 8ed080bbe8fc7244b9d1541d400d2736, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 945363687}
-  - 114: {fileID: 945363688}
-  m_Layer: 5
-  m_Name: back
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &945363687
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 455790, guid: 8ed080bbe8fc7244b9d1541d400d2736, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 945363686}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 889157306}
-  m_RootOrder: 0
---- !u!114 &945363688
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11455794, guid: 8ed080bbe8fc7244b9d1541d400d2736,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 945363686}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  leftAnchor:
-    target: {fileID: 0}
-    relative: 0
-    absolute: 0
-  rightAnchor:
-    target: {fileID: 0}
-    relative: 1
-    absolute: 0
-  bottomAnchor:
-    target: {fileID: 0}
-    relative: 0
-    absolute: 0
-  topAnchor:
-    target: {fileID: 0}
-    relative: 1
-    absolute: 0
-  updateAnchors: 1
-  mColor: {r: 0, g: 0, b: 0, a: 1}
-  mPivot: 4
-  mWidth: 370
-  mHeight: 650
-  mDepth: 6
-  autoResizeBoxCollider: 0
-  hideIfOffScreen: 0
-  keepAspectRatio: 0
-  aspectRatio: 0.5692308
-  mType: 1
-  mFillDirection: 4
-  mFillAmount: 1
-  mInvert: 0
-  mFlip: 0
-  centerType: 1
-  leftType: 1
-  rightType: 1
-  bottomType: 1
-  topType: 1
-  mAtlas: {fileID: 11425922, guid: eff60acd29800284cb9da200a61b37d6, type: 2}
-  mSpriteName: img_white_1_1
-  mFillCenter: 1
 --- !u!4 &1503940105
 Transform:
   m_ObjectHideFlags: 0
@@ -759,7 +649,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1573851639
 Transform:
   m_ObjectHideFlags: 0
@@ -804,13 +694,13 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
-  mWidth: 966
-  mHeight: 276
+  mWidth: 256
+  mHeight: 256
   mDepth: 1
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 3.5
+  aspectRatio: 1
   mType: 0
   mFillDirection: 4
   mFillAmount: 1
@@ -822,7 +712,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11425922, guid: eff60acd29800284cb9da200a61b37d6, type: 2}
-  mSpriteName: title_bg
+  mSpriteName: gear
   mFillCenter: 1
 --- !u!1 &1685073021
 GameObject:
@@ -939,7 +829,6 @@ MonoBehaviour:
   LabelVersion: {fileID: 454578429}
   SpriteTitle: {fileID: 1685073023}
   SpriteLogo: {fileID: 2076781363}
-  WarningRoot: {fileID: 889157305}
 --- !u!114 &1874459518
 MonoBehaviour:
   m_ObjectHideFlags: 0

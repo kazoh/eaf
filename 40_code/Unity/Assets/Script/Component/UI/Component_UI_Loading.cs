@@ -6,22 +6,25 @@ public class Component_UI_Loading : GameComponent {
     public GameObject AnimRoot;
     public UILabel TitleLabel;
     public UILabel TipLabel;
+    public UISprite LoaderSprite;
+    public string LoaderSpriteName;
 
-    public GameObject PrefLoadingIcon;
-    private Animation anim;
+    private string spriteFormat;
+    private bool isLoading;
+    private string tip;
 
     public override void Init()
     {
         base.Init();
 
         /* 로딩 아이콘 초기화 */
-        GameObject go = NGUITools.AddChild(AnimRoot, PrefLoadingIcon);
-        anim = go.GetComponent<Animation>();
+        spriteFormat = LoaderSpriteName + "_{0:00}";
+        TipLabel.text = "";
     }
 
     public override void Show()
     {
-        if (TipLabel != null) TipLabel.text = "";
+        if (TipLabel != null && !string.IsNullOrEmpty(tip)) TipLabel.text = tip;
         if (TitleLabel != null)
         {
 #if UNITY_EDITOR
@@ -44,17 +47,36 @@ public class Component_UI_Loading : GameComponent {
         }
 
         base.Show();
-        if (anim != null && !anim.isPlaying) anim.Play();
+        if (!isLoading)
+        {
+            isLoading = true;
+            StartCoroutine(PlayAnim());
+        }
     }
 
     public override void Hide()
     {
-        if (anim != null && anim.isPlaying) anim.Stop();
+        if (isLoading)
+        {
+            isLoading = false;
+            StopCoroutine(PlayAnim());
+        }
         base.Hide();
     }
 
-    public void ShowTip(string tip)
+    public void SetTip(string _tip)
     {
-        TipLabel.text = tip;
+        tip = _tip;
+    }
+
+    IEnumerator PlayAnim()
+    {
+        int num = 0;
+        while(true)
+        {
+            LoaderSprite.spriteName = string.Format(spriteFormat, num % 3 + 1);
+            num++;
+            yield return new WaitForSeconds(0.1f);
+        }
     }
 }

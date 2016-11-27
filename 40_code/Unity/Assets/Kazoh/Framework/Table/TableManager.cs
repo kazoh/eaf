@@ -17,6 +17,7 @@ namespace Kazoh.Table{
         private static TableManager instance = null;
 
         private int ver;
+        private bool isInit;
 
         public static void Load(int ver)
         {
@@ -88,20 +89,20 @@ namespace Kazoh.Table{
             }
 
             /* 설정 로딩 */
-    //        foreach (TablePath.ConfigTable name in Enum.GetValues(typeof(TablePath.ConfigTable)))
-    //        {
-    //            if (instance.LoadConfig(name))
-    //            {
-    //#if DEBUG_MODE || UNITY_EDITOR
-    //                    Debug.Log("[TableManager] 테이블 데이터 로딩 성공. 테이블: " + name.ToString());
-    //#endif
-    //            }
-    //            else
-    //            {
-    //                Debug.LogError("[TableManager] 테이블 데이터 로딩 실패. 오류 테이블: " + name.ToString());
-    //                throw new GameException(GameException.ErrorCode.CanNotLoadTable);
-    //            }
-    //        }
+            //        foreach (TablePath.ConfigTable name in Enum.GetValues(typeof(TablePath.ConfigTable)))
+            //        {
+            //            if (instance.LoadConfig(name))
+            //            {
+            //#if DEBUG_MODE || UNITY_EDITOR
+            //                    Debug.Log("[TableManager] 테이블 데이터 로딩 성공. 테이블: " + name.ToString());
+            //#endif
+            //            }
+            //            else
+            //            {
+            //                Debug.LogError("[TableManager] 테이블 데이터 로딩 실패. 오류 테이블: " + name.ToString());
+            //                throw new GameException(GameException.ErrorCode.CanNotLoadTable);
+            //            }
+            //        }
 
             /* 설정 테이블 테스트 */
             //ConfigData data = GetConfigBalance();
@@ -114,6 +115,8 @@ namespace Kazoh.Table{
             //{
             //    Debug.LogError("[TableManager] AI 데이터 없음. ver: " + ver);
             //}
+
+            instance.isInit = true;
         }
 
         bool Init(int _ver)
@@ -564,6 +567,12 @@ namespace Kazoh.Table{
             }
 
             return instance.GetList<TableData_Region>();
+        }
+
+        public static bool IsInit()
+        {
+            if (instance == null) return false;
+            return instance.isInit;
         }
         
     }

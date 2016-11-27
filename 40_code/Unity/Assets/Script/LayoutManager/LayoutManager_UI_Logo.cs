@@ -10,20 +10,14 @@ public class LayoutManager_UI_Logo : LayoutManager {
     public UILabel LabelVersion;
     public UISprite SpriteTitle;
     public UISprite SpriteLogo;
-
-    public GameObject WarningRoot;
-
+    
 	private string startText;
-	private bool isReady = false;
-    private bool isInit;
-
-    private Component_UI_Loading loader;
+	private bool isReady;
     private string verText;
 
     public override void Init()
     {
-        WarningRoot.SetActive(true);
-        verText = "Ver " + GameProcess.Instance.ShortVersion;
+        SpriteLogo.alpha = 0f;
         StartCoroutine(Loading());
     }
 
@@ -58,16 +52,15 @@ public class LayoutManager_UI_Logo : LayoutManager {
                 startText = "T o u c h  t o  s t a r t .";
                 break;
         }
+        verText = "Ver " + GameProcess.Instance.ShortVersion;
         LabelVersion.text = "";
 
-        yield return new WaitForSeconds(3);
-
-        WarningRoot.SetActive(false);
         AnimLogo.Play();
         while (AnimLogo.isPlaying)
         {
             yield return null;
         }
+
         GameProcess.PlaySound(SOUND_EFFECT.BGM, "bgm_01");
         LabelVersion.text = verText;
         StartCoroutine(AnimStartText());

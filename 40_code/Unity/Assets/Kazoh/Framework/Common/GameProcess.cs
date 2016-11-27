@@ -348,7 +348,16 @@ public class GameProcess : MonoBehaviour
 
     public static void ShowLoading()
     {
-        if (Instance.Loader != null) Instance.Loader.Show();
+        if (Instance.Loader != null)
+        {
+            if(TableManager.IsInit())
+            {
+                int tipId = UnityEngine.Random.Range(1, Instance.TipNum);
+                string tip = TableManager.GetString("STR_TIP_" + tipId);
+                Instance.Loader.SetTip(tip);
+            }
+            Instance.Loader.Show();
+        }
     }
 
     public static void ShowServerLoading()

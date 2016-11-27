@@ -25,6 +25,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -41,9 +42,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: b5994a8d844611548b7713d8e8473c32, type: 2}
   mSprites:
+  - name: gear
+    x: 514
+    y: 768
+    width: 256
+    height: 256
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   - name: img_white_1_1
-    x: 484
-    y: 951
+    x: 771
+    y: 992
     width: 32
     height: 32
     borderLeft: 1
@@ -55,8 +69,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: logo_en
-    x: 541
-    y: 722
+    x: 257
+    y: 604
     width: 283
     height: 163
     borderLeft: 0
@@ -68,8 +82,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: logo_ja
-    x: 257
-    y: 722
+    x: 541
+    y: 604
     width: 283
     height: 163
     borderLeft: 0
@@ -82,7 +96,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: logo_ko
     x: 257
-    y: 558
+    y: 440
     width: 283
     height: 163
     borderLeft: 0
@@ -93,35 +107,9 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: sponsor
-    x: 484
-    y: 984
-    width: 201
-    height: 40
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: title_bg
-    x: 0
-    y: 886
-    width: 483
-    height: 138
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 9
-    paddingRight: 20
-    paddingTop: 6
-    paddingBottom: 19
   - name: title_en
     x: 0
-    y: 629
+    y: 768
     width: 256
     height: 256
     borderLeft: 0
@@ -134,7 +122,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: title_ja
     x: 0
-    y: 372
+    y: 511
     width: 256
     height: 256
     borderLeft: 0
@@ -146,8 +134,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: title_ko
-    x: 0
-    y: 115
+    x: 257
+    y: 768
     width: 256
     height: 256
     borderLeft: 0
