@@ -8430,7 +8430,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Width: 32
   Height: 32
-  UseSprite: 0
 --- !u!114 &11424258
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -13800,7 +13799,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Range: 32
-  HasShadow: 0
+  HasShadow: 1
   ChaSprite: {fileID: 114000012541783560}
   HpBar: {fileID: 114000012487837184}
   DmgLabelList:

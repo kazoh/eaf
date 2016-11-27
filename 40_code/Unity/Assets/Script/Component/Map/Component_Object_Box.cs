@@ -5,7 +5,7 @@ using System;
 
 using Kazoh.Table;
 
-public class Component_Object_Box : Component_Map_Object
+public class Component_Object_Box : Component_Map_Object, IManagedDepth
 {
     public Action<int, int, Data_Reward> OpenEvent;
 
@@ -19,6 +19,7 @@ public class Component_Object_Box : Component_Map_Object
     public TableData_Npc Data { get; protected set; }
 
     private string spriteFormat;
+    private UISprite shadowSprite;
 
     public override void Init()
     {
@@ -28,6 +29,9 @@ public class Component_Object_Box : Component_Map_Object
 
         spriteFormat = Data.SpriteName + "_{0:00}";
         NpcSprite.spriteName = string.Format(spriteFormat, 1);
+
+        Transform shadowTransform = transform.FindChild("shadow");
+        if (shadowTransform != null) shadowSprite = shadowTransform.GetComponent<UISprite>();
     }
 
     bool CheckDistant()
@@ -126,5 +130,19 @@ public class Component_Object_Box : Component_Map_Object
             effect.Play();
         }
         else Destroy(go);
+    }
+
+    public void SetDepth(int _depth)
+    {
+        if (NpcSprite.depth != _depth)
+        {
+            NpcSprite.depth = _depth;
+            if (shadowSprite != null) shadowSprite.depth = _depth - 1;
+        }
+    }
+
+    public float GetPosY()
+    {
+        return Pos.y;
     }
 }

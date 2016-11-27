@@ -9263,7 +9263,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Width: 32
   Height: 32
-  UseSprite: 0
 --- !u!114 &11424258
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -10660,7 +10659,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3010
+  startingRenderQueue: 3009
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -15662,7 +15661,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Range: 32
-  HasShadow: 0
+  HasShadow: 1
   ChaSprite: {fileID: 114000012379154570}
   HpBar: {fileID: 114000012104615708}
   DmgLabelList:

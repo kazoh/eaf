@@ -32,6 +32,8 @@ public class Component_Map : GameComponent
 
     public bool IsGameStart { get; protected set; }
 
+    private List<IManagedDepth> listObjWithManagedDepth;
+
 #if UNITY_EDITOR
     public bool TestMode;
     public int MapId;
@@ -84,6 +86,7 @@ public class Component_Map : GameComponent
         SetObjList();
         SetObject();
         SetTimer();
+        SetObjListWithManagedDepth();
         OnReady();
     }
 
@@ -252,6 +255,35 @@ public class Component_Map : GameComponent
                 Component_Map_Monster mob = c as Component_Map_Monster;
                 mob.DropEvent += OnReward;
             }
+        }
+    }
+
+    void SetObjListWithManagedDepth()
+    {
+        listObjWithManagedDepth = new List<IManagedDepth>();
+        if (Player is IManagedDepth) listObjWithManagedDepth.Add(Player as IManagedDepth);
+        Component_Map_Object[] objArray = ObjectPanel.GetComponentsInChildren<Component_Map_Object>();
+        if (objArray == null) return;
+        for(int i=0; i < objArray.Length; ++i)
+        {
+            if(objArray[i] is IManagedDepth) listObjWithManagedDepth.Add(objArray[i] as IManagedDepth);
+        }
+
+        if (listObjWithManagedDepth.Count > 1) StartCoroutine(ManageObjectDepth());
+    }
+
+    IEnumerator ManageObjectDepth()
+    {
+        List<IManagedDepth> list = new List<IManagedDepth>();
+        list.AddRange(listObjWithManagedDepth);
+        while (true)
+        {
+            list.Sort((x, y) => y.GetPosY().CompareTo(x.GetPosY()));
+            for (int i = 0; i < list.Count; ++i)
+            {
+                list[i].SetDepth(i * 5 + 5);
+            }
+            yield return new WaitForSeconds(0.2f);
         }
     }
 

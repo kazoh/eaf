@@ -10497,7 +10497,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3007
+  startingRenderQueue: 3008
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -14994,7 +14994,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000014025260074}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -15049,7 +15049,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011692178144}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -15976,7 +15976,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NpcId: 22003
   Range: 32
-  HasShadow: 0
+  HasShadow: 1
   NoWalkSound: 0
   SpawnCell: {fileID: 11474316}
   NpcSprite: {fileID: 114000010428021648}
@@ -16068,7 +16068,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NpcId: 22003
   Range: 32
-  HasShadow: 0
+  HasShadow: 1
   NoWalkSound: 0
   SpawnCell: {fileID: 11495618}
   NpcSprite: {fileID: 114000013102790800}
@@ -16585,7 +16585,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Range: 32
-  HasShadow: 0
+  HasShadow: 1
   ChaSprite: {fileID: 114000012379154570}
   HpBar: {fileID: 114000012104615708}
   DmgLabelList:

@@ -11,7 +11,7 @@ public class Component_Map_NPC : Component_Map_Object, ITalkable
 
     public int NpcId;
     public int Range;
-    public bool HasShadow;
+    public bool HasShadow = true;
     public Component_Map_Cell LinkedCell;
     public UISprite NpcSprite;    
 
@@ -19,6 +19,7 @@ public class Component_Map_NPC : Component_Map_Object, ITalkable
     public TableData_Npc Data { get; protected set; }
 
     private string spriteFormat;
+    private UISprite shadowSprite;
 
     public override void Init()
     {
@@ -36,8 +37,16 @@ public class Component_Map_NPC : Component_Map_Object, ITalkable
         Transform shadowTransform = transform.FindChild("shadow");
         if (shadowTransform != null)
         {
-            if (HasShadow) shadowTransform.GetComponent<UISprite>().alpha = 1f;
-            else shadowTransform.GetComponent<UISprite>().alpha = 0f;
+            if (HasShadow)
+            {
+                shadowSprite = shadowTransform.GetComponent<UISprite>();
+                if (shadowSprite != null) shadowSprite.alpha = 1f;
+            }
+            else
+            {
+                shadowSprite = shadowTransform.GetComponent<UISprite>();
+                if (shadowSprite != null) shadowSprite.alpha = 0f;
+            }
         }
     }
 
@@ -89,5 +98,19 @@ public class Component_Map_NPC : Component_Map_Object, ITalkable
     {
         yield return null;
         OnTalk();
+    }
+
+    public void SetDepth(int _depth)
+    {
+        if (NpcSprite.depth != _depth)
+        {
+            NpcSprite.depth = _depth;
+            //if (shadowSprite != null) shadowSprite.depth = _depth - 1;
+        }
+    }
+
+    public float GetPosY()
+    {
+        return Pos.y;
     }
 }

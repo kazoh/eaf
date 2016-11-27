@@ -9456,6 +9456,7 @@ MonoBehaviour:
   NpcId: 22001
   Range: 32
   HasShadow: 0
+  NoWalkSound: 0
   SpawnCell: {fileID: 11422942}
   NpcSprite: {fileID: 11440658}
   HpBar: {fileID: 11431786}
@@ -10160,7 +10161,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3007
+  startingRenderQueue: 3008
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -11405,7 +11406,6 @@ MonoBehaviour:
   ObjectPanel: {fileID: 11477552}
   BottomPanel: {fileID: 11492012}
   TopPanel: {fileID: 11438856}
-  ColNum: 10
   PlayTime: 10
   CellList: []
   ObjList: []
@@ -14492,7 +14492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Range: 32
-  HasShadow: 0
+  HasShadow: 1
   ChaSprite: {fileID: 114000012326570084}
   HpBar: {fileID: 114000014241028616}
   DmgLabelList:

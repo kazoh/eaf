@@ -5545,7 +5545,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 191326}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -112, y: -112, z: 0}
+  m_LocalPosition: {x: -48, y: -80, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -12571,7 +12571,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NpcId: 22005
   Range: 32
-  HasShadow: 0
+  HasShadow: 1
   NoWalkSound: 0
   SpawnCell: {fileID: 11470264}
   NpcSprite: {fileID: 11465368}
@@ -13155,7 +13155,7 @@ MonoBehaviour:
   Range: 32
   HasShadow: 0
   NoWalkSound: 0
-  SpawnCell: {fileID: 11460922}
+  SpawnCell: {fileID: 11404942}
   NpcSprite: {fileID: 11483514}
   HpBar: {fileID: 11462370}
   DmgLabelList:
@@ -15540,7 +15540,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Range: 32
-  HasShadow: 0
+  HasShadow: 1
   ChaSprite: {fileID: 11499534}
   HpBar: {fileID: 11415706}
   DmgLabelList:

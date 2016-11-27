@@ -5,7 +5,7 @@ using System;
 
 using Kazoh.Table;
 
-public class Component_Map_Monster : Component_Map_Object, IAttackable
+public class Component_Map_Monster : Component_Map_Object, IAttackable, IManagedDepth
 {
     public enum MonsterState
     {
@@ -24,7 +24,7 @@ public class Component_Map_Monster : Component_Map_Object, IAttackable
 
     public int NpcId;
     public int Range = 32;
-    public bool HasShadow;
+    public bool HasShadow = true;
     public bool NoWalkSound;
     public Component_Map_Cell SpawnCell;
     public UISprite NpcSprite;
@@ -47,6 +47,7 @@ public class Component_Map_Monster : Component_Map_Object, IAttackable
     private int fireRange;
     private int spriteNum;
     private GameObject pfBullet;
+    private UISprite shadowSprite;
 
     private MonsterState state;
     public MonsterState State
@@ -113,8 +114,16 @@ public class Component_Map_Monster : Component_Map_Object, IAttackable
         Transform shadowTransform = transform.FindChild("shadow");
         if (shadowTransform != null)
         {
-            if (HasShadow) shadowTransform.GetComponent<UISprite>().alpha = 1f;
-            else shadowTransform.GetComponent<UISprite>().alpha = 0f;
+            if (HasShadow)
+            {
+                shadowSprite = shadowTransform.GetComponent<UISprite>();
+                if (shadowSprite != null) shadowSprite.alpha = 1f;
+            }
+            else
+            {
+                shadowSprite = shadowTransform.GetComponent<UISprite>();
+                if (shadowSprite != null) shadowSprite.alpha = 0f;
+            }
         }
 
         pfBullet = Resources.Load("Prefabs/" + Data.BulletName) as GameObject;
@@ -248,15 +257,6 @@ public class Component_Map_Monster : Component_Map_Object, IAttackable
             NpcSprite.spriteName = string.Format(spriteFormat, (spriteNum % 3 + (int)curDir));
             spriteNum++;
         }
-
-        if(transform.localPosition.y < map.Player.transform.localPosition.y)
-        {
-            NpcSprite.depth = map.Player.SpriteDepth + 1;
-        }
-        else
-        {
-            NpcSprite.depth = map.Player.SpriteDepth - 1;
-        }
     }
 
     void Attack()
@@ -289,7 +289,7 @@ public class Component_Map_Monster : Component_Map_Object, IAttackable
             if (bullet != null)
             {
                 int atk = Data.LAtk;
-                bullet.Init(map, Component_Map_Bullet.TargetType.Player);
+                bullet.Init(map, Component_Map_Bullet.TargetType.Player, NpcSprite.depth);
                 bullet.Shoot(dir, Pos, atk, false);
             }
             else
@@ -575,15 +575,18 @@ public class Component_Map_Monster : Component_Map_Object, IAttackable
         Hide();
     }
 
-    //void Reward()
-    //{
-    //    List<TableData_Drop> list = new List<TableData_Drop>();
-    //    for (int i = 0; i < Data.DropList.Count; ++i)
-    //    {
-    //        TableData_Drop drop = TableManager.GetGameData(Data.DropList[i]) as TableData_Drop;
-    //        if (drop != null) list.Add(drop);
-    //    }
+    public void SetDepth(int _depth)
+    {
+        if (NpcSprite.depth != _depth)
+        {
+            NpcSprite.depth = _depth;
+            //if (shadowSprite != null) shadowSprite.depth = _depth - 1;
+            if (HpBar != null) HpBar.depth = _depth + 1;
+        }
+    }
 
-    //    map.AddReward(0, 0, list);
-    //}
+    public float GetPosY()
+    {
+        return Pos.y;
+    }
 }

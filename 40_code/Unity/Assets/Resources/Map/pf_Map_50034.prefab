@@ -11705,7 +11705,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3008
+  startingRenderQueue: 3009
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -14858,7 +14858,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NpcId: 22005
   Range: 32
-  HasShadow: 0
+  HasShadow: 1
   NoWalkSound: 0
   SpawnCell: {fileID: 11474316}
   NpcSprite: {fileID: 11486158}
@@ -14999,7 +14999,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Range: 32
-  HasShadow: 0
+  HasShadow: 1
   ChaSprite: {fileID: 11499534}
   HpBar: {fileID: 11415706}
   DmgLabelList:

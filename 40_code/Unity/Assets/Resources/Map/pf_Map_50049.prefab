@@ -13082,7 +13082,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Range: 32
-  HasShadow: 0
+  HasShadow: 1
   ChaSprite: {fileID: 11492982}
   HpBar: {fileID: 11435398}
   DmgLabelList:

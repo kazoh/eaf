@@ -11067,7 +11067,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NpcId: 20023
   Range: 32
-  HasShadow: 0
+  HasShadow: 1
   LinkedCell: {fileID: 11466810}
   NpcSprite: {fileID: 11421230}
   DialogList: []
@@ -13916,7 +13916,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Range: 32
-  HasShadow: 0
+  HasShadow: 1
   ChaSprite: {fileID: 11492982}
   HpBar: {fileID: 11435398}
   DmgLabelList:

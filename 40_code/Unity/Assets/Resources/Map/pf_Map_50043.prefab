@@ -9854,7 +9854,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3006
+  startingRenderQueue: 3002
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -10984,7 +10984,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3040
+  startingRenderQueue: 3008
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -12569,7 +12569,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3010
+  startingRenderQueue: 3002
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -14201,7 +14201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Range: 32
-  HasShadow: 0
+  HasShadow: 1
   ChaSprite: {fileID: 11499534}
   HpBar: {fileID: 11415706}
   DmgLabelList:
@@ -14584,7 +14584,7 @@ MonoBehaviour:
   anchorOffset: 0
   softBorderPadding: 1
   renderQueue: 0
-  startingRenderQueue: 3015
+  startingRenderQueue: 3003
   mClipTexture: {fileID: 0}
   mAlpha: 1
   mClipping: 0
@@ -15887,7 +15887,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NpcId: 22006
   Range: 32
-  HasShadow: 0
+  HasShadow: 1
+  NoWalkSound: 0
   SpawnCell: {fileID: 11401234}
   NpcSprite: {fileID: 114000014250471518}
   HpBar: {fileID: 114000010263748258}
@@ -16031,7 +16032,6 @@ MonoBehaviour:
   ObjectPanel: {fileID: 11489854}
   BottomPanel: {fileID: 11428690}
   TopPanel: {fileID: 11446900}
-  ColNum: 10
   PlayTime: 10
   CellList: []
   ObjList: []

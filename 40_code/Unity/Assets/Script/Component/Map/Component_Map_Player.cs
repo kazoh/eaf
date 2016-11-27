@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System;
 
-public class Component_Map_Player : GameComponent, IAttackable
+public class Component_Map_Player : GameComponent, IAttackable, IManagedDepth
 {
     public enum PlayerState
     {
@@ -20,7 +20,7 @@ public class Component_Map_Player : GameComponent, IAttackable
     public Action DieEvent;
 
     public int Range = 32;
-    public bool HasShadow;
+    public bool HasShadow = true;
     public UISprite ChaSprite;
     public UISprite HpBar;
     public List<UILabel> DmgLabelList;
@@ -42,6 +42,7 @@ public class Component_Map_Player : GameComponent, IAttackable
     private int spriteNum;
     private float animSpeed;
     private GameObject pfBullet;
+    private UISprite shadowSprite;
 
     private IAttackable attackTarget;
     private float delay = float.MinValue;
@@ -106,8 +107,16 @@ public class Component_Map_Player : GameComponent, IAttackable
             Transform shadowTransform = transform.FindChild("shadow");
             if (shadowTransform != null)
             {
-                if (HasShadow) shadowTransform.GetComponent<UISprite>().alpha = 1f;
-                else shadowTransform.GetComponent<UISprite>().alpha = 0f;
+                if (HasShadow)
+                {
+                    shadowSprite = shadowTransform.GetComponent<UISprite>();
+                    if(shadowSprite != null) shadowSprite.alpha = 1f;
+                }
+                else
+                {
+                    shadowSprite = shadowTransform.GetComponent<UISprite>();
+                    if (shadowSprite != null) shadowSprite.alpha = 0f;
+                }
             }
             pfBullet = Resources.Load("Prefabs/" + CharacterData.BulletName) as GameObject;
             State = PlayerState.Spawn;
@@ -240,7 +249,7 @@ public class Component_Map_Player : GameComponent, IAttackable
                 if (bullet != null)
                 {
                     int atk = isCritical ? Mathf.CeilToInt(CharacterData.LAtk * CharacterData.CriticalPercent) : CharacterData.LAtk;
-                    bullet.Init(map, Component_Map_Bullet.TargetType.Enemy);
+                    bullet.Init(map, Component_Map_Bullet.TargetType.Enemy, ChaSprite.depth);
                     bullet.Shoot(curDir, Pos, atk, isCritical);
                 }
                 else
@@ -461,5 +470,20 @@ public class Component_Map_Player : GameComponent, IAttackable
     public virtual bool IsDie()
     {
         return State == PlayerState.Die;
+    }
+
+    public void SetDepth(int _depth)
+    {
+        if(ChaSprite.depth != _depth)
+        {
+            ChaSprite.depth = _depth;
+            //if (shadowSprite != null) shadowSprite.depth = _depth - 1;
+            if (HpBar != null) HpBar.depth = _depth + 1;
+        }
+    }
+
+    public float GetPosY()
+    {
+        return Pos.y;
     }
 }

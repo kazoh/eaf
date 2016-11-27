@@ -12692,7 +12692,6 @@ MonoBehaviour:
   ObjectPanel: {fileID: 11489854}
   BottomPanel: {fileID: 11428690}
   TopPanel: {fileID: 11446900}
-  ColNum: 10
   PlayTime: 10
   CellList: []
   ObjList: []
@@ -13770,7 +13769,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Range: 32
-  HasShadow: 0
+  HasShadow: 1
   ChaSprite: {fileID: 114000010215305180}
   HpBar: {fileID: 114000013314261752}
   DmgLabelList:

@@ -14810,7 +14810,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000011186311804}
   - 65: {fileID: 65000013954441164}
-  - 114: {fileID: 114000012554248508}
   - 114: {fileID: 114000010225166374}
   m_Layer: 5
   m_Name: pf_Obj_Door
@@ -14910,7 +14909,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000012737474906}
   - 65: {fileID: 65000010431994064}
-  - 114: {fileID: 114000013498605958}
   - 114: {fileID: 114000012088887444}
   m_Layer: 5
   m_Name: pf_Obj_Door (1)
@@ -15953,19 +15951,6 @@ MonoBehaviour:
   mAtlas: {fileID: 11443676, guid: 212c7b2717c634c48978d0b9d4eacc4c, type: 2}
   mSpriteName: cha_0001_02
   mFillCenter: 1
---- !u!114 &114000012554248508
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000013490415606}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 202dd61bd242c04479a8b78b90e89b25, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Target: {fileID: 114000014155644486}
-  Sprite: {fileID: 114000013708845112}
 --- !u!114 &114000012653563314
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -16029,7 +16014,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NpcId: 20027
   Range: 32
-  HasShadow: 0
+  HasShadow: 1
   LinkedCell: {fileID: 11491766}
   NpcSprite: {fileID: 114000014027772956}
   DialogList: []
@@ -16201,19 +16186,6 @@ MonoBehaviour:
   mMaxLineHeight: 0
   mLineWidth: 0
   mMultiline: 1
---- !u!114 &114000013498605958
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000014051068272}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 202dd61bd242c04479a8b78b90e89b25, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Target: {fileID: 114000014155644486}
-  Sprite: {fileID: 114000010758106656}
 --- !u!114 &114000013598663836
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -16541,7 +16513,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Range: 32
-  HasShadow: 0
+  HasShadow: 1
   ChaSprite: {fileID: 114000012379154570}
   HpBar: {fileID: 114000012104615708}
   DmgLabelList:

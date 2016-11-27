@@ -91,10 +91,11 @@ public class Component_Map_Bullet : Component_Map_Object
         State = MonsterState.Wait;
     }
 
-    public void Init(Component_Map _map, TargetType _target)
+    public void Init(Component_Map _map, TargetType _target, int _depth)
     {
         map = _map;
         targetType = _target;
+        BulletSprite.depth = _depth;
         Init();
     }
 
