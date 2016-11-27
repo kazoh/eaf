@@ -42,7 +42,7 @@ public class LayoutManager_UI_LogIn : LayoutManager {
                     EncryptedPlayerPrefs.SetString(keyId, _email);
                     EncryptedPlayerPrefs.SetString(keyPw, _pw);
                     GameProcess.ShowLoading();
-                    StartCoroutine(LoadingDate(_guid, _email, _timeStr));
+                    StartCoroutine(LoadingDate(_guid, _email, _timeStr, false));
                 }
                 else GameProcess.ShowError(new GameException(GameException.ErrorCode.InvalidEmailOrPassward));
             });
@@ -68,7 +68,7 @@ public class LayoutManager_UI_LogIn : LayoutManager {
                     GameProcess.ShowLoading();
                     EncryptedPlayerPrefs.SetString(keyId, _email);
                     EncryptedPlayerPrefs.SetString(keyPw, _pw);
-                    StartCoroutine(LoadingDate(_guid, _email, _timeStr));
+                    StartCoroutine(LoadingDate(_guid, _email, _timeStr, true));
                 }
                 else GameProcess.ShowError(new GameException(GameException.ErrorCode.ExistEmail));
             });
@@ -131,20 +131,33 @@ public class LayoutManager_UI_LogIn : LayoutManager {
         }
     }
 
-    IEnumerator LoadingDate(int _guid, string _email, string _timeStr)
+    IEnumerator LoadingDate(int _guid, string _email, string _timeStr, bool isSignUp)
     {
         yield return null;
 
         /* 테이블 데이터 로딩 */
         try
         {
-            GameProcess.GetGameDataManager().Load(_guid, _email, _timeStr,delegate()
+            if(isSignUp)
             {
-                GameProcess.GetMissionManager().Load();
+                GameProcess.GetGameDataManager().SignUp(_guid, _email, _timeStr, delegate ()
+                {
+                    GameProcess.GetMissionManager().Load();
 
-                if (GameProcess.GetGameDataManager().HasNoCharacter) LoadScene("CharacterScene");
-                else LoadScene("GameScene");
-            });
+                    if (GameProcess.GetGameDataManager().HasNoCharacter) LoadScene("CharacterScene");
+                    else LoadScene("GameScene");
+                });
+            }
+            else
+            {
+                GameProcess.GetGameDataManager().SignIn(_guid, _email, _timeStr, delegate ()
+                {
+                    GameProcess.GetMissionManager().Load();
+
+                    if (GameProcess.GetGameDataManager().HasNoCharacter) LoadScene("CharacterScene");
+                    else LoadScene("GameScene");
+                });
+            }
         }
         catch (GameException e)
         {

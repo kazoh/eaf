@@ -69,13 +69,29 @@ public class GameDataManager
     }
 
     Action loadingCompleteEvent;
-    public void Load(int _guid = 0, string _email = "", string _timeStr = "", Action _callback = null)
+    public void SignIn(int _guid = 0, string _email = "", string _timeStr = "", Action _callback = null)
+    {
+        SetGuid(_guid, _email);
+        Load(_timeStr, _callback);
+    }
+
+    public void SignUp(int _guid = 0, string _email = "", string _timeStr = "", Action _callback = null)
+    {
+        SetGuid(_guid, _email);
+        if (EncryptedPlayerPrefs.HasKey(keyUserInfo)) EncryptedPlayerPrefs.DeleteKey(keyUserInfo);
+        if (EncryptedPlayerPrefs.HasKey(keyUserInven)) EncryptedPlayerPrefs.DeleteKey(keyUserInven);
+        if (EncryptedPlayerPrefs.HasKey(keyUserCha)) EncryptedPlayerPrefs.DeleteKey(keyUserCha);
+        if (EncryptedPlayerPrefs.HasKey(keyUserMap)) EncryptedPlayerPrefs.DeleteKey(keyUserMap);
+        Load(_timeStr, _callback);
+    }
+
+    void Load(string _timeStr, Action _callback)
     {
         try
         {
             loadingCompleteEvent = _callback;
 
-            SetGuid(_guid, _email);
+            //SetGuid(_guid, _email);
             SetLogInTime(_timeStr);
 
             UpdateUserInfo();
@@ -126,56 +142,32 @@ public class GameDataManager
             if (_isFail) GameProcess.ShowError(new GameException(GameException.ErrorCode.FailToGetGameData));
             else
             {
-                if (!string.IsNullOrEmpty(_data)) dicData.Add("USER_INFO", Json.Deserialize(_data) as IDictionary);
-                if (EncryptedPlayerPrefs.HasKey(keyUserInven))
+                if (!string.IsNullOrEmpty(_data))
                 {
-                    string _json = EncryptedPlayerPrefs.GetString(keyUserInven);
-                    if(!string.IsNullOrEmpty(_json)) dicData.Add("INVENTORY", Json.Deserialize(_json) as IDictionary);
-                }
+                    dicData.Add("USER_INFO", Json.Deserialize(_data) as IDictionary);
 
-                if (EncryptedPlayerPrefs.HasKey(keyUserCha))
-                {
-                    string _json = EncryptedPlayerPrefs.GetString(keyUserCha);
-                    if (!string.IsNullOrEmpty(_json)) dicData.Add("CHARACTER", Json.Deserialize(_json) as IDictionary);
-                }
+                    if (EncryptedPlayerPrefs.HasKey(keyUserInven))
+                    {
+                        string _json = EncryptedPlayerPrefs.GetString(keyUserInven);
+                        if (!string.IsNullOrEmpty(_json)) dicData.Add("INVENTORY", Json.Deserialize(_json) as IDictionary);
+                    }
 
-                if (EncryptedPlayerPrefs.HasKey(keyUserMap))
-                {
-                    string _json = EncryptedPlayerPrefs.GetString(keyUserMap);
-                    if (!string.IsNullOrEmpty(_json)) listMap = Json.Deserialize(_json) as IList;
+                    if (EncryptedPlayerPrefs.HasKey(keyUserCha))
+                    {
+                        string _json = EncryptedPlayerPrefs.GetString(keyUserCha);
+                        if (!string.IsNullOrEmpty(_json)) dicData.Add("CHARACTER", Json.Deserialize(_json) as IDictionary);
+                    }
+
+                    if (EncryptedPlayerPrefs.HasKey(keyUserMap))
+                    {
+                        string _json = EncryptedPlayerPrefs.GetString(keyUserMap);
+                        if (!string.IsNullOrEmpty(_json)) listMap = Json.Deserialize(_json) as IList;
+                    }
                 }
 
                 SetGameData();
             }
         });
-    }
-
-    void SetGameData(string _data, string _timeStr)
-    {
-        IDictionary dict = null;
-        if (!string.IsNullOrEmpty(_data)) dict = Json.Deserialize(_data) as IDictionary;
-
-        /* 유저 데이터 세팅 */
-        SetUserData(dict);
-
-        /* 유저 아이템 데이터 세팅 */
-        SetUserItemData(UserData.InventorySlotNum, dict);
-
-        /* 유저 캐릭터 데이터 세팅 */
-        SetUserChaData(UserData.ChaSlotNum, dict);
-
-        /* 유저 맵 데이터 세팅 */
-        SetUserMapData(dict);
-
-        /* 유저 미션 데이터 세팅 */
-        SetMissionData();
-
-        /* 구매제한 상품 구매 내역 세팅 */
-        SetIapHistory(dict);
-
-#if UNITY_EDITOR
-        Debug.Log("게임 데이터 로딩 완료!!!");
-#endif
     }
 
     void SetGameData()
