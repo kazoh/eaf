@@ -208,7 +208,7 @@ GameObject:
   - 114: {fileID: 11419358}
   - 65: {fileID: 6565138}
   m_Layer: 5
-  m_Name: icon_gold
+  m_Name: gold
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -224,12 +224,12 @@ GameObject:
   - 4: {fileID: 451224}
   - 114: {fileID: 11425544}
   m_Layer: 5
-  m_Name: Sprite
+  m_Name: icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &164546
 GameObject:
   m_ObjectHideFlags: 1
@@ -271,7 +271,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 477316}
-  m_Layer: 8
+  m_Layer: 5
   m_Name: Thumb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -325,7 +325,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &186368
 GameObject:
   m_ObjectHideFlags: 1
@@ -393,7 +393,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &403088
 Transform:
   m_ObjectHideFlags: 1
@@ -427,7 +427,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 193334}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 76.3, y: -0.3, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -480,7 +480,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 186368}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 20, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -570,7 +570,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 156380}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 130, y: -0.3, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -652,7 +652,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 184246}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 76.3, y: -0.3, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -707,7 +707,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 190292}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -145, y: 0, z: 0}
+  m_LocalPosition: {x: -148, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -751,8 +751,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 70, y: 20, z: 0}
-  m_Center: {x: 25, y: 0, z: 0}
+  m_Size: {x: 80, y: 20, z: 0}
+  m_Center: {x: 30, y: 0, z: 0}
 --- !u!65 &6538948
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -763,8 +763,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 50, y: 20, z: 0}
-  m_Center: {x: 20, y: 0, z: 0}
+  m_Size: {x: 70, y: 20, z: 0}
+  m_Center: {x: 25, y: 0, z: 0}
 --- !u!65 &6560236
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -775,7 +775,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 45, y: 45, z: 0}
+  m_Size: {x: 57, y: 60, z: 0}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6565138
 BoxCollider:
@@ -787,8 +787,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 120, y: 20, z: 0}
-  m_Center: {x: 50, y: 0, z: 0}
+  m_Size: {x: 130, y: 20, z: 0}
+  m_Center: {x: 55, y: 0, z: 0}
 --- !u!114 &11401790
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -933,14 +933,14 @@ MonoBehaviour:
     absolute: 0
   updateAnchors: 1
   mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mWidth: 20
+  mPivot: 3
+  mWidth: 60
   mHeight: 20
   mDepth: 4
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 1
+  aspectRatio: 3
   mType: 1
   mFillDirection: 4
   mFillAmount: 1
@@ -952,7 +952,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11490092, guid: 3b58ee327d0648848b2a4f0f29b64041, type: 2}
-  mSpriteName: icon_plus_coin_04
+  mSpriteName: bar_01
   mFillCenter: 1
 --- !u!114 &11417294
 MonoBehaviour:
@@ -1090,7 +1090,7 @@ MonoBehaviour:
     relative: 1
     absolute: 0
   updateAnchors: 1
-  mColor: {r: 0.9632353, g: 0.8284215, b: 0.5382786, a: 1}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mWidth: 22
   mHeight: 22
@@ -1110,7 +1110,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11490092, guid: 3b58ee327d0648848b2a4f0f29b64041, type: 2}
-  mSpriteName: btn_plus_01
+  mSpriteName: icon_plus_coin_01
   mFillCenter: 1
 --- !u!114 &11430534
 MonoBehaviour:
@@ -1140,7 +1140,7 @@ MonoBehaviour:
     relative: 1
     absolute: 0
   updateAnchors: 1
-  mColor: {r: 0.9632353, g: 0.8284215, b: 0.5382786, a: 1}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mWidth: 22
   mHeight: 22
@@ -1160,7 +1160,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11490092, guid: 3b58ee327d0648848b2a4f0f29b64041, type: 2}
-  mSpriteName: btn_plus_01
+  mSpriteName: icon_plus_coin_02
   mFillCenter: 1
 --- !u!114 &11431152
 MonoBehaviour:
@@ -1191,14 +1191,14 @@ MonoBehaviour:
     absolute: 0
   updateAnchors: 1
   mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mWidth: 20
+  mPivot: 3
+  mWidth: 120
   mHeight: 20
   mDepth: 4
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 1
+  aspectRatio: 6
   mType: 1
   mFillDirection: 4
   mFillAmount: 1
@@ -1210,7 +1210,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11490092, guid: 3b58ee327d0648848b2a4f0f29b64041, type: 2}
-  mSpriteName: icon_plus_coin_01
+  mSpriteName: bar_01
   mFillCenter: 1
 --- !u!114 &11435288
 MonoBehaviour:
@@ -1244,7 +1244,7 @@ MonoBehaviour:
   mPivot: 4
   mWidth: 360
   mHeight: 70
-  mDepth: 5
+  mDepth: 9
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
@@ -1318,7 +1318,7 @@ MonoBehaviour:
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 2.625
+  aspectRatio: 3
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 12800000, guid: 2105cc01f6275c241ad7487e240aa617, type: 3}
   mFont: {fileID: 0}
@@ -1377,27 +1377,27 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 0.9558824, g: 0.07028548, b: 0.8581613, a: 1}
   mPivot: 3
-  mWidth: 44
+  mWidth: 45
   mHeight: 14
   mDepth: 5
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 3
+  aspectRatio: 3.2142856
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 12800000, guid: 2105cc01f6275c241ad7487e240aa617, type: 3}
   mFont: {fileID: 0}
   mText: 99,999
   mFontSize: 14
   mFontStyle: 0
-  mAlignment: 0
+  mAlignment: 3
   mEncoding: 1
   mMaxLineCount: 0
   mEffectStyle: 1
   mEffectColor: {r: 0, g: 0, b: 0, a: 1}
   mSymbols: 1
   mEffectDistance: {x: 1, y: 1}
-  mOverflow: 2
+  mOverflow: 0
   mMaterial: {fileID: 0}
   mApplyGradient: 0
   mGradientTop: {r: 1, g: 1, b: 1, a: 1}
@@ -1440,7 +1440,7 @@ MonoBehaviour:
     relative: 1
     absolute: 0
   updateAnchors: 1
-  mColor: {r: 0.9632353, g: 0.8284215, b: 0.5382786, a: 1}
+  mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mWidth: 22
   mHeight: 22
@@ -1460,7 +1460,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11490092, guid: 3b58ee327d0648848b2a4f0f29b64041, type: 2}
-  mSpriteName: btn_plus_01
+  mSpriteName: icon_plus_coin_04
   mFillCenter: 1
 --- !u!114 &11446456
 MonoBehaviour:
@@ -1492,27 +1492,27 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 0.9705882, g: 0.69663817, b: 0.10705016, a: 1}
   mPivot: 3
-  mWidth: 36
+  mWidth: 45
   mHeight: 14
   mDepth: 5
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 2
+  aspectRatio: 3.2142856
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 12800000, guid: 2105cc01f6275c241ad7487e240aa617, type: 3}
   mFont: {fileID: 0}
   mText: 9,999
   mFontSize: 14
   mFontStyle: 0
-  mAlignment: 0
+  mAlignment: 3
   mEncoding: 1
   mMaxLineCount: 0
   mEffectStyle: 1
   mEffectColor: {r: 0, g: 0, b: 0, a: 1}
   mSymbols: 1
   mEffectDistance: {x: 1, y: 1}
-  mOverflow: 2
+  mOverflow: 0
   mMaterial: {fileID: 0}
   mApplyGradient: 0
   mGradientTop: {r: 1, g: 1, b: 1, a: 1}
@@ -1557,18 +1557,18 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 0, g: 0, b: 0, a: 1}
   mPivot: 3
-  mWidth: 150
+  mWidth: 130
   mHeight: 18
-  mDepth: 2
+  mDepth: 3
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 8.333333
+  aspectRatio: 7.2222223
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 12800000, guid: 2105cc01f6275c241ad7487e240aa617, type: 3}
   mFont: {fileID: 0}
   mText: ABCDEFGH IJKL
-  mFontSize: 18
+  mFontSize: 16
   mFontStyle: 0
   mAlignment: 0
   mEncoding: 1
@@ -1722,27 +1722,27 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 0.86764705, g: 0.87402683, b: 0.87402683, a: 1}
   mPivot: 3
-  mWidth: 92
+  mWidth: 100
   mHeight: 14
   mDepth: 5
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 5
+  aspectRatio: 7.142857
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 12800000, guid: 2105cc01f6275c241ad7487e240aa617, type: 3}
   mFont: {fileID: 0}
   mText: 9,999,999,999
   mFontSize: 14
   mFontStyle: 0
-  mAlignment: 0
+  mAlignment: 3
   mEncoding: 1
   mMaxLineCount: 0
   mEffectStyle: 0
   mEffectColor: {r: 0, g: 0, b: 0, a: 1}
   mSymbols: 1
   mEffectDistance: {x: 1, y: 1}
-  mOverflow: 2
+  mOverflow: 0
   mMaterial: {fileID: 0}
   mApplyGradient: 0
   mGradientTop: {r: 1, g: 1, b: 1, a: 1}
@@ -1916,13 +1916,13 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
-  mWidth: 45
-  mHeight: 45
+  mWidth: 57
+  mHeight: 60
   mDepth: 7
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 1
+  aspectRatio: 0.95
   mType: 1
   mFillDirection: 4
   mFillAmount: 1
@@ -1965,14 +1965,14 @@ MonoBehaviour:
     absolute: 0
   updateAnchors: 1
   mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mWidth: 20
+  mPivot: 3
+  mWidth: 60
   mHeight: 20
   mDepth: 4
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 1
+  aspectRatio: 3
   mType: 1
   mFillDirection: 4
   mFillAmount: 1
@@ -1984,7 +1984,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11490092, guid: 3b58ee327d0648848b2a4f0f29b64041, type: 2}
-  mSpriteName: icon_plus_coin_02
+  mSpriteName: bar_01
   mFillCenter: 1
 --- !u!114 &11478024
 MonoBehaviour:
@@ -2045,13 +2045,13 @@ MonoBehaviour:
   updateAnchors: 1
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
-  mWidth: 45
-  mHeight: 45
+  mWidth: 57
+  mHeight: 60
   mDepth: 6
   autoResizeBoxCollider: 1
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 1
+  aspectRatio: 0.95
   mType: 0
   mFillDirection: 4
   mFillAmount: 1
@@ -2101,7 +2101,7 @@ MonoBehaviour:
   autoResizeBoxCollider: 0
   hideIfOffScreen: 0
   keepAspectRatio: 0
-  aspectRatio: 1.5
+  aspectRatio: 1.375
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 12800000, guid: 2105cc01f6275c241ad7487e240aa617, type: 3}
   mFont: {fileID: 0}

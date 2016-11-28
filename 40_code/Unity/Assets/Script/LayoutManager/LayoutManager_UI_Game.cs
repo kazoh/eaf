@@ -28,6 +28,7 @@ public class LayoutManager_UI_Game : LayoutManager {
     public Component_UI_InputPopup InputPopupUI;
     public Component_UI_SettingPopup SettingPopupUI;
     public Component_UI_DailyReward DailyPopupUI;
+    public Component_UI_PopupMenu MenuPopupUI;
 
     public UISprite BgSprite;
 
@@ -162,6 +163,11 @@ public class LayoutManager_UI_Game : LayoutManager {
         /* 일일보상 팝업 초기화 */
         DailyPopupUI.Init();
         DailyPopupUI.Hide();
+
+        /* 메뉴 팝업 초기화 */
+        MenuPopupUI.Init();
+        MenuPopupUI.ClickedEvent += OnClickMenu;
+        MenuPopupUI.Hide();
 
         /* 배경음 적용 */
         GameProcess.PlaySound(SOUND_EFFECT.BGM, "bgm_01");
@@ -479,12 +485,23 @@ public class LayoutManager_UI_Game : LayoutManager {
                 DailyPopupUI.Show();
                 break;
 
-            case GameEnum.Menu.ACHIEVEMENT:
-                DailyPopupUI.Show();
+            case GameEnum.Menu.ECT:
+                MenuPopupUI.Show();
                 break;
 
             case GameEnum.Menu.RANK:
                 GameProcess.ShowError(new GameException(GameException.ErrorCode.NoService));
+                break;
+
+            case GameEnum.Menu.LIKE:
+                title = TableManager.GetString("STR_TITLE_LIKE");
+                msg = TableManager.GetString("STR_MSG_LIKE");
+                text1 = TableManager.GetString("STR_UI_YES");
+                text2 = TableManager.GetString("STR_UI_NO");
+                GameProcess.ShowPopup(NoticeType.YES_NO, title, msg, text1, text2, delegate ()
+                {
+                    Application.OpenURL("https://www.facebook.com/10RPG");
+                }, null);
                 break;
 
             case GameEnum.Menu.REVIEW:

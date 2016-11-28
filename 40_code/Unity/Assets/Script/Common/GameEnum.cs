@@ -22,6 +22,8 @@ public class GameEnum
         REGION,
         REVIEW,
         BUG,
+        LIKE,
+        ECT,
     }
 
     public enum Grade

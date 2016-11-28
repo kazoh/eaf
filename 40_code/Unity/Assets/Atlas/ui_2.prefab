@@ -82,8 +82,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: box_02
-    x: 129
-    y: 384
+    x: 0
+    y: 255
     width: 128
     height: 128
     borderLeft: 0
@@ -108,8 +108,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: btn_plus_01
-    x: 388
-    y: 286
+    x: 65
+    y: 27
     width: 32
     height: 32
     borderLeft: 0
@@ -134,8 +134,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: coin_01
-    x: 455
-    y: 414
+    x: 387
+    y: 389
     width: 32
     height: 32
     borderLeft: 0
@@ -147,19 +147,6 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: coin_02
-    x: 323
-    y: 286
-    width: 32
-    height: 32
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: coin_03
     x: 420
     y: 389
     width: 32
@@ -172,9 +159,22 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
+  - name: coin_03
+    x: 455
+    y: 480
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   - name: coin_04
-    x: 421
-    y: 286
+    x: 455
+    y: 447
     width: 32
     height: 32
     borderLeft: 0
@@ -187,7 +187,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: crown_01
     x: 488
-    y: 431
+    y: 464
     width: 18
     height: 15
     borderLeft: 0
@@ -213,7 +213,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: crown_03
     x: 488
-    y: 415
+    y: 431
     width: 18
     height: 15
     borderLeft: 0
@@ -226,7 +226,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: effect_01
     x: 0
-    y: 255
+    y: 126
     width: 128
     height: 128
     borderLeft: 0
@@ -238,8 +238,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: gear
-    x: 0
-    y: 126
+    x: 129
+    y: 255
     width: 128
     height: 128
     borderLeft: 0
@@ -277,8 +277,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: icon_daily
-    x: 324
-    y: 190
+    x: 259
+    y: 60
     width: 64
     height: 64
     borderLeft: 0
@@ -290,8 +290,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: icon_plus_coin_01
-    x: 65
-    y: 60
+    x: 455
+    y: 414
     width: 32
     height: 32
     borderLeft: 0
@@ -316,8 +316,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: icon_plus_coin_03
-    x: 455
-    y: 447
+    x: 323
+    y: 286
     width: 32
     height: 32
     borderLeft: 0
@@ -329,8 +329,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: icon_plus_coin_04
-    x: 455
-    y: 480
+    x: 65
+    y: 60
     width: 32
     height: 32
     borderLeft: 0
@@ -343,7 +343,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: loading_en
     x: 129
-    y: 255
+    y: 384
     width: 128
     height: 128
     borderLeft: 0
@@ -355,7 +355,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: loading_ja
-    x: 0
+    x: 258
     y: 384
     width: 128
     height: 128
@@ -368,7 +368,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: loading_ko
-    x: 258
+    x: 0
     y: 384
     width: 128
     height: 128
@@ -381,8 +381,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: lock_01
-    x: 65
-    y: 27
+    x: 421
+    y: 286
     width: 32
     height: 32
     borderLeft: 0
@@ -395,19 +395,6 @@ MonoBehaviour:
     paddingBottom: 0
   - name: menu_01
     x: 389
-    y: 125
-    width: 64
-    height: 64
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: menu_02
-    x: 324
     y: 60
     width: 64
     height: 64
@@ -419,46 +406,7 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: menu_03
-    x: 389
-    y: 190
-    width: 64
-    height: 64
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: menu_04
-    x: 129
-    y: 190
-    width: 64
-    height: 64
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: menu_05
-    x: 129
-    y: 125
-    width: 64
-    height: 64
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: menu_06
+  - name: menu_02
     x: 258
     y: 319
     width: 64
@@ -471,7 +419,20 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: menu_07
+  - name: menu_03
+    x: 129
+    y: 190
+    width: 64
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: menu_04
     x: 323
     y: 319
     width: 64
@@ -484,111 +445,7 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: menu_08
-    x: 259
-    y: 60
-    width: 64
-    height: 64
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: menu_09
-    x: 129
-    y: 60
-    width: 64
-    height: 64
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: menu_10
-    x: 324
-    y: 125
-    width: 64
-    height: 64
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: menu_11
-    x: 259
-    y: 125
-    width: 64
-    height: 64
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: menu_12
-    x: 0
-    y: 61
-    width: 64
-    height: 64
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: menu_13
-    x: 194
-    y: 125
-    width: 64
-    height: 64
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: menu_14
-    x: 194
-    y: 190
-    width: 64
-    height: 64
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: menu_15
-    x: 259
-    y: 190
-    width: 64
-    height: 64
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: menu_16
+  - name: menu_05
     x: 388
     y: 319
     width: 64
@@ -601,9 +458,165 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
+  - name: menu_06
+    x: 129
+    y: 125
+    width: 64
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: menu_07
+    x: 129
+    y: 60
+    width: 64
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: menu_08
+    x: 194
+    y: 190
+    width: 64
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: menu_09
+    x: 194
+    y: 125
+    width: 64
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: menu_10
+    x: 194
+    y: 60
+    width: 64
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: menu_11
+    x: 259
+    y: 190
+    width: 64
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: menu_12
+    x: 324
+    y: 190
+    width: 64
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: menu_13
+    x: 389
+    y: 190
+    width: 64
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: menu_14
+    x: 324
+    y: 60
+    width: 64
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: menu_15
+    x: 259
+    y: 125
+    width: 64
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: menu_16
+    x: 324
+    y: 125
+    width: 64
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: menu_17
+    x: 0
+    y: 61
+    width: 64
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   - name: new_01
     x: 488
-    y: 464
+    y: 415
     width: 18
     height: 15
     borderLeft: 0
@@ -615,8 +628,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: plus
-    x: 387
-    y: 389
+    x: 388
+    y: 286
     width: 32
     height: 32
     borderLeft: 0
@@ -641,8 +654,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: wing
-    x: 194
-    y: 60
+    x: 389
+    y: 125
     width: 64
     height: 64
     borderLeft: 0
