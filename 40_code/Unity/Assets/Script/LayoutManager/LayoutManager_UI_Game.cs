@@ -29,6 +29,7 @@ public class LayoutManager_UI_Game : LayoutManager {
     public Component_UI_SettingPopup SettingPopupUI;
     public Component_UI_DailyReward DailyPopupUI;
     public Component_UI_PopupMenu MenuPopupUI;
+    public Component_UI_RankPopup RankPopupUI;
 
     public UISprite BgSprite;
 
@@ -168,6 +169,10 @@ public class LayoutManager_UI_Game : LayoutManager {
         MenuPopupUI.Init();
         MenuPopupUI.ClickedEvent += OnClickMenu;
         MenuPopupUI.Hide();
+
+        /* 랭킹 팝업 초기화 */
+        RankPopupUI.Init();
+        RankPopupUI.Hide();
 
         /* 배경음 적용 */
         GameProcess.PlaySound(SOUND_EFFECT.BGM, "bgm_01");
@@ -490,7 +495,8 @@ public class LayoutManager_UI_Game : LayoutManager {
                 break;
 
             case GameEnum.Menu.RANK:
-                GameProcess.ShowError(new GameException(GameException.ErrorCode.NoService));
+                //GameProcess.ShowError(new GameException(GameException.ErrorCode.NoService));
+                RankPopupUI.Show();
                 break;
 
             case GameEnum.Menu.LIKE:

@@ -20,6 +20,8 @@ public class DBManager {
         GET_CONFIG = 31,
         GET_SERVER_STATE = 41,
         SAVE_ERROR_LOG = 51,
+        SELECT_RANK = 61,
+        UPDATE_RANK = 62,
     }
 
     private HttpManager httpManager;
@@ -30,6 +32,7 @@ public class DBManager {
     readonly private string URL_CONFIG;
     readonly private string URL_SERVER_CHECK;
     readonly private string URL_ERROR_LOG;
+    readonly private string URL_RANK;
 
     private static DBManager instance;
     public static DBManager Instance
@@ -57,6 +60,7 @@ public class DBManager {
                 URL_CONFIG = "https://script.google.com/macros/s/AKfycbzzWKD1bfzwGJu3-9tMmfSAxOhs4L4yDuUtf4QZvsjMY9rOop8/exec";
                 URL_SERVER_CHECK = "https://script.google.com/macros/s/AKfycbzXB04VJ8oWcdL6CRwdMPRiZfC42Pk-WW9KbmsN9CcVO-sfXA/exec";
                 URL_ERROR_LOG = "https://script.google.com/macros/s/AKfycbx6KCBTuufwIliEWCkQxm1m0YksXovtv7x1Q4rD3dsDLe5eMG8/exec";
+                URL_RANK = "https://script.google.com/macros/s/AKfycbwe_WuY1zHO9LNpjTMqaSJWs87kOb7ckjUYrgPXWleTD9WjezA/exec";
                 break;
             case GameProcess.Server.TEST:
                 URL_ACCOUNT = "https://script.google.com/macros/s/AKfycbwX8UhLmtDvN1KLy13_YbA_yYDuhxOitfRkCORU7ZT1TID-mmg/exec";
@@ -65,6 +69,7 @@ public class DBManager {
                 URL_CONFIG = "https://script.google.com/macros/s/AKfycbzA3lXzT7l-9TebXIovk-K4MTd2mlfn_sXs4GdS-AFYJTqFQWU/exec";
                 URL_SERVER_CHECK = "https://script.google.com/macros/s/AKfycby6_J_VJXWzaVpUWeuKuLY1_ulhRusK5erFFI9Yzhh8IGsdug/exec";
                 URL_ERROR_LOG = "https://script.google.com/macros/s/AKfycbxOtCIkkjkTu_b6pDfCLiTKIVariBc5R4qCb7w7OH3xrr0CPME/exec";
+                URL_RANK = "https://script.google.com/macros/s/AKfycbxl6pU7kI3t0L49-FPBCfuQuBBH69AMbrUacvBcXbJDp0o3TQ/exec";
                 break;
             case GameProcess.Server.LIVE:
                 URL_ACCOUNT = "https://script.google.com/macros/s/AKfycbzxD4JPBHzBPPyC4IX09jVS7KdFdeWVj0cwSN7sYeQlIs7nIg/exec";
@@ -73,6 +78,7 @@ public class DBManager {
                 URL_CONFIG = "https://script.google.com/macros/s/AKfycbxdcJI3rMNv_55bEUf75Bpeu60A3XhQkgXAppu_wlqW409m6w/exec";
                 URL_SERVER_CHECK = "https://script.google.com/macros/s/AKfycbyXHYLCNM6rynSiuM5JJozAnCQI-fDQ--Dnetvm7z27oAK6Og/exec";
                 URL_ERROR_LOG = "https://script.google.com/macros/s/AKfycbw8sHytkQ6RexTwncFp1xSFqzYWA_WOfXfwbHuDBIGe_fUPHA/exec";
+                URL_RANK = "https://script.google.com/macros/s/AKfycbyr-r9ezPy1gTyjX8GUEaaSHqgE6qZ8NrrsN7NwLTctgB3cDSQ/exec";
                 break;
         }
     }
@@ -328,6 +334,57 @@ public class DBManager {
         _data = WWW.EscapeURL(_data);
         string _url = string.Format("{0}?CODE={1}&LOG={2}", Instance.URL_ERROR_LOG, (int)FuncCode.SAVE_ERROR_LOG, _data);
         Instance.httpManager.CallRequest(_url, true, null);
+    }
+
+    public static void GetRankData(Action<bool, string> _callback)
+    {
+        if (!CheckNetwork()) throw new GameException(GameException.ErrorCode.NoNetwork);
+
+        string _url = string.Format("{0}?CODE={1}", Instance.URL_RANK, (int)FuncCode.SELECT_RANK);
+        Instance.httpManager.CallRequest(_url, true, delegate (WWW www)
+        {
+            IDictionary dict = MiniJSON.Json.Deserialize(www.text) as IDictionary;
+            if (CheckResponse(dict))
+            {
+                string data = "";
+                bool fail = false;
+
+                if (dict["result"].Equals("fail") || dict["result"].Equals("error"))
+                {
+                    fail = true;
+                }
+
+                if (dict.Contains("data")) data = Convert.ToString(dict["data"]);
+
+                if (_callback != null) _callback(fail, data);
+            }
+        });
+    }
+
+    public static void UpdateRankData(int _id, string _name, int _chaId, int _score, Action<bool, string> _callback)
+    {
+        if (!CheckNetwork()) throw new GameException(GameException.ErrorCode.NoNetwork);
+
+        string _url = string.Format("{0}?CODE={1}&ID={2}&NAME={3}&CHA_ID={4}&SCORE={5}", Instance.URL_RANK, (int)FuncCode.UPDATE_RANK, _id, _name, _chaId, _score);
+        Instance.httpManager.CallRequest(_url, true, delegate (WWW www)
+        {
+            Debug.Log(www.text);
+            IDictionary dict = MiniJSON.Json.Deserialize(www.text) as IDictionary;
+            if (CheckResponse(dict))
+            {
+                string data = "";
+                bool fail = false;
+
+                if (dict["result"].Equals("fail") || dict["result"].Equals("error"))
+                {
+                    fail = true;
+                }
+
+                if (dict.Contains("data")) data = Convert.ToString(dict["data"]);
+
+                if (_callback != null) _callback(fail, data);
+            }
+        });
     }
 
     static bool CheckResponse(IDictionary _dict)

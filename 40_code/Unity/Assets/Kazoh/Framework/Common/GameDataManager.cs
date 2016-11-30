@@ -1350,6 +1350,21 @@ public class GameDataManager
         }
         return count;
     }
+
+    public int GetScore()
+    {
+        int score = 0;
+        for(int i=0; i < listUserMap.Count; ++i)
+        {
+            switch(listUserMap[i].Record)
+            {
+                case 1: score += 1; break;
+                case 2: score += 3; break;
+                case 3: score += 5; break;
+            }
+        }
+        return score;
+    }
     #endregion // UserData
 
     #region // Mission

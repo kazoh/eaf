@@ -31,7 +31,7 @@ public class Component_UI_Loading : GameComponent {
             switch (GameProcess.Instance.Language)
             {
                 case SystemLanguage.Korean: TitleLabel.text = "데이터 로딩 중...."; break;
-                case SystemLanguage.Japanese: TitleLabel.text = "データの読み込み中...."; break;
+                //case SystemLanguage.Japanese: TitleLabel.text = "データの読み込み中...."; break;
                 case SystemLanguage.English: TitleLabel.text = "Loading...."; break;
                 default: TitleLabel.text = "Loading...."; break;
             }

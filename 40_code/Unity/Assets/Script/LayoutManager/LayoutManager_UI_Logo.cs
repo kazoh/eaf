@@ -37,19 +37,19 @@ public class LayoutManager_UI_Logo : LayoutManager {
             case SystemLanguage.Korean:
                 SpriteTitle.spriteName = "title_ko";
                 SpriteLogo.spriteName = "logo_ko";
-                startText = "화 면 을  터 치 해  주 세 요 .";
+                startText = "화면을 터치 해 주세요.";
                 break;
 
             case SystemLanguage.Japanese:
                 SpriteTitle.spriteName = "title_ja";
                 SpriteLogo.spriteName = "logo_ja";
-                startText = "画 面 を タ ッ チ し て く だ さ い 。";
+                startText = "Touch to start.";//"画面をタッチしてください。";
                 break;
 
             default:
                 SpriteTitle.spriteName = "title_en";
                 SpriteLogo.spriteName = "logo_en";
-                startText = "T o u c h  t o  s t a r t .";
+                startText = "Touch to start.";
                 break;
         }
         verText = "Ver " + GameProcess.Instance.ShortVersion;

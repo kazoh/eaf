@@ -77,7 +77,7 @@ public class GameException : Exception
         CanNotConnectServer = 8002,
         NotExistEmail = 8003,
         ExistEmail = 8004,
-
+        CanNotGetRankData = 8005,
 
         // 공용 오류.
         NoGameData = 9000,
@@ -93,6 +93,8 @@ public class GameException : Exception
         EqualsNewPw = 9010,
         NotEqualsNewPw = 9011,
         InvalidPassward = 9012,
+        InvalidInicial = 9013,
+
     }
 
     public ErrorCode Code;
