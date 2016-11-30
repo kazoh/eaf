@@ -23,13 +23,14 @@ public class Component_Item_EquipSlot : GameComponent
         if(Data == null || Data.IsEmpty)
         {
             IconSprite.spriteName = "icon_item_0000";
-            GradeSprite.spriteName = "";
+            GradeSprite.alpha = 0f;
         }
         else
         {
             Data_UserItem item = Data.Data;
             IconSprite.spriteName = item.IconName;
             GradeSprite.spriteName = "grade_0" + item.Data.Grade;
+            GradeSprite.alpha = 1f;
         }
     }
 

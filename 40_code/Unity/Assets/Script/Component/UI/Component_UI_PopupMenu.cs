@@ -17,6 +17,7 @@ public class Component_UI_PopupMenu : GameComponent
     public UILabel InvenLabel;
     public UILabel ShopLabel;
     public UILabel CashLabel;
+    public UILabel SummonLabel;
     public UILabel ExchargeLabel;
     public UILabel RankLabel;
     public UILabel DailyLabel;
@@ -50,6 +51,7 @@ public class Component_UI_PopupMenu : GameComponent
         BugLabel.text = TableManager.GetString("STR_MENU_12");
         SettingLabel.text = TableManager.GetString("STR_MENU_13");
         ExitLabel.text = TableManager.GetString("STR_MENU_14");
+        SummonLabel.text = TableManager.GetString("STR_MENU_15");
     }
 
     void OnClicked(GameEnum.Menu menu)
@@ -156,6 +158,13 @@ public class Component_UI_PopupMenu : GameComponent
     {
         GameProcess.PlaySound(SOUND_EFFECT.CLICK);
         OnClicked(GameEnum.Menu.LIKE);
+        Hide();
+    }
+
+    public void OnClick_Summon()
+    {
+        GameProcess.PlaySound(SOUND_EFFECT.CLICK);
+        OnClicked(GameEnum.Menu.SUMMON);
         Hide();
     }
 

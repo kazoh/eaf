@@ -94,12 +94,7 @@ public class LayoutManager_UI_LogIn : LayoutManager {
 
             GameProcess.ShowPopup(NoticeType.YES_NO, title, msg, text1,text2, delegate ()
             {
-                string tempPw = "";
-                for (int i = 0; i < 4; ++i)
-                {
-                    tempPw += (char)UnityEngine.Random.Range('A', 'Z');
-                    tempPw += (char)UnityEngine.Random.Range('a', 'z');
-                }
+                string tempPw = GameProcess.GetGameDataManager().GetNewPw();
 
                 title = TableManager.GetString("STR_MAIL_SUB");
                 msg = string.Format(TableManager.GetString("STR_MAIL_MSG"),tempPw);

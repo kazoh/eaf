@@ -1365,6 +1365,30 @@ public class GameDataManager
         }
         return score;
     }
+
+    string pwStrPool = "abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    public string GetNewPw()
+    {
+        string newPw = "";
+        int length = pwStrPool.Length - 1;
+        for (int i = 0; i < 8; ++i)
+        {
+            newPw += pwStrPool.Substring(UnityEngine.Random.Range(0, length),1);
+        }
+
+        return newPw;
+    }
+
+    public string GetToken()
+    {
+        string token = "";
+        int length = Mathf.Min(userId.Length - 1, 9);
+        int first = UnityEngine.Random.Range(0, length);
+        int second = UnityEngine.Random.Range(0, length);
+        string key = userId.Substring((first + second) % 9, 1);
+        token = first + key + second;
+        return token;
+    }
     #endregion // UserData
 
     #region // Mission

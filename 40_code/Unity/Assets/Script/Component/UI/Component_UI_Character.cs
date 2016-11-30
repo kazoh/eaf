@@ -12,6 +12,8 @@ public class Component_UI_Character : GameComponent
     public Action<Slot_Character> DownGradeCharacterEvent;
     public Action<Slot_Character> EnchantCharacterEvent;
     public Action<Slot_Character> DeleteCharacterEvent;
+    public Action<Slot_Character> CharacterInfoEvent;
+    public Action<Slot_Character> ChangeSkinEvent;
     public Action<Slot_Item> DismountEvent;
     public Action AddSlotEvent;
 
@@ -244,6 +246,18 @@ public class Component_UI_Character : GameComponent
     {
         GameProcess.PlaySound(SOUND_EFFECT.CLICK);
         if (AddCharacterEvent != null) DeleteCharacterEvent(Data);
+    }
+
+    public void OnClick_Info()
+    {
+        GameProcess.PlaySound(SOUND_EFFECT.CLICK);
+        if (CharacterInfoEvent != null) CharacterInfoEvent(Data);
+    }
+
+    public void OnClick_Skin()
+    {
+        GameProcess.PlaySound(SOUND_EFFECT.CLICK);
+        if (ChangeSkinEvent != null) ChangeSkinEvent(Data);
     }
 
     public void OnClick_Add()

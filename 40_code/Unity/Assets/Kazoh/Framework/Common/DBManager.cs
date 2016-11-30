@@ -197,7 +197,7 @@ public class DBManager {
     {
         if (!CheckNetwork()) throw new GameException(GameException.ErrorCode.NoNetwork);
 
-        string _url = string.Format("{0}?CODE={1}&ID={2}", Instance.URL_USER_DATA, (int)FuncCode.SELECT_USER_DATA, _guid);
+        string _url = string.Format("{0}?CODE={1}&ID={2}&KEY={3}", Instance.URL_USER_DATA, (int)FuncCode.SELECT_USER_DATA, _guid, GameProcess.GetGameDataManager().GetToken());
         Instance.httpManager.CallRequest(_url, true, delegate (WWW www)
         {
             IDictionary dict = MiniJSON.Json.Deserialize(www.text) as IDictionary;
@@ -225,7 +225,7 @@ public class DBManager {
         if (!CheckNetwork()) throw new GameException(GameException.ErrorCode.NoNetwork);
 
         _data = WWW.EscapeURL(_data);
-        string _url = string.Format("{0}?CODE={1}&ID={2}&DATA={3}", Instance.URL_USER_DATA, (int)FuncCode.UPDATE_USER_DATA, _guid, _data);
+        string _url = string.Format("{0}?CODE={1}&ID={2}&DATA={3}&KEY={4}", Instance.URL_USER_DATA, (int)FuncCode.UPDATE_USER_DATA, _guid, _data, GameProcess.GetGameDataManager().GetToken());
         Instance.httpManager.CallRequest(_url, false, delegate (WWW www)
         {
             IDictionary dict = MiniJSON.Json.Deserialize(www.text) as IDictionary;

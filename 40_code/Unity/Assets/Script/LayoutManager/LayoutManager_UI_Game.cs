@@ -30,6 +30,7 @@ public class LayoutManager_UI_Game : LayoutManager {
     public Component_UI_DailyReward DailyPopupUI;
     public Component_UI_PopupMenu MenuPopupUI;
     public Component_UI_RankPopup RankPopupUI;
+    public Component_UI_PopupChaInfo ChaInfoPopupUI;
 
     public UISprite BgSprite;
 
@@ -123,6 +124,8 @@ public class LayoutManager_UI_Game : LayoutManager {
         CharacterUI.DownGradeCharacterEvent += OnDownGradeCharacter;
         CharacterUI.EnchantCharacterEvent += OnEnchantCharacter;
         CharacterUI.DeleteCharacterEvent += OnDeleteCharacter;
+        CharacterUI.CharacterInfoEvent += ShowChaInfoPopup;
+        CharacterUI.ChangeSkinEvent += ShowChangeSkinPopup;
         CharacterUI.DismountEvent += OnEquipItem;
         CharacterUI.AddSlotEvent += OnAddChaSlot;
         CharacterUI.Hide();
@@ -173,6 +176,10 @@ public class LayoutManager_UI_Game : LayoutManager {
         /* 랭킹 팝업 초기화 */
         RankPopupUI.Init();
         RankPopupUI.Hide();
+
+        /* 캐릭터 정보 팝업 초기화 */
+        ChaInfoPopupUI.Init();
+        ChaInfoPopupUI.Hide();
 
         /* 배경음 적용 */
         GameProcess.PlaySound(SOUND_EFFECT.BGM, "bgm_01");
@@ -914,6 +921,34 @@ public class LayoutManager_UI_Game : LayoutManager {
             }
 
         }, null);
+    }
+
+    void ShowChaInfoPopup(Slot_Character _slot)
+    {
+        try
+        {
+            if (_slot.IsEmpty) new GameException(GameException.ErrorCode.CharacterSlotIsEmpty);
+            ChaInfoPopupUI.Show(_slot);
+        }
+        catch(GameException e)
+        {
+            GameProcess.ShowError(e);
+        }
+        catch(Exception e)
+        {
+            GameProcess.ShowError(new GameException(GameException.ErrorCode.Unknown, e.Message));
+        }
+    }
+
+    void ShowChangeSkinPopup(Slot_Character _slot)
+    {        
+        if (_slot.IsEmpty)
+        {
+            GameProcess.ShowError(new GameException(GameException.ErrorCode.CharacterSlotIsEmpty));
+            return;
+        }
+
+        GameProcess.ShowError(new GameException(GameException.ErrorCode.NoService));
     }
 
     void OnAddChaSlot()
