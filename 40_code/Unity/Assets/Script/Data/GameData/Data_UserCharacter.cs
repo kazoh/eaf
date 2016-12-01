@@ -114,11 +114,11 @@ public class Data_UserCharacter
     {
         Data = _data;
         Grade = _data.Grade;
-        RndPow = UnityEngine.Random.Range(0, _data.RndPow);
-        RndDex = UnityEngine.Random.Range(0, _data.RndDex);
-        RndInt = UnityEngine.Random.Range(0, _data.RndInt);
-        RndCon = UnityEngine.Random.Range(0, _data.RndCon);
-        RndLuc = UnityEngine.Random.Range(0, _data.RndLuc);
+        RndPow = UnityEngine.Random.Range(0, _data.RndPow + 1);
+        RndDex = UnityEngine.Random.Range(0, _data.RndDex + 1);
+        RndInt = UnityEngine.Random.Range(0, _data.RndInt + 1);
+        RndCon = UnityEngine.Random.Range(0, _data.RndCon + 1);
+        RndLuc = UnityEngine.Random.Range(0, _data.RndLuc + 1);
         CurHp = MaxHp;
 
         if (_data.OptionList != null && _data.OptionList.Count > 0)

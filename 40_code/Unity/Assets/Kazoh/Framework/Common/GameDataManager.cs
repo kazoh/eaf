@@ -1361,7 +1361,7 @@ public class GameDataManager
     public string GetNewPw()
     {
         string newPw = "";
-        int length = pwStrPool.Length - 1;
+        int length = pwStrPool.Length;
         for (int i = 0; i < 8; ++i)
         {
             newPw += pwStrPool.Substring(UnityEngine.Random.Range(0, length),1);
@@ -1373,7 +1373,7 @@ public class GameDataManager
     public string GetToken()
     {
         string token = "";
-        int length = Mathf.Min(userId.Length - 1, 9);
+        int length = Mathf.Min(userId.Length, 9);
         int first = UnityEngine.Random.Range(0, length);
         int second = UnityEngine.Random.Range(0, length);
         string key = userId.Substring((first + second) % 9, 1);

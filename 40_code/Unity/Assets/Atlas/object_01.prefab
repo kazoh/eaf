@@ -54,8 +54,8 @@ MonoBehaviour:
   material: {fileID: 2100000, guid: f3f777ebeb3acf54f8659edf116600f7, type: 2}
   mSprites:
   - name: chest_01_01
-    x: 396
-    y: 415
+    x: 165
+    y: 399
     width: 32
     height: 48
     borderLeft: 0
@@ -67,8 +67,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: chest_01_02
-    x: 429
-    y: 415
+    x: 396
+    y: 399
     width: 32
     height: 48
     borderLeft: 0
@@ -80,8 +80,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: chest_01_03
-    x: 462
-    y: 464
+    x: 429
+    y: 399
     width: 32
     height: 48
     borderLeft: 0
@@ -93,8 +93,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: chest_01_04
-    x: 0
-    y: 128
+    x: 462
+    y: 399
     width: 32
     height: 48
     borderLeft: 0
@@ -106,8 +106,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: chest_01_05
-    x: 0
-    y: 79
+    x: 99
+    y: 350
     width: 32
     height: 48
     borderLeft: 0
@@ -119,8 +119,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: chest_01_06
-    x: 0
-    y: 30
+    x: 99
+    y: 301
     width: 32
     height: 48
     borderLeft: 0
@@ -132,8 +132,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: chest_01_07
-    x: 33
-    y: 464
+    x: 0
+    y: 399
     width: 32
     height: 48
     borderLeft: 0
@@ -145,8 +145,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: chest_01_08
-    x: 66
-    y: 464
+    x: 0
+    y: 350
     width: 32
     height: 48
     borderLeft: 0
@@ -158,8 +158,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: chest_01_09
-    x: 99
-    y: 464
+    x: 0
+    y: 301
     width: 32
     height: 48
     borderLeft: 0
@@ -171,8 +171,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: chest_01_10
-    x: 132
-    y: 464
+    x: 0
+    y: 252
     width: 32
     height: 48
     borderLeft: 0
@@ -184,8 +184,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: chest_01_11
-    x: 132
-    y: 415
+    x: 0
+    y: 203
     width: 32
     height: 48
     borderLeft: 0
@@ -197,8 +197,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: chest_01_12
-    x: 198
-    y: 464
+    x: 0
+    y: 154
     width: 32
     height: 48
     borderLeft: 0
@@ -210,8 +210,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: chest_02_01
-    x: 231
-    y: 464
+    x: 0
+    y: 105
     width: 32
     height: 48
     borderLeft: 0
@@ -223,8 +223,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: chest_02_02
-    x: 264
-    y: 464
+    x: 0
+    y: 56
     width: 32
     height: 48
     borderLeft: 0
@@ -236,8 +236,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: chest_02_03
-    x: 297
-    y: 464
+    x: 0
+    y: 7
     width: 32
     height: 48
     borderLeft: 0
@@ -249,8 +249,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: chest_02_04
-    x: 330
-    y: 464
+    x: 33
+    y: 399
     width: 32
     height: 48
     borderLeft: 0
@@ -262,8 +262,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: chest_02_05
-    x: 363
-    y: 464
+    x: 33
+    y: 350
     width: 32
     height: 48
     borderLeft: 0
@@ -275,8 +275,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: chest_02_06
-    x: 396
-    y: 464
+    x: 33
+    y: 301
     width: 32
     height: 48
     borderLeft: 0
@@ -288,8 +288,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: chest_02_07
-    x: 429
-    y: 464
+    x: 33
+    y: 252
     width: 32
     height: 48
     borderLeft: 0
@@ -301,8 +301,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: chest_02_08
-    x: 297
-    y: 415
+    x: 33
+    y: 203
     width: 32
     height: 48
     borderLeft: 0
@@ -315,7 +315,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: chest_02_09
     x: 33
-    y: 415
+    y: 154
     width: 32
     height: 48
     borderLeft: 0
@@ -328,7 +328,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: chest_02_10
     x: 33
-    y: 366
+    y: 105
     width: 32
     height: 48
     borderLeft: 0
@@ -341,7 +341,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: chest_02_11
     x: 33
-    y: 317
+    y: 56
     width: 32
     height: 48
     borderLeft: 0
@@ -353,8 +353,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: chest_02_12
-    x: 165
-    y: 464
+    x: 33
+    y: 7
     width: 32
     height: 48
     borderLeft: 0
@@ -366,8 +366,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: chest_03_01
-    x: 33
-    y: 219
+    x: 66
+    y: 399
     width: 32
     height: 48
     borderLeft: 0
@@ -379,8 +379,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: chest_03_02
-    x: 33
-    y: 170
+    x: 66
+    y: 350
     width: 32
     height: 48
     borderLeft: 0
@@ -392,8 +392,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: chest_03_03
-    x: 33
-    y: 121
+    x: 66
+    y: 301
     width: 32
     height: 48
     borderLeft: 0
@@ -405,8 +405,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: chest_03_04
-    x: 33
-    y: 72
+    x: 66
+    y: 252
     width: 32
     height: 48
     borderLeft: 0
@@ -418,8 +418,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: chest_03_05
-    x: 33
-    y: 23
+    x: 66
+    y: 203
     width: 32
     height: 48
     borderLeft: 0
@@ -432,7 +432,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: chest_03_06
     x: 66
-    y: 415
+    y: 154
     width: 32
     height: 48
     borderLeft: 0
@@ -444,8 +444,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: chest_03_07
-    x: 99
-    y: 415
+    x: 66
+    y: 105
     width: 32
     height: 48
     borderLeft: 0
@@ -457,8 +457,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: chest_03_08
-    x: 462
-    y: 415
+    x: 66
+    y: 56
     width: 32
     height: 48
     borderLeft: 0
@@ -470,8 +470,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: chest_03_09
-    x: 165
-    y: 415
+    x: 66
+    y: 7
     width: 32
     height: 48
     borderLeft: 0
@@ -483,8 +483,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: chest_03_10
-    x: 198
-    y: 415
+    x: 99
+    y: 399
     width: 32
     height: 48
     borderLeft: 0
@@ -496,8 +496,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: chest_03_11
-    x: 231
-    y: 415
+    x: 132
+    y: 399
     width: 32
     height: 48
     borderLeft: 0
@@ -509,8 +509,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: chest_03_12
-    x: 264
-    y: 415
+    x: 363
+    y: 399
     width: 32
     height: 48
     borderLeft: 0
@@ -522,8 +522,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: door_01_01
-    x: 330
-    y: 415
+    x: 198
+    y: 399
     width: 32
     height: 48
     borderLeft: 0
@@ -535,8 +535,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: door_01_02
-    x: 363
-    y: 415
+    x: 231
+    y: 399
     width: 32
     height: 48
     borderLeft: 0
@@ -548,8 +548,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: door_01_03
-    x: 33
-    y: 268
+    x: 264
+    y: 399
     width: 32
     height: 48
     borderLeft: 0
@@ -560,9 +560,87 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
+  - name: door_02_01
+    x: 297
+    y: 399
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: door_02_02
+    x: 330
+    y: 399
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: door_02_03
+    x: 99
+    y: 252
+    width: 32
+    height: 48
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gate_01_01
+    x: 194
+    y: 448
+    width: 96
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gate_01_02
+    x: 97
+    y: 448
+    width: 96
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gate_01_03
+    x: 0
+    y: 448
+    width: 96
+    height: 64
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   - name: hand_01_01
-    x: 132
-    y: 151
+    x: 330
+    y: 333
     width: 32
     height: 32
     borderLeft: 0
@@ -574,8 +652,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: hand_01_02
-    x: 132
-    y: 118
+    x: 198
+    y: 300
     width: 32
     height: 32
     borderLeft: 0
@@ -587,8 +665,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: hand_01_03
-    x: 132
-    y: 85
+    x: 231
+    y: 300
     width: 32
     height: 32
     borderLeft: 0
@@ -600,8 +678,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: hand_01_04
-    x: 66
-    y: 382
+    x: 264
+    y: 300
     width: 32
     height: 32
     borderLeft: 0
@@ -613,8 +691,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: hand_01_05
-    x: 66
-    y: 349
+    x: 297
+    y: 300
     width: 32
     height: 32
     borderLeft: 0
@@ -626,8 +704,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: hand_01_06
-    x: 66
-    y: 316
+    x: 330
+    y: 300
     width: 32
     height: 32
     borderLeft: 0
@@ -639,8 +717,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: hand_01_07
-    x: 66
-    y: 283
+    x: 99
+    y: 219
     width: 32
     height: 32
     borderLeft: 0
@@ -652,8 +730,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: hand_01_08
-    x: 66
-    y: 250
+    x: 99
+    y: 186
     width: 32
     height: 32
     borderLeft: 0
@@ -665,8 +743,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: hand_01_09
-    x: 66
-    y: 217
+    x: 99
+    y: 153
     width: 32
     height: 32
     borderLeft: 0
@@ -678,8 +756,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: hand_01_10
-    x: 66
-    y: 184
+    x: 99
+    y: 120
     width: 32
     height: 32
     borderLeft: 0
@@ -691,8 +769,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: hand_01_11
-    x: 66
-    y: 151
+    x: 99
+    y: 87
     width: 32
     height: 32
     borderLeft: 0
@@ -704,8 +782,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: hand_01_12
-    x: 66
-    y: 118
+    x: 99
+    y: 54
     width: 32
     height: 32
     borderLeft: 0
@@ -717,8 +795,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_01
-    x: 66
-    y: 85
+    x: 99
+    y: 21
     width: 32
     height: 32
     borderLeft: 0
@@ -730,8 +808,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_02
-    x: 66
-    y: 52
+    x: 132
+    y: 366
     width: 32
     height: 32
     borderLeft: 0
@@ -743,8 +821,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_03
-    x: 66
-    y: 19
+    x: 165
+    y: 366
     width: 32
     height: 32
     borderLeft: 0
@@ -756,8 +834,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_04
-    x: 99
-    y: 382
+    x: 198
+    y: 366
     width: 32
     height: 32
     borderLeft: 0
@@ -769,8 +847,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_05
-    x: 132
-    y: 382
+    x: 231
+    y: 366
     width: 32
     height: 32
     borderLeft: 0
@@ -782,8 +860,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_06
-    x: 165
-    y: 382
+    x: 264
+    y: 366
     width: 32
     height: 32
     borderLeft: 0
@@ -795,8 +873,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_07
-    x: 198
-    y: 382
+    x: 297
+    y: 366
     width: 32
     height: 32
     borderLeft: 0
@@ -808,8 +886,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_08
-    x: 231
-    y: 382
+    x: 330
+    y: 366
     width: 32
     height: 32
     borderLeft: 0
@@ -821,8 +899,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_09
-    x: 264
-    y: 382
+    x: 363
+    y: 366
     width: 32
     height: 32
     borderLeft: 0
@@ -834,8 +912,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_10
-    x: 297
-    y: 382
+    x: 396
+    y: 366
     width: 32
     height: 32
     borderLeft: 0
@@ -847,8 +925,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_11
-    x: 330
-    y: 382
+    x: 429
+    y: 366
     width: 32
     height: 32
     borderLeft: 0
@@ -860,8 +938,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_12
-    x: 363
-    y: 382
+    x: 462
+    y: 366
     width: 32
     height: 32
     borderLeft: 0
@@ -873,8 +951,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_13
-    x: 396
-    y: 382
+    x: 132
+    y: 333
     width: 32
     height: 32
     borderLeft: 0
@@ -886,8 +964,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_14
-    x: 429
-    y: 382
+    x: 132
+    y: 300
     width: 32
     height: 32
     borderLeft: 0
@@ -899,8 +977,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_15
-    x: 462
-    y: 382
+    x: 132
+    y: 267
     width: 32
     height: 32
     borderLeft: 0
@@ -912,8 +990,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_16
-    x: 99
-    y: 349
+    x: 132
+    y: 234
     width: 32
     height: 32
     borderLeft: 0
@@ -925,8 +1003,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_17
-    x: 99
-    y: 316
+    x: 132
+    y: 201
     width: 32
     height: 32
     borderLeft: 0
@@ -938,8 +1016,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_18
-    x: 99
-    y: 283
+    x: 132
+    y: 168
     width: 32
     height: 32
     borderLeft: 0
@@ -951,8 +1029,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_19
-    x: 99
-    y: 250
+    x: 132
+    y: 135
     width: 32
     height: 32
     borderLeft: 0
@@ -964,8 +1042,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_20
-    x: 99
-    y: 217
+    x: 132
+    y: 102
     width: 32
     height: 32
     borderLeft: 0
@@ -977,8 +1055,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_21
-    x: 99
-    y: 184
+    x: 132
+    y: 69
     width: 32
     height: 32
     borderLeft: 0
@@ -990,8 +1068,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_22
-    x: 99
-    y: 151
+    x: 132
+    y: 36
     width: 32
     height: 32
     borderLeft: 0
@@ -1003,8 +1081,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_23
-    x: 99
-    y: 118
+    x: 132
+    y: 3
     width: 32
     height: 32
     borderLeft: 0
@@ -1016,8 +1094,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_24
-    x: 99
-    y: 85
+    x: 165
+    y: 333
     width: 32
     height: 32
     borderLeft: 0
@@ -1029,8 +1107,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_25
-    x: 99
-    y: 52
+    x: 198
+    y: 333
     width: 32
     height: 32
     borderLeft: 0
@@ -1042,8 +1120,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_26
-    x: 99
-    y: 19
+    x: 231
+    y: 333
     width: 32
     height: 32
     borderLeft: 0
@@ -1055,8 +1133,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_27
-    x: 132
-    y: 349
+    x: 264
+    y: 333
     width: 32
     height: 32
     borderLeft: 0
@@ -1068,8 +1146,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_28
-    x: 132
-    y: 217
+    x: 297
+    y: 333
     width: 32
     height: 32
     borderLeft: 0
@@ -1081,8 +1159,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_29
-    x: 198
-    y: 349
+    x: 165
+    y: 3
     width: 32
     height: 32
     borderLeft: 0
@@ -1094,8 +1172,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_30
-    x: 231
-    y: 349
+    x: 363
+    y: 333
     width: 32
     height: 32
     borderLeft: 0
@@ -1107,8 +1185,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_31
-    x: 264
-    y: 349
+    x: 396
+    y: 333
     width: 32
     height: 32
     borderLeft: 0
@@ -1120,8 +1198,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_32
-    x: 297
-    y: 349
+    x: 429
+    y: 333
     width: 32
     height: 32
     borderLeft: 0
@@ -1133,8 +1211,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_33
-    x: 330
-    y: 349
+    x: 462
+    y: 333
     width: 32
     height: 32
     borderLeft: 0
@@ -1146,8 +1224,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_34
-    x: 363
-    y: 349
+    x: 165
+    y: 300
     width: 32
     height: 32
     borderLeft: 0
@@ -1159,8 +1237,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_35
-    x: 396
-    y: 349
+    x: 165
+    y: 267
     width: 32
     height: 32
     borderLeft: 0
@@ -1172,8 +1250,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_99
-    x: 429
-    y: 349
+    x: 165
+    y: 234
     width: 32
     height: 32
     borderLeft: 0
@@ -1185,8 +1263,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: pumkin_01_01
-    x: 462
-    y: 349
+    x: 165
+    y: 201
     width: 32
     height: 32
     borderLeft: 0
@@ -1198,8 +1276,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: pumkin_01_02
-    x: 132
-    y: 316
+    x: 165
+    y: 168
     width: 32
     height: 32
     borderLeft: 0
@@ -1211,8 +1289,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: pumkin_01_03
-    x: 132
-    y: 283
+    x: 165
+    y: 135
     width: 32
     height: 32
     borderLeft: 0
@@ -1224,8 +1302,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: pumkin_02_01
-    x: 132
-    y: 250
+    x: 165
+    y: 102
     width: 32
     height: 32
     borderLeft: 0
@@ -1237,8 +1315,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: pumkin_02_02
-    x: 132
-    y: 184
+    x: 165
+    y: 69
     width: 32
     height: 32
     borderLeft: 0
@@ -1251,7 +1329,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: pumkin_03_03
     x: 165
-    y: 349
+    y: 36
     width: 32
     height: 32
     borderLeft: 0
@@ -1263,8 +1341,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: torch_01_01
-    x: 0
-    y: 345
+    x: 324
+    y: 457
     width: 32
     height: 55
     borderLeft: 0
@@ -1276,8 +1354,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: torch_01_02
-    x: 0
-    y: 401
+    x: 357
+    y: 457
     width: 32
     height: 55
     borderLeft: 0
@@ -1289,8 +1367,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: torch_01_03
-    x: 0
-    y: 289
+    x: 390
+    y: 457
     width: 32
     height: 55
     borderLeft: 0
@@ -1302,8 +1380,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: torch_01_04
-    x: 0
-    y: 233
+    x: 423
+    y: 457
     width: 32
     height: 55
     borderLeft: 0
@@ -1315,8 +1393,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: torch_01_05
-    x: 0
-    y: 177
+    x: 456
+    y: 457
     width: 32
     height: 55
     borderLeft: 0
@@ -1328,7 +1406,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: torch_01_06
-    x: 0
+    x: 291
     y: 457
     width: 32
     height: 55
@@ -1341,8 +1419,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: trap_01_01
-    x: 132
-    y: 52
+    x: 363
+    y: 300
     width: 32
     height: 32
     borderLeft: 0
@@ -1354,8 +1432,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: trap_01_02
-    x: 132
-    y: 19
+    x: 396
+    y: 300
     width: 32
     height: 32
     borderLeft: 0
@@ -1367,8 +1445,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: trap_01_03
-    x: 165
-    y: 316
+    x: 429
+    y: 300
     width: 32
     height: 32
     borderLeft: 0
@@ -1380,8 +1458,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: trap_02_01
-    x: 198
-    y: 316
+    x: 462
+    y: 300
     width: 32
     height: 32
     borderLeft: 0
@@ -1393,8 +1471,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: trap_02_02
-    x: 231
-    y: 316
+    x: 198
+    y: 267
     width: 32
     height: 32
     borderLeft: 0
@@ -1406,8 +1484,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: trap_02_03
-    x: 264
-    y: 316
+    x: 198
+    y: 234
     width: 32
     height: 32
     borderLeft: 0
@@ -1419,8 +1497,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: trap_03_01
-    x: 297
-    y: 316
+    x: 198
+    y: 201
     width: 32
     height: 32
     borderLeft: 0
@@ -1432,8 +1510,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: trap_03_02
-    x: 330
-    y: 316
+    x: 198
+    y: 168
     width: 32
     height: 32
     borderLeft: 0
@@ -1445,8 +1523,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: trap_03_03
-    x: 363
-    y: 316
+    x: 198
+    y: 135
     width: 32
     height: 32
     borderLeft: 0

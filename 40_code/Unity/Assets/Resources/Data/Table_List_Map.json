@@ -559,6 +559,13 @@
 "MAP":"map_s4_027",
 "COND_ARRAY":[{"COND":"BCrownMapId","VALUE":50078},{"COND":"None","VALUE":0},{"COND":"None","VALUE":0}],
 "NEXT_MAP":""
+},
+{
+"ID":81,
+"NAME":"list_map_81",
+"MAP":"map_s0_001",
+"COND_ARRAY":[{"COND":"None","VALUE":0},{"COND":"None","VALUE":0},{"COND":"None","VALUE":0}],
+"NEXT_MAP":""
 }
 ]
 }
