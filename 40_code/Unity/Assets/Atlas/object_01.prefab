@@ -172,7 +172,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: chest_01_10
     x: 132
-    y: 415
+    y: 464
     width: 32
     height: 48
     borderLeft: 0
@@ -184,8 +184,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: chest_01_11
-    x: 165
-    y: 464
+    x: 132
+    y: 415
     width: 32
     height: 48
     borderLeft: 0
@@ -327,8 +327,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: chest_02_10
-    x: 132
-    y: 464
+    x: 33
+    y: 366
     width: 32
     height: 48
     borderLeft: 0
@@ -353,8 +353,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: chest_02_12
-    x: 33
-    y: 268
+    x: 165
+    y: 464
     width: 32
     height: 48
     borderLeft: 0
@@ -549,7 +549,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: door_01_03
     x: 33
-    y: 366
+    y: 268
     width: 32
     height: 48
     borderLeft: 0
@@ -562,7 +562,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: hand_01_01
     x: 132
-    y: 250
+    y: 151
     width: 32
     height: 32
     borderLeft: 0
@@ -575,7 +575,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: hand_01_02
     x: 132
-    y: 217
+    y: 118
     width: 32
     height: 32
     borderLeft: 0
@@ -588,7 +588,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: hand_01_03
     x: 132
-    y: 184
+    y: 85
     width: 32
     height: 32
     borderLeft: 0
@@ -1068,8 +1068,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: map_obj_28
-    x: 165
-    y: 349
+    x: 132
+    y: 217
     width: 32
     height: 32
     borderLeft: 0
@@ -1184,9 +1184,87 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
+  - name: pumkin_01_01
+    x: 462
+    y: 349
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: pumkin_01_02
+    x: 132
+    y: 316
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: pumkin_01_03
+    x: 132
+    y: 283
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: pumkin_02_01
+    x: 132
+    y: 250
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: pumkin_02_02
+    x: 132
+    y: 184
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: pumkin_03_03
+    x: 165
+    y: 349
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   - name: torch_01_01
     x: 0
-    y: 401
+    y: 345
     width: 32
     height: 55
     borderLeft: 0
@@ -1199,7 +1277,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: torch_01_02
     x: 0
-    y: 345
+    y: 401
     width: 32
     height: 55
     borderLeft: 0
@@ -1264,7 +1342,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: trap_01_01
     x: 132
-    y: 151
+    y: 52
     width: 32
     height: 32
     borderLeft: 0
@@ -1277,45 +1355,6 @@ MonoBehaviour:
     paddingBottom: 0
   - name: trap_01_02
     x: 132
-    y: 118
-    width: 32
-    height: 32
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: trap_01_03
-    x: 132
-    y: 85
-    width: 32
-    height: 32
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: trap_02_01
-    x: 132
-    y: 52
-    width: 32
-    height: 32
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: trap_02_02
-    x: 132
     y: 19
     width: 32
     height: 32
@@ -1327,7 +1366,7 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: trap_02_03
+  - name: trap_01_03
     x: 165
     y: 316
     width: 32
@@ -1340,9 +1379,48 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
+  - name: trap_02_01
+    x: 198
+    y: 316
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: trap_02_02
+    x: 231
+    y: 316
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: trap_02_03
+    x: 264
+    y: 316
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   - name: trap_03_01
-    x: 462
-    y: 349
+    x: 297
+    y: 316
     width: 32
     height: 32
     borderLeft: 0
@@ -1354,7 +1432,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: trap_03_02
-    x: 132
+    x: 330
     y: 316
     width: 32
     height: 32
@@ -1367,8 +1445,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: trap_03_03
-    x: 132
-    y: 283
+    x: 363
+    y: 316
     width: 32
     height: 32
     borderLeft: 0

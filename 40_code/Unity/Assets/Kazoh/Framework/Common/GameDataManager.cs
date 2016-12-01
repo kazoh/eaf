@@ -117,14 +117,10 @@ public class GameDataManager
     {
         if (EncryptedPlayerPrefs.HasKey(keyUserInfo))
         {
-            DBManager.UpdateData(userId, EncryptedPlayerPrefs.GetString(keyUserInfo), delegate (bool _isFail, string _time)
+            DBManager.UpdateData(userId, EncryptedPlayerPrefs.GetString(keyUserInfo), delegate (string _time)
             {
-                if (_isFail) GameProcess.ShowError(new GameException(GameException.ErrorCode.FailToUpdateData));
-                else
-                {
-                    EncryptedPlayerPrefs.DeleteKey(keyUserInfo);
-                    SelectUserInfo();
-                }
+                EncryptedPlayerPrefs.DeleteKey(keyUserInfo);
+                SelectUserInfo();
             });
         }
         else
@@ -137,36 +133,32 @@ public class GameDataManager
     IList listMap = null;
     void SelectUserInfo()
     {
-        DBManager.SelectData(userId, delegate (bool _isFail, string _data, string _time)
+        DBManager.SelectData(userId, delegate (string _data, string _time)
         {
-            if (_isFail) GameProcess.ShowError(new GameException(GameException.ErrorCode.FailToGetGameData));
-            else
+            if (!string.IsNullOrEmpty(_data))
             {
-                if (!string.IsNullOrEmpty(_data))
+                dicData.Add("USER_INFO", Json.Deserialize(_data) as IDictionary);
+
+                if (EncryptedPlayerPrefs.HasKey(keyUserInven))
                 {
-                    dicData.Add("USER_INFO", Json.Deserialize(_data) as IDictionary);
-
-                    if (EncryptedPlayerPrefs.HasKey(keyUserInven))
-                    {
-                        string _json = EncryptedPlayerPrefs.GetString(keyUserInven);
-                        if (!string.IsNullOrEmpty(_json)) dicData.Add("INVENTORY", Json.Deserialize(_json) as IDictionary);
-                    }
-
-                    if (EncryptedPlayerPrefs.HasKey(keyUserCha))
-                    {
-                        string _json = EncryptedPlayerPrefs.GetString(keyUserCha);
-                        if (!string.IsNullOrEmpty(_json)) dicData.Add("CHARACTER", Json.Deserialize(_json) as IDictionary);
-                    }
-
-                    if (EncryptedPlayerPrefs.HasKey(keyUserMap))
-                    {
-                        string _json = EncryptedPlayerPrefs.GetString(keyUserMap);
-                        if (!string.IsNullOrEmpty(_json)) listMap = Json.Deserialize(_json) as IList;
-                    }
+                    string _json = EncryptedPlayerPrefs.GetString(keyUserInven);
+                    if (!string.IsNullOrEmpty(_json)) dicData.Add("INVENTORY", Json.Deserialize(_json) as IDictionary);
                 }
 
-                SetGameData();
+                if (EncryptedPlayerPrefs.HasKey(keyUserCha))
+                {
+                    string _json = EncryptedPlayerPrefs.GetString(keyUserCha);
+                    if (!string.IsNullOrEmpty(_json)) dicData.Add("CHARACTER", Json.Deserialize(_json) as IDictionary);
+                }
+
+                if (EncryptedPlayerPrefs.HasKey(keyUserMap))
+                {
+                    string _json = EncryptedPlayerPrefs.GetString(keyUserMap);
+                    if (!string.IsNullOrEmpty(_json)) listMap = Json.Deserialize(_json) as IList;
+                }
             }
+
+            SetGameData();
         });
     }
 
@@ -246,10 +238,9 @@ public class GameDataManager
             string data = Json.Serialize(hash);
             EncryptedPlayerPrefs.SetString(keyUserInfo, data);
 
-            DBManager.UpdateData(userId, data, delegate (bool _isFail, string _timeStr)
+            DBManager.UpdateData(userId, data, delegate (string _timeStr)
             {
-                if (_isFail) Debug.LogError("Error: Fail to update game data.");
-                else EncryptedPlayerPrefs.DeleteKey(keyUserInfo);
+                EncryptedPlayerPrefs.DeleteKey(keyUserInfo);
 #if UNITY_EDITOR
                 Debug.Log("SAVE: " + data);
 #endif

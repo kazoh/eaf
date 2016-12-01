@@ -60,7 +60,7 @@ GameObject:
   - 65: {fileID: 6511940}
   - 114: {fileID: 11488454}
   m_Layer: 5
-  m_Name: btn_cash
+  m_Name: btn_summon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1741,7 +1741,7 @@ MonoBehaviour:
   bottomType: 1
   topType: 1
   mAtlas: {fileID: 11490092, guid: 3b58ee327d0648848b2a4f0f29b64041, type: 2}
-  mSpriteName: menu_04
+  mSpriteName: menu_18
   mFillCenter: 1
 --- !u!114 &11477078
 MonoBehaviour:
@@ -1819,7 +1819,7 @@ MonoBehaviour:
   MapLabel: {fileID: 11419756}
   InvenLabel: {fileID: 11450790}
   ShopLabel: {fileID: 11472518}
-  CashLabel: {fileID: 11490164}
+  SummonLabel: {fileID: 11490164}
   EctLabel: {fileID: 11450708}
 --- !u!114 &11484944
 MonoBehaviour:
@@ -1897,7 +1897,7 @@ MonoBehaviour:
   pixelSnap: 0
   onClick:
   - mTarget: {fileID: 11484454}
-    mMethodName: OnClick_CashShop
+    mMethodName: OnClick_Summon
     mParameters: []
     oneShot: 0
 --- !u!114 &11490164

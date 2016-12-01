@@ -193,7 +193,7 @@ public class DBManager {
         });
     }
 
-    public static void SelectData(string _guid, Action<bool, string, string> _callback)
+    public static void SelectData(string _guid, Action<string, string> _callback)
     {
         if (!CheckNetwork()) throw new GameException(GameException.ErrorCode.NoNetwork);
 
@@ -205,22 +205,23 @@ public class DBManager {
             {
                 string data = "";
                 string timeStr = "";
-                bool fail = false;
 
                 if (dict["result"].Equals("fail") || dict["result"].Equals("error"))
                 {
-                    fail = true;
+                    GameException.ErrorCode errCode = (GameException.ErrorCode)Convert.ToInt32(dict["code"]);
+                    GameProcess.ShowError(new GameException(errCode));
+                    return;
                 }
 
                 if (dict.Contains("data")) data = Convert.ToString(dict["data"]);
                 if (dict.Contains("tick")) timeStr = Convert.ToString(dict["tick"]);
 
-                if (_callback != null) _callback(fail, data, timeStr);
+                if (_callback != null) _callback(data, timeStr);
             }
         });
     }
 
-    public static void UpdateData(string _guid, string _data, Action<bool,string> _callback)
+    public static void UpdateData(string _guid, string _data, Action<string> _callback)
     {
         if (!CheckNetwork()) throw new GameException(GameException.ErrorCode.NoNetwork);
 
@@ -232,16 +233,17 @@ public class DBManager {
             if (CheckResponse(dict))
             {
                 string timeStr = "";
-                bool fail = false;
 
                 if (dict["result"].Equals("fail") || dict["result"].Equals("error"))
                 {
-                    fail = true;
+                    GameException.ErrorCode errCode = (GameException.ErrorCode)Convert.ToInt32(dict["code"]);
+                    GameProcess.ShowError(new GameException(errCode));
+                    return;
                 }
                 
                 if (dict.Contains("tick")) timeStr = Convert.ToString(dict["tick"]);
 
-                if (_callback != null) _callback(fail,timeStr);
+                if (_callback != null) _callback(timeStr);
             }
         });
     }

@@ -34,14 +34,6 @@
 },
 {
 "ID":70004,
-"NAME":"mission_b_50018",
-"TYPE":"Gold",
-"REWARD":5000,
-"MAPID":50018,
-"RESULTGRADE":"Bronze"
-},
-{
-"ID":70005,
 "NAME":"mission_b_50019",
 "TYPE":"Item",
 "REWARD":39000,
@@ -49,7 +41,7 @@
 "RESULTGRADE":"Bronze"
 },
 {
-"ID":70006,
+"ID":70005,
 "NAME":"mission_b_50020",
 "TYPE":"Coin",
 "REWARD":3,
@@ -57,15 +49,7 @@
 "RESULTGRADE":"Bronze"
 },
 {
-"ID":70007,
-"NAME":"mission_b_50021",
-"TYPE":"Gold",
-"REWARD":10000,
-"MAPID":50021,
-"RESULTGRADE":"Bronze"
-},
-{
-"ID":70008,
+"ID":70006,
 "NAME":"mission_b_50023",
 "TYPE":"Item",
 "REWARD":39001,
@@ -73,7 +57,7 @@
 "RESULTGRADE":"Bronze"
 },
 {
-"ID":70009,
+"ID":70007,
 "NAME":"mission_b_50024",
 "TYPE":"Item",
 "REWARD":32003,
@@ -81,7 +65,7 @@
 "RESULTGRADE":"Bronze"
 },
 {
-"ID":70010,
+"ID":70008,
 "NAME":"mission_b_50026",
 "TYPE":"Item",
 "REWARD":33003,
@@ -89,7 +73,7 @@
 "RESULTGRADE":"Bronze"
 },
 {
-"ID":70011,
+"ID":70009,
 "NAME":"mission_b_50029",
 "TYPE":"Coin",
 "REWARD":5,
@@ -97,7 +81,7 @@
 "RESULTGRADE":"Bronze"
 },
 {
-"ID":70012,
+"ID":70010,
 "NAME":"mission_b_50037",
 "TYPE":"Coin",
 "REWARD":5,
@@ -105,7 +89,7 @@
 "RESULTGRADE":"Bronze"
 },
 {
-"ID":70013,
+"ID":70011,
 "NAME":"mission_b_50044",
 "TYPE":"Item",
 "REWARD":35003,
@@ -113,7 +97,7 @@
 "RESULTGRADE":"Bronze"
 },
 {
-"ID":70014,
+"ID":70012,
 "NAME":"mission_b_50049",
 "TYPE":"Item",
 "REWARD":31000,
@@ -121,7 +105,7 @@
 "RESULTGRADE":"Bronze"
 },
 {
-"ID":70015,
+"ID":70013,
 "NAME":"mission_b_50050",
 "TYPE":"Item",
 "REWARD":32000,
@@ -129,7 +113,7 @@
 "RESULTGRADE":"Bronze"
 },
 {
-"ID":70016,
+"ID":70014,
 "NAME":"mission_b_50051",
 "TYPE":"Item",
 "REWARD":34000,
@@ -137,7 +121,7 @@
 "RESULTGRADE":"Bronze"
 },
 {
-"ID":70017,
+"ID":70015,
 "NAME":"mission_b_50052",
 "TYPE":"Item",
 "REWARD":33000,

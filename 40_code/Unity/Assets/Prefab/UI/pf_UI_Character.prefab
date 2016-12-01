@@ -2778,7 +2778,7 @@ MonoBehaviour:
   mText: 'ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEGHIJKLMNOPQRSTUVWXYZABCDEFGHIJK '
   mFontSize: 14
   mFontStyle: 1
-  mAlignment: 2
+  mAlignment: 1
   mEncoding: 1
   mMaxLineCount: 0
   mEffectStyle: 0
@@ -3756,6 +3756,8 @@ MonoBehaviour:
   BtnLeft: {fileID: 114000013205731884}
   BtnRight: {fileID: 11400238}
   BtnPlus: {fileID: 11424228}
+  BtnInfo: {fileID: 114000012497789504}
+  BtnSkin: {fileID: 11491062}
   EquipGrid: {fileID: 11466004}
   PrefEquipSlot: {fileID: 143616, guid: 27b9aabcca2bd9449a722ec478e5252b, type: 2}
 --- !u!114 &11487114

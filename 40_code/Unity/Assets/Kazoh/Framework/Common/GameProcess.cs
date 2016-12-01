@@ -320,13 +320,11 @@ public class GameProcess : MonoBehaviour
         string msg = e.Msg;
         string buttonText = TableManager.GetString("STR_UI_OK");
         Action callback = null;
-        if (e.Code == GameException.ErrorCode.InvalidConfigVer) callback = Instance.OpenUrlAndQuit;
-        else if(e.Code == GameException.ErrorCode.Unknown)
+        if (e.Code == GameException.ErrorCode.Unknown || e.Code == GameException.ErrorCode.InvalidToken)
         {
-            callback = Instance.Quit;
-            string log = e.StackTrace;
-            DBManager.SaveErrorLog(log);
+            DBManager.SaveErrorLog(e.StackTrace);
         }
+        if (e.Code == GameException.ErrorCode.InvalidConfigVer) callback = Instance.OpenUrlAndQuit;
         else if (e.IsCritical) callback = Instance.Quit;
         Instance.Popup.Show(NoticeType.OK, title, msg, buttonText, callback);
     }
@@ -335,13 +333,11 @@ public class GameProcess : MonoBehaviour
     {
         string msg = e.Msg;
         Action callback = null;
-        if (e.Code == GameException.ErrorCode.InvalidConfigVer) callback = Instance.OpenUrlAndQuit;
-        else if (e.Code == GameException.ErrorCode.Unknown)
+        if (e.Code == GameException.ErrorCode.Unknown || e.Code == GameException.ErrorCode.InvalidToken)
         {
-            callback = Instance.Quit;
-            string log = e.StackTrace;
-            DBManager.SaveErrorLog(log);
+            DBManager.SaveErrorLog(e.StackTrace);
         }
+        if (e.Code == GameException.ErrorCode.InvalidConfigVer) callback = Instance.OpenUrlAndQuit;
         else if (e.IsCritical) callback = Instance.Quit;
         Instance.Popup.Show(NoticeType.OK, title, msg, text, callback);
     }

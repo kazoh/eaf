@@ -16,7 +16,7 @@ public class Component_UI_Menu : GameComponent {
     public UILabel MapLabel;
     public UILabel InvenLabel;
     public UILabel ShopLabel;
-    public UILabel CashLabel;
+    public UILabel SummonLabel;
     public UILabel EctLabel;
 
     public override void Init()
@@ -37,7 +37,7 @@ public class Component_UI_Menu : GameComponent {
         MapLabel.text = TableManager.GetString("STR_MENU_02");
         InvenLabel.text = TableManager.GetString("STR_MENU_03");
         ShopLabel.text = TableManager.GetString("STR_MENU_04");
-        CashLabel.text = TableManager.GetString("STR_MENU_05");
+        SummonLabel.text = TableManager.GetString("STR_MENU_15");
         EctLabel.text = TableManager.GetString("STR_MENU_06");
     }
 
@@ -134,6 +134,18 @@ public class Component_UI_Menu : GameComponent {
     {
         GameProcess.PlaySound(SOUND_EFFECT.CLICK);
         OnClicked(GameEnum.Menu.ECT);
+    }
+
+    public void OnClick_Like()
+    {
+        GameProcess.PlaySound(SOUND_EFFECT.CLICK);
+        OnClicked(GameEnum.Menu.LIKE);
+    }
+
+    public void OnClick_Summon()
+    {
+        GameProcess.PlaySound(SOUND_EFFECT.CLICK);
+        OnClicked(GameEnum.Menu.SUMMON);
     }
 
     void OnNewMap()

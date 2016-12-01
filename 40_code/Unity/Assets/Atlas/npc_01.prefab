@@ -43,8 +43,8 @@ MonoBehaviour:
   material: {fileID: 2100000, guid: 78023ab7c872a89418f0c292e9eec7b3, type: 2}
   mSprites:
   - name: npc_0001_01
-    x: 396
-    y: 381
+    x: 99
+    y: 563
     width: 31
     height: 32
     borderLeft: 0
@@ -56,8 +56,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0001_02
-    x: 259
-    y: 348
+    x: 0
+    y: 497
     width: 30
     height: 32
     borderLeft: 0
@@ -69,8 +69,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0001_03
-    x: 460
-    y: 381
+    x: 163
+    y: 563
     width: 31
     height: 32
     borderLeft: 0
@@ -82,8 +82,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0001_04
-    x: 99
-    y: 348
+    x: 195
+    y: 563
     width: 31
     height: 32
     borderLeft: 0
@@ -95,8 +95,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0001_05
-    x: 290
-    y: 348
+    x: 31
+    y: 497
     width: 30
     height: 32
     borderLeft: 0
@@ -108,8 +108,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0001_06
-    x: 99
-    y: 282
+    x: 259
+    y: 563
     width: 31
     height: 32
     borderLeft: 0
@@ -121,8 +121,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0001_07
-    x: 99
-    y: 249
+    x: 291
+    y: 563
     width: 31
     height: 32
     borderLeft: 0
@@ -134,8 +134,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0001_08
-    x: 321
-    y: 348
+    x: 62
+    y: 497
     width: 30
     height: 32
     borderLeft: 0
@@ -147,8 +147,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0001_09
-    x: 99
-    y: 183
+    x: 355
+    y: 563
     width: 31
     height: 32
     borderLeft: 0
@@ -160,8 +160,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0001_10
-    x: 99
-    y: 150
+    x: 387
+    y: 563
     width: 31
     height: 32
     borderLeft: 0
@@ -173,8 +173,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0001_11
-    x: 352
-    y: 348
+    x: 93
+    y: 497
     width: 30
     height: 32
     borderLeft: 0
@@ -186,8 +186,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0001_12
-    x: 131
-    y: 84
+    x: 451
+    y: 563
     width: 31
     height: 32
     borderLeft: 0
@@ -199,8 +199,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0002_01
-    x: 99
-    y: 84
+    x: 0
+    y: 530
     width: 31
     height: 32
     borderLeft: 0
@@ -212,8 +212,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0002_02
-    x: 383
-    y: 348
+    x: 124
+    y: 497
     width: 30
     height: 32
     borderLeft: 0
@@ -225,8 +225,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0002_03
-    x: 99
-    y: 18
+    x: 64
+    y: 530
     width: 31
     height: 32
     borderLeft: 0
@@ -238,8 +238,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0002_04
-    x: 131
-    y: 348
+    x: 96
+    y: 530
     width: 31
     height: 32
     borderLeft: 0
@@ -251,8 +251,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0002_05
-    x: 414
-    y: 348
+    x: 155
+    y: 497
     width: 30
     height: 32
     borderLeft: 0
@@ -264,8 +264,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0002_06
-    x: 131
-    y: 282
+    x: 320
+    y: 530
     width: 31
     height: 32
     borderLeft: 0
@@ -277,8 +277,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0002_07
-    x: 131
-    y: 249
+    x: 160
+    y: 530
     width: 31
     height: 32
     borderLeft: 0
@@ -290,8 +290,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0002_08
-    x: 476
-    y: 348
+    x: 217
+    y: 497
     width: 30
     height: 32
     borderLeft: 0
@@ -303,8 +303,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0002_09
-    x: 131
-    y: 183
+    x: 224
+    y: 530
     width: 31
     height: 32
     borderLeft: 0
@@ -316,8 +316,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0002_10
-    x: 131
-    y: 150
+    x: 256
+    y: 530
     width: 31
     height: 32
     borderLeft: 0
@@ -329,8 +329,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0002_11
-    x: 445
-    y: 348
+    x: 186
+    y: 497
     width: 30
     height: 32
     borderLeft: 0
@@ -342,8 +342,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0002_12
-    x: 131
-    y: 117
+    x: 288
+    y: 530
     width: 31
     height: 32
     borderLeft: 0
@@ -355,8 +355,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0003_01
-    x: 0
-    y: 18
+    x: 198
+    y: 926
     width: 32
     height: 32
     borderLeft: 0
@@ -368,8 +368,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0003_02
-    x: 33
-    y: 447
+    x: 231
+    y: 926
     width: 32
     height: 32
     borderLeft: 0
@@ -381,8 +381,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0003_03
-    x: 0
-    y: 447
+    x: 264
+    y: 926
     width: 32
     height: 32
     borderLeft: 0
@@ -394,8 +394,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0003_04
-    x: 99
-    y: 447
+    x: 297
+    y: 926
     width: 32
     height: 32
     borderLeft: 0
@@ -407,8 +407,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0003_05
-    x: 132
-    y: 447
+    x: 330
+    y: 926
     width: 32
     height: 32
     borderLeft: 0
@@ -420,8 +420,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0003_06
-    x: 165
-    y: 447
+    x: 363
+    y: 926
     width: 32
     height: 32
     borderLeft: 0
@@ -433,8 +433,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0003_07
-    x: 198
-    y: 447
+    x: 396
+    y: 926
     width: 32
     height: 32
     borderLeft: 0
@@ -446,8 +446,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0003_08
-    x: 231
-    y: 447
+    x: 429
+    y: 926
     width: 32
     height: 32
     borderLeft: 0
@@ -459,8 +459,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0003_09
-    x: 264
-    y: 447
+    x: 462
+    y: 926
     width: 32
     height: 32
     borderLeft: 0
@@ -472,8 +472,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0003_10
-    x: 297
-    y: 447
+    x: 0
+    y: 893
     width: 32
     height: 32
     borderLeft: 0
@@ -485,8 +485,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0003_11
-    x: 330
-    y: 447
+    x: 33
+    y: 893
     width: 32
     height: 32
     borderLeft: 0
@@ -498,8 +498,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0003_12
-    x: 363
-    y: 447
+    x: 66
+    y: 893
     width: 32
     height: 32
     borderLeft: 0
@@ -511,8 +511,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0004_01
-    x: 396
-    y: 447
+    x: 99
+    y: 893
     width: 32
     height: 32
     borderLeft: 0
@@ -524,8 +524,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0004_02
-    x: 429
-    y: 447
+    x: 132
+    y: 893
     width: 32
     height: 32
     borderLeft: 0
@@ -537,8 +537,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0004_03
-    x: 462
-    y: 447
+    x: 165
+    y: 893
     width: 32
     height: 32
     borderLeft: 0
@@ -550,8 +550,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0004_04
-    x: 33
-    y: 414
+    x: 198
+    y: 893
     width: 32
     height: 32
     borderLeft: 0
@@ -563,8 +563,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0004_05
-    x: 33
-    y: 381
+    x: 231
+    y: 893
     width: 32
     height: 32
     borderLeft: 0
@@ -576,8 +576,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0004_06
-    x: 33
-    y: 348
+    x: 264
+    y: 893
     width: 32
     height: 32
     borderLeft: 0
@@ -589,8 +589,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0004_07
-    x: 33
-    y: 315
+    x: 297
+    y: 893
     width: 32
     height: 32
     borderLeft: 0
@@ -602,8 +602,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0004_08
-    x: 33
-    y: 282
+    x: 330
+    y: 893
     width: 32
     height: 32
     borderLeft: 0
@@ -615,8 +615,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0004_09
-    x: 33
-    y: 249
+    x: 363
+    y: 893
     width: 32
     height: 32
     borderLeft: 0
@@ -628,8 +628,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0004_10
-    x: 33
-    y: 216
+    x: 396
+    y: 893
     width: 32
     height: 32
     borderLeft: 0
@@ -641,8 +641,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0004_11
-    x: 33
-    y: 183
+    x: 462
+    y: 959
     width: 32
     height: 32
     borderLeft: 0
@@ -654,8 +654,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0004_12
-    x: 33
-    y: 150
+    x: 462
+    y: 893
     width: 32
     height: 32
     borderLeft: 0
@@ -667,8 +667,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0005_01
-    x: 33
-    y: 117
+    x: 0
+    y: 860
     width: 32
     height: 32
     borderLeft: 0
@@ -681,7 +681,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: npc_0005_02
     x: 33
-    y: 84
+    y: 860
     width: 32
     height: 32
     borderLeft: 0
@@ -693,8 +693,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0005_03
-    x: 33
-    y: 51
+    x: 66
+    y: 860
     width: 32
     height: 32
     borderLeft: 0
@@ -706,8 +706,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0005_04
-    x: 33
-    y: 18
+    x: 99
+    y: 860
     width: 32
     height: 32
     borderLeft: 0
@@ -719,8 +719,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0005_05
-    x: 66
-    y: 414
+    x: 132
+    y: 860
     width: 32
     height: 32
     borderLeft: 0
@@ -732,8 +732,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0005_06
-    x: 99
-    y: 414
+    x: 165
+    y: 860
     width: 32
     height: 32
     borderLeft: 0
@@ -745,8 +745,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0005_07
-    x: 132
-    y: 414
+    x: 198
+    y: 860
     width: 32
     height: 32
     borderLeft: 0
@@ -758,8 +758,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0005_08
-    x: 165
-    y: 414
+    x: 231
+    y: 860
     width: 32
     height: 32
     borderLeft: 0
@@ -771,8 +771,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0005_09
-    x: 198
-    y: 414
+    x: 264
+    y: 860
     width: 32
     height: 32
     borderLeft: 0
@@ -784,8 +784,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0005_10
-    x: 231
-    y: 414
+    x: 297
+    y: 860
     width: 32
     height: 32
     borderLeft: 0
@@ -797,8 +797,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0005_11
-    x: 264
-    y: 414
+    x: 330
+    y: 860
     width: 32
     height: 32
     borderLeft: 0
@@ -810,8 +810,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0005_12
-    x: 297
-    y: 414
+    x: 363
+    y: 860
     width: 32
     height: 32
     borderLeft: 0
@@ -823,8 +823,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0006_01
-    x: 131
-    y: 315
+    x: 352
+    y: 530
     width: 31
     height: 32
     borderLeft: 0
@@ -836,8 +836,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0006_02
-    x: 131
-    y: 216
+    x: 384
+    y: 530
     width: 31
     height: 32
     borderLeft: 0
@@ -849,8 +849,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0006_03
-    x: 131
-    y: 51
+    x: 416
+    y: 530
     width: 31
     height: 32
     borderLeft: 0
@@ -862,8 +862,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0006_04
-    x: 131
-    y: 18
+    x: 448
+    y: 530
     width: 31
     height: 32
     borderLeft: 0
@@ -875,8 +875,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0006_05
-    x: 163
-    y: 348
+    x: 480
+    y: 530
     width: 31
     height: 32
     borderLeft: 0
@@ -888,8 +888,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0006_06
-    x: 195
-    y: 348
+    x: 131
+    y: 563
     width: 31
     height: 32
     borderLeft: 0
@@ -902,7 +902,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: npc_0006_07
     x: 227
-    y: 348
+    y: 563
     width: 31
     height: 32
     borderLeft: 0
@@ -914,8 +914,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0006_08
-    x: 428
-    y: 381
+    x: 323
+    y: 563
     width: 31
     height: 32
     borderLeft: 0
@@ -927,8 +927,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0006_09
-    x: 99
-    y: 315
+    x: 419
+    y: 563
     width: 31
     height: 32
     borderLeft: 0
@@ -940,8 +940,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0006_10
-    x: 99
-    y: 216
+    x: 32
+    y: 530
     width: 31
     height: 32
     borderLeft: 0
@@ -953,8 +953,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0006_11
-    x: 99
-    y: 117
+    x: 128
+    y: 530
     width: 31
     height: 32
     borderLeft: 0
@@ -966,8 +966,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0006_12
-    x: 99
-    y: 51
+    x: 192
+    y: 530
     width: 31
     height: 32
     borderLeft: 0
@@ -979,8 +979,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0007_01
-    x: 330
-    y: 414
+    x: 297
+    y: 827
     width: 32
     height: 32
     borderLeft: 0
@@ -992,8 +992,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0007_02
-    x: 363
-    y: 414
+    x: 330
+    y: 827
     width: 32
     height: 32
     borderLeft: 0
@@ -1005,8 +1005,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0007_03
-    x: 396
-    y: 414
+    x: 363
+    y: 827
     width: 32
     height: 32
     borderLeft: 0
@@ -1018,8 +1018,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0007_04
-    x: 429
-    y: 414
+    x: 396
+    y: 827
     width: 32
     height: 32
     borderLeft: 0
@@ -1031,8 +1031,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0007_05
-    x: 462
-    y: 414
+    x: 429
+    y: 827
     width: 32
     height: 32
     borderLeft: 0
@@ -1044,8 +1044,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0007_06
-    x: 66
-    y: 381
+    x: 462
+    y: 827
     width: 32
     height: 32
     borderLeft: 0
@@ -1057,8 +1057,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0007_07
-    x: 66
-    y: 348
+    x: 0
+    y: 794
     width: 32
     height: 32
     borderLeft: 0
@@ -1070,8 +1070,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0007_08
-    x: 66
-    y: 315
+    x: 33
+    y: 794
     width: 32
     height: 32
     borderLeft: 0
@@ -1084,7 +1084,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: npc_0007_09
     x: 66
-    y: 282
+    y: 794
     width: 32
     height: 32
     borderLeft: 0
@@ -1096,8 +1096,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0007_10
-    x: 66
-    y: 249
+    x: 99
+    y: 794
     width: 32
     height: 32
     borderLeft: 0
@@ -1109,8 +1109,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0007_11
-    x: 66
-    y: 216
+    x: 132
+    y: 794
     width: 32
     height: 32
     borderLeft: 0
@@ -1122,8 +1122,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0007_12
-    x: 66
-    y: 183
+    x: 165
+    y: 794
     width: 32
     height: 32
     borderLeft: 0
@@ -1135,8 +1135,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0008_01
-    x: 66
-    y: 150
+    x: 198
+    y: 794
     width: 32
     height: 32
     borderLeft: 0
@@ -1148,8 +1148,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0008_02
-    x: 66
-    y: 117
+    x: 231
+    y: 794
     width: 32
     height: 32
     borderLeft: 0
@@ -1161,8 +1161,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0009_01
-    x: 66
-    y: 84
+    x: 264
+    y: 794
     width: 32
     height: 32
     borderLeft: 0
@@ -1174,8 +1174,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0009_02
-    x: 66
-    y: 51
+    x: 297
+    y: 794
     width: 32
     height: 32
     borderLeft: 0
@@ -1187,8 +1187,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0009_03
-    x: 66
-    y: 18
+    x: 330
+    y: 794
     width: 32
     height: 32
     borderLeft: 0
@@ -1200,8 +1200,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0009_04
-    x: 99
-    y: 381
+    x: 363
+    y: 794
     width: 32
     height: 32
     borderLeft: 0
@@ -1213,8 +1213,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0009_05
-    x: 132
-    y: 381
+    x: 396
+    y: 794
     width: 32
     height: 32
     borderLeft: 0
@@ -1226,8 +1226,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0009_06
-    x: 165
-    y: 381
+    x: 429
+    y: 794
     width: 32
     height: 32
     borderLeft: 0
@@ -1239,8 +1239,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0009_07
-    x: 198
-    y: 381
+    x: 462
+    y: 794
     width: 32
     height: 32
     borderLeft: 0
@@ -1252,8 +1252,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0009_08
-    x: 231
-    y: 381
+    x: 0
+    y: 761
     width: 32
     height: 32
     borderLeft: 0
@@ -1265,8 +1265,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0009_09
-    x: 264
-    y: 381
+    x: 33
+    y: 761
     width: 32
     height: 32
     borderLeft: 0
@@ -1278,8 +1278,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0009_10
-    x: 297
-    y: 381
+    x: 66
+    y: 761
     width: 32
     height: 32
     borderLeft: 0
@@ -1291,8 +1291,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0009_11
-    x: 330
-    y: 381
+    x: 99
+    y: 761
     width: 32
     height: 32
     borderLeft: 0
@@ -1304,8 +1304,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0009_12
-    x: 363
-    y: 381
+    x: 132
+    y: 761
     width: 32
     height: 32
     borderLeft: 0
@@ -1317,8 +1317,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0010_01
-    x: 132
-    y: 480
+    x: 165
+    y: 761
     width: 32
     height: 32
     borderLeft: 0
@@ -1330,8 +1330,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0010_02
-    x: 165
-    y: 480
+    x: 198
+    y: 761
     width: 32
     height: 32
     borderLeft: 0
@@ -1343,8 +1343,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0010_03
-    x: 198
-    y: 480
+    x: 231
+    y: 761
     width: 32
     height: 32
     borderLeft: 0
@@ -1356,8 +1356,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0010_04
-    x: 231
-    y: 480
+    x: 264
+    y: 761
     width: 32
     height: 32
     borderLeft: 0
@@ -1369,8 +1369,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0010_05
-    x: 264
-    y: 480
+    x: 297
+    y: 761
     width: 32
     height: 32
     borderLeft: 0
@@ -1382,8 +1382,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0010_06
-    x: 297
-    y: 480
+    x: 330
+    y: 761
     width: 32
     height: 32
     borderLeft: 0
@@ -1395,8 +1395,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0010_07
-    x: 330
-    y: 480
+    x: 363
+    y: 761
     width: 32
     height: 32
     borderLeft: 0
@@ -1408,8 +1408,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0010_08
-    x: 363
-    y: 480
+    x: 396
+    y: 761
     width: 32
     height: 32
     borderLeft: 0
@@ -1421,8 +1421,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0010_09
-    x: 396
-    y: 480
+    x: 429
+    y: 761
     width: 32
     height: 32
     borderLeft: 0
@@ -1434,8 +1434,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0010_10
-    x: 429
-    y: 480
+    x: 462
+    y: 761
     width: 32
     height: 32
     borderLeft: 0
@@ -1447,8 +1447,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0010_11
-    x: 462
-    y: 480
+    x: 0
+    y: 728
     width: 32
     height: 32
     borderLeft: 0
@@ -1460,8 +1460,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0010_12
-    x: 0
-    y: 414
+    x: 33
+    y: 728
     width: 32
     height: 32
     borderLeft: 0
@@ -1473,8 +1473,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0011_01
-    x: 0
-    y: 381
+    x: 66
+    y: 728
     width: 32
     height: 32
     borderLeft: 0
@@ -1486,8 +1486,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0011_02
-    x: 0
-    y: 348
+    x: 99
+    y: 728
     width: 32
     height: 32
     borderLeft: 0
@@ -1499,8 +1499,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0011_03
-    x: 0
-    y: 315
+    x: 132
+    y: 728
     width: 32
     height: 32
     borderLeft: 0
@@ -1512,8 +1512,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0011_04
-    x: 0
-    y: 282
+    x: 165
+    y: 728
     width: 32
     height: 32
     borderLeft: 0
@@ -1525,8 +1525,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0011_05
-    x: 0
-    y: 249
+    x: 198
+    y: 728
     width: 32
     height: 32
     borderLeft: 0
@@ -1538,8 +1538,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0011_06
-    x: 0
-    y: 216
+    x: 231
+    y: 728
     width: 32
     height: 32
     borderLeft: 0
@@ -1551,8 +1551,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0011_07
-    x: 0
-    y: 183
+    x: 264
+    y: 728
     width: 32
     height: 32
     borderLeft: 0
@@ -1564,8 +1564,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0011_08
-    x: 0
-    y: 150
+    x: 297
+    y: 728
     width: 32
     height: 32
     borderLeft: 0
@@ -1577,8 +1577,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0011_09
-    x: 0
-    y: 117
+    x: 330
+    y: 728
     width: 32
     height: 32
     borderLeft: 0
@@ -1590,8 +1590,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0011_10
-    x: 0
-    y: 84
+    x: 363
+    y: 728
     width: 32
     height: 32
     borderLeft: 0
@@ -1603,8 +1603,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0011_11
-    x: 0
-    y: 51
+    x: 396
+    y: 728
     width: 32
     height: 32
     borderLeft: 0
@@ -1616,8 +1616,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0011_12
-    x: 66
-    y: 447
+    x: 429
+    y: 728
     width: 32
     height: 32
     borderLeft: 0
@@ -1629,8 +1629,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0012_02
-    x: 99
-    y: 480
+    x: 462
+    y: 728
     width: 32
     height: 32
     borderLeft: 0
@@ -1642,8 +1642,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0012_05
-    x: 33
-    y: 480
+    x: 0
+    y: 695
     width: 32
     height: 32
     borderLeft: 0
@@ -1655,8 +1655,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0012_08
-    x: 66
-    y: 480
+    x: 33
+    y: 695
     width: 32
     height: 32
     borderLeft: 0
@@ -1668,8 +1668,1412 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: npc_0012_11
+    x: 66
+    y: 695
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0013_01
+    x: 99
+    y: 695
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0013_02
+    x: 132
+    y: 695
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0013_03
+    x: 165
+    y: 695
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0013_04
+    x: 198
+    y: 695
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0013_05
+    x: 231
+    y: 695
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0013_06
+    x: 264
+    y: 695
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0013_07
+    x: 297
+    y: 695
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0013_08
+    x: 330
+    y: 695
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0013_09
+    x: 363
+    y: 695
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0013_10
+    x: 396
+    y: 695
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0013_11
+    x: 429
+    y: 695
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0013_12
+    x: 462
+    y: 695
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0014_01
     x: 0
-    y: 480
+    y: 662
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0014_02
+    x: 33
+    y: 662
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0014_03
+    x: 66
+    y: 662
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0014_04
+    x: 99
+    y: 662
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0014_05
+    x: 132
+    y: 662
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0014_06
+    x: 165
+    y: 662
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0014_07
+    x: 198
+    y: 662
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0014_08
+    x: 231
+    y: 662
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0014_09
+    x: 264
+    y: 662
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0014_10
+    x: 297
+    y: 662
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0014_11
+    x: 330
+    y: 662
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0014_12
+    x: 363
+    y: 662
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0015_01
+    x: 396
+    y: 662
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0015_02
+    x: 429
+    y: 662
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0015_03
+    x: 462
+    y: 662
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0015_04
+    x: 0
+    y: 629
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0015_05
+    x: 33
+    y: 629
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0015_06
+    x: 66
+    y: 629
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0015_07
+    x: 99
+    y: 629
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0015_08
+    x: 132
+    y: 629
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0015_09
+    x: 165
+    y: 629
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0015_10
+    x: 198
+    y: 629
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0015_11
+    x: 231
+    y: 629
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0015_12
+    x: 264
+    y: 629
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0016_01
+    x: 297
+    y: 629
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0016_02
+    x: 330
+    y: 629
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0016_03
+    x: 363
+    y: 629
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0016_04
+    x: 396
+    y: 629
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0016_05
+    x: 429
+    y: 629
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0016_06
+    x: 462
+    y: 629
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0016_07
+    x: 0
+    y: 596
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0016_08
+    x: 33
+    y: 596
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0016_09
+    x: 66
+    y: 596
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0016_10
+    x: 99
+    y: 596
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0016_11
+    x: 132
+    y: 596
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0016_12
+    x: 165
+    y: 596
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0017_01
+    x: 198
+    y: 596
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0017_02
+    x: 231
+    y: 596
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0017_03
+    x: 264
+    y: 596
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0017_04
+    x: 297
+    y: 596
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0017_05
+    x: 330
+    y: 596
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0017_06
+    x: 363
+    y: 596
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0017_07
+    x: 396
+    y: 596
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0017_08
+    x: 429
+    y: 596
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0017_09
+    x: 462
+    y: 596
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0017_10
+    x: 0
+    y: 563
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0017_11
+    x: 33
+    y: 563
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0017_12
+    x: 66
+    y: 563
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0018_01
+    x: 396
+    y: 992
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0018_02
+    x: 429
+    y: 992
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0018_03
+    x: 462
+    y: 992
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0018_04
+    x: 0
+    y: 959
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0018_05
+    x: 33
+    y: 959
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0018_06
+    x: 66
+    y: 959
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0018_07
+    x: 99
+    y: 959
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0018_08
+    x: 132
+    y: 959
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0018_09
+    x: 165
+    y: 959
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0018_10
+    x: 198
+    y: 959
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0018_11
+    x: 231
+    y: 959
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0018_12
+    x: 264
+    y: 959
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0019_01
+    x: 297
+    y: 959
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0019_02
+    x: 330
+    y: 959
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0019_03
+    x: 363
+    y: 959
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0019_04
+    x: 396
+    y: 959
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0019_05
+    x: 429
+    y: 959
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0019_06
+    x: 0
+    y: 926
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0019_07
+    x: 33
+    y: 926
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0019_08
+    x: 66
+    y: 926
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0019_09
+    x: 99
+    y: 926
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0019_10
+    x: 132
+    y: 926
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0019_11
+    x: 165
+    y: 926
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0019_12
+    x: 429
+    y: 893
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0020_01
+    x: 396
+    y: 860
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0020_02
+    x: 429
+    y: 860
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0020_03
+    x: 462
+    y: 860
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0020_04
+    x: 0
+    y: 827
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0020_05
+    x: 33
+    y: 827
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0020_06
+    x: 66
+    y: 827
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0020_07
+    x: 99
+    y: 827
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0020_08
+    x: 132
+    y: 827
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0020_09
+    x: 165
+    y: 827
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0020_10
+    x: 198
+    y: 827
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0020_11
+    x: 231
+    y: 827
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0020_12
+    x: 264
+    y: 827
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0021_01
+    x: 330
+    y: 992
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0021_02
+    x: 231
+    y: 992
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0021_03
+    x: 198
+    y: 992
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0021_04
+    x: 132
+    y: 992
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0021_05
+    x: 297
+    y: 992
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0021_06
+    x: 264
+    y: 992
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0021_07
+    x: 165
+    y: 992
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0021_08
+    x: 0
+    y: 992
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0021_09
+    x: 33
+    y: 992
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0021_10
+    x: 99
+    y: 992
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0021_11
+    x: 363
+    y: 992
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: npc_0021_12
+    x: 66
+    y: 992
     width: 32
     height: 32
     borderLeft: 0

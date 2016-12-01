@@ -44,6 +44,8 @@ public class Component_UI_Character : GameComponent
     public UIButton BtnLeft;
     public UIButton BtnRight;
     public UIButton BtnPlus;
+    public UIButton BtnInfo;
+    public UIButton BtnSkin;
 
     public UIGrid EquipGrid;
     public GameObject PrefEquipSlot;
@@ -123,6 +125,9 @@ public class Component_UI_Character : GameComponent
             {
                 equipList[i].SetData(null);
             }
+
+            BtnInfo.gameObject.SetActive(false);
+            BtnSkin.gameObject.SetActive(false);
         }
         else
         {
@@ -152,6 +157,8 @@ public class Component_UI_Character : GameComponent
             {
                 equipList[i].SetData(_data.Data.EquipSlot[i]);
             }
+            BtnInfo.gameObject.SetActive(true);
+            BtnSkin.gameObject.SetActive(true);
         }
 
         SlotNumLabel.text = string.Format("{0}/{1}", idx + 1, chaList.Count);

@@ -13,6 +13,7 @@ public class GameException : Exception
         NoNetwork = 2,
         ServerShutDown = 100,
         CloseTest = 101,
+        InvalidToken = 403,
         CanNotInitTableManager = 1000,
         CanNotLoadTable = 1001,
         FailToGetGameData = 1100,

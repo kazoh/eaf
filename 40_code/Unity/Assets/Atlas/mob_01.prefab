@@ -161,7 +161,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: mob_0001_09
     x: 0
-    y: 480
+    y: 249
     width: 32
     height: 32
     borderLeft: 0
@@ -433,8 +433,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: mob_0003_06
-    x: 0
-    y: 249
+    x: 462
+    y: 447
     width: 32
     height: 32
     borderLeft: 0
@@ -914,8 +914,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: mob_0006_07
-    x: 363
-    y: 283
+    x: 198
+    y: 118
     width: 32
     height: 31
     borderLeft: 0
@@ -927,8 +927,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: mob_0006_08
-    x: 396
-    y: 283
+    x: 198
+    y: 86
     width: 32
     height: 31
     borderLeft: 0
@@ -940,8 +940,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: mob_0006_09
-    x: 429
-    y: 283
+    x: 198
+    y: 54
     width: 32
     height: 31
     borderLeft: 0
@@ -1070,8 +1070,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: mob_0007_07
-    x: 198
-    y: 90
+    x: 396
+    y: 250
     width: 32
     height: 31
     borderLeft: 0
@@ -1083,8 +1083,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: mob_0007_08
-    x: 198
-    y: 58
+    x: 429
+    y: 250
     width: 32
     height: 31
     borderLeft: 0
@@ -1096,8 +1096,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: mob_0007_09
-    x: 198
-    y: 26
+    x: 462
+    y: 250
     width: 32
     height: 31
     borderLeft: 0
@@ -1226,8 +1226,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: mob_0008_07
-    x: 198
-    y: 186
+    x: 297
+    y: 250
     width: 32
     height: 31
     borderLeft: 0
@@ -1239,8 +1239,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: mob_0008_08
-    x: 198
-    y: 154
+    x: 330
+    y: 250
     width: 32
     height: 31
     borderLeft: 0
@@ -1252,8 +1252,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: mob_0008_09
-    x: 198
-    y: 122
+    x: 363
+    y: 250
     width: 32
     height: 31
     borderLeft: 0
@@ -1382,8 +1382,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: mob_0009_07
-    x: 462
-    y: 283
+    x: 198
+    y: 22
     width: 32
     height: 31
     borderLeft: 0
@@ -1395,7 +1395,7 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: mob_0009_08
-    x: 198
+    x: 231
     y: 250
     width: 32
     height: 31
@@ -1408,8 +1408,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: mob_0009_09
-    x: 198
-    y: 218
+    x: 264
+    y: 250
     width: 32
     height: 31
     borderLeft: 0
@@ -1889,8 +1889,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: mob_0012_10
-    x: 33
-    y: 480
+    x: 231
+    y: 282
     width: 32
     height: 32
     borderLeft: 0
@@ -1902,8 +1902,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: mob_0012_11
-    x: 66
-    y: 480
+    x: 264
+    y: 282
     width: 32
     height: 32
     borderLeft: 0
@@ -1915,8 +1915,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: mob_0012_12
-    x: 99
-    y: 480
+    x: 297
+    y: 282
     width: 32
     height: 32
     borderLeft: 0
@@ -1928,8 +1928,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: mob_0013_01
-    x: 132
-    y: 480
+    x: 330
+    y: 282
     width: 32
     height: 32
     borderLeft: 0
@@ -1941,8 +1941,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: mob_0013_02
-    x: 165
-    y: 480
+    x: 363
+    y: 282
     width: 32
     height: 32
     borderLeft: 0
@@ -1954,8 +1954,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: mob_0013_03
-    x: 198
-    y: 480
+    x: 396
+    y: 282
     width: 32
     height: 32
     borderLeft: 0
@@ -1967,8 +1967,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: mob_0013_04
-    x: 231
-    y: 480
+    x: 429
+    y: 282
     width: 32
     height: 32
     borderLeft: 0
@@ -1980,8 +1980,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: mob_0013_05
-    x: 264
-    y: 480
+    x: 462
+    y: 282
     width: 32
     height: 32
     borderLeft: 0
@@ -1993,8 +1993,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: mob_0013_06
-    x: 297
-    y: 480
+    x: 198
+    y: 249
     width: 32
     height: 32
     borderLeft: 0
@@ -2006,8 +2006,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: mob_0013_07
-    x: 330
-    y: 480
+    x: 198
+    y: 216
     width: 32
     height: 32
     borderLeft: 0
@@ -2019,8 +2019,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: mob_0013_08
-    x: 363
-    y: 480
+    x: 198
+    y: 183
     width: 32
     height: 32
     borderLeft: 0
@@ -2032,8 +2032,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: mob_0013_09
-    x: 462
-    y: 447
+    x: 198
+    y: 150
     width: 32
     height: 32
     borderLeft: 0
@@ -2085,7 +2085,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: mob_0014_01
     x: 231
-    y: 250
+    y: 90
     width: 31
     height: 31
     borderLeft: 0
@@ -2098,7 +2098,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: mob_0014_02
     x: 231
-    y: 283
+    y: 218
     width: 32
     height: 31
     borderLeft: 0
@@ -2110,8 +2110,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: mob_0014_03
-    x: 423
-    y: 250
+    x: 231
+    y: 58
     width: 31
     height: 31
     borderLeft: 0
@@ -2123,8 +2123,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: mob_0014_04
-    x: 455
-    y: 250
+    x: 231
+    y: 26
     width: 31
     height: 31
     borderLeft: 0
@@ -2136,8 +2136,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: mob_0014_05
-    x: 264
-    y: 283
+    x: 231
+    y: 186
     width: 32
     height: 31
     borderLeft: 0
@@ -2149,8 +2149,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: mob_0014_06
-    x: 391
-    y: 250
+    x: 264
+    y: 218
     width: 31
     height: 31
     borderLeft: 0
@@ -2162,8 +2162,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: mob_0014_07
-    x: 295
-    y: 250
+    x: 296
+    y: 218
     width: 31
     height: 31
     borderLeft: 0
@@ -2175,8 +2175,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: mob_0014_08
-    x: 330
-    y: 283
+    x: 231
+    y: 154
     width: 32
     height: 31
     borderLeft: 0
@@ -2188,8 +2188,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: mob_0014_09
-    x: 359
-    y: 250
+    x: 328
+    y: 218
     width: 31
     height: 31
     borderLeft: 0
@@ -2201,8 +2201,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: mob_0014_10
-    x: 263
-    y: 250
+    x: 360
+    y: 218
     width: 31
     height: 31
     borderLeft: 0
@@ -2214,8 +2214,8 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: mob_0014_11
-    x: 297
-    y: 283
+    x: 231
+    y: 122
     width: 32
     height: 31
     borderLeft: 0
@@ -2227,10 +2227,166 @@ MonoBehaviour:
     paddingTop: 0
     paddingBottom: 0
   - name: mob_0014_12
-    x: 327
-    y: 250
+    x: 392
+    y: 218
     width: 31
     height: 31
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: mob_0015_01
+    x: 363
+    y: 480
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: mob_0015_02
+    x: 297
+    y: 480
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: mob_0015_03
+    x: 198
+    y: 480
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: mob_0015_04
+    x: 330
+    y: 480
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: mob_0015_05
+    x: 33
+    y: 480
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: mob_0015_06
+    x: 132
+    y: 480
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: mob_0015_07
+    x: 264
+    y: 480
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: mob_0015_08
+    x: 231
+    y: 480
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: mob_0015_09
+    x: 99
+    y: 480
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: mob_0015_10
+    x: 0
+    y: 480
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: mob_0015_11
+    x: 66
+    y: 480
+    width: 32
+    height: 32
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: mob_0015_12
+    x: 165
+    y: 480
+    width: 32
+    height: 32
     borderLeft: 0
     borderRight: 0
     borderTop: 0
